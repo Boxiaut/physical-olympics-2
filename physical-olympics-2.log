@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  25 APR 2019 16:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  25 APR 2019 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,60 +1726,61 @@ Package: inputenc 2018/04/06 v1.3b Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (./physical-olympics-2.aux (./chapter/kinematics.aux) (./chapter/dynamics.aux
-) (./chapter/statics.aux) (./chapter/harmonics.aux) (./chapter/gravity.aux)
-(./chapter/rigidbody.aux) (./chapter/fluid.aux) (./chapter/elasticity.aux)
-(./chapter/relativity.aux) (./chapter/thermoI.aux) (./chapter/thermoII.aux)
-(./chapter/liquidsolid.aux) (./chapter/phasechange.aux) (./chapter/maxwell.aux)
-(./chapter/goptics.aux) (./chapter/opticals.aux) (./chapter/opticalp.aux)
-(./chapter/electrostatics.aux) (./chapter/conductordielectric.aux)
-(./chapter/steadycurrent.aux) (./chapter/magnetostatics.aux)
-(./chapter/induction.aux) (./chapter/maxwelle.aux) (./chapter/accurrent.aux)
-(./chapter/interference.aux) (./chapter/diffraction.aux) (./chapter/photon.aux)
-(./chapter/quantum.aux) (./chapter/scale.aux))
+) (./physical-olympics-2.aux (./chapter/preamble.aux) (./chapter/kinematics.aux
+) (./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
+(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/fluid.aux)
+(./chapter/elasticity.aux) (./chapter/relativity.aux) (./chapter/thermoI.aux)
+(./chapter/thermoII.aux) (./chapter/liquidsolid.aux) (./chapter/phasechange.aux
+) (./chapter/maxwell.aux) (./chapter/goptics.aux) (./chapter/opticals.aux)
+(./chapter/opticalp.aux) (./chapter/electrostatics.aux)
+(./chapter/conductordielectric.aux) (./chapter/steadycurrent.aux)
+(./chapter/magnetostatics.aux) (./chapter/induction.aux)
+(./chapter/maxwelle.aux) (./chapter/accurrent.aux) (./chapter/interference.aux)
+(./chapter/diffraction.aux) (./chapter/photon.aux) (./chapter/quantum.aux)
+(./chapter/scale.aux))
 \openout1 = `physical-olympics-2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 82.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 82.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 82.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 81.
+LaTeX Info: Redefining \selectfont on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1816,7 +1817,7 @@ LaTeX Info: Redefining \selectfont on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 82.
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1825,9 +1826,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 
 (./physical-olympics-2.out) (./physical-olympics-2.out)
 \@outlinefile=\write3
@@ -1868,81 +1869,81 @@ Package caption Info: End \AtBeginDocument code.
 . <->"FZYouHeiS/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/fsc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 88.
 (c:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 85.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 88.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 88.
 
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 85.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 88.
 
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.045> on input line 85.
+(Font)              <12.045> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 85.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 85
+(Font)              <6> on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 88
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 85.
+(Font)              scaled to size 11.56328pt on input line 88.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 85.
+(Font)              scaled to size 7.68005pt on input line 88.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 85.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 85
+(Font)              scaled to size 5.76004pt on input line 88.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 88
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 85.
+(Font)              scaled to size 11.56328pt on input line 88.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 85.
+(Font)              scaled to size 7.68005pt on input line 88.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 85.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 85
+(Font)              scaled to size 5.76004pt on input line 88.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 88
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 85.
+(Font)              scaled to size 11.56328pt on input line 88.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 85.
+(Font)              scaled to size 7.68005pt on input line 88.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 85.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 85
+(Font)              scaled to size 5.76004pt on input line 88.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 88
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 85.
+(Font)              scaled to size 11.56328pt on input line 88.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 85.
+(Font)              scaled to size 7.68005pt on input line 88.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 85.
+(Font)              scaled to size 5.76004pt on input line 88.
  [1
 
 
@@ -1959,60 +1960,72 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/b/n' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 88.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 91.
 
 (./physical-olympics-2.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.53937> on input line 2.
+(Font)              <10.53937> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2.
+(Font)              <5> on input line 3.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.11786pt on input line 2.
+(Font)              scaled to size 10.11786pt on input line 3.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 2.
+(Font)              scaled to size 6.72005pt on input line 3.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 2.
+(Font)              scaled to size 4.80003pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.11786pt on input line 2.
+(Font)              scaled to size 10.11786pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 2.
+(Font)              scaled to size 6.72005pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 2.
+(Font)              scaled to size 4.80003pt on input line 3.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.11786pt on input line 2.
+(Font)              scaled to size 10.11786pt on input line 3.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 2.
+(Font)              scaled to size 6.72005pt on input line 3.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 2.
+(Font)              scaled to size 4.80003pt on input line 3.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.11786pt on input line 2.
+(Font)              scaled to size 10.11786pt on input line 3.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 2.
+(Font)              scaled to size 6.72005pt on input line 3.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 2.
+(Font)              scaled to size 4.80003pt on input line 3.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 2.
+(Font)              size <10.95> substituted on input line 3.
 
 [1
 
 ]
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 89.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 83.
 
 [2] [3] [4] [5])
 \tf@toc=\write4
 \openout4 = `physical-olympics-2.toc'.
 
  [6]
+\openout2 = `chapter/preamble.aux'.
+
+ (./chapter/preamble.tex
+第一章
+) [7
+
+
+]
 \openout2 = `chapter/kinematics.aux'.
 
- (./chapter/kinematics.tex
-第一章
+ (./chapter/kinematics.tex [8
+
+
+
+]
+第二章
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.52812> on input line 7.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -2034,10 +2047,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: image/6-1-1.png Graphic file (type bmp)
 <image/6-1-1.png>
-[7
-
-
-] [8]
+[9] [10]
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
 (Font)              scaled to size 10.11786pt on input line 70.
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
@@ -2076,10 +2086,10 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 90.
- [9]
+ [11]
 File: image/6-1-2.png Graphic file (type bmp)
 <image/6-1-2.png>
- [10]
+ [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
@@ -2088,7 +2098,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 4582) has occurred while \output is active []
 
- [11]
+ [13]
 File: image/6-1-3.png Graphic file (type bmp)
 <image/6-1-3.png>
 
@@ -2097,35 +2107,35 @@ Package caption Warning: \label without proper reference on input line 160.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `6-1-3' on page 12 undefined on input line 171.
+LaTeX Warning: Reference `6-1-3' on page 14 undefined on input line 171.
 
-[12]) [13]
+[14]) [15]
 \openout2 = `chapter/dynamics.aux'.
 
- (./chapter/dynamics.tex [14
-
-
-
-]
-第二章
-) [15]
-\openout2 = `chapter/statics.aux'.
-
- (./chapter/statics.tex [16
+ (./chapter/dynamics.tex [16
 
 
 
 ]
 第三章
 ) [17]
-\openout2 = `chapter/harmonics.aux'.
+\openout2 = `chapter/statics.aux'.
 
- (./chapter/harmonics.tex [18
+ (./chapter/statics.tex [18
 
 
 
 ]
 第四章
+) [19]
+\openout2 = `chapter/harmonics.aux'.
+
+ (./chapter/harmonics.tex [20
+
+
+
+]
+第五章
 LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
 (Font)              scaled to size 10.19151pt on input line 14.
 LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
@@ -2134,70 +2144,70 @@ LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
 (Font)              scaled to size 4.83498pt on input line 14.
 LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
 (Font)              scaled to size 7.27965pt on input line 26.
-[19]) [20]
+[21]) [22]
 \openout2 = `chapter/gravity.aux'.
 
  (./chapter/gravity.tex
-第五章
-) [21
+第六章
+) [23
 
 
 
 ]
 \openout2 = `chapter/rigidbody.aux'.
 
- (./chapter/rigidbody.tex [22
-
-
-
-]
-第六章
-File: image/6-6-1.png Graphic file (type bmp)
-<image/6-6-1.png>
-[23]
-File: image/6-6-2.png Graphic file (type bmp)
-<image/6-6-2.png>
- [24]) [25]
-\openout2 = `chapter/fluid.aux'.
-
- (./chapter/fluid.tex [26
+ (./chapter/rigidbody.tex [24
 
 
 
 ]
 第七章
-) [27]
-\openout2 = `chapter/elasticity.aux'.
+File: image/6-6-1.png Graphic file (type bmp)
+<image/6-6-1.png>
+[25]
+File: image/6-6-2.png Graphic file (type bmp)
+<image/6-6-2.png>
+ [26]) [27]
+\openout2 = `chapter/fluid.aux'.
 
- (./chapter/elasticity.tex [28
+ (./chapter/fluid.tex [28
 
 
 
 ]
 第八章
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 22.
-
 ) [29]
-\openout2 = `chapter/relativity.aux'.
+\openout2 = `chapter/elasticity.aux'.
 
- (./chapter/relativity.tex [30
+ (./chapter/elasticity.tex [30
 
 
 
 ]
 第九章
-) [31]
-\openout2 = `chapter/thermoI.aux'.
 
- (./chapter/thermoI.tex [32
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.75693pt
+(hyperref)                removed on input line 22.
+
+) [31]
+\openout2 = `chapter/relativity.aux'.
+
+ (./chapter/relativity.tex [32
 
 
 
 ]
 第十章
+) [33]
+\openout2 = `chapter/thermoI.aux'.
+
+ (./chapter/thermoI.tex [34
+
+
+
+]
+第十一章
 
 Underfull \hbox (badness 1194) in paragraph at lines 9--9
 [][][]\TU/方正聚珍新仿简体(0)/m/n/7.52812 注 意\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7
@@ -2219,7 +2229,7 @@ rature scale).\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 何 量 化 一 �
 7 ?\TU/方正聚珍新仿简体(0)/m/n/10.53937 从
  []
 
-[33] [34]
+[35] [36]
 Overfull \hbox (3.77332pt too wide) in paragraph at lines 77--78
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 里 指 以 上 运 动 的 动 能\T1/lmr/m/n/10.53937 ,\TU/方正聚
 珍新仿简体(0)/m/n/10.53937 势 能 全 部 去 除 后\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10
@@ -2236,15 +2246,15 @@ Overfull \hbox (35.1048pt too wide) in paragraph at lines 101--102
 ]\T1/lmr/m/n/10.53937 (generized
  []
 
-[35]
+[37]
 File: image/5-1-1.png Graphic file (type bmp)
 <image/5-1-1.png>
- [36]
+ [38]
 File: image/5-1-2.png Graphic file (type bmp)
 <image/5-1-2.png>
 File: image/5-1-3.png Graphic file (type bmp)
 <image/5-1-3.png>
- [37]
+ [39]
 Overfull \hbox (3.57387pt too wide) in paragraph at lines 163--164
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 我 们 讨 论 一 下 这 三 个 条 件\T1/lmr/m/n/10.53937 .\TU/方
 正聚珍新仿简体(0)/m/n/10.53937 首 先 第 一 个 条 件 的 意 思\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0
@@ -2254,10 +2264,10 @@ range
 
 File: image/5-1-4.png Graphic file (type bmp)
 <image/5-1-4.png>
-[38]
+[40]
 File: image/5-1-5.png Graphic file (type bmp)
 <image/5-1-5.png>
- [39]
+ [41]
 Underfull \hbox (badness 1642) in paragraph at lines 226--227
 [][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 我 们 接 下 来 考 虑 气 体 的 压 强\T1/lmr/m/n/10.53937 .\
 TU/方正聚珍新仿简体(0)/m/n/10.53937 在 这 之 前 我 们 了 解 两 个 概
@@ -2291,10 +2301,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-[40]
+[42]
 File: image/5-1-6.png Graphic file (type bmp)
 <image/5-1-6.png>
- [41]
+ [43]
 Overfull \hbox (0.5988pt too wide) in paragraph at lines 307--308
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 热 容 按 同 样 的 方 法 定 义\T1/lmr/m/n/10.53937 ,\TU/方正聚
 珍新仿简体(0)/m/n/10.53937 分 别 称 为 等 体 热 容 和 等 压 热 容[][][][][]\T1/lmr/m/n/10.53937 .
@@ -2302,16 +2312,16 @@ Overfull \hbox (0.5988pt too wide) in paragraph at lines 307--308
 -sion co-ef-fi-cient)
  []
 
-[42]
+[44]
 File: image/5-1-7.png Graphic file (type bmp)
 <image/5-1-7.png>
- [43]
+ [45]
 File: image/5-1-8.png Graphic file (type bmp)
 <image/5-1-8.png>
- [44]
+ [46]
 File: image/5-1-9.png Graphic file (type bmp)
 <image/5-1-9.png>
- [45]
+ [47]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 421.
@@ -2323,7 +2333,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: image/5-1-10.png Graphic file (type bmp)
 <image/5-1-10.png>
-[46]
+[48]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 464.
@@ -2343,7 +2353,7 @@ m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 它 适 用 条 件 �
 
 File: image/5-1-11.png Graphic file (type bmp)
 <image/5-1-11.png>
-[47]
+[49]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 501.
@@ -2355,20 +2365,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: image/5-1-12.png Graphic file (type bmp)
 <image/5-1-12.png>
-[48]) [49]
+[50]) [51]
 \openout2 = `chapter/thermoII.aux'.
 
- (./chapter/thermoII.tex [50
+ (./chapter/thermoII.tex [52
 
 
 
 ]
-第十一章
+第十二章
 File: image/5-2-1.png Graphic file (type bmp)
 <image/5-2-1.png>
 File: image/5-2-2.jpg Graphic file (type bmp)
 <image/5-2-2.jpg>
-[51] [52]
+[53] [54]
 File: image/5-2-3.png Graphic file (type bmp)
 <image/5-2-3.png>
 File: image/5-2-4.png Graphic file (type bmp)
@@ -2381,12 +2391,12 @@ Overfull \hbox (1.06439pt too wide) in paragraph at lines 51--52
 ficient of per-for-mance),\TU/方正聚珍新仿简体(0)/m/n/10.53937 需
  []
 
-[53]
+[55]
 File: image/5-2-6.png Graphic file (type bmp)
 <image/5-2-6.png>
 File: image/5-2-7.png Graphic file (type bmp)
 <image/5-2-7.png>
- [54]
+ [56]
 File: image/5-2-8.png Graphic file (type bmp)
 <image/5-2-8.png>
 
@@ -2399,7 +2409,7 @@ Underfull \hbox (badness 1968) in paragraph at lines 111--116
 
 File: image/5-2-9.png Graphic file (type bmp)
 <image/5-2-9.png>
-[55]
+[57]
 File: image/5-2-10.png Graphic file (type bmp)
 <image/5-2-10.png>
 
@@ -2411,47 +2421,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--163
 
 File: image/5-2-11.png Graphic file (type bmp)
 <image/5-2-11.png>
-[56]
+[58]
 File: image/5-2-12.png Graphic file (type bmp)
 <image/5-2-12.png>
- [57]
+ [59]
 File: image/5-2-13.png Graphic file (type bmp)
 <image/5-2-13.png>
- [58]
+ [60]
 File: image/5-2-14.png Graphic file (type bmp)
 <image/5-2-14.png>
- [59] [60] [61]
+ [61] [62] [63]
 File: image/5-2-15.png Graphic file (type bmp)
 <image/5-2-15.png>
 File: image/5-2-16.png Graphic file (type bmp)
 <image/5-2-16.png>
- [62]
+ [64]
 Underfull \hbox (badness 1509) in paragraph at lines 386--387
 [][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 熵 是 广 延 量\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
 /m/n/10.53937 混 合 理 想 气 体 的 熵 满 足[]吉 布 斯 定 理[]\T1/lmr/m/n/10.53937 (Gibbs' the-
 o-
  []
 
-[63]
+[65]
 Missing character: There is no 在 in font ec-lmr10!
- [64]
+ [66]
 File: image/5-2-17.png Graphic file (type bmp)
 <image/5-2-17.png>
- [65]
+ [67]
 File: image/5-2-18.png Graphic file (type bmp)
 <image/5-2-18.png>
- [66] [67]
+ [68] [69]
 File: image/5-2-19.png Graphic file (type bmp)
 <image/5-2-19.png>
- [68] [69] [70] [71]
+ [70] [71] [72] [73]
 File: image/5-2-20.png Graphic file (type bmp)
 <image/5-2-20.png>
- [72]
+ [74]
 LaTeX Font Info:    Try loading font information for U+eus on input line 736.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
-) [73]
+) [75]
 Overfull \hbox (16.55255pt too wide) in paragraph at lines 741--742
 \TU/方正聚珍新仿简体(0)/m/n/10.53937 电 荷\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53
 937 如 $\OML/mdbch/m/n/10.53937 n$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 型 半 导 体\T1/lmr/m
@@ -2463,20 +2473,20 @@ ple)
 
 File: image/5-2-21.png Graphic file (type bmp)
 <image/5-2-21.png>
-[74] [75] [76]) [77]
+[76] [77] [78]) [79]
 \openout2 = `chapter/liquidsolid.aux'.
 
- (./chapter/liquidsolid.tex [78
+ (./chapter/liquidsolid.tex [80
 
 
 
 ]
-第十二章
+第十三章
 File: image/5-3-2.png Graphic file (type bmp)
 <image/5-3-2.png>
 File: image/5-3-3.png Graphic file (type bmp)
 <image/5-3-3.png>
-[79]
+[81]
 Underfull \hbox (badness 1043) in paragraph at lines 43--44
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 晶 格 为 晶 体 带 来 摩 尔 热 容 $\OML/lmm/m/it/10.53937 C 
 \OT1/lmr/m/n/10.53937 = 3\OML/lmm/m/it/10.53937 R$\T1/lmr/m/n/10.53937 ,\TU/方正聚
@@ -2484,25 +2494,25 @@ Underfull \hbox (badness 1043) in paragraph at lines 43--44
 7 裴 替 定
  []
 
-[80]
+[82]
 File: image/5-3-1.png Graphic file (type bmp)
 <image/5-3-1.png>
- [81] [82]) [83]
+ [83] [84]) [85]
 \openout2 = `chapter/phasechange.aux'.
 
- (./chapter/phasechange.tex [84
+ (./chapter/phasechange.tex [86
 
 
 
 ]
-第十三章
+第十四章
 File: image/1.png Graphic file (type bmp)
 <image/1.png>
-[85]) [86]
+[87]) [88]
 \openout2 = `chapter/maxwell.aux'.
 
  (./chapter/maxwell.tex
-第十四章
+第十五章
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2534,11 +2544,11 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 . <->"FangSong/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/fsc) with NFSS spec.: 
 .................................................
- [87
+ [89
 
 
 
-] [88]
+] [90]
 Overfull \hbox (20.46727pt too wide) in paragraph at lines 86--87
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 何 理 解 这 一 点\T1/lmr/m/n/10.53937 ?\TU/方正聚珍新仿简体(
 0)/m/n/10.53937 我 们 再 定 义 另 一 个 随 机 变 量 的 数 字 特 征\T1/lmr/m/n/10.53937 :[]\TU/方正
@@ -2547,11 +2557,11 @@ Overfull \hbox (20.46727pt too wide) in paragraph at lines 86--87
 n/10.53937 数
  []
 
-[89] [90] [91] [92] [93]) [94]
+[91] [92] [93] [94] [95]) [96]
 \openout2 = `chapter/goptics.aux'.
 
  (./chapter/goptics.tex
-第十五章
+第十六章
 File: image/5-6-1.png Graphic file (type bmp)
 <image/5-6-1.png>
 File: image/5-6-2.png Graphic file (type bmp)
@@ -2561,7 +2571,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-[95
+[97
 
 
 
@@ -2571,7 +2581,7 @@ File: image/5-6-3.png Graphic file (type bmp)
 
 Underfull \vbox (badness 4403) has occurred while \output is active []
 
- [96]
+ [98]
 Overfull \hbox (28.07893pt too wide) in paragraph at lines 51--52
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 也 就 是 说\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n
 /10.53937 在 几 何 光 学 研 究 中\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 光 线
@@ -2601,13 +2611,13 @@ Overfull \hbox (8.56366pt too wide) in paragraph at lines 64--65
 ed
  []
 
-[97]
+[99]
 File: image/5-6-5.png Graphic file (type bmp)
 <image/5-6-5.png>
- [98]
+ [100]
 File: image/5-6-6.png Graphic file (type bmp)
 <image/5-6-6.png>
- [99]
+ [101]
 File: image/5-6-7.png Graphic file (type bmp)
 <image/5-6-7.png>
 
@@ -2615,21 +2625,21 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 148--150
  [][] 
  []
 
-[100]
+[102]
 File: image/5-6-8.png Graphic file (type bmp)
 <image/5-6-8.png>
 File: image/5-6-9.png Graphic file (type bmp)
 <image/5-6-9.png>
- [101] [102]
+ [103] [104]
 File: image/5-6-10.png Graphic file (type bmp)
 <image/5-6-10.png>
 File: image/5-6-11.png Graphic file (type bmp)
 <image/5-6-11.png>
- [103]) [104]
+ [105]) [106]
 \openout2 = `chapter/opticals.aux'.
 
  (./chapter/opticals.tex
-第十六章
+第十七章
 File: image/5-7-1.png Graphic file (type bmp)
 <image/5-7-1.png>
 File: image/5-7-2.png Graphic file (type bmp)
@@ -2647,7 +2657,7 @@ Underfull \hbox (badness 2707) in paragraph at lines 33--34
 :\TU/方正聚珍新仿简体(0)/m/n/10.53937 有 一 条 中 心 光 线 作 为[]主 光
  []
 
-[105
+[107
 
 
 
@@ -2665,7 +2675,7 @@ ge dis-tance),$\OML/lmm/m/it/10.53937 y;  y[]$ \TU/方正聚珍新仿简体(0)/m
 37 (height).\TU/方正聚珍新仿简体(0)/m/n/10.53937 由
  []
 
-[106]
+[108]
 File: image/5-7-4.png Graphic file (type bmp)
 <image/5-7-4.png>
 
@@ -2674,20 +2684,20 @@ Underfull \hbox (badness 5954) in paragraph at lines 78--79
 /n/10.53937 出 射 光 成 为 了[]平 行 光[]\T1/lmr/m/n/10.53937 (collimated
  []
 
-[107]
+[109]
 File: image/5-7-5.png Graphic file (type bmp)
 <image/5-7-5.png>
 File: image/5-7-6.png Graphic file (type bmp)
 <image/5-7-6.png>
- [108] [109]
+ [110] [111]
 File: image/5-7-7.png Graphic file (type bmp)
 <image/5-7-7.png>
- [110]
+ [112]
 File: image/5-7-8.png Graphic file (type bmp)
 <image/5-7-8.png>
 File: image/5-7-9.png Graphic file (type bmp)
 <image/5-7-9.png>
- [111]
+ [113]
 File: image/5-7-10.png Graphic file (type bmp)
 <image/5-7-10.png>
 File: image/5-7-11.png Graphic file (type bmp)
@@ -2724,21 +2734,21 @@ Underfull \hbox (badness 1173) in paragraph at lines 276--277
 ]\T1/lmr/m/n/10.53937 (negative menis-cus
  []
 
-[112]
+[114]
 File: image/5-7-12.png Graphic file (type bmp)
 <image/5-7-12.png>
 
 Underfull \vbox (badness 2042) has occurred while \output is active []
 
- [113]
+ [115]
 File: image/5-7-13.png Graphic file (type bmp)
 <image/5-7-13.png>
 
-[114] [115]) [116]
+[116] [117]) [118]
 \openout2 = `chapter/opticalp.aux'.
 
  (./chapter/opticalp.tex
-第十七章
+第十八章
 
 Overfull \hbox (17.24634pt too wide) in paragraph at lines 12--13
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 光 源 产 生 的 光\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
@@ -2759,26 +2769,26 @@ Underfull \hbox (badness 2564) in paragraph at lines 20--21
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117
+ [119
 
 
 
 ]
-[118]
+[120]
 \openout2 = `chapter/electrostatics.aux'.
 
  (./chapter/electrostatics.tex
-第十八章
+第十九章
 File: image/7-1-1.png Graphic file (type bmp)
 <image/7-1-1.png>
-[119
+[121
 
 
 
 ]
 File: image/7-1-2.png Graphic file (type bmp)
 <image/7-1-2.png>
- [120]
+ [122]
 File: image/7-1-3.png Graphic file (type bmp)
 <image/7-1-3.png>
 
@@ -2789,7 +2799,7 @@ Underfull \hbox (badness 1527) in paragraph at lines 63--64
 珍新仿简体(0)/m/n/10.53937 都 是 典 型 的 标 量 场 的 例
  []
 
-[121]
+[123]
 File: image/7-1-4.png Graphic file (type bmp)
 <image/7-1-4.png>
 File: image/7-1-5.png Graphic file (type bmp)
@@ -2801,7 +2811,7 @@ Underfull \hbox (badness 1067) in paragraph at lines 116--117
 937 它 实 际 上 代 表 矢 量 场
  []
 
-[122] [123]
+[124] [125]
 Overfull \hbox (1.52354pt too wide) in paragraph at lines 164--165
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 对 于[]连 通[]\T1/lmr/m/n/10.53937 (connected) \TU/方
 正聚珍新仿简体(0)/m/n/10.53937 体 积 区 域\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.539
@@ -2812,7 +2822,7 @@ Overfull \hbox (1.52354pt too wide) in paragraph at lines 164--165
 
 File: image/7-1-6.png Graphic file (type bmp)
 <image/7-1-6.png>
-[124] [125]
+[126] [127]
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
 (Font)              scaled to size 7.22704pt on input line 237.
 LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
@@ -2825,10 +2835,10 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <7.52812> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 237.
 File: image/7-1-7.png Graphic file (type bmp)
 <image/7-1-7.png>
- [126]
+ [128]
 File: image/7-1-8.png Graphic file (type bmp)
 <image/7-1-8.png>
- [127] [128]
+ [129] [130]
 File: image/7-1-9.png Graphic file (type bmp)
 <image/7-1-9.png>
 
@@ -2838,51 +2848,51 @@ Overfull \hbox (38.98045pt too wide) detected at line 358
  \OT1/lmr/m/n/10.53937 = [] \OML/lmm/m/it/10.53937 ^^Z[]'[][]V[]
  []
 
-[129] [130]
+[131] [132]
 File: image/7-1-10.png Graphic file (type bmp)
 <image/7-1-10.png>
- [131]
+ [133]
 File: image/7-1-11.png Graphic file (type bmp)
 <image/7-1-11.png>
 File: image/7-1-12.png Graphic file (type bmp)
 <image/7-1-12.png>
- [132]
+ [134]
 File: image/7-1-13.png Graphic file (type bmp)
 <image/7-1-13.png>
- [133]
+ [135]
 File: image/7-1-14.png Graphic file (type bmp)
 <image/7-1-14.png>
- [134]
+ [136]
 File: image/7-1-16.png Graphic file (type bmp)
 <image/7-1-16.png>
- [135]) [136]
+ [137]) [138]
 \openout2 = `chapter/conductordielectric.aux'.
 
 
 (./chapter/conductordielectric.tex
-第十九章
-) [137
+第二十章
+) [139
 
 
 
 ]
 \openout2 = `chapter/steadycurrent.aux'.
 
- (./chapter/steadycurrent.tex [138
+ (./chapter/steadycurrent.tex [140
 
 
 
 ]
-第二十章
-[139] [140]
+第二十一章
+[141] [142]
 File: image/7-3-1.png Graphic file (type bmp)
 <image/7-3-1.png>
- [141]
+ [143]
 File: image/7-3-2.jpg Graphic file (type bmp)
 <image/7-3-2.jpg>
 File: image/7-3-3.jpg Graphic file (type bmp)
 <image/7-3-3.jpg>
- [142]
+ [144]
 File: image/7-3-4.jpg Graphic file (type bmp)
 <image/7-3-4.jpg>
 
@@ -2891,7 +2901,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
 (hyperref)                removed on input line 126.
 
-[143] [144]
+[145] [146]
 File: image/7-3-5.png Graphic file (type bmp)
 <image/7-3-5.png>
 
@@ -2900,59 +2910,59 @@ Underfull \hbox (badness 4156) in paragraph at lines 193--194
 on-electrostatic
  []
 
-[145]
+[147]
 File: image/7-3-6.png Graphic file (type bmp)
 <image/7-3-6.png>
 File: image/7-3-7.png Graphic file (type bmp)
 <image/7-3-7.png>
- [146]) [147]
+ [148]) [149]
 \openout2 = `chapter/magnetostatics.aux'.
 
- (./chapter/magnetostatics.tex [148
-
-
-
-]
-第二十一章
-) [149]
-\openout2 = `chapter/induction.aux'.
-
- (./chapter/induction.tex [150
+ (./chapter/magnetostatics.tex [150
 
 
 
 ]
 第二十二章
 ) [151]
-\openout2 = `chapter/maxwelle.aux'.
+\openout2 = `chapter/induction.aux'.
 
- (./chapter/maxwelle.tex [152
+ (./chapter/induction.tex [152
 
 
 
 ]
 第二十三章
 ) [153]
-\openout2 = `chapter/accurrent.aux'.
+\openout2 = `chapter/maxwelle.aux'.
 
- (./chapter/accurrent.tex [154
+ (./chapter/maxwelle.tex [154
 
 
 
 ]
 第二十四章
 ) [155]
-\openout2 = `chapter/interference.aux'.
+\openout2 = `chapter/accurrent.aux'.
 
- (./chapter/interference.tex [156
+ (./chapter/accurrent.tex [156
 
 
 
 ]
 第二十五章
+) [157]
+\openout2 = `chapter/interference.aux'.
+
+ (./chapter/interference.tex [158
+
+
+
+]
+第二十六章
 File: image/14-1-1.png Graphic file (type bmp)
 <image/14-1-1.png>
-[157]
+[159]
 Overfull \hbox (7.9013pt too wide) in paragraph at lines 48--49
 \TU/方正聚珍新仿简体(0)/m/n/10.53937 味 着 研 究 单 色 光 的 传 播\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新
 仿简体(0)/m/n/10.53937 那 么 代 入 便 会 发 现 实 际 上 $\OML/lmm/m/it/10.53937 A\OT1/lmr/m/n
@@ -2962,7 +2972,7 @@ Overfull \hbox (7.9013pt too wide) in paragraph at lines 48--49
 
 File: image/14-1-2.png Graphic file (type bmp)
 <image/14-1-2.png>
-[158]
+[160]
 Underfull \hbox (badness 1173) in paragraph at lines 73--74
 \TU/方正聚珍新仿简体(0)/m/n/10.53937 时 我 们 习 惯 把 $\OML/lmm/m/it/10.53937 x$ \TU/方正聚珍新仿简
 体(0)/m/n/10.53937 和 $\OML/lmm/m/it/10.53937 y$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 方 向
@@ -2975,24 +2985,24 @@ Underfull \hbox (badness 2111) in paragraph at lines 73--74
 约 $\OT1/lmr/m/n/10.53937 90$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 度 的 角 度
  []
 
-[159] [160]) [161]
+[161] [162]) [163]
 \openout2 = `chapter/diffraction.aux'.
 
- (./chapter/diffraction.tex [162
-
-
-
-]
-第二十六章
-) [163]
-\openout2 = `chapter/photon.aux'.
-
- (./chapter/photon.tex [164
+ (./chapter/diffraction.tex [164
 
 
 
 ]
 第二十七章
+) [165]
+\openout2 = `chapter/photon.aux'.
+
+ (./chapter/photon.tex [166
+
+
+
+]
+第二十八章
 
 Overfull \hbox (25.21039pt too wide) in paragraph at lines 7--8
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 蓝 天\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.
@@ -3004,23 +3014,23 @@ r/m/n/10.53937 (scattering).\TU/方正聚珍新仿简体(0)/m/n/10.53937 而
 
 File: image/16-1-1.jpg Graphic file (type bmp)
 <image/16-1-1.jpg>
-[165]
+[167]
 
 Package Fancyhdr Warning: \headheight is too small (12.64723pt): 
  Make it at least 12.64728pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[166]
+[168]
 File: image/18-1-2.jpg Graphic file (type bmp)
 <image/18-1-2.jpg>
- [167]
+ [169]
 Underfull \hbox (badness 1221) in paragraph at lines 113--114
 [][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 历 史 上 虽 然 电 子 作 为 粒 子 的 发 现 是 \T1/lmr/m/n/10.5
 3937 1897 \TU/方正聚珍新仿简体(0)/m/n/10.53937 年[]汤 姆 孙[]\T1/lmr/m/n/10.53937 (J. J.
  []
 
-[168]
+[170]
 File: image/18-1-1.png Graphic file (type bmp)
 <image/18-1-1.png>
 
@@ -3034,49 +3044,49 @@ File: image/18-1-3.png Graphic file (type bmp)
 <image/18-1-3.png>
 File: image/18-1-4.png Graphic file (type bmp)
 <image/18-1-4.png>
-[169]
+[171]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
 (hyperref)                removed on input line 191.
 
-) [170]
+) [172]
 \openout2 = `chapter/quantum.aux'.
 
  (./chapter/quantum.tex
-第二十八章
-) [171
+第二十九章
+) [173
 
 
 
 ]
 \openout2 = `chapter/scale.aux'.
 
- (./chapter/scale.tex [172
+ (./chapter/scale.tex [174
 
 
 
 ]
-第二十九章
-) [173]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
- (./physical-olympics-2.aux (./chapter/kinematics.aux)
-(./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
-(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/fluid.aux)
-(./chapter/elasticity.aux) (./chapter/relativity.aux) (./chapter/thermoI.aux)
-(./chapter/thermoII.aux) (./chapter/liquidsolid.aux) (./chapter/phasechange.aux
-) (./chapter/maxwell.aux) (./chapter/goptics.aux) (./chapter/opticals.aux)
-(./chapter/opticalp.aux) (./chapter/electrostatics.aux)
-(./chapter/conductordielectric.aux) (./chapter/steadycurrent.aux)
+第三十章
+) [175]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
+ (./physical-olympics-2.aux (./chapter/preamble.aux)
+(./chapter/kinematics.aux) (./chapter/dynamics.aux) (./chapter/statics.aux)
+(./chapter/harmonics.aux) (./chapter/gravity.aux) (./chapter/rigidbody.aux)
+(./chapter/fluid.aux) (./chapter/elasticity.aux) (./chapter/relativity.aux)
+(./chapter/thermoI.aux) (./chapter/thermoII.aux) (./chapter/liquidsolid.aux)
+(./chapter/phasechange.aux) (./chapter/maxwell.aux) (./chapter/goptics.aux)
+(./chapter/opticals.aux) (./chapter/opticalp.aux) (./chapter/electrostatics.aux
+) (./chapter/conductordielectric.aux) (./chapter/steadycurrent.aux)
 (./chapter/magnetostatics.aux) (./chapter/induction.aux)
 (./chapter/maxwelle.aux) (./chapter/accurrent.aux) (./chapter/interference.aux)
 (./chapter/diffraction.aux) (./chapter/photon.aux) (./chapter/quantum.aux)
 (./chapter/scale.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 0EAD5669896A345808B73B9ED0139786.
+(rerunfilecheck)             Checksum: 21F907F974F312ABB9AE73F62E119C5B.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3088,15 +3098,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 29836 strings out of 492960
- 572578 string characters out of 6136939
- 692833 words of memory out of 5000000
- 33121 multiletter control sequences out of 15000+600000
+ 29844 strings out of 492960
+ 572732 string characters out of 6136939
+ 692417 words of memory out of 5000000
+ 33122 multiletter control sequences out of 15000+600000
  647403 words of font info for 164 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,13n,92p,977b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (175 pages, 2172520 bytes).
+Output written on physical-olympics-2.xdv (177 pages, 2176728 bytes).
