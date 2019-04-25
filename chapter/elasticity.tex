@@ -1,0 +1,25 @@
+%!TEX root = ../physical-olympics-2.tex
+\chapter{弹性体}
+
+
+\section{弹性体的物理描述}
+
+所谓弹性体就是完全\emph{弹性}(elasticity)的物体.\,弹性描述的是使物体发生形变的力撤除以后物体可以回到静息状态的属性.\,弹性力学研究的对象与范围就是弹性体的力学性质.\,一般来说,\,固体主要具有弹性而液体主要具有黏性,\,若是研究中间的状态,\,\emph{非牛顿流体}(non-newtonian fluid)和\emph{塑性固体}(plastic solid),\,那就是\emph{黏弹性力学}(rheology)要研究的对象了.\,典型的黏弹性过程受力不是简单地正比于位移而是与速度,\,与历史相关.\,因此而可以发生永久的不可恢复的变形.
+
+正因为如此,\,完整描述弹性体的运动学时,\,不得不额外留心所有点的实际位移.\,在流体时也许速度更需要注意.\,所以我们写出一个初始$t=0$位置矢量为$\bs{R}$的点,\,经过$t$时间到达位置为$\bs{r}$处,\,也就是我们要定义一个$\mathrm{3D}\times\mathrm{1D}$到$\mathrm{3D}$的映射:
+\[\bs{r}=\bs{r}(\bs{R},t)\]
+
+不失普遍性地,\,我们考虑如何刻画在$\bs{R}=\bs{0}$的形变.\,我们需要研究在$\bs{R}=\bs{0}$的附近$\ud \bs{R}=\ud X\bs{e}_x+\ud Y\bs{e}_y+\ud Z\bs{e}_z$处的位移与中心的位移去比较.\,数学上有以下泰勒展式:
+\[\bs{r}(\ud \bs{R},t)=\bs{r}(\bs{0},t)+\ud \bs{R}\cdot \nabla \bs{r}\]
+
+上式中$\nabla\bs{r}$是一个有九个分量的张量,\,它的作用是可以与之前的矢量点乘把它线性地映射为另一个矢量:
+\[\nabla\bs{r}=\sum_{i,j}\frac{\partial x_j}{\partial X_i}\bs{e}_i\bs{e}_j\]
+\[\nabla\bs{r}:\; \sum_i\ud X_i\bs{e}_i\rightarrow \sum_j\ud x_j\bs{e}_j=\sum_j\left(\sum_i \frac{\partial x_j}{\partial X_i}\ud X_i\right)\bs{e}_j\]
+
+不难发现第二个式子是不证自明的.\,所以实际上刻画形变的包含于$\nabla\bs{r}$这个张量.\,但是并不是完全取决于它,\,考虑像刚体这样的不能变形的物体,\,由于
+
+
+\section{弹性棒,\,弹性膜与弹性体}
+
+\section{弹性波}
+
