@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  25 APR 2019 17:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  29 MAY 2019 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2010,98 +2010,63 @@ LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
 \openout4 = `physical-olympics-2.toc'.
 
  [6]
-\openout2 = `chapter/kinematics.aux'.
+\openout2 = `chapter/dynamics.aux'.
 
- (./chapter/kinematics.tex [8
+ (./chapter/dynamics.tex
+第三章
+
+Overfull \hbox (2.01639pt too wide) in paragraph at lines 18--19
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 爱 因 斯 坦 以 后 的 理 论 研 究 中 很 多 问 题 还 处 于 开 放 状 态\T1
+/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 时 而 采 用 牛 顿 的 相 互 作 用 观\T1/lmr/
+m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 时
+ []
+
+[17
+
 
 
 
 ]
-第二章
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 29.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 29.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 29.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 29.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 29.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 29.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 29.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 29.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 29.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 29.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 29.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.52812> on input line 7.
+(Font)              <7.52812> on input line 35.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 7.
+(Font)              scaled to size 7.22704pt on input line 35.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 7.
+(Font)              scaled to size 7.22704pt on input line 35.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 7.
+(Font)              scaled to size 7.22704pt on input line 35.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 7.
+(Font)              scaled to size 7.22704pt on input line 35.
+
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 7.
+(Font)              size <8> substituted on input line 35.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 9.
-
-File: image/6-1-1.png Graphic file (type bmp)
-<image/6-1-1.png>
-[9] [10]
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 70.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 70.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 70.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 70.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 70.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 70.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 70.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 70.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 70.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 70.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 70.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 70.
-
-Overfull \hbox (6.4133pt too wide) in paragraph at lines 78--79
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 条[]世 界 线[]\T1/lmr/m/n/10.53937 (world line).\TU/方正
-聚珍新仿简体(0)/m/n/10.53937 每 一 个 时 间 仅 仅 有 可 能 只 有 一 个 事 件 发 生\T1/lmr/m/n/10.53937 
-.\TU/方正聚珍新仿简体(0)/m/n/10.53937 实 际 上 质 点 的 运 动 用[]运 动 学 方 程[]\T1/lmr/m/n/10.5393
-7 (kinematic
- []
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 90.
-(c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 90.
- [11]
-File: image/6-1-2.png Graphic file (type bmp)
-<image/6-1-2.png>
- [12]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 124.
-
-
-Underfull \vbox (badness 4582) has occurred while \output is active []
-
- [13]
-File: image/6-1-3.png Graphic file (type bmp)
-<image/6-1-3.png>
-
-
-Package caption Warning: \label without proper reference on input line 160.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `6-1-3' on page 14 undefined on input line 171.
-
-[14]) [15]
+) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./physical-olympics-2.aux (./chapter/preamble.aux)
@@ -2119,7 +2084,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: D4BFB9866655F1D91E7F1EAC15A7A000.
+(rerunfilecheck)             Checksum: 4DD2DBF3CFF886A0EB41B1F805C400CE.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2128,18 +2093,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 29251 strings out of 492960
- 561578 string characters out of 6136939
- 667938 words of memory out of 5000000
- 32704 multiletter control sequences out of 15000+600000
+ 29213 strings out of 492960
+ 560967 string characters out of 6136939
+ 664001 words of memory out of 5000000
+ 32675 multiletter control sequences out of 15000+600000
  631202 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,948b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (16 pages, 299348 bytes).
+Output written on physical-olympics-2.xdv (10 pages, 192576 bytes).
