@@ -239,7 +239,110 @@
 这就化为求关于$t$的二次函数恒大于零的系数条件问题,\,结论是初等的:\,判别式小于零:
 \[\left(\dfrac{3}{2}gv_0\sin\varphi\right)^2-4\left(\dfrac{1}{2}g^2 \right)(v_0^2)<0\quad \Rightarrow\quad \sin\varphi<\frac{2\sqrt{2}}{3}\]
 
-采用极坐标系描述抛体运动也许是费力而不讨好的.\,但是描述其他一些运动又比直角坐标系存在天然的优势.\,比如一类经典问题的表述如下:\,
+\begin{wrapfigure}[12]{o}[-10pt]{6cm}\label{6-1-5}
+\vspace{-0.4cm}
+\centering
+\includegraphics[width=6cm]{image/6-1-5.png}
+\caption{首尾相追}
+\end{wrapfigure}
+采用极坐标系描述抛体运动也许是费力而不讨好的.\,但是描述其他一些运动又比直角坐标系存在天然的优势.\,比如一类经典追击问题的表述如下:\,四个平面运动的质点初始组成正方形.\,这个环形的结构中每一个质点都向着前一个质点运动发生追击.\,其中运动速度矢量具有变化的方向,\,即向着前方质点.\,但具有不变的速率$v$.\,确定物体的运动方程和轨迹.
+
+对于这个问题,\,预先的关于物体在时间为$t$时的位置信息是几乎完全空缺的,\,但对于速度矢量我们知道一个信息:\,其大小为$v$.\,如果考虑直角坐标系,\,这个条件表示为:
+\[|\bs{v}|=\sqrt{\dot{x}^2+\dot{y}^2}=v\]
+
+但是对于位置和速度,\,我们还知道一个信息,\,就是它们夹钝角而且为$3\pi/4$.\,用直角坐标系的公式仔细化简的话也可以得到:
+\[\tan \phi_{\bs{r}\curvearrowright \bs{v}}=-1\quad \Rightarrow \quad \frac{\bs{r}\cdot\bs{v}}{|\bs{r}\times \bs{v}|}=\frac{x\dot{x}+y\dot{y}}{x\dot{y}-y\dot{x}}=-1\]
+
+\begin{wrapfigure}[12]{o}[-10pt]{6cm}\label{6-1-6}
+\vspace{-0.4cm}
+\centering
+\includegraphics[width=6cm]{image/6-1-6.png}
+\caption{极坐标系的活动框架}
+\end{wrapfigure}
+但这就较难求解\footnote{有兴趣的读者可以挑战一下.}.\,那么如果采用极坐标系会为我们带来何种新的思路呢?
+
+那就是\emph{活动标架}(moving frame)的引入.\,无论粒子在何处,\,粒子的$\bs{r}$一定是作为了$r$和$\theta$的函数的.\,那么可以在粒子所在的点沿两个方向建立局域的$R-\varTheta$直角坐标系.\,这两个方向怎么确定呢?\,其实就是基矢的方向:
+\[\bs{e}_r:=\frac{\partial\bs{r}}{\partial r}\left/\middle|\frac{\partial\bs{r}}{\partial r}\right|=\frac{\partial\bs{r}}{\partial r}\quad,\quad \bs{e}_\theta:=\frac{\partial\bs{r}}{\partial \theta}\left/\middle|\frac{\partial\bs{r}}{\partial \theta}\right|=\frac{1}{r}\frac{\partial\bs{r}}{\partial \theta}\]
+
+上式中后一个偏导数的模为$r$是显然的.\,只需要考虑到圆的弧长和半径的关系即可.
+
+局域的标架给我们什么方便?\,我们由偏导数和全微分的法则可以描述局域物体的微小位移.\,本质上,\,这相当于$\ud r$和$\ud \theta$导致的位矢$\bs{r}$改变$\ud \bs{r}$:
+\[\ud \bs{r}_{(\ud r,\,\ud \theta)}=\ud \bs{r}_{(\ud r,\,0)}+\ud \bs{r}_{(0,\,\ud \theta)}=\ud R\bs{e}_r+\ud \varTheta\bs{e}_\theta\]
+\[\ud \bs{r}_{(\ud r,\,\ud \theta)}=\frac{\partial \bs{r}}{\partial r}\ud r+\frac{\partial \bs{r}}{\partial \theta}\ud \theta=\ud r\bs{e}_r+r\ud \theta \bs{e}_\theta\]
+\[\Rightarrow \quad \ud R=\ud r\;,\;\ud \varTheta=r\ud \theta\]
+
+可见在曲线坐标情形下坐标的改变量$\ud r,\,\ud \theta$与在对应质点位移方向走过的弧长$\ud R,\,\ud \varTheta$的值一般是不一样的.\,它们之前的比值(弧长/坐标变化)称作\emph{拉梅系数}(Lam\'e coefficient).
+
+\vspace{0.5cm}
+既然叫做活动标架法,\,那么显然随着粒子的运动,\,两个基矢$\bs{e}_r,\,\bs{e}_\theta$的方向也在不断改变中.\,我们用极坐标,\,就是把一个物理量$\bs{A}$分解到粒子运动的瞬时局域坐标系中:
+\[\bs{A}=A_r\bs{e}_r+A_\theta\bs{e}_\theta\]
+
+那么在粒子发生运动后,\,以上矢量的改变应当由四部分组合而成:
+\[\ud \bs{A}=\ud'\bs{A}+\tilde{\ud}\bs{A} \]
+\[\ud' \bs{A}:=\ud A_r\bs{e}_r+\ud A_\theta\bs{e}_\theta\]
+\[\tilde{\ud}\bs{A}:= A_r\ud\bs{e}_r+ A_\theta\ud\bs{e}_\theta\]
+
+其中$\ud'$表示相对变化,\,类似于选取跟随旋转的活动标架而旋转的参考系后,\,矢量的变化量,\,故基矢自己的变化是被无视了的.\,而原来的$\ud$才表示绝对的变化.\,而$\tilde{\ud}$所带来的变化称作牵连变化或随体变化.\,它是即使前面的相对变化为零也会带来的,\,由于标架的``拉拽''导致的旋转带来的改变.\,事实上很容易证明其中的:
+\[\ud \bs{e}_r=\ud \bs{\theta}\times \bs{e}_r=+\ud \theta \bs{e}_\theta\]
+\[\ud \bs{e}_\theta=\ud \bs{\theta}\times \bs{e}_\theta=-\ud \theta \bs{e}_r\]
+
+其中$\ud \bs{\theta}$是方向垂直于纸面向外的,\,大小即极坐标下物体坐标之角坐标的增量$\ud \theta$.
+
+这就足以给出:
+\[(\ud \bs{A})_r=\ud A_r-A_\theta \ud \theta\]
+\[(\ud \bs{A})_\theta=\ud A_\theta+A_r \ud \theta\]
+\newpage
+两边再同时除以时间,\,我们得到粒子运动过程中一个矢量导数的两个分量与这矢量两个分量的导数之间的关系:
+\[(\dot{\bs{A}})_r=\dot{A_r}-\dot{\theta}A_\theta\]
+\[(\dot{\bs{A}})_\theta=\dot{A_\theta}+\dot{\theta}A_r\]
+
+导数的分量不等于分量的导数,\,这也是坐标系的弯曲所带来的.\,数学上,\,这意味算符$\partial_t$与算符$\bs{e}\cdot$的\emph{不对易性}(non-commutative):
+\[\bs{e}\cdot(\partial_t \bs{A})\neq \partial_t(\bs{e}\cdot \bs{A})\]
+
+通过这个原理,\,我们可以推理得到:
+\[\bs{r}=r\bs{e}_r+0\bs{e}_\theta\quad \Rightarrow\quad r_r=r\,,\,r_\theta=0\]
+\[\bs{v}=\dot{\bs{r}}\quad \Rightarrow\quad  v_r=\dot{r_r}-\dot{\theta}r_\theta=\dot{r}\,,\,v_\theta=\dot{r_\theta}+\dot{\theta}r_r=\dot{\theta}r\]
+\[\bs{a}=\dot{\bs{v}}\quad \Rightarrow\quad  a_r=\dot{v_r}-\dot{\theta}v_\theta=\ddot{r}-\dot{\theta}^2r\,,\,a_\theta=\dot{v_\theta}+\dot{\theta}v_r=\ddot{\theta}r+2\dot{\theta}\dot{r}\]
+
+这个操作甚至可以继续下去:
+\[\bs{j}=\dot{\bs{a}}\quad \Rightarrow \quad j_r=\dot{a_r}-\dot{\theta}a_\theta=\dddot{r}-3\dot{\theta}\ddot{\theta}r-3\dot{\theta}^2\dot{r}\,,\,j_\theta=\dot{a_\theta}+\dot{\theta}a_r=\dddot{\theta}r+3\ddot{\theta}\dot{r}+3\dot{\theta}\ddot{r}-\dot{\theta}^3r\]
+\[\cdots\]
+
+极坐标下速度,\,加速度的公式是非常常用的,\,它们是:
+\[\bs{v}=(\dot{r}\,,\,\dot{\theta}r)\quad\bs{a}=(\ddot{r}-\dot{\theta}^2r\,,\,\ddot{\theta}r+2\dot{\theta}\dot{r})\]
+
+故,\,在之前的首尾相追问题\ref{6-1-5}中以正方形中心为原点,\,以初始位置为极轴方向建立极坐标系.\,那么两个条件:\,速度大小恒定为$v$和位矢速度夹角恒定$3\pi/4$表述为:
+\[v_r^2+v_\theta^2=v^2\quad ,\quad \frac{v_\theta}{v_r}=-1\]
+
+相当容易解出来两个分速度的值,\,再结合之前的速度公式:
+\[\dot{r}=-\frac{\sqrt{2}}{2}v\quad ,\quad \dot{\theta}r=\frac{\sqrt{2}}{2}v\]
+
+这样,\,便可以轻松解出运动方程来,\,结合初始条件,\,不妨设初始矢径为$r_0$,\,幅角为$0$:
+\[\dot{r}=-\frac{v}{\sqrt{2}}\quad \Rightarrow \quad r=r_0-\frac{vt}{\sqrt{2}}\]
+\[\dot{\theta}=\frac{v}{\sqrt{2}r_0-vt}\quad \Rightarrow \quad  \theta =-\ln\left(1-\frac{vt}{\sqrt{2}r_0}\right)\]
+
+轨迹方程通过上述方程消参即可.\,但也可以通过之前的微分方程相除得到新微分方程求解:
+\[\frac{\ud r}{\ud \theta}=-r\quad \Rightarrow \quad r=r_0\ue^{-\theta}\]
+
+平面的极坐标系在三维空间的推广为\emph{柱坐标系}(cylindrical coordinate system)和\emph{球坐标系}(spherical coordinate system).\,类似公式的核心也与平面极坐标相差无几,\,都在于活动标架的基矢微分.\,请读者自行推导.
+
+\vspace{0.2cm}
+{\bf 3.\,自然坐标系下的分解}
+
+设想仍然采用活动标架法的思路,\,但是,\,标架的方向不再由粒子的位置相对事先建立的背景的坐标系的关系而决定.\,而是紧密地由粒子运动的性质:\,瞬时的速度方向,\,轨迹曲线的弯曲方向等决定.\,那么我们就得到了特殊的标架:\,\emph{自然坐标系}(natural coordinates).
+
+自然坐标系的建立是派生于粒子运动的轨迹的那条曲线的性质的.\,借助牛顿等人创立的微积分与笛卡尔等人创立的解析几何的帮助,\,对于光滑曲线曲面的性质的研究构成了\emph{古典微分几何}(classical differential geometry)的主要课题.\,
+
+我们考虑三维空间问题.\,对于一条空间曲线.\,它总是一些点的集合,\,而如果规定某个起始点以后,\,每一个点都会有一个$s$坐标,\,它就是从起始点到这个点的弧长.\,而其实我们可以把$s$视作一个自变量,\,因为$s$改变而改变的是不同点的位置$\bs{r}$.\,也就是说$\bs{r}(s)$作为了$s$的函数.\,那么这个曲线在某一点处的切矢量就可以被自然地定义为:
+\[\bs{\alpha}=\frac{\ud \bs{r}}{\ud s}\]
+
+以上矢量模自然为$1$.\,因为分子$\ud \bs{r}$的长度就是分母的$\ud s$.\,
+
+
+
+
+
+
 
 
 
