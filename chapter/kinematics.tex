@@ -304,7 +304,7 @@
 \[\bs{v}=\dot{\bs{r}}\quad \Rightarrow\quad  v_r=\dot{r_r}-\dot{\theta}r_\theta=\dot{r}\,,\,v_\theta=\dot{r_\theta}+\dot{\theta}r_r=\dot{\theta}r\]
 \[\bs{a}=\dot{\bs{v}}\quad \Rightarrow\quad  a_r=\dot{v_r}-\dot{\theta}v_\theta=\ddot{r}-\dot{\theta}^2r\,,\,a_\theta=\dot{v_\theta}+\dot{\theta}v_r=\ddot{\theta}r+2\dot{\theta}\dot{r}\]
 
-这个操作甚至可以继续下去:
+这个操作甚至可以继续下去,\,计算急动度等:
 \[\bs{j}=\dot{\bs{a}}\quad \Rightarrow \quad j_r=\dot{a_r}-\dot{\theta}a_\theta=\dddot{r}-3\dot{\theta}\ddot{\theta}r-3\dot{\theta}^2\dot{r}\,,\,j_\theta=\dot{a_\theta}+\dot{\theta}a_r=\dddot{\theta}r+3\ddot{\theta}\dot{r}+3\dot{\theta}\ddot{r}-\dot{\theta}^3r\]
 \[\cdots\]
 
@@ -321,7 +321,7 @@
 \[\dot{r}=-\frac{v}{\sqrt{2}}\quad \Rightarrow \quad r=r_0-\frac{vt}{\sqrt{2}}\]
 \[\dot{\theta}=\frac{v}{\sqrt{2}r_0-vt}\quad \Rightarrow \quad  \theta =-\ln\left(1-\frac{vt}{\sqrt{2}r_0}\right)\]
 
-轨迹方程通过上述方程消参即可.\,但也可以通过之前的微分方程相除得到新微分方程求解:
+轨迹方程通过上述方程消参即可.\,但也可以通过之前的微分方程相除得到新微分方程求解,\,曲线为\emph{对数螺线}(logarithmic spiral):
 \[\frac{\ud r}{\ud \theta}=-r\quad \Rightarrow \quad r=r_0\ue^{-\theta}\]
 
 平面的极坐标系在三维空间的推广为\emph{柱坐标系}(cylindrical coordinate system)和\emph{球坐标系}(spherical coordinate system).\,类似公式的核心也与平面极坐标相差无几,\,都在于活动标架的基矢微分.\,请读者自行推导.
@@ -334,11 +334,139 @@
 自然坐标系的建立是派生于粒子运动的轨迹的那条曲线的性质的.\,借助牛顿等人创立的微积分与笛卡尔等人创立的解析几何的帮助,\,对于光滑曲线曲面的性质的研究构成了\emph{古典微分几何}(classical differential geometry)的主要课题.\,
 
 我们考虑三维空间问题.\,对于一条空间曲线.\,它总是一些点的集合,\,而如果规定某个起始点以后,\,每一个点都会有一个$s$坐标,\,它就是从起始点到这个点的弧长.\,而其实我们可以把$s$视作一个自变量,\,因为$s$改变而改变的是不同点的位置$\bs{r}$.\,也就是说$\bs{r}(s)$作为了$s$的函数.\,那么这个曲线在某一点处的切矢量就可以被自然地定义为:
-\[\bs{\alpha}=\frac{\ud \bs{r}}{\ud s}\]
+\[\bs{\tau}=\frac{\ud \bs{r}}{\ud s}\]
 
-以上矢量模自然为$1$.\,因为分子$\ud \bs{r}$的长度就是分母的$\ud s$.\,
+\begin{wrapfigure}[14]{o}[-10pt]{6cm}\label{6-1-7}
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=6cm]{image/6-1-7.png}
+\caption{Frenet框架}
+\end{wrapfigure}
+以上矢量模自然为$1$.\,因为分子$\ud \bs{r}$的长度就是分母的$\ud s$.\,方向则是在曲线的\emph{切线}(tangent line)方向.\,切线是这样一种线:\,曲线上有一点$P$.\,如果在$P$两侧任取一个点$Q$并连接$PQ$,\,使$Q$无限接近$P$即$\ud s \to 0$,\,那么$PQ$所在的直线的极限就是$P$点的切线.\,这又引申出第二个概念:\,如果在$P$所有各取一个点$Q,\,R$.\,那么$PQR$三点确定的圆也将随着$Q,\,R$同时无限接近于$P$而具有极限.\,这个圆叫做\emph{密切圆}或\emph{曲率圆}(osculating circle).\,其所在的平面叫做\emph{密切平面}(osculating plane).\,而圆心$C$为\emph{曲率中心}(center of curvature),\,最后,\,实际上$P$到$C$的方向就是\emph{法}(normal)方向,\,该方向的单位矢量叫做法矢量$\bs{n}$.\,而副法矢量$\bs{\tau}\times\bs{n}=\bs{b}$所决定的方向为\emph{副法}(binormal)方向.\,这样三个矢量便构成\emph{弗雷内框架}(Frenet frame)或称TNB框架.
 
+事实上,\,如果计算曲线在过程中的转向,\,它可以用三个矢量方向的变化来表示.\,如果计算三个矢量对$\ud s$的变化率,\,一定能写作:
+\[\begin{array}{rlll}
+\frac{\ud \bs{\tau}}{\ud s}=		&	+0\bs{\tau} 	&	+k\bs{n} 		& +\varepsilon\bs{b}\\
+\frac{\ud \bs{n}}{\ud s}=		&	-k\bs{\tau} 	&	+0\bs{n} 		& +\gamma\bs{b}\\
+\frac{\ud \bs{b}}{\ud s}=		&	-\varepsilon\bs{\tau} 	&	-\gamma\bs{n} 		& +0\bs{b}
+\end{array}\]
 
+这是因为框架一定要具有正交归一的一套基矢量,\,而且这个性质在曲线上任何一点都要成立,\,指的是以下六个式子:
+\[\bs{\tau}\cdot\bs{\tau}=1\quad,\quad\bs{n}\cdot\bs{n}=1\quad,\quad \bs{b}\cdot\bs{b}=1\]
+\[\bs{\tau}\cdot\bs{n}=0\quad,\quad\bs{n}\cdot\bs{b}=0\quad,\quad \bs{b}\cdot\bs{\tau}=0\]
+
+对六个式子分别求导数就看出来了,\,\emph{一个单位矢量自己的导数必然垂直于自身},\,从而三个基矢导数在自己上的投影都必须为零.\,而两个不同基矢的导数互相在对方方向的投影则会正负相消,\,这样才能保证两个矢量始终正交.\,就能理解之前的$9$个系数为什么要写成这个形式.
+
+最后我们指出,\,系数$\varepsilon$应当是$0$.\,这是因为作为法线方向的定义本身,\,它就应当在$\bs{\tau}$的变化量$\ud\bs{\tau}$所在的方向上.\,从而第一个式子不会具有$\bs{b}$方向的分量.\,综上所述,\,我们得到了:
+
+\[\begin{array}{rlll}
+\frac{\ud \bs{\tau}}{\ud s}=		&	 	&	+k\bs{n} 		& \\
+\frac{\ud \bs{n}}{\ud s}=		&	-k\bs{\tau} 	&	 		& +\gamma\bs{b}\\
+\frac{\ud \bs{b}}{\ud s}=		&	 	&	-\gamma\bs{n} 		& 
+\end{array}\]
+
+这就是\emph{弗雷内公式}(Frenet formulae).\,其中$k$称作曲线的\emph{曲率}(curvature).\,它的意义是衡量了曲线方向转动的快慢,\,事实上由于曲线切线的无穷小转动角度其实在竖直上恰好会等于无穷小矢量$\ud\bs{\tau}$的长度,\,从而有:
+\[k=\abs{\frac{\ud\bs{\tau}}{\ud s}}=\frac{\ud\theta}{\ud s}\]
+
+即,\,曲率为:\,质点沿曲线走单位长度所转过的角度.\,曲率半径实际上是曲率的倒数.\,它是曲率圆的半径$\rho=1/k$.
+
+而$\gamma$则被称作\emph{挠率}(torsion).\,我们通过弗雷内公式的第三式可以发现,\,挠率反映了副法矢量,\,或者说被复法矢量作为法平面的密切平面,\,绕曲线此时的切线的旋转快慢.\,它使得粒子瞬时运动的那个平面在改变着.\,下面我们会发现,\,实际上挠率对运动学中直到加速度的表达式都是没有任何贡献的.
+
+如何用自然法描述粒子的运动?\,事实上这就相当于把粒子运动的路程$s$和三个矢量$\bs{\tau},\,\bs{n},\,\bs{b}$都表示为时间的函数:
+\[s(t),\,\bs{\tau}(t),\,\bs{n}(t),\,\bs{b}(t)\]
+
+但事实上,\,曲线本身轨迹必须先存在才能让我们事先确定好框架,\,而这样一个曲线其实本身由$\bs{r}(s)$给出,\,而且满足:
+\[\frac{\ud \bs{r}}{\ud s}=\bs{\tau}\quad,\quad \frac{\ud^2 \bs{r}}{\ud s^2}=k\bs{n}\quad,\quad \frac{\ud^3 \bs{r}}{\ud s^3}=-k^2\bs{\tau}+\frac{\ud k}{\ud s}\bs{n}+k\gamma\bs{b}\]
+
+然后我们唯一要做的就是给出$s(t)$函数,\,这一定可以帮助我们确定运动的各个量.
+
+事实上,\,由于泰勒展开公式,\,近似到三阶:
+\[\Delta \bs{r}\simeq\frac{\ud \bs{r}}{\ud s}\ud s+\frac{1}{2}\frac{\ud^2 \bs{r}}{\ud s^2}\ud s^2+\frac{1}{6}\frac{\ud^3 \bs{r}}{\ud s^3}\ud s^3=(k\ud s-\frac{k^2}{6}\ud s^3)\bs{\tau}+(\frac{k}{2}\ud s^2+\frac{1}{6}\frac{\ud k}{\ud s}\ud s^3)\bs{n}+\frac{k\gamma}{6}\ud s^3\bs{b}\]
+
+如果只保留领头项,\,忽略高阶小量.\,我们就得到,\,在粒子运动的局域坐标系中,\,位移$\ud s$长度到达的点三个坐标$T,\,N,\,B$分别近似为:
+\[T=\ud s \quad,\quad N=\frac{k}{2}\ud s^2 \quad,\quad B=\frac{k\gamma}{6}\ud s^3\]
+
+仍然考虑之前的三阶近似下的严格$\Delta \bs{r}$与$\ud{s}$的关系,\,这一次代入$s(t)$的三阶套了展开:
+\[\ud s\simeq \dot{s}\ud t+\frac{\ddot{s}}{2}\ud t^2+\frac{\dddot{s}}{6}\ud t^3\]
+
+我们整理$\ud t$的各阶项,\,最终得到:
+\[\Delta \bs{r}\simeq \bs{v}\ud t+\frac{1}{2}\bs{a}\ud t^2+\frac{1}{6}\bs{j}\ud t^3\]
+
+其中速度与加速度的公式为:
+\[\bs{v}=\dot{s}\bs{\tau}\]
+\[\bs{a}=\ddot{s}\bs{\tau}+k\dot{s}^2\bs{n}\]
+
+速度方向必然沿切向,\,大小上就等于$\dot{s}$,\,即单位时间走过的弧长.\,而加速度则有两个分量.\,一是由于速率在增减导致的切向加速度,\,大小等于$a_\tau=\ddot{s}$;\,第二项则是由于曲线的弯曲导致的法向加速度.\,它的值为$a_n=\dot{s}^2/\rho$.\,
+
+如果要计算急动度等,\,可以从之前的泰勒展示中获得,\,其实还可以直接对加速度求导数,\,此时表达式会突然产生很多项:
+\[\bs{j}=(\dddot{s}-k^2\dot{s}^3)\bs{\tau}+(3k\dot{s}\ddot{s}+\dot{k}\dot{s}^3)\bs{n}+k\gamma\dot{s}^3\bs{b}\]
+
+利用自然坐标下的分解方式,\,如果已经直到特定曲线的曲率,\,就可以根据质点在曲线上的运动方式来计算运动的加速度.\,但是反过来利用运动学公式来确定曲线的曲率半径也不失为一种极其简单的做法.\,我们注意到,\,利用加速度在垂直于速度方向的那个分量即为$v^2/\rho$的结论,\,可以得到:
+\[\rho=\frac{\bs{v}^3}{\abs{\bs{a}\times\bs{v}}}\]
+
+例如,\,如果已知二维空间中的曲线方程$y=f(x)$.\,那么如果命一质点在曲线上运动且满足$x=t,\,y=f(t)$,\,那么速度为$\bs{v}=(1,\,f')$,\,加速度为$\bs{a}=(0,f'')$.\,利用上式可得:
+\[\rho=\frac{(1+f'^2)^\frac{3}{2}}{\abs{f''}}\]
+
+再例如.\,之前的首尾相追问题中,\,曲线对数螺线写作:
+\[r=a\ue^{k\theta}\]
+
+如何计算曲率半径?\,我们让粒子在曲线上绕极点做匀速旋转,\,也就是:
+\[\theta=\omega t\quad,\quad r=a\ue^{k\omega t}\]
+
+那么借助极坐标的加速度公式得:
+\[\bs{v}=(\dot{r},\,\dot{\theta}r)=(k\omega a\ue^{k\omega t},\,\omega a\ue^{k\omega t})=(k\omega r,\,\omega r)\]
+\[\bs{a}=(\ddot{r}-\dot{\theta}^2r,\,\ddot{\theta}r+2\dot{\theta}\dot{r})=((k^2-1)\omega^2 a\ue^{k\omega t},\,2k\omega^2 a\ue^{k\omega t})=((k^2-1)\omega^2 r,\,2k\omega^2 r)\]
+
+代入之前的曲率公式便可以得到:
+\[\rho=\sqrt{1+k^2}r\]
+
+\subsection{刚体的运动}
+
+关于刚体的运动,\,它的定义我们其实将在之后的刚体专门的章节又一次做更进一步的探讨.\,初步我们认为所谓刚体就是这样一种物体:\,存在一个特殊的参考系(平动或转动)能够使得该物体上每一个点都每时每刻相对静止.\,但是这样我们又涉及到下一节才讲的参考系的概念.\,在此我们又不得不早于预期提及.
+
+\begin{wrapfigure}[12]{o}[-10pt]{6cm}\label{6-1-8}
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=6cm]{image/6-1-8.png}
+\caption{刚体的本征框架}
+\end{wrapfigure}
+为此我们换一种更加直观的方式引入这些概念而不是去严格定义刚体与参考系的概念.\,设想我们有一个正交的刚性框架,\,即三条射线状坐标轴构成的物体,\,下称$\xi,\,\eta,\,\zeta$轴,\,该框架就会自然造成四个矢量.\,首先是框架原点$C$的位置矢量$\bs{r}$.\,其次是三坐标轴方向的三个基矢\footnote{原来的基矢方向记做$\bs{e}_{x,\,y,\,z}$.}$\bs{i},\,\bs{j},\,\bs{k}$.\,它们都会随着时间变化,\,可以用四个导数表征.\,其中$\bs{v}=\dot{\bs{r}},\,\bs{a}=\ddot{\bs{r}}$.\,但是,\,对于三个基矢导数有没有更加简单的描述方法呢?\,如果我们把三个基矢导数就向三个基矢本来的方向分解\footnote{由于字母$i,\,j$上本来就有点,\,所以在符号上约定遇到要在这两个字母上加点时改为横向$\ddot{\imath},\,\ddot{\jmath}$.\,偶尔也见到反而去掉点的$\imath,\,\jmath$.\,出于这样无法表示高阶导数,\,我们不采用这种模式.}:
+\[\begin{array}{rlll}
+\bs{\ddot{\imath}}=		&	+\omega_{11}\bs{i} 	&	+\omega_{12}\bs{j} 		& +\omega_{13}\bs{k}\\
+\bs{\ddot{\jmath}}=		&	+\omega_{21}\bs{i} 	&	+\omega_{22}\bs{j} 		& +\omega_{23}\bs{k}\\
+\bs{\dot{k}}=				&	+\omega_{31}\bs{i} 	&	+\omega_{32}\bs{j} 		& +\omega_{33}\bs{k}
+\end{array}\]
+
+依然,\,我们注意到出于以下正交归一的结构不会改变,\,在求导下为零,\,所以上述表达式中的九个系数反对称:
+\[\frac{\ud}{\ud t}\left\{\begin{array}{cccc}
+1= 	&\bs{i}\cdot\bs{i} 	&\bs{j}\cdot\bs{j} 	&\bs{k}\cdot\bs{k} 	\\
+0= 	&\bs{i}\cdot\bs{j} 	&\bs{j}\cdot\bs{k} 	&\bs{k}\cdot\bs{i}
+\end{array}\right\}=0\quad \Rightarrow \quad\omega_{ij}+\omega_{ji}=0\]
+
+出于某种符号约定与对称的原因,\,我们把导数重新写作:
+\[\begin{array}{rlll}
+\bs{\ddot{\imath}}=		&									 	&	-\omega_3\bs{j} 				& +\omega_2\bs{k}\\
+\bs{\ddot{\jmath}}=		&	+\omega_3\bs{i} 			&									 		& -\omega_1\bs{k}\\
+\bs{\dot{k}}=				&	-\omega_2\bs{i} 			&	+\omega_1\bs{j} 				& 
+\end{array}\]
+
+这样,\,如果我们定义一个矢量:
+\[\bs{\omega}=\omega_1\bs{i}+\omega_2\bs{j}+\omega_3\bs{k}\]
+
+就能够造成:
+\[\bs{\ddot{\imath}}=\bs{\omega}\times \bs{i}\quad ,\quad \bs{\ddot{\jmath}}=\bs{\omega}\times \bs{j}\quad ,\quad \bs{\dot{k}}=\bs{\omega}\times \bs{k}\]
+
+这就是刚体的\emph{角速度}(angular velocity)矢量.\,用它可以计算刚体中的各种转动的物理量.
+
+具体来说,\,什么叫做刚体?\,事实上以上三个坐标轴本身就构成了刚体,\,或者是某刚体的一部分.\,如果有一个空间点每时每刻向杆坐标系的三个坐标面引三垂线,\,三个坐标都始终保持常数,\,那么就说这个空间点是\emph{固连}(fixed)在该坐标系中的.\,而如果一个物体上的每一个点都固连带该坐标系中,\,那么相对这个坐标系该物体就无法发生形变,\,从而这就是一个刚体.\,这种情况下,\,刚体与坐标系就存在一个相互关系,\,这个坐标系是由刚体所对应的固连坐标系,\,而坐标系本身又可以视作某种不能变形的刚体.
+
+我们在坐标系中找到固连在坐标系上的两个点,\,或者说在刚体上找到固连在刚体上的两个点(以后不加以区分).\,从一个点指向另一个点形成矢量$\bs{R}$,\,由于固连在坐标系中,\,这个矢量对坐标系造成的三个分量都是固定的,\,也就是$\bs{R}=R_1\bs{i}+R_2\bs{j}+R_3\bs{k}$中的$R_1,\,R_2,\,R_3$都是常数.\,那么这个矢量跟随坐标系而变化的导数就是:
+\[\dot{\bs{R}}=R_1\bs{\ddot{\imath}}+R_2\bs{\ddot{\jmath}}+R_3\bs{\dot{k}}=\bs{\omega}\times(R_1\bs{i}+R_2\bs{j}+R_3\bs{k})=\bs{\omega}\times\bs{R}\]
+
+在物理上,\,这就是说,\,任何固连在转动坐标系中的矢量$\bs{R}$都将以角速度$\bs{\omega}$跟随坐标系旋转,\,$\bs{\omega}$的方向就是瞬时转动轴,\,$\bs{\omega}$的大小就是旋转角速度大小.\,注意两点,\,一是这个角速度$\bs{\omega}$是全局的,\,无论矢量相对坐标系在任何位置,\,无论距离最初选取的坐标系中心有多远,\,只要固连在坐标系中,\,就会以完全一样的角速度矢量$\bs{\omega}$去改变$\dot{\bs{R}}=\bs{\omega}\times\bs{R}$.\,二是这个角速度作用在任何量纲上.\,无论是两个空间点之间的那个(位移)矢量,\,还是速度矢量,\,力矢量等等,\,任意量纲的矢量$\bs{A}$只要相对旋转坐标系具有固定的方向,\,在地面系中就会跟着坐标系一同旋转而具有导数:
+\[\dot{\bs{A}}=\bs{\omega}\times\bs{A}\quad \text{for }\; \bs{A}\;\text{fixed in frame}\; C-\xi\eta\zeta\]
+
+以后我们可以脱离坐标系而讨论刚体.\,为了研究刚体的运动,\,我们只需要在刚体上取一个合适的固连点$C$作为中心(类似于坐标系的原点),\,这个点叫做\emph{基点}(cardinal point).\,那么,\,不失一般性地,\,刚体的运动将用基点$C$的位置$\bs{r}(t)$和角速度$\bs{\omega}(t)$描述.\,譬如,\,为了求得某一时刻刚体上一点$P$的速度.\,我们可以找到从$C$指向$P$的矢量$\bs{R}$
 
 
 
