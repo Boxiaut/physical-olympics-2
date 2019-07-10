@@ -445,9 +445,9 @@
 
 出于某种符号约定与对称的原因,\,我们把导数重新写作:
 \[\begin{array}{rlll}
-\bs{\ddot{\imath}}=		&									 	&	-\omega_3\bs{j} 				& +\omega_2\bs{k}\\
-\bs{\ddot{\jmath}}=		&	+\omega_3\bs{i} 			&									 		& -\omega_1\bs{k}\\
-\bs{\dot{k}}=				&	-\omega_2\bs{i} 			&	+\omega_1\bs{j} 				& 
+\bs{\ddot{\imath}}=		&									 	&	+\omega_3\bs{j} 				& -\omega_2\bs{k}\\
+\bs{\ddot{\jmath}}=		&	-\omega_3\bs{i} 			&									 		& +\omega_1\bs{k}\\
+\bs{\dot{k}}=				&	+\omega_2\bs{i} 			&	-\omega_1\bs{j} 				& 
 \end{array}\]
 
 这样,\,如果我们定义一个矢量:
@@ -466,7 +466,18 @@
 在物理上,\,这就是说,\,任何固连在转动坐标系中的矢量$\bs{R}$都将以角速度$\bs{\omega}$跟随坐标系旋转,\,$\bs{\omega}$的方向就是瞬时转动轴,\,$\bs{\omega}$的大小就是旋转角速度大小.\,注意两点,\,一是这个角速度$\bs{\omega}$是全局的,\,无论矢量相对坐标系在任何位置,\,无论距离最初选取的坐标系中心有多远,\,只要固连在坐标系中,\,就会以完全一样的角速度矢量$\bs{\omega}$去改变$\dot{\bs{R}}=\bs{\omega}\times\bs{R}$.\,二是这个角速度作用在任何量纲上.\,无论是两个空间点之间的那个(位移)矢量,\,还是速度矢量,\,力矢量等等,\,任意量纲的矢量$\bs{A}$只要相对旋转坐标系具有固定的方向,\,在地面系中就会跟着坐标系一同旋转而具有导数:
 \[\dot{\bs{A}}=\bs{\omega}\times\bs{A}\quad \text{for }\; \bs{A}\;\text{fixed in frame}\; C-\xi\eta\zeta\]
 
-以后我们可以脱离坐标系而讨论刚体.\,为了研究刚体的运动,\,我们只需要在刚体上取一个合适的固连点$C$作为中心(类似于坐标系的原点),\,这个点叫做\emph{基点}(cardinal point).\,那么,\,不失一般性地,\,刚体的运动将用基点$C$的位置$\bs{r}(t)$和角速度$\bs{\omega}(t)$描述.\,譬如,\,为了求得某一时刻刚体上一点$P$的速度.\,我们可以找到从$C$指向$P$的矢量$\bs{R}$
+以后我们可以脱离坐标系而讨论刚体.\,为了研究刚体的运动,\,我们只需要在刚体上取一个合适的固连点$C$作为中心(类似于坐标系的原点),\,这个点叫做\emph{基点}(cardinal point).\,那么,\,不失一般性地,\,刚体的运动将用基点$C$的位置$\bs{r}(t)$和角速度$\bs{\omega}(t)$描述.\,譬如,\,为了求得某一时刻刚体上一点$P$的速度.\,我们可以找到从$C$指向$P$的矢量$\bs{R}$.\,那么,\,由于$\bs{r}_{OC}+\bs{r}_{CP}=\bs{r}_{OP}$.\,这就是说:
+\[\bs{v}_{P}=\dot{\bs{r}}_{OP}=\dot{\bs{r}}_{OC}+\dot{\bs{r}}_{CP}=\bs{v}_{C}+\dot{\bs{R}}\]
+
+最后再由之前的用角速度算导数的方法,\,得到著名的基点法速度表达式:
+\[\bs{v}_{P}=\bs{v}_{C}+\bs{\omega}\times\bs{R}\]
+
+即:\,刚体上一点速度等于跟随基点平动的速度$\bs{v}_{C}$加上绕基点以$\bs{\omega}$转动的速度$\bs{\omega}\times\bs{R}$的和.
+
+至于加速度,\,只需要对上式再求一次导数$\dot{\bs{v}}_{P}=\dot{\bs{v}}_{C}+\dot{\bs{\omega}}\times\bs{R}+\bs{\omega}\times\dot{\bs{R}}$:
+\[\bs{a}_{P}=\bs{a}_{C}+\bs{\beta}\times\bs{R}+\bs{\omega}\times(\bs{\omega}\times\bs{R})\]
+
+即:\,刚体上一点速度等于跟随基点平动的加速度$\bs{a}_{C}$加上绕基点以$\bs{\beta}$转动的角向加速度$\bs{\beta}\times\bs{R}$,\,最后再加上由于速度$\bs{\omega}\times\bs{R}$本身也在绕轴以$\bs{\omega}$旋转带来的向轴加速度$\bs{\omega}\times(\bs{\omega}\times\bs{R})$的和.
 
 
 
