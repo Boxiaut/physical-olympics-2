@@ -1,24 +1,23 @@
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}序}{7}{chapter.1}
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}运动学}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}时空与物质}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}时空观,\tmspace +\thinmuskip {.1667em}坐标系}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}物质}{11}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}参考系,\tmspace +\thinmuskip {.1667em}物理规律与其不变性}{13}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}运动的描述}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}质点的运动}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}刚体的运动}{21}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}参考系变换}{23}{section.2.3}
-\contentsline {section}{\numberline {2.4}运动的牵连}{23}{section.2.4}
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}动力学}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}牛顿定律}{25}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}概述}{25}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}牛顿第一定律}{26}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}动量定律}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}能量定律}{26}{section.3.3}
-\contentsline {section}{\numberline {3.4}角动量定律}{26}{section.3.4}
-\contentsline {section}{\numberline {3.5}位力定律*}{26}{section.3.5}
-\contentsline {section}{\numberline {3.6}动力学问题}{26}{section.3.6}
-\contentsline {section}{\numberline {3.7}碰撞问题}{26}{section.3.7}
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}运动学}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}时空与物质}{3}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}时空观,\tmspace +\thinmuskip {.1667em}坐标系}{3}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}物质}{5}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}参考系,\tmspace +\thinmuskip {.1667em}物理规律与其不变性}{7}{subsection.1.1.3}% 
+\contentsline {section}{\numberline {1.2}运动的描述}{8}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}质点的运动}{8}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}刚体的运动}{15}{subsection.1.2.2}% 
+\contentsline {section}{\numberline {1.3}参考系变换}{17}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}运动的牵连}{17}{section.1.4}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}动力学}{19}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}牛顿定律}{19}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}概述}{19}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}牛顿第一定律}{20}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}动量定律}{20}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}能量定律}{20}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}角动量定律}{20}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}位力定律*}{20}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}动力学问题}{20}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}碰撞问题}{20}{section.2.7}% 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}静力学}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}约束}{21}{section.4.1}
 \contentsline {section}{\numberline {4.2}力系化简}{21}{section.4.2}
@@ -54,146 +53,3 @@
 \contentsline {section}{\numberline {10.2}相对论动力学}{35}{section.10.2}
 \contentsline {section}{\numberline {10.3}相对论连续物质}{35}{section.10.3}
 \contentsline {section}{\numberline {10.4}相对论电磁场}{35}{section.10.4}
-\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}热力学第一定律}{37}{chapter.11}
-\contentsline {section}{\numberline {11.1}热力学第零定律}{37}{section.11.1}
-\contentsline {section}{\numberline {11.2}热力学第一定律}{38}{section.11.2}
-\contentsline {section}{\numberline {11.3}理想气体}{42}{section.11.3}
-\contentsline {subsubsection}{\CJKfamily {hei}等体过程(isochoric process)}{46}{subsubsection*.34}
-\contentsline {subsubsection}{\CJKfamily {hei}准静态的等压过程(isobaric process)}{46}{subsubsection*.35}
-\contentsline {subsubsection}{\CJKfamily {hei}准静态的等温过程(isothermal process)}{46}{subsubsection*.36}
-\contentsline {subsubsection}{\CJKfamily {hei}准静态的绝热过程(adiabatic process)}{47}{subsubsection*.37}
-\contentsline {subsubsection}{\CJKfamily {hei}准静态的多方过程(polytropic process)}{47}{subsubsection*.38}
-\contentsline {subsubsection}{\CJKfamily {hei}自由膨胀过程}{48}{subsubsection*.40}
-\contentsline {subsubsection}{\CJKfamily {hei}向固定压强膨胀}{48}{subsubsection*.42}
-\contentsline {subsubsection}{\CJKfamily {hei}节流过程(throttling)}{49}{subsubsection*.44}
-\contentsline {section}{\numberline {11.4}开放系统的理想气体}{50}{section.11.4}
-\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}热力学第二定律}{55}{chapter.12}
-\contentsline {section}{\numberline {12.1}循环过程}{55}{section.12.1}
-\contentsline {subsubsection}{\CJKfamily {hei}勒鲁瓦循环(Lenoir cycle)}{58}{subsubsection*.8}
-\contentsline {subsubsection}{\CJKfamily {hei}奥托循环(Otto cycle)}{58}{subsubsection*.10}
-\contentsline {subsubsection}{\CJKfamily {hei}迪塞尔循环(Diesel cycle)}{59}{subsubsection*.12}
-\contentsline {subsubsection}{\CJKfamily {hei}布莱顿循环(Brayton cycle)}{59}{subsubsection*.14}
-\contentsline {subsubsection}{\CJKfamily {hei}卡诺循环(Carnot cycle)}{60}{subsubsection*.16}
-\contentsline {section}{\numberline {12.2}理想气体的熵}{60}{section.12.2}
-\contentsline {section}{\numberline {12.3}热力学第二定律}{62}{section.12.3}
-\contentsline {section}{\numberline {12.4}熵的计算}{65}{section.12.4}
-\contentsline {section}{\numberline {12.5}热力学函数与其特性}{68}{section.12.5}
-\contentsline {subsubsection}{\CJKfamily {hei}能态定理}{69}{subsubsection*.32}
-\contentsline {subsubsection}{\CJKfamily {hei}物性函数间关系}{72}{subsubsection*.35}
-\contentsline {subsubsection}{\CJKfamily {hei}吉布斯-亥姆霍兹方程}{73}{subsubsection*.36}
-\contentsline {section}{\numberline {12.6}近平衡态热力学*}{76}{section.12.6}
-\contentsline {subsubsection}{\CJKfamily {hei}傅里叶({\it Fourier\tmspace +\thinmuskip {.1667em}})热传导定律}{76}{subsubsection*.40}
-\contentsline {subsubsection}{\CJKfamily {hei}菲克({\it Fick\tmspace +\thinmuskip {.1667em}})扩散定律}{76}{subsubsection*.41}
-\contentsline {subsubsection}{\CJKfamily {hei}欧姆({\it Ohm\tmspace +\thinmuskip {.1667em}})定律}{76}{subsubsection*.42}
-\contentsline {subsubsection}{\CJKfamily {hei}索瑞({\it Soret\tmspace +\thinmuskip {.1667em}})效应}{76}{subsubsection*.43}
-\contentsline {subsubsection}{\CJKfamily {hei}杜福尔({\it Dufuer\tmspace +\thinmuskip {.1667em}})效应}{77}{subsubsection*.45}
-\contentsline {subsubsection}{\CJKfamily {hei}伽伐尼({\it Galvani\tmspace +\thinmuskip {.1667em}})接触电势差}{77}{subsubsection*.46}
-\contentsline {subsubsection}{\CJKfamily {hei}塞贝克({\it Seebeck\tmspace +\thinmuskip {.1667em}})效应}{77}{subsubsection*.47}
-\contentsline {subsubsection}{\CJKfamily {hei}佩尔捷({\it Peltier\tmspace +\thinmuskip {.1667em}})效应}{78}{subsubsection*.49}
-\contentsline {subsubsection}{\CJKfamily {hei}汤姆孙({\it Thomson\tmspace +\thinmuskip {.1667em}})效应}{78}{subsubsection*.50}
-\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}液体与固体的性质摘要}{83}{chapter.13}
-\contentsline {section}{\numberline {13.1}固体晶格论}{83}{section.13.1}
-\contentsline {section}{\numberline {13.2}固体电子论*}{84}{section.13.2}
-\contentsline {section}{\numberline {13.3}液体的彻体性质}{85}{section.13.3}
-\contentsline {section}{\numberline {13.4}液体的表面性质}{86}{section.13.4}
-\contentsline {section}{\numberline {13.5}极端条件下的其他物态}{86}{section.13.5}
-\contentsline {chapter}{\numberline {第十四章\hspace {.3em}}相与相变摘要}{89}{chapter.14}
-\contentsline {section}{\numberline {14.1}相平衡}{89}{section.14.1}
-\contentsline {section}{\numberline {14.2}气液相变}{89}{section.14.2}
-\contentsline {section}{\numberline {14.3}连续相变}{90}{section.14.3}
-\contentsline {section}{\numberline {14.4}拓扑相变}{90}{section.14.4}
-\contentsline {chapter}{\numberline {第十五章\hspace {.3em}}统计物理基础摘要}{91}{chapter.15}
-\contentsline {section}{\numberline {15.1}数学基础}{91}{section.15.1}
-\contentsline {section}{\numberline {15.2}统计假设}{97}{section.15.2}
-\contentsline {section}{\numberline {15.3}麦克斯韦分布律}{98}{section.15.3}
-\contentsline {section}{\numberline {15.4}能均分定理}{98}{section.15.4}
-\contentsline {section}{\numberline {15.5}功, 热, 熵}{98}{section.15.5}
-\contentsline {section}{\numberline {15.6}量子与相对论}{98}{section.15.6}
-\contentsline {chapter}{\numberline {第十六章\hspace {.3em}}光波与光线}{99}{chapter.16}
-\contentsline {section}{\numberline {16.1}界面上的反射与折射}{99}{section.16.1}
-\contentsline {subsubsection}{\CJKfamily {hei}半波损失发生条件}{103}{subsubsection*.9}
-\contentsline {subsubsection}{\CJKfamily {hei}布儒斯特角}{103}{subsubsection*.10}
-\contentsline {subsubsection}{\CJKfamily {hei}全内反射与隐失波}{104}{subsubsection*.12}
-\contentsline {section}{\numberline {16.2}光线方程}{105}{section.16.2}
-\contentsline {section}{\numberline {16.3}费马原理}{107}{section.16.3}
-\contentsline {chapter}{\numberline {第十七章\hspace {.3em}}光学成像}{109}{chapter.17}
-\contentsline {section}{\numberline {17.1}傍轴光成像}{109}{section.17.1}
-\contentsline {section}{\numberline {17.2}理想成像系统}{113}{section.17.2}
-\contentsline {section}{\numberline {17.3}更多讨论*}{118}{section.17.3}
-\contentsline {section}{\numberline {17.4}非傍轴成像}{120}{section.17.4}
-\contentsline {chapter}{\numberline {第十八章\hspace {.3em}}光学仪器知识摘要}{121}{chapter.18}
-\contentsline {section}{\numberline {18.1}光度学}{121}{section.18.1}
-\contentsline {section}{\numberline {18.2}光阑与光瞳}{122}{section.18.2}
-\contentsline {section}{\numberline {18.3}眼睛}{122}{section.18.3}
-\contentsline {section}{\numberline {18.4}显微镜}{122}{section.18.4}
-\contentsline {section}{\numberline {18.5}望远镜}{122}{section.18.5}
-\contentsline {section}{\numberline {18.6}照相机}{122}{section.18.6}
-\contentsline {chapter}{\numberline {第十九章\hspace {.3em}}静电学}{123}{chapter.19}
-\contentsline {section}{\numberline {19.1}电荷与电场}{123}{section.19.1}
-\contentsline {section}{\numberline {19.2}两个定律与电势}{127}{section.19.2}
-\contentsline {section}{\numberline {19.3}静电能}{131}{section.19.3}
-\contentsline {section}{\numberline {19.4}电荷体系}{135}{section.19.4}
-\contentsline {chapter}{\numberline {第二十章\hspace {.3em}}导体与介质}{141}{chapter.20}
-\contentsline {section}{\numberline {20.1}导体与静电平衡}{141}{section.20.1}
-\contentsline {section}{\numberline {20.2}电像法}{141}{section.20.2}
-\contentsline {section}{\numberline {20.3}电介质}{141}{section.20.3}
-\contentsline {section}{\numberline {20.4}再议静电能}{141}{section.20.4}
-\contentsline {chapter}{\numberline {第二十一章\hspace {.3em}}稳恒电流}{143}{chapter.21}
-\contentsline {section}{\numberline {21.1}稳恒电流描述与形成}{143}{section.21.1}
-\contentsline {section}{\numberline {21.2}电路与电路方程}{151}{section.21.2}
-\contentsline {section}{\numberline {21.3}电路分析基础}{151}{section.21.3}
-\contentsline {section}{\numberline {21.4}电路分析方法}{151}{section.21.4}
-\contentsline {section}{\numberline {21.5}半导体}{151}{section.21.5}
-\contentsline {chapter}{\numberline {第二十二章\hspace {.3em}}静磁场}{153}{chapter.22}
-\contentsline {section}{\numberline {22.1}电流与磁场}{153}{section.22.1}
-\contentsline {section}{\numberline {22.2}两个定理与矢势}{153}{section.22.2}
-\contentsline {section}{\numberline {22.3}磁偶极子}{153}{section.22.3}
-\contentsline {section}{\numberline {22.4}磁介质与磁能}{153}{section.22.4}
-\contentsline {section}{\numberline {22.5}超导简介}{153}{section.22.5}
-\contentsline {chapter}{\numberline {第二十三章\hspace {.3em}}电磁感应}{155}{chapter.23}
-\contentsline {section}{\numberline {23.1}动生电动势}{155}{section.23.1}
-\contentsline {section}{\numberline {23.2}感生电动势}{155}{section.23.2}
-\contentsline {section}{\numberline {23.3}自感与互感}{155}{section.23.3}
-\contentsline {section}{\numberline {23.4}法拉第电磁感应定律}{155}{section.23.4}
-\contentsline {chapter}{\numberline {第二十四章\hspace {.3em}}麦克斯韦方程组}{157}{chapter.24}
-\contentsline {section}{\numberline {24.1}麦克斯韦方程组}{157}{section.24.1}
-\contentsline {section}{\numberline {24.2}平面电磁波}{157}{section.24.2}
-\contentsline {section}{\numberline {24.3}电磁场能量与动量}{157}{section.24.3}
-\contentsline {section}{\numberline {24.4}电磁波辐射}{157}{section.24.4}
-\contentsline {chapter}{\numberline {第二十五章\hspace {.3em}}交流电路}{159}{chapter.25}
-\contentsline {section}{\numberline {25.1}代数与几何表示}{159}{section.25.1}
-\contentsline {section}{\numberline {25.2}常见电路}{159}{section.25.2}
-\contentsline {section}{\numberline {25.3}变压器}{159}{section.25.3}
-\contentsline {section}{\numberline {25.4}电能传输}{159}{section.25.4}
-\contentsline {chapter}{\numberline {第二十六章\hspace {.3em}}光的干涉}{161}{chapter.26}
-\contentsline {section}{\numberline {26.1}标量波理论}{161}{section.26.1}
-\contentsline {section}{\numberline {26.2}分波面干涉}{165}{section.26.2}
-\contentsline {subsection}{\numberline {26.2.1}杨氏双缝干涉仪}{165}{subsection.26.2.1}
-\contentsline {section}{\numberline {26.3}分振幅干涉}{165}{section.26.3}
-\contentsline {section}{\numberline {26.4}偏振干涉}{165}{section.26.4}
-\contentsline {section}{\numberline {26.5}相干性}{165}{section.26.5}
-\contentsline {section}{\numberline {26.6}多光束干涉}{165}{section.26.6}
-\contentsline {chapter}{\numberline {第二十七章\hspace {.3em}}光的衍射}{167}{chapter.27}
-\contentsline {section}{\numberline {27.1}光栅与波带片}{167}{section.27.1}
-\contentsline {section}{\numberline {27.2}布拉格衍射}{167}{section.27.2}
-\contentsline {section}{\numberline {27.3}衍射积分公式}{167}{section.27.3}
-\contentsline {section}{\numberline {27.4}波前分析法}{167}{section.27.4}
-\contentsline {chapter}{\numberline {第二十八章\hspace {.3em}}物理光学}{169}{chapter.28}
-\contentsline {section}{\numberline {28.1}经典色散理论}{169}{section.28.1}
-\contentsline {subsection}{\numberline {28.1.1}复波矢与复折射率}{169}{subsection.28.1.1}
-\contentsline {subsection}{\numberline {28.1.2}经典电子论的解释}{172}{subsection.28.1.2}
-\contentsline {section}{\numberline {28.2}色散,\tmspace +\thinmuskip {.1667em}散射与吸收}{174}{section.28.2}
-\contentsline {section}{\numberline {28.3}群速与展宽}{174}{section.28.3}
-\contentsline {section}{\numberline {28.4}光量子}{174}{section.28.4}
-\contentsline {chapter}{\numberline {第二十九章\hspace {.3em}}量子论}{175}{chapter.29}
-\contentsline {section}{\numberline {29.1}黑体辐射}{175}{section.29.1}
-\contentsline {section}{\numberline {29.2}光粒子性}{175}{section.29.2}
-\contentsline {section}{\numberline {29.3}玻尔原子}{175}{section.29.3}
-\contentsline {section}{\numberline {29.4}电子波动性}{175}{section.29.4}
-\contentsline {section}{\numberline {29.5}物质波与波函数}{175}{section.29.5}
-\contentsline {chapter}{\numberline {第三十章\hspace {.3em}}物理学尺度}{177}{chapter.30}
-\contentsline {section}{\numberline {30.1}宇观}{177}{section.30.1}
-\contentsline {section}{\numberline {30.2}宏观}{177}{section.30.2}
-\contentsline {section}{\numberline {30.3}介观}{177}{section.30.3}
-\contentsline {section}{\numberline {30.4}微观原子}{177}{section.30.4}
-\contentsline {section}{\numberline {30.5}微观亚原子}{177}{section.30.5}
