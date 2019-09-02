@@ -342,27 +342,27 @@
 \includegraphics[width=6cm]{image/6-1-7.png}
 \caption{Frenet框架}
 \end{wrapfigure}
-以上矢量模自然为$1$.\,因为分子$\ud \bs{r}$的长度就是分母的$\ud s$.\,方向则是在曲线的\emph{切线}(tangent line)方向.\,切线是这样一种线:\,曲线上有一点$P$.\,如果在$P$两侧任取一个点$Q$并连接$PQ$,\,使$Q$无限接近$P$即$\ud s \to 0$,\,那么$PQ$所在的直线的极限就是$P$点的切线.\,这又引申出第二个概念:\,如果在$P$所有各取一个点$Q,\,R$.\,那么$PQR$三点确定的圆也将随着$Q,\,R$同时无限接近于$P$而具有极限.\,这个圆叫做\emph{密切圆}或\emph{曲率圆}(osculating circle).\,其所在的平面叫做\emph{密切平面}(osculating plane).\,而圆心$C$为\emph{曲率中心}(center of curvature),\,最后,\,实际上$P$到$C$的方向就是\emph{法}(normal)方向,\,该方向的单位矢量叫做法矢量$\bs{n}$.\,而副法矢量$\bs{\tau}\times\bs{n}=\bs{b}$所决定的方向为\emph{副法}(binormal)方向.\,这样三个矢量便构成\emph{弗雷内框架}(Frenet frame)或称TNB框架.
+以上矢量模自然为$1$.\,因为分子$\ud \bs{r}$的长度就是分母的$\ud s$.\,方向则是在曲线的\emph{切线}(tangent line)方向.\,切线是这样一种线:\,曲线上有一点$P$.\,如果在$P$两侧任取一个点$Q$并连接$PQ$,\,使$Q$无限接近$P$即$\ud s \to 0$,\,那么$PQ$所在的直线的极限就是$P$点的切线.\,这又引申出第二个概念:\,如果在$P$所有各取一个点$Q,\,R$.\,那么$PQR$三点确定的圆也将随着$Q,\,R$同时无限接近于$P$而具有极限.\,这个圆叫做\emph{密切圆}或\emph{曲率圆}(osculating circle).\,其所在的平面叫做\emph{密切平面}(osculating plane).\,而圆心$C$为\emph{曲率中心}(center of curvature),\,最后,\,实际上$P$到$C$的方向就是\emph{法}(normal)方向,\,该方向的单位矢量叫做法矢量$\bs{n}$.\,而副法矢量$\bs{\tau}\times\bs{n}=\bs{\beta}$所决定的方向为\emph{副法}(binormal)方向.\,这样三个矢量便构成\emph{弗雷内框架}(Frenet frame)或称TNB框架.
 
 事实上,\,如果计算曲线在过程中的转向,\,它可以用三个矢量方向的变化来表示.\,如果计算三个矢量对$\ud s$的变化率,\,一定能写作:
 \[\begin{array}{rlll}
-\frac{\ud \bs{\tau}}{\ud s}=		&	+0\bs{\tau} 	&	+k\bs{n} 		& +\varepsilon\bs{b}\\
-\frac{\ud \bs{n}}{\ud s}=		&	-k\bs{\tau} 	&	+0\bs{n} 		& +\gamma\bs{b}\\
-\frac{\ud \bs{b}}{\ud s}=		&	-\varepsilon\bs{\tau} 	&	-\gamma\bs{n} 		& +0\bs{b}
+\frac{\ud \bs{\tau}}{\ud s}=		&	+0\bs{\tau} 	&	+k\bs{n} 		& +\varepsilon\bs{\beta}\\
+\frac{\ud \bs{n}}{\ud s}=		&	-k\bs{\tau} 	&	+0\bs{n} 		& +\gamma\bs{\beta}\\
+\frac{\ud \bs{\beta}}{\ud s}=		&	-\varepsilon\bs{\tau} 	&	-\gamma\bs{n} 		& +0\bs{\beta}
 \end{array}\]
 
 这是因为框架一定要具有正交归一的一套基矢量,\,而且这个性质在曲线上任何一点都要成立,\,指的是以下六个式子:
-\[\bs{\tau}\cdot\bs{\tau}=1\quad,\quad\bs{n}\cdot\bs{n}=1\quad,\quad \bs{b}\cdot\bs{b}=1\]
-\[\bs{\tau}\cdot\bs{n}=0\quad,\quad\bs{n}\cdot\bs{b}=0\quad,\quad \bs{b}\cdot\bs{\tau}=0\]
+\[\bs{\tau}\cdot\bs{\tau}=1\quad,\quad\bs{n}\cdot\bs{n}=1\quad,\quad \bs{\beta}\cdot\bs{\beta}=1\]
+\[\bs{\tau}\cdot\bs{n}=0\quad,\quad\bs{n}\cdot\bs{\beta}=0\quad,\quad \bs{\beta}\cdot\bs{\tau}=0\]
 
 对六个式子分别求导数就看出来了,\,\emph{一个单位矢量自己的导数必然垂直于自身},\,从而三个基矢导数在自己上的投影都必须为零.\,而两个不同基矢的导数互相在对方方向的投影则会正负相消,\,这样才能保证两个矢量始终正交.\,就能理解之前的$9$个系数为什么要写成这个形式.
 
-最后我们指出,\,系数$\varepsilon$应当是$0$.\,这是因为作为法线方向的定义本身,\,它就应当在$\bs{\tau}$的变化量$\ud\bs{\tau}$所在的方向上.\,从而第一个式子不会具有$\bs{b}$方向的分量.\,综上所述,\,我们得到了:
+最后我们指出,\,系数$\varepsilon$应当是$0$.\,这是因为作为法线方向的定义本身,\,它就应当在$\bs{\tau}$的变化量$\ud\bs{\tau}$所在的方向上.\,从而第一个式子不会具有$\bs{\beta}$方向的分量.\,综上所述,\,我们得到了:
 
 \[\begin{array}{rlll}
 \frac{\ud \bs{\tau}}{\ud s}=		&	 	&	+k\bs{n} 		& \\
-\frac{\ud \bs{n}}{\ud s}=		&	-k\bs{\tau} 	&	 		& +\gamma\bs{b}\\
-\frac{\ud \bs{b}}{\ud s}=		&	 	&	-\gamma\bs{n} 		& 
+\frac{\ud \bs{n}}{\ud s}=		&	-k\bs{\tau} 	&	 		& +\gamma\bs{\beta}\\
+\frac{\ud \bs{\beta}}{\ud s}=		&	 	&	-\gamma\bs{n} 		& 
 \end{array}\]
 
 这就是\emph{弗雷内公式}(Frenet formulae).\,其中$k$称作曲线的\emph{曲率}(curvature).\,它的意义是衡量了曲线方向转动的快慢,\,事实上由于曲线切线的无穷小转动角度其实在竖直上恰好会等于无穷小矢量$\ud\bs{\tau}$的长度,\,从而有:
@@ -372,16 +372,16 @@
 
 而$\gamma$则被称作\emph{挠率}(torsion).\,我们通过弗雷内公式的第三式可以发现,\,挠率反映了副法矢量,\,或者说被复法矢量作为法平面的密切平面,\,绕曲线此时的切线的旋转快慢.\,它使得粒子瞬时运动的那个平面在改变着.\,下面我们会发现,\,实际上挠率对运动学中直到加速度的表达式都是没有任何贡献的.
 
-如何用自然法描述粒子的运动?\,事实上这就相当于把粒子运动的路程$s$和三个矢量$\bs{\tau},\,\bs{n},\,\bs{b}$都表示为时间的函数:
-\[s(t),\,\bs{\tau}(t),\,\bs{n}(t),\,\bs{b}(t)\]
+如何用自然法描述粒子的运动?\,事实上这就相当于把粒子运动的路程$s$和三个矢量$\bs{\tau},\,\bs{n},\,\bs{\beta}$都表示为时间的函数:
+\[s(t),\,\bs{\tau}(t),\,\bs{n}(t),\,\bs{\beta}(t)\]
 
 但事实上,\,曲线本身轨迹必须先存在才能让我们事先确定好框架,\,而这样一个曲线其实本身由$\bs{r}(s)$给出,\,而且满足:
-\[\frac{\ud \bs{r}}{\ud s}=\bs{\tau}\quad,\quad \frac{\ud^2 \bs{r}}{\ud s^2}=k\bs{n}\quad,\quad \frac{\ud^3 \bs{r}}{\ud s^3}=-k^2\bs{\tau}+\frac{\ud k}{\ud s}\bs{n}+k\gamma\bs{b}\]
+\[\frac{\ud \bs{r}}{\ud s}=\bs{\tau}\quad,\quad \frac{\ud^2 \bs{r}}{\ud s^2}=k\bs{n}\quad,\quad \frac{\ud^3 \bs{r}}{\ud s^3}=-k^2\bs{\tau}+\frac{\ud k}{\ud s}\bs{n}+k\gamma\bs{\beta}\]
 
 然后我们唯一要做的就是给出$s(t)$函数,\,这一定可以帮助我们确定运动的各个量.
 
 事实上,\,由于泰勒展开公式,\,近似到三阶:
-\[\Delta \bs{r}\simeq\frac{\ud \bs{r}}{\ud s}\ud s+\frac{1}{2}\frac{\ud^2 \bs{r}}{\ud s^2}\ud s^2+\frac{1}{6}\frac{\ud^3 \bs{r}}{\ud s^3}\ud s^3=(k\ud s-\frac{k^2}{6}\ud s^3)\bs{\tau}+(\frac{k}{2}\ud s^2+\frac{1}{6}\frac{\ud k}{\ud s}\ud s^3)\bs{n}+\frac{k\gamma}{6}\ud s^3\bs{b}\]
+\[\Delta \bs{r}\simeq\frac{\ud \bs{r}}{\ud s}\ud s+\frac{1}{2}\frac{\ud^2 \bs{r}}{\ud s^2}\ud s^2+\frac{1}{6}\frac{\ud^3 \bs{r}}{\ud s^3}\ud s^3=(k\ud s-\frac{k^2}{6}\ud s^3)\bs{\tau}+(\frac{k}{2}\ud s^2+\frac{1}{6}\frac{\ud k}{\ud s}\ud s^3)\bs{n}+\frac{k\gamma}{6}\ud s^3\bs{\beta}\]
 
 如果只保留领头项,\,忽略高阶小量.\,我们就得到,\,在粒子运动的局域坐标系中,\,位移$\ud s$长度到达的点三个坐标$T,\,N,\,B$分别近似为:
 \[T=\ud s \quad,\quad N=\frac{k}{2}\ud s^2 \quad,\quad B=\frac{k\gamma}{6}\ud s^3\]
@@ -399,7 +399,7 @@
 速度方向必然沿切向,\,大小上就等于$\dot{s}$,\,即单位时间走过的弧长.\,而加速度则有两个分量.\,一是由于速率在增减导致的切向加速度,\,大小等于$a_\tau=\ddot{s}$;\,第二项则是由于曲线的弯曲导致的法向加速度.\,它的值为$a_n=\dot{s}^2/\rho$.\,
 
 如果要计算急动度等,\,可以从之前的泰勒展示中获得,\,其实还可以直接对加速度求导数,\,此时表达式会突然产生很多项:
-\[\bs{j}=(\dddot{s}-k^2\dot{s}^3)\bs{\tau}+(3k\dot{s}\ddot{s}+\dot{k}\dot{s}^3)\bs{n}+k\gamma\dot{s}^3\bs{b}\]
+\[\bs{j}=(\dddot{s}-k^2\dot{s}^3)\bs{\tau}+(3k\dot{s}\ddot{s}+\dot{k}\dot{s}^3)\bs{n}+k\gamma\dot{s}^3\bs{\beta}\]
 
 利用自然坐标下的分解方式,\,如果已经直到特定曲线的曲率,\,就可以根据质点在曲线上的运动方式来计算运动的加速度.\,但是反过来利用运动学公式来确定曲线的曲率半径也不失为一种极其简单的做法.\,我们注意到,\,利用加速度在垂直于速度方向的那个分量即为$v^2/\rho$的结论,\,可以得到:
 \[\rho=\frac{\bs{v}^3}{\abs{\bs{a}\times\bs{v}}}\]
@@ -480,12 +480,91 @@
 即:\,刚体上一点速度等于跟随基点平动的加速度$\bs{a}_{C}$加上绕基点以$\bs{\beta}$转动的角向加速度$\bs{\beta}\times\bs{R}$,\,最后再加上由于速度$\bs{\omega}\times\bs{R}$本身也在绕轴以$\bs{\omega}$旋转带来的向轴加速度$\bs{\omega}\times(\bs{\omega}\times\bs{R})$的和.
 
 
-
-
-
-
-
 \section{参考系变换}
+
+\subsection{点变换}
+
+事实上,\,对旋转坐标系的分析正如对刚体的分析那样,\,一个旋转坐标系的描述正由两点构成,\,一是这个参考系原点$C$的运动方程.\,给出它我们就可以求出任意时刻另一个参考原点的速度与加速度:
+\[\bs{v}_C=\dot{\bs{r}}_C\quad,\quad \bs{a}_C=\ddot{\bs{r}}_C\]
+
+
+\begin{wrapfigure}[14]{o}[-10pt]{6cm}\label{6-1-10}
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=6cm]{image/6-1-10.png}
+\caption{参考系变换}
+\end{wrapfigure}
+第二点就是要给出新参考系的旋转角速度$\bs{\omega}$,\,角加速度记作$\bs{\beta}=\dot{\bs{\omega}}$.\,通过上一节我们知道,\,如果选取固连在新参考系的点$P$,\,并且把$\bs{CP}$记作$\bs{r}'$.\,那么$P$点速度加速度(现在记作$\bs{v}_c,\,\bs{a}_c$)为:
+\[\bs{v}_c=\bs{v}_C+\bs{\omega}\times \bs{r}'\]
+\[\bs{a}_c=\bs{a}_C+\bs{\omega}\times (\bs{\omega}\times\bs{r}')+\bs{\beta}\times\bs{r}'\]
+
+我们现在研究什么问题呢?\,如果我们在$O-xyz$系中给出一个质点,\,也用$P$表示,\,的运动方程$x(t),\,y(t),\,z(t)$.\,其实也就给出了在$C-\xi\eta\zeta$系中的运动方程$\xi(t),\,\eta(t),\,\zeta(t)$.\,那么把位矢$\bs{OP}$记作$\bs{r}$,\,$\bs{CP}$记作$\bs{r}'$.\,再把$\bs{OC}$记作$\bs{r}_C$.\,于是得到恒等式:
+\[\bs{r}=\bs{r}_C+\bs{r}'\]
+
+但这不代表$\bs{v}=\bs{v}_C+\bs{v}'$.\,这里我们要注意有一点已经悄悄发生改变了,\,那就是导数,\,作为一个算符,\,变成了一个有多种自由定义余地的概念.\,只要想想这一点:\,从运动方程求出速度的过程叫做求导\footnote{导数就是从运动方程到速度矢量的映射},\,但是同一个运动方程对应的运动是同一个运动,\,但是在不同参考系中依然可以有多个不同的取值.\,这就足以说明有多种不同的求导方法.\,具体来说,\,这里的$\bs{r}'$可能有三种情况:\,a.\,固连在$C$系中,\,相对$C$系大小方向不变.\,b.\,相对地面系$O$系大小方向都不变,\,即$P$跟随$C$相对地面系平移.\,c.\,两者都不是.\,那么相应地定义三种导数:
+\begin{enumerate}
+	\item 绝对导数:\,即平常的$\displaystyle\frac{\ud}{\ud t}$,\,可以简单地用加点来代替.\,我们还创造一个新的符号$\uD$来表示求导,\,例如对于情形$b$,\,这个导数就是零.\,求导数的方法是:\,找到一个矢量在$O$系中每时每刻向三个坐标轴方向的投影分量并分别求导最后组合为矢量.\,用这个导数能定义$P$点在$O$系中的速度与加速度:
+	\[\bs{v}=\uD \bs{r}(=\frac{\ud}{\ud t}\bs{r}=\dot{\bs{r}})\quad,\quad\bs{a}=\uD \bs{v} \]
+	\item 相对导数:\,这就是要换相对$C$系的视角来研究一个矢量的导数了.\,我们记作$\uD'$.\,例如对于情形$a$,\,那么相对导数就是零.\,求导数的方法是:\,找到一个矢量在$C$系中每时每刻向三个坐标轴方向的投影分量并分别求导最后组合为矢量.\,这也就是说它用来定义相对速度和相对加速度是合适的:
+	\[\bs{v}'=\uD'\bs{r}'=\dot{r_1'}\bs{i}+\dot{r_2'}\bs{j}+\dot{r_3'}\bs{k}\quad ,\quad \bs{a}'=\uD'\bs{v}'=\ddot{r_1'}\bs{i}+\ddot{r_2'}\bs{j}+\ddot{r_3'}\bs{k}\]
+	\item 随体导数:\,这是矢量由于跟随$C$系转动而带来的相对$O$系的变化率.\,我们记作$\widetilde{\uD}$.\,例如在情形$a$中,\,$\bs{r}'$随体导数就是$\bs{\omega}\times\bs{r}'$.\,这个算符其实就等价于$\omega\times$,\,这是因为他就定义为:
+	\[\widetilde{\uD}\bs{A}=A_1\bs{\ddot{\imath}}+A_2\bs{\ddot{\jmath}}+A_3\bs{\dot{k}}=A_1\bs{\omega}\times\bs{i}+A_2\bs{\omega}\times\bs{j
+	}+A_3\bs{\omega}\times\bs{k}=\bs{\omega}\times(A_1\bs{i}+A_2\bs{j}+A_3\bs{k})=\bs{\omega}\times\bs{A}\]
+\end{enumerate}
+
+值得注意的是,\,这三个导数算符之间有如下关系:
+\[\uD=\widetilde{\uD}+\uD'\]
+
+这很容易证明,\,对一个矢量求导数,\,一看分量变不变,\,而看基矢量本身有没有旋转.\,那么就会产生两项.\,实际上就是莱布尼茨法则.
+
+于是这才能推理参考系变换的公式.\,我们对$\bs{r}=\bs{r}_C+\bs{r}'$两边求绝对导数:
+\[\bs{v}=\uD\bs{r}=\uD\bs{r}_C+\uD\bs{r}'=\bs{v}_C+(\widetilde{\uD}+\uD')\bs{r}'=\bs{v}_C+\bs{\omega}\times\bs{r}'+\bs{v}'\]
+
+再次对上式两边求绝对导数:
+\begin{align*}
+\bs{a}=\uD\bs{v} &=\uD\bs{v}_C+\uD\bs{\omega}\times\bs{r}'+\bs{\omega}\times\uD\bs{r}'+\uD\bs{v}'\\
+	  			 &=\bs{a}_C+\bs{\beta}\times\bs{r}'+\bs{\omega}\times(\widetilde{\uD}+\uD')\bs{r}'+(\widetilde{\uD}+\uD')\bs{v}'\\
+	  			 &=\bs{a}_C+\bs{\beta}\times\bs{r}'+\bs{\omega}\times(\bs{\omega}\times\bs{r}')+\bs{\omega}\times\bs{v}'+\bs{\omega}\times\bs{v}'+\bs{a}'\\
+	  			 &=\bs{a}_C+\bs{\beta}\times\bs{r}'+\bs{\omega}\times(\bs{\omega}\times\bs{r}')+2\bs{\omega}\times\bs{v}'+\bs{a}'
+\end{align*}
+
+这两个公式就是参考系变换下的变换公式:
+\[\bs{v}=\bs{v}_C+\bs{\omega}\times\bs{r}'+\bs{v}'\]
+\[\bs{a}=\bs{a}_C+\bs{\beta}\times\bs{r}'+\bs{\omega}\times(\bs{\omega}\times\bs{r}')+2\bs{\omega}\times\bs{v}'+\bs{a}'\]
+
+如何理解以上的公式?\,事实上结构也很简单,\,我们把加速度中的最独特的一项单独拿出来叫做\emph{柯里奥利加速度}(Coriolis accelaration):
+\[a_c'=2\bs{\omega}\times\bs{v}'\]
+
+那么以上两公式具有以下结构:
+\[\text{绝对}=\text{牵连}(+\text{柯氏})+\text{相对}\]
+
+柯氏即柯里奥利.\,相对速度与相对加速度就是$\bs{v}',\,\bs{a}'$.\,言下之意就是我们定义了所谓的\emph{牵连速度}(convected velocity)与\emph{牵连加速度}(convected acceleration):
+\[\bs{v}_c=\bs{v}_C+\bs{\omega}\times \bs{r}'\]
+\[\bs{a}_c=\bs{a}_C+\bs{\omega}\times (\bs{\omega}\times\bs{r}')+\bs{\beta}\times\bs{r}'\]
+
+细心的读者已经发现了,\,这两个式子和本节最开始推导出来的固连在$C$系中的点的绝对速度,\,加速度公式是一致的.\,牵连速度(加速度),\,顾名思义,\,被转动参考系``带着走''的速度(加速度).\,也正是以上规律启发我们总结出以下的动点动系法来理解看似复杂的速度加速度合成公式:
+\begin{enumerate}
+	\item 确定定系,\,动系,\,动点,\,定点.\,定系往往就是地面系;\,动系一般是相对某刚体或人为构造的刚性框架相对静止的参考系\footnote{注意,\,以下整个过程都可以脱离具体的坐标系而计算,\,这就为坐标系的选取(种类是直角坐标系,\,极座标系还是自然坐标系,\,方向如何)彻底提供了自由.};\,动点就是选做研究对象的相对两个系一般都有运动的点.\,最后,\,定点指的是这样的概念:\,在研究的一瞬间与动点重合,\,但是始终保持与动系固连的特殊参考点.
+	\item 在定系考虑动点的运动.\,算出绝对量.\,在动系考虑动点的运动.\,算出相对量.\,在定系中考虑定点的运动,\,它的量就是牵连量.
+	\item 建立绝对相对牵连之间的等量关系.
+	\item 唯一要注意的是:\,只有当转动系是真转动的$\bs{\omega}\neq\bs{0}$,\,而且相对动系动点也是真运动的$\bs{v}'\neq\bs{0}$时,\,我们才有必要在加速度中添加一项柯氏加速度$2\bs{\omega}\times\bs{v}'$.\,从推导过程来看,\,一是即使固连在动系中的速度矢量也会跟随动系转动而带来加速度,\,二是动系中的相对位矢产生变化而带来在变化的牵连速度从而产生加速度,\,是造成柯氏加速度的两个因素.\,这一项不是因为在动系中的某特定位置而造成的,\,事实上与$\bs{r}'$无关,\,决定性因素是``相对动系有速度''.
+\end{enumerate}
+
+最后值得注意,\,如果$\bs{\omega}$和$\bs{\beta}$恒为零,\,这也并不少见,\,那么这样的动系就是\emph{平动系}(translational frame).\,此时公式极为简单,\,没有柯氏加速度,\,牵连量就是动系原点或任意固连点的量:
+\[\bs{v}=\bs{v}_C+\bs{v}'\quad,\quad \bs{a}=\bs{a}_C+\bs{a}'\]
+
+\subsection{刚体变换}
+
+刚体的变换是点变换的直接推论.\,同样地,\,首先已知动系相对定系具有原点速度$\bs{v}_C$和加速度$\bs{a}_C$以及角速度$\bs{\omega}$和加速度$\bs{\beta}$,\,又已知定系中刚体基点速度加速度,\,现在记作$\bs{V},\,\bs{A}$.\,事实上我们还要给出刚体自己的角速度角加速度才算是对刚体的完整描述,\,它们为$\bs{\varOmega},\,\bs{B}$.\,那么绝对的和相对的各个量之间的关系为:
+\[\bs{V}=\bs{v}_C+\bs{\omega}\times\bs{R}'+\bs{V}'\quad,\quad \bs{\varOmega}=\bs{\omega}+\bs{\varOmega}'\]
+\[\bs{A}=\bs{a}_C+\bs{\beta}\times\bs{R}'+\bs{\omega}\times(\bs{\omega}\times\bs{R}')+2\bs{\omega}\times\bs{V}'+\bs{A}'\quad,\quad \bs{B}=\bs{\beta}+\omega\times\bs{\varOmega}'+\bs{B}'\]
+
+证明过程留作练习由读者自己思考.
 
 \section{运动的牵连}
 
+\subsection{接触系}
+
+\subsection{纯滚系}
+
+\subsection{约束系}

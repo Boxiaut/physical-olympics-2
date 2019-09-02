@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.18)  29 AUG 2019 18:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.18)  31 AUG 2019 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,47 +1075,47 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 (./chapter/relativity.aux))
 \openout1 = `physical-olympics-2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 85.
 
 (c:/texlive/2019/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 85.
 
 (c:/texlive/2019/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 85.
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 84.
+LaTeX Info: Redefining \selectfont on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1152,7 +1152,7 @@ LaTeX Info: Redefining \selectfont on input line 84.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 84.
+Package hyperref Info: Link coloring ON on input line 85.
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1161,9 +1161,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 (./physical-olympics-2.out) (./physical-olympics-2.out)
 \@outlinefile=\write3
@@ -1200,124 +1200,124 @@ Package fontspec Info: Font family 'FZYouHeiS(0)' created for font 'FZYouHeiS'
 (fontspec)             <->"FZYouHeiS/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 91.
 (c:/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 90.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 91.
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 91.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 90.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 91.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <26.09749> on input line 90.
+(Font)              <26.09749> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <22.08249> on input line 90.
+(Font)              <22.08249> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16.06> on input line 90.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 90
+(Font)              <16.06> on input line 91.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 91
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 90.
+(Font)              scaled to size 25.05376pt on input line 91.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 90.
+(Font)              scaled to size 21.19933pt on input line 91.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 90.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 90
+(Font)              scaled to size 15.4177pt on input line 91.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 91
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 90.
+(Font)              scaled to size 25.05376pt on input line 91.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 90.
+(Font)              scaled to size 21.19933pt on input line 91.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 90.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 90
+(Font)              scaled to size 15.4177pt on input line 91.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 91
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 90.
+(Font)              scaled to size 25.05376pt on input line 91.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 90.
+(Font)              scaled to size 21.19933pt on input line 91.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 90.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 90
+(Font)              scaled to size 15.4177pt on input line 91.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 91
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 90.
+(Font)              scaled to size 25.05376pt on input line 91.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 90.
+(Font)              scaled to size 21.19933pt on input line 91.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 90.
+(Font)              scaled to size 15.4177pt on input line 91.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <26.09749> not available
-(Font)              size <24.88> substituted on input line 90.
+(Font)              size <24.88> substituted on input line 91.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <22.08249> not available
-(Font)              size <20.74> substituted on input line 90.
+(Font)              size <20.74> substituted on input line 91.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 90.
+(Font)              size <17.28> substituted on input line 91.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.045> on input line 90.
+(Font)              <12.045> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 90.
+(Font)              <6> on input line 91.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 90.
+(Font)              scaled to size 11.56328pt on input line 91.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 91.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 91.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 90.
+(Font)              scaled to size 11.56328pt on input line 91.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 91.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 91.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 90.
+(Font)              scaled to size 11.56328pt on input line 91.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 91.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 91.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 90.
+(Font)              scaled to size 11.56328pt on input line 91.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 91.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 91.
 [1
 
 
@@ -1334,7 +1334,7 @@ This may cause the page layout to be inconsistent, however.
 ]
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/b/n' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 93.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 94.
 
 (./physical-olympics-2.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1381,7 +1381,7 @@ LaTeX Font Warning: Font shape `OML/eur/m/n' in size <10.53937> not available
 
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 96.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 97.
 
 [2]
 \openout2 = `chapter/kinematics.aux'.
@@ -1512,26 +1512,67 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 (Font)              scaled to size 7.22704pt on input line 433.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
 (Font)              scaled to size 7.22704pt on input line 433.
- [15]) [16] [17]
+ [15] [16]
+File: image/6-1-10.png Graphic file (type bmp)
+<image/6-1-10.png>
+
+Overfull \hbox (3.45781pt too wide) in paragraph at lines 518--519
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 很 容 易 证 明\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
+/m/n/10.53937 对 一 个 矢 量 求 导 数\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937
+ 一 看 分 量 变 不 变\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 看 基 矢 量 本 身 
+有 没 有 旋 转\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 就 会 产 生 两 项\T1/
+lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 实
+ []
+
+[17]
+Overfull \hbox (13.02522pt too wide) in paragraph at lines 541--542
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 柯 氏 即 柯 里 奥 利\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(
+0)/m/n/10.53937 相 对 速 度 与 相 对 加 速 度 就 是 $[][]\OML/lmm/m/it/10.53937 ;  [][]$\T1
+/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 言 下 之 意 就 是 我 们 定 义 了 所 谓 的[]牵 
+连 速 度[]\T1/lmr/m/n/10.53937 (convected
+ []
+
+
+Overfull \hbox (2.15442pt too wide) in paragraph at lines 553--554
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后 值 得 注 意\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
+/m/n/10.53937 如 果 $[]$ 和 $[]$ 恒 为 零\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10
+.53937 这 也 并 不 少 见\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 这 样 的 
+动 系 就 是[]平 动 系[]\T1/lmr/m/n/10.53937 (translational frame).\TU/方正聚珍新仿简体(0)/m/n/
+10.53937 此
+ []
+
+[18]) [19]
 \openout2 = `chapter/dynamics.aux'.
 
- (./chapter/dynamics.tex [18
+ (./chapter/dynamics.tex [20
 
 
 
 ]
 第二章
-[19]) [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+[21] [22] [23]
+Overfull \hbox (2.57611pt too wide) in paragraph at lines 79--80
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 也 正 是 牛 顿 第 三 定 律 暗 示 了 牛 顿 经 典 力 学 体 系 的 缺 点\T1
+/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 因 为 我 们 无 法 解 释 牛 顿 第 三 定 律 的 \
+T1/lmr/m/n/10.53937 ``\TU/方正聚珍新仿简体(0)/m/n/10.53937 自 然 性\T1/lmr/m/n/10.53937 ''
+,\TU/方正聚珍新仿简体(0)/m/n/10.53937 取
+ []
+
+[24] [25])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+[27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./physical-olympics-2.aux (./chapter/kinematics.aux)
 (./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
 (./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/fluid.aux)
 (./chapter/elasticity.aux) (./chapter/relativity.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 72259F972DEE5AB6B4C524C037831179.
+(rerunfilecheck)             Checksum: D468B33A6FC991120A68E9B7538A08F9.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1543,15 +1584,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 30234 strings out of 492909
- 590638 string characters out of 6136299
- 689517 words of memory out of 5000000
- 33826 multiletter control sequences out of 15000+600000
- 653312 words of font info for 186 fonts, out of 8000000 for 9000
+ 30253 strings out of 492909
+ 590998 string characters out of 6136299
+ 696540 words of memory out of 5000000
+ 33842 multiletter control sequences out of 15000+600000
+ 653328 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,13n,92p,948b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (22 pages, 324272 bytes).
+Output written on physical-olympics-2.xdv (29 pages, 472380 bytes).
