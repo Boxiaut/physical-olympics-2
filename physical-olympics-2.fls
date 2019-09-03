@@ -433,6 +433,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchbma.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchbmb.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb7.tfm
 INPUT image/6-1-10.png
+INPUT image/6-1-11.png
 OUTPUT chapter/dynamics.aux
 INPUT chapter/dynamics.tex
 INPUT chapter/dynamics.tex
