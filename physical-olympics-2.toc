@@ -1,63 +1,64 @@
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}运动学}{5}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}时空与物质}{5}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}时空观,\tmspace +\thinmuskip {.1667em}坐标系}{5}{subsection.1.1.1}% 
-\contentsline {subsection}{\numberline {1.1.2}物质}{7}{subsection.1.1.2}% 
-\contentsline {subsection}{\numberline {1.1.3}参考系,\tmspace +\thinmuskip {.1667em}物理规律与其不变性}{9}{subsection.1.1.3}% 
-\contentsline {section}{\numberline {1.2}运动的描述}{10}{section.1.2}% 
-\contentsline {subsection}{\numberline {1.2.1}质点的运动}{10}{subsection.1.2.1}% 
-\contentsline {subsection}{\numberline {1.2.2}刚体的运动}{17}{subsection.1.2.2}% 
-\contentsline {section}{\numberline {1.3}参考系变换}{19}{section.1.3}% 
-\contentsline {subsection}{\numberline {1.3.1}点变换}{19}{subsection.1.3.1}% 
-\contentsline {subsection}{\numberline {1.3.2}刚体变换}{21}{subsection.1.3.2}% 
-\contentsline {section}{\numberline {1.4}运动的牵连}{21}{section.1.4}% 
-\contentsline {subsection}{\numberline {1.4.1}接触系}{21}{subsection.1.4.1}% 
-\contentsline {subsection}{\numberline {1.4.2}纯滚系}{22}{subsection.1.4.2}% 
-\contentsline {subsection}{\numberline {1.4.3}约束系}{22}{subsection.1.4.3}% 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}动力学}{25}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}牛顿定律}{25}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}概述}{25}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}牛顿第一定律}{26}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}牛顿第二定律}{26}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}牛顿第三定律}{27}{subsection.2.1.4}% 
-\contentsline {subsection}{\numberline {2.1.5}质点系与它的牛顿定律}{28}{subsection.2.1.5}% 
-\contentsline {subsection}{\numberline {2.1.6}非惯性系的处理}{30}{subsection.2.1.6}% 
-\contentsline {section}{\numberline {2.2}动量定律}{30}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}质点的动量}{30}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}质点系的动量}{31}{subsection.2.2.2}% 
-\contentsline {section}{\numberline {2.3}角动量定律}{32}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}质点的角动量}{32}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}质点系的角动量}{33}{subsection.2.3.2}% 
-\contentsline {section}{\numberline {2.4}能量定律}{34}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}质点的动能}{34}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}质点系的动能}{34}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}其它能量形式}{35}{subsection.2.4.3}% 
-\contentsline {subsubsection}{保守力}{36}{subsubsection*.12}% 
-\contentsline {subsubsection}{约束力}{37}{subsubsection*.13}% 
-\contentsline {subsubsection}{耗散力}{37}{subsubsection*.14}% 
-\contentsline {section}{\numberline {2.5}位力定律*}{38}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}质点的位力}{38}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}质点系的位力}{39}{subsection.2.5.2}% 
-\contentsline {section}{\numberline {2.6}碰撞问题}{40}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}二质点正碰}{40}{subsection.2.6.1}% 
-\contentsline {subsection}{\numberline {2.6.2}自由刚体的碰撞}{43}{subsection.2.6.2}% 
-\contentsline {subsection}{\numberline {2.6.3}多体碰撞}{43}{subsection.2.6.3}% 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}静力学}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}约束}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}力系化简}{29}{section.3.2}
-\contentsline {section}{\numberline {3.3}平衡问题}{29}{section.3.3}
-\contentsline {section}{\numberline {3.4}虚功原理}{29}{section.3.4}
-\contentsline {section}{\numberline {3.5}分析力学初步}{29}{section.3.5}
-\contentsline {section}{\numberline {3.6}平衡态稳定性}{29}{section.3.6}
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}振动与波}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}方程与谐振}{31}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}简谐振动的定义}{31}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}简谐振动的性质}{31}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}多自由度小振动*}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}非线性摄动}{32}{section.4.4}
-\contentsline {section}{\numberline {4.5}格波}{32}{section.4.5}
-\contentsline {section}{\numberline {4.6}波动方程}{32}{section.4.6}
-\contentsline {section}{\numberline {4.7}波的色散}{32}{section.4.7}
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}序}{7}{chapter.1}
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}运动学}{5}{chapter.1}\protected@file@percent 
+\contentsline {section}{\numberline {1.1}时空与物质}{5}{section.1.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.1.1}时空观,\tmspace +\thinmuskip {.1667em}坐标系}{5}{subsection.1.1.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.1.2}物质}{7}{subsection.1.1.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.1.3}参考系,\tmspace +\thinmuskip {.1667em}物理规律与其不变性}{9}{subsection.1.1.3}\protected@file@percent 
+\contentsline {section}{\numberline {1.2}运动的描述}{10}{section.1.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.2.1}质点的运动}{10}{subsection.1.2.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.2.2}刚体的运动}{17}{subsection.1.2.2}\protected@file@percent 
+\contentsline {section}{\numberline {1.3}参考系变换}{19}{section.1.3}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.3.1}点变换}{19}{subsection.1.3.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.3.2}刚体变换}{21}{subsection.1.3.2}\protected@file@percent 
+\contentsline {section}{\numberline {1.4}运动的牵连}{21}{section.1.4}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.4.1}接触系}{21}{subsection.1.4.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.4.2}纯滚系}{22}{subsection.1.4.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {1.4.3}约束系}{22}{subsection.1.4.3}\protected@file@percent 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}动力学}{25}{chapter.2}\protected@file@percent 
+\contentsline {section}{\numberline {2.1}牛顿定律}{25}{section.2.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.1.1}概述}{25}{subsection.2.1.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.1.2}牛顿第一定律}{26}{subsection.2.1.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.1.3}牛顿第二定律}{26}{subsection.2.1.3}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.1.4}牛顿第三定律}{27}{subsection.2.1.4}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.1.5}质点系与它的牛顿定律}{28}{subsection.2.1.5}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.1.6}非惯性系的处理}{30}{subsection.2.1.6}\protected@file@percent 
+\contentsline {section}{\numberline {2.2}动量定律}{30}{section.2.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.2.1}质点的动量}{30}{subsection.2.2.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.2.2}质点系的动量}{31}{subsection.2.2.2}\protected@file@percent 
+\contentsline {section}{\numberline {2.3}角动量定律}{32}{section.2.3}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.3.1}质点的角动量}{32}{subsection.2.3.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.3.2}质点系的角动量}{33}{subsection.2.3.2}\protected@file@percent 
+\contentsline {section}{\numberline {2.4}能量定律}{34}{section.2.4}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.4.1}质点的动能}{34}{subsection.2.4.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.4.2}质点系的动能}{34}{subsection.2.4.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.4.3}其它能量形式}{35}{subsection.2.4.3}\protected@file@percent 
+\contentsline {subsubsection}{保守力}{36}{subsubsection*.12}\protected@file@percent 
+\contentsline {subsubsection}{约束力}{37}{subsubsection*.13}\protected@file@percent 
+\contentsline {subsubsection}{耗散力}{37}{subsubsection*.14}\protected@file@percent 
+\contentsline {section}{\numberline {2.5}位力定律*}{38}{section.2.5}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.5.1}质点的位力}{38}{subsection.2.5.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.5.2}质点系的位力}{39}{subsection.2.5.2}\protected@file@percent 
+\contentsline {section}{\numberline {2.6}碰撞问题}{40}{section.2.6}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.6.1}二质点正碰}{40}{subsection.2.6.1}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.6.2}自由刚体的碰撞}{43}{subsection.2.6.2}\protected@file@percent 
+\contentsline {subsection}{\numberline {2.6.3}多体碰撞}{43}{subsection.2.6.3}\protected@file@percent 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}静力学}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}约束}{45}{section.3.1}
+\contentsline {section}{\numberline {3.2}力系化简}{45}{section.3.2}
+\contentsline {section}{\numberline {3.3}平衡问题}{45}{section.3.3}
+\contentsline {section}{\numberline {3.4}虚功原理}{45}{section.3.4}
+\contentsline {section}{\numberline {3.5}分析力学初步}{45}{section.3.5}
+\contentsline {section}{\numberline {3.6}平衡态稳定性}{45}{section.3.6}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}振动与波}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}方程与谐振}{47}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}简谐振动的定义}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}简谐振动的性质}{47}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{48}{section.4.2}
+\contentsline {section}{\numberline {4.3}多自由度小振动*}{48}{section.4.3}
+\contentsline {section}{\numberline {4.4}非线性摄动}{48}{section.4.4}
+\contentsline {section}{\numberline {4.5}格波}{48}{section.4.5}
+\contentsline {section}{\numberline {4.6}波动方程}{48}{section.4.6}
+\contentsline {section}{\numberline {4.7}波的色散}{48}{section.4.7}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{33}{chapter.5}
 \contentsline {section}{\numberline {5.1}有心力下运动}{33}{section.5.1}
 \contentsline {section}{\numberline {5.2}万有引力下运动}{33}{section.5.2}
