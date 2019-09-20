@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  18 SEP 2019 10:23
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  20 SEP 2019 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1995,15 +1995,6 @@ LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/b/n' undefined
 (Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 94.
 
 (./physical-olympics-2.toc
-! Undefined control sequence.
-l.2 ...}}运动学}{5}{chapter.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.53937> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2035,430 +2026,27 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 4.80003pt on input line 3.
 
+
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 3.
-
-! Undefined control sequence.
-l.3 ...与物质}{5}{section.1.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.4 ...5}{subsection.1.1.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.5 ...7}{subsection.1.1.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.6 ...9}{subsection.1.1.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.7 ...描述}{10}{section.1.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.8 ...0}{subsection.1.2.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.9 ...7}{subsection.1.2.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.10 ...换}{19}{section.1.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.11 ...}{subsection.1.3.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.12 ...}{subsection.1.3.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.13 ...连}{21}{section.1.4}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.14 ...}{subsection.1.4.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.15 ...}{subsection.1.4.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.16 ...}{subsection.1.4.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.17 ...动力学}{25}{chapter.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 ...律}{25}{section.2.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.19 ...}{subsection.2.1.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 ...}{subsection.2.1.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.21 ...}{subsection.2.1.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.22 ...}{subsection.2.1.4}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.23 ...}{subsection.2.1.5}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.24 ...}{subsection.2.1.6}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.25 ...律}{30}{section.2.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.26 ...}{subsection.2.2.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.27 ...}{subsection.2.2.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.28 ...律}{32}{section.2.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.29 ...}{subsection.2.3.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.30 ...}{subsection.2.3.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.31 ...律}{34}{section.2.4}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.32 ...}{subsection.2.4.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.33 ...}{subsection.2.4.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.34 ...}{subsection.2.4.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.35 ...{subsubsection*.12}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.36 ...{subsubsection*.13}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.37 ...{subsubsection*.14}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.38 ...*}{38}{section.2.5}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 [1
 
 ]
-! Undefined control sequence.
-l.39 ...}{subsection.2.5.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.40 ...}{subsection.2.5.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.41 ...题}{40}{section.2.6}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.42 ...}{subsection.2.6.1}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.43 ...}{subsection.2.6.2}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.44 ...}{subsection.2.6.3}\protected@file@percent
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 78.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 80.
 
 [2])
 \tf@toc=\write4
 \openout4 = `physical-olympics-2.toc'.
 
  [3]
-
-! LaTeX Error: No counter 'caption@flags' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 \include{chapter/kinematics}
-                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'caption@flags' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 \include{chapter/dynamics}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 \openout2 = `chapter/statics.aux'.
 
-(./chapter/statics.tex
-第三章
-) [45
+ (./chapter/statics.tex
+第四章
+) [49
 
 
 
@@ -2467,12 +2055,12 @@ or  <return>  to continue without it.
 ]
 \openout2 = `chapter/harmonics.aux'.
 
- (./chapter/harmonics.tex [46
+ (./chapter/harmonics.tex [50
 
 
 
 ]
-第四章
+第五章
 LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
 (Font)              scaled to size 10.19151pt on input line 14.
 LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
@@ -2495,17 +2083,25 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
 (Font)              size <8> substituted on input line 26.
 
-[47]) [48]
+[51]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 52.
+ (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 52.
+ [52]) [53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
- (./physical-olympics-2.aux (./chapter/preamble.aux)
-(./chapter/kinematics.aux) (./chapter/dynamics.aux) (./chapter/statics.aux)
-(./chapter/harmonics.aux) (./chapter/gravity.aux) (./chapter/rigidbody.aux)
-(./chapter/fluid.aux) (./chapter/elasticity.aux) (./chapter/relativity.aux))
+
+(./physical-olympics-2.aux (./chapter/preamble.aux) (./chapter/kinematics.aux)
+(./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
+(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/fluid.aux)
+(./chapter/elasticity.aux) (./chapter/relativity.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 301086E19A05D81460AABB301438A915.
+(rerunfilecheck)             Checksum: C65E990CDE1259A305FF1F5EF011048C.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2517,12 +2113,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 29073 strings out of 492960
- 558412 string characters out of 6136939
- 650537 words of memory out of 5000000
- 32649 multiletter control sequences out of 15000+600000
+ 29090 strings out of 492960
+ 558698 string characters out of 6136939
+ 652719 words of memory out of 5000000
+ 32663 multiletter control sequences out of 15000+600000
  633072 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,11n,92p,958b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,958b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (9 pages, 79188 bytes).
+Output written on physical-olympics-2.xdv (10 pages, 95012 bytes).

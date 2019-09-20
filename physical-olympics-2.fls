@@ -399,6 +399,8 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrma.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrmb.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT physical-olympics-2.aux
 INPUT chapter/preamble.aux
 INPUT chapter/preamble.aux
