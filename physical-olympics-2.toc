@@ -55,12 +55,12 @@
 \contentsline {subsection}{\numberline {5.1.2}简谐振动的性质}{51}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}简谐振动的判定}{52}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}小振动}{53}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}阻尼振动与受迫振动}{53}{section.5.2}
-\contentsline {section}{\numberline {5.3}多自由度小振动*}{53}{section.5.3}
-\contentsline {section}{\numberline {5.4}非线性摄动}{53}{section.5.4}
-\contentsline {section}{\numberline {5.5}格波}{53}{section.5.5}
-\contentsline {section}{\numberline {5.6}波动方程}{53}{section.5.6}
-\contentsline {section}{\numberline {5.7}波的色散}{53}{section.5.7}
+\contentsline {section}{\numberline {5.2}阻尼振动与受迫振动}{54}{section.5.2}
+\contentsline {section}{\numberline {5.3}多自由度小振动*}{54}{section.5.3}
+\contentsline {section}{\numberline {5.4}非线性摄动*}{54}{section.5.4}
+\contentsline {section}{\numberline {5.5}格波}{54}{section.5.5}
+\contentsline {section}{\numberline {5.6}波动方程}{54}{section.5.6}
+\contentsline {section}{\numberline {5.7}波的色散}{54}{section.5.7}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{33}{chapter.5}
 \contentsline {section}{\numberline {5.1}有心力下运动}{33}{section.5.1}
 \contentsline {section}{\numberline {5.2}万有引力下运动}{33}{section.5.2}
