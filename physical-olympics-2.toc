@@ -61,10 +61,10 @@
 \contentsline {section}{\numberline {5.5}格波}{54}{section.5.5}
 \contentsline {section}{\numberline {5.6}波动方程}{54}{section.5.6}
 \contentsline {section}{\numberline {5.7}波的色散}{54}{section.5.7}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}有心力下运动}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}万有引力下运动}{33}{section.5.2}
-\contentsline {section}{\numberline {5.3}二体与潮汐}{33}{section.5.3}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}万有引力}{55}{chapter.6}
+\contentsline {section}{\numberline {6.1}有心力下运动}{55}{section.6.1}
+\contentsline {section}{\numberline {6.2}万有引力下运动}{55}{section.6.2}
+\contentsline {section}{\numberline {6.3}二体与潮汐}{55}{section.6.3}
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}刚体}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}刚体的物理描述}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}平面平行运动}{37}{section.6.2}

@@ -378,6 +378,8 @@ OUTPUT physical-olympics-2.toc
 OUTPUT chapter/statics.aux
 INPUT chapter/statics.tex
 INPUT chapter/statics.tex
+INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmb10.tfm
 OUTPUT chapter/harmonics.aux
@@ -399,8 +401,9 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrma.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrmb.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
-INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+OUTPUT chapter/gravity.aux
+INPUT chapter/gravity.tex
+INPUT chapter/gravity.tex
 INPUT physical-olympics-2.aux
 INPUT chapter/preamble.aux
 INPUT chapter/preamble.aux
