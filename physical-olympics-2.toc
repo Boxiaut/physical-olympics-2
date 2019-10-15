@@ -1,84 +1,101 @@
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}序}{7}{chapter.1}
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}运动学}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}时空与物质}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}时空观,\tmspace +\thinmuskip {.1667em}坐标系}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}物质}{11}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}参考系,\tmspace +\thinmuskip {.1667em}物理规律与其不变性}{13}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}运动的描述}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}质点的运动}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}刚体的运动}{21}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}参考系变换}{23}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}点变换}{23}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}刚体变换}{25}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}运动的牵连}{25}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}接触系}{25}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}纯滚系}{26}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}约束系}{26}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}动力学}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}牛顿定律}{29}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}概述}{29}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}牛顿第一定律}{30}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}牛顿第二定律}{30}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}牛顿第三定律}{31}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}质点系与它的牛顿定律}{32}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}非惯性系的处理}{34}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}动量定律}{34}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}质点的动量}{34}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}质点系的动量}{35}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}角动量定律}{36}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}质点的角动量}{36}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}质点系的角动量}{37}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}能量定律}{38}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}质点的动能}{38}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}质点系的动能}{38}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}其它能量形式}{39}{subsection.3.4.3}
-\contentsline {subsubsection}{保守力}{40}{subsubsection*.12}
-\contentsline {subsubsection}{约束力}{41}{subsubsection*.13}
-\contentsline {subsubsection}{耗散力}{41}{subsubsection*.14}
-\contentsline {section}{\numberline {3.5}位力定律*}{42}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}质点的位力}{42}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}质点系的位力}{43}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}碰撞问题}{44}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}二质点正碰}{44}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}自由刚体的碰撞}{47}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}多体碰撞}{47}{subsection.3.6.3}
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}静力学}{49}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}约束}{49}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}力系化简}{49}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}平衡问题}{49}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}虚功原理}{49}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}分析力学初步}{49}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}平衡态稳定性}{49}{section.4.6}% 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{51}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}方程与谐振}{51}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}简谐振动的定义}{51}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}简谐振动的性质}{51}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}简谐振动的判定}{52}{subsection.5.1.3}% 
-\contentsline {subsection}{\numberline {5.1.4}小振动}{53}{subsection.5.1.4}% 
-\contentsline {section}{\numberline {5.2}阻尼振动与受迫振动}{54}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}多自由度小振动*}{54}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}非线性摄动*}{54}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}格波}{54}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}波动方程}{54}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}波的色散}{54}{section.5.7}% 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}万有引力}{55}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}有心力下运动}{55}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}万有引力下运动}{55}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}二体与潮汐}{55}{section.6.3}% 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}刚体}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}刚体的物理描述}{35}{section.6.1}
-\contentsline {section}{\numberline {6.2}平面平行运动}{37}{section.6.2}
-\contentsline {section}{\numberline {6.3}空间刚体运动*}{37}{section.6.3}
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}流体}{39}{chapter.7}
-\contentsline {section}{\numberline {7.1}流体的物理描述}{39}{section.7.1}
-\contentsline {section}{\numberline {7.2}定常流动动力学}{39}{section.7.2}
-\contentsline {section}{\numberline {7.3}黏滞流体动力学}{39}{section.7.3}
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}弹性体}{41}{chapter.8}
-\contentsline {section}{\numberline {8.1}弹性体的物理描述}{41}{section.8.1}
-\contentsline {section}{\numberline {8.2}弹性棒,\tmspace +\thinmuskip {.1667em}弹性膜与弹性体}{41}{section.8.2}
-\contentsline {section}{\numberline {8.3}弹性波}{41}{section.8.3}
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}相对论}{43}{chapter.9}
-\contentsline {section}{\numberline {9.1}相对论运动学}{43}{section.9.1}
-\contentsline {section}{\numberline {9.2}相对论动力学}{43}{section.9.2}
-\contentsline {section}{\numberline {9.3}相对论连续物质}{43}{section.9.3}
-\contentsline {section}{\numberline {9.4}相对论电磁场}{43}{section.9.4}
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}运动学}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}时空与物质}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}时空观,\tmspace +\thinmuskip {.1667em}坐标系}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}物质}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}参考系,\tmspace +\thinmuskip {.1667em}物理规律与其不变性}{9}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}运动的描述}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}质点的运动}{10}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}刚体的运动}{17}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}参考系变换}{19}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}点变换}{19}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}刚体变换}{21}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}运动的牵连}{21}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}接触系}{21}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}纯滚系}{22}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}约束系}{22}{subsection.1.4.3}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}动力学}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}牛顿定律}{25}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}概述}{25}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}牛顿第一定律}{26}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}牛顿第二定律}{26}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}牛顿第三定律}{27}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}质点系与它的牛顿定律}{28}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}非惯性系的处理}{30}{subsection.2.1.6}
+\contentsline {section}{\numberline {2.2}动量定律}{30}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}质点的动量}{30}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}质点系的动量}{31}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}角动量定律}{32}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}质点的角动量}{32}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}质点系的角动量}{33}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}能量定律}{34}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}质点的动能}{34}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}质点系的动能}{34}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}其它能量形式}{35}{subsection.2.4.3}
+\contentsline {subsubsection}{保守力}{36}{subsubsection*.12}
+\contentsline {subsubsection}{约束力}{37}{subsubsection*.13}
+\contentsline {subsubsection}{耗散力}{37}{subsubsection*.14}
+\contentsline {section}{\numberline {2.5}位力定律*}{38}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}质点的位力}{38}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}质点系的位力}{39}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}碰撞问题}{40}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}二质点正碰}{40}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}自由刚体的碰撞}{43}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}多体碰撞}{43}{subsection.2.6.3}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}静力学}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}约束}{46}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}约束分类}{46}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}广义坐标与自由度}{46}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}约束力与广义力}{46}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}完整约束}{46}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}力系化简}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}公理化静力学体系}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}力系向一点简化}{46}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}平衡问题:\tmspace +\thinmuskip {.1667em}矢量力学}{46}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}平衡问题的要素}{46}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}平衡条件与判据}{46}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}负静定,\tmspace +\thinmuskip {.1667em}静定与超静定}{46}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}静摩擦的临界}{46}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}平衡问题:\tmspace +\thinmuskip {.1667em}虚功原理}{46}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}负静定问题的虚功原理}{46}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}静定,\tmspace +\thinmuskip {.1667em}超静定问题的求解}{46}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}分析力学初步*}{46}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}用广义坐标表示能量}{46}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}拉格朗日方程}{46}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}再论冲击问题}{46}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}哈密顿力学简介}{46}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}平衡态稳定性}{46}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}一自由度体系}{46}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}多自由度体系}{46}{subsection.3.6.2}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}振动与波}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}方程与谐振}{47}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}简谐振动的定义}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}简谐振动的性质}{47}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}简谐振动的判定}{48}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}小振动}{49}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{50}{section.4.2}
+\contentsline {section}{\numberline {4.3}多自由度小振动*}{50}{section.4.3}
+\contentsline {section}{\numberline {4.4}非线性摄动*}{50}{section.4.4}
+\contentsline {section}{\numberline {4.5}格波}{50}{section.4.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}有心力下运动}{51}{section.5.1}
+\contentsline {section}{\numberline {5.2}万有引力下运动}{51}{section.5.2}
+\contentsline {section}{\numberline {5.3}二体与潮汐}{51}{section.5.3}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}刚体}{53}{chapter.6}
+\contentsline {section}{\numberline {6.1}刚体的物理描述}{53}{section.6.1}
+\contentsline {section}{\numberline {6.2}平面平行运动}{55}{section.6.2}
+\contentsline {section}{\numberline {6.3}空间刚体运动*}{55}{section.6.3}
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}流体}{57}{chapter.7}
+\contentsline {section}{\numberline {7.1}流体的物理描述}{57}{section.7.1}
+\contentsline {section}{\numberline {7.2}定常流动动力学}{57}{section.7.2}
+\contentsline {section}{\numberline {7.3}黏滞流体动力学}{57}{section.7.3}
+\contentsline {section}{\numberline {7.4}流体中的波}{57}{section.7.4}
+\contentsline {section}{\numberline {7.5}波的色散}{57}{section.7.5}
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}弹性体}{59}{chapter.8}
+\contentsline {section}{\numberline {8.1}弹性体的物理描述}{59}{section.8.1}
+\contentsline {section}{\numberline {8.2}弹性棒,\tmspace +\thinmuskip {.1667em}弹性膜与弹性体}{59}{section.8.2}
+\contentsline {section}{\numberline {8.3}弹性波}{59}{section.8.3}
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}相对论}{61}{chapter.9}
+\contentsline {section}{\numberline {9.1}相对论运动学}{61}{section.9.1}
+\contentsline {section}{\numberline {9.2}相对论动力学}{61}{section.9.2}
+\contentsline {section}{\numberline {9.3}相对论连续物质}{61}{section.9.3}
+\contentsline {section}{\numberline {9.4}相对论电磁场}{61}{section.9.4}
