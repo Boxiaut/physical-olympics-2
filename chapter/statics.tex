@@ -255,6 +255,16 @@ T 	&=\frac{1}{2}(m_1\dot{s}_1^2+m_2\dot{s}_2^2+m_3\dot{s}_3^2)\\
 	&=\frac{1}{2}(m_1+m_2+m_3)\dot{x}^2+\frac{1}{2}(m_2+m_3)\dot{y}^2+(m_3-m_2)\dot{x}\dot{y}
 \end{align*}
 
+由于产生了交叉项,\,我们再进行一次换元:
+\[z=y+\frac{m_3-m_2}{m_3+m_2}x\]
+\[Q_x\ud x+Q_y\ud y=\left(Q_x-\frac{m_3-m_2}{m_3+m_2}Q_y\right)\ud x+Q_y\ud z=Q_x'\ud x+Q_z'\ud z\]
+
+从而动能和广义力变为:
+\[T=\frac{1}{2}\left(m_1+\frac{4m_2m_3}{m_2+m_3}\right)\dot{x}^2+\frac{1}{2}(m_2+m_3)\dot{z}^2\]
+\[Q_x'=\left(\frac{4m_2m_3}{m_2+m_3}-m_1\right)g\quad,\quad Q_z'=(m_3-m_2)g\]
+
+这就完全与两个质点独立地受到两个恒力的动能与广义力的``结构''一致了.
+
 
 其实这个广义力乘广义位移等于做功的现象我们并不少见,\,不管是热学中的$\ud W=-p\ud V$,\,还是电路问题中的$\ud W=U\ud Q$,\,抑或是电磁介质问题中的$\ud W=E\ud P,\,\ud W=H\ud M$等等公式.\,全都归于统一的广义力乘广义位移这样的形式上.\,
 
