@@ -1,45 +1,44 @@
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}运动学}{3}{chapter.1}
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}动力学}{5}{chapter.2}
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}静力学}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}约束}{7}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}约束分类}{7}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}广义坐标与自由度}{9}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}约束力与广义力}{9}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}完整约束}{9}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}力系化简}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}公理化静力学体系}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}力系向一点简化}{9}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}平衡问题:\tmspace +\thinmuskip {.1667em}矢量力学}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}平衡问题的要素}{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}平衡条件与判据}{9}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}负静定,\tmspace +\thinmuskip {.1667em}静定与超静定}{9}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}静摩擦的临界}{9}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}平衡问题:\tmspace +\thinmuskip {.1667em}虚功原理}{9}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}理想约束}{9}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}负静定问题的虚功原理}{9}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}静定,\tmspace +\thinmuskip {.1667em}超静定问题的求解}{9}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}分析力学初步*}{9}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}用广义坐标表示能量}{9}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}拉格朗日方程}{9}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}再论冲击问题}{9}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}哈密顿力学简介}{9}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}平衡态稳定性}{9}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}一自由度体系}{9}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}多自由度体系}{9}{subsection.3.6.2}
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}振动与波}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}方程与谐振}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}简谐振动的定义}{11}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}简谐振动的性质}{11}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}简谐振动的判定}{12}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}小振动}{13}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}多自由度小振动*}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}非线性摄动*}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}格波}{14}{section.4.5}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}有心力下运动}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}万有引力下运动}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}二体与潮汐}{15}{section.5.3}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}静力学}{7}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}约束}{7}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}约束分类}{7}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}广义坐标与自由度}{10}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}约束力与广义力}{12}{subsection.3.1.3}% 
+\contentsline {section}{\numberline {3.2}力系化简}{14}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}公理化静力学体系}{14}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}力系向一点简化}{15}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}平衡问题:\tmspace +\thinmuskip {.1667em}矢量力学}{15}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}平衡问题的要素}{15}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}平衡条件与判据}{15}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}负静定,\tmspace +\thinmuskip {.1667em}静定与超静定}{15}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}静摩擦的临界}{15}{subsection.3.3.4}% 
+\contentsline {section}{\numberline {3.4}平衡问题:\tmspace +\thinmuskip {.1667em}虚功原理}{15}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}理想约束}{15}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}负静定问题的虚功原理}{15}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}静定,\tmspace +\thinmuskip {.1667em}超静定问题的求解}{15}{subsection.3.4.3}% 
+\contentsline {section}{\numberline {3.5}分析力学初步*}{15}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}用广义坐标表示能量}{15}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}拉格朗日方程}{16}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}再论冲击问题}{16}{subsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.5.4}哈密顿力学简介}{16}{subsection.3.5.4}% 
+\contentsline {section}{\numberline {3.6}平衡态稳定性}{16}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}一自由度体系}{16}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {3.6.2}多自由度体系}{16}{subsection.3.6.2}% 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}振动与波}{17}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}方程与谐振}{17}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}简谐振动的定义}{17}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}简谐振动的性质}{17}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}简谐振动的判定}{18}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}小振动}{19}{subsection.4.1.4}% 
+\contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{20}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}多自由度小振动*}{20}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}非线性摄动*}{20}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}格波}{20}{section.4.5}% 
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{21}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}有心力下运动}{21}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}万有引力下运动}{21}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}二体与潮汐}{21}{section.5.3}% 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}刚体}{15}{chapter.6}
 \contentsline {section}{\numberline {6.1}刚体的物理描述}{15}{section.6.1}
 \contentsline {section}{\numberline {6.2}平面平行运动}{17}{section.6.2}
