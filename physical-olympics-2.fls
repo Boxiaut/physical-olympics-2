@@ -428,12 +428,14 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb5.tfm
 INPUT image/6-2-5.png
 INPUT image/6-2-7.png
-OUTPUT chapter/harmonics.aux
-INPUT chapter/harmonics.tex
-INPUT chapter/harmonics.tex
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm5.tfm
+INPUT image/6-2-8.png
+INPUT image/6-2-9.png
+OUTPUT chapter/harmonics.aux
+INPUT chapter/harmonics.tex
+INPUT chapter/harmonics.tex
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 OUTPUT chapter/gravity.aux
 INPUT chapter/gravity.tex

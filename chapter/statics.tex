@@ -221,7 +221,7 @@ Case7.\,但如果是$n$个物体同时连接与一个铰链上,\,那么我们只
 \includegraphics[width=4cm]{image/6-2-5.png}
 \caption{力矩作为广义力}
 \end{wrapfigure}
-举两个例子:
+看两则应用:
 
 一是刚体可做定轴转动,\,那么当刚体产生$\ud \bs{\theta}=\ud \theta \bs{e}$的转动时,\,作用在$\bs{r}$的力$\bs{F}$的作用点的实际位移为:
 \[\ud \bs{r}=\ud \bs{\theta}\times \bs{r}\]
@@ -263,16 +263,109 @@ T 	&=\frac{1}{2}(m_1\dot{s}_1^2+m_2\dot{s}_2^2+m_3\dot{s}_3^2)\\
 \[T=\frac{1}{2}\left(m_1+\frac{4m_2m_3}{m_2+m_3}\right)\dot{x}^2+\frac{1}{2}(m_2+m_3)\dot{z}^2\]
 \[Q_x'=\left(\frac{4m_2m_3}{m_2+m_3}-m_1\right)g\quad,\quad Q_z'=(m_3-m_2)g\]
 
-这就完全与两个质点独立地受到两个恒力的动能与广义力的``结构''一致了.
+这就完全与两个质点独立地受到两个恒力的动能与广义力的``结构''一致了.\,从而两个自由度的坐标二阶导数为:
+\[\ddot{x}=\frac{\frac{4m_2m_3}{m_2+m_3}-m_1}{\frac{4m_2m_3}{m_2+m_3}+m_1}g\quad,\quad \ddot{z}=\frac{m_3-m_2}{m_3+m_2}g\]
+
+从而最开始的广义坐标$y$:
+\[\ddot{y}=\ddot{z}-\frac{m_3-m_2}{m_3+m_2}\ddot{x}=\frac{2m_1\frac{m_3-m_2}{m_3+m_2}}{\frac{4m_2m_3}{m_2+m_3}+m_1}g\]
+
+本题用广义力方法求解的关键好处在于:\,本来作为矢量都同向的重力,\,在转化为广义力时可以因为体系结构不同而带上正负号.\,以适应最后的结果.
 
 
 其实这个广义力乘广义位移等于做功的现象我们并不少见,\,不管是热学中的$\ud W=-p\ud V$,\,还是电路问题中的$\ud W=U\ud Q$,\,抑或是电磁介质问题中的$\ud W=E\ud P,\,\ud W=H\ud M$等等公式.\,全都归于统一的广义力乘广义位移这样的形式上.\,
 
 \section{力系化简}
 
-静力学中大量涉及到由质点,\,刚体和简单约束构成的问题.\,本节正是要针对这一类问题形成行之有效的强大工具.\,我们建立在之前的理论基础上,\,重新构建静力学过程中适用的新公理体系.
+静力学中大量涉及到由质点,\,刚体和简单约束构成的问题.\,本节正是要针对这一类问题形成行之有效的强大工具.\,我们建立在之前的理论基础上,\,重新构建静力学过程中适用的新逻辑体系.
 
-\subsection{公理化静力学体系}
+\subsection{静力学公理体系}
+
+质点也好,\,刚体也好,\,其平衡都是较为简单讨论的.\,在某一个状态下,\,我们用\emph{力系}(force system)来描述它们的受力状态.\,比如刚体上受到的力系为$\mathfrak{F}$.\,一种简单的理解是,\,力系应当是一个场.\,在刚体的每一个点上都存在该点的受力情况.\,质点则只需要描述自己那点上的受力情况就行.\,而这个场,\,应当是一个矢量场:
+\[\text{公理一}:\qquad \mathfrak{F}:\,\bs{f}(\bs{r})=f_x(x,\,y,\,z)\bs{i}+f_y(x,\,y,\,z)\bs{j}+f_z(x,\,y,\,z)\bs{k}\]
+
+如果$f_x,\,f_y,\,f_z$是连续函数,\,那么这样的力系实际运用中叫做\emph{分布力系}(distributed force system).\,$\bs{f}$其实在量纲和概念上为外力的力密度.\,但是想到质点受力的描述,\,我们立马发现所有力都必须集中于一个点,\,仿佛与分布力系略有区别:
+\[\mathfrak{F}:\,\{(\bs{r},\,\bs{F}_i)\}\]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm]{image/6-2-8.png}
+\caption{分布力系,\,共点力系与空间力系}
+\end{figure}
+
+其中$\bs{r}$是质点的位矢.\,这样的力系可以叫做\emph{共点力系}(concurrent force system).\,事实上,\,我们也可以让刚体上若干点受到离散的作用力,\,这才是我们常说的\emph{空间力系}(spacial force system):
+\[\mathfrak{F}:\,\{(\bs{r}_i,\,\bs{F}_i)\}\]
+
+但其实两者是统一的.\,统一的关键是要引入一种广义函数:\,\emph{德尔塔函数}(delta function).\,即:
+\[\mathfrak{F}_1:\,\{(\bs{r}_i,\,\bs{F}_i)\}\quad =\quad \mathfrak{F}_2:\,\sum_i \bs{F}_i\delta(\bs{r}-\bs{r}_i)\]
+
+德尔塔函数的定义是这样的,\,如果让自变量为$\bs{\Delta}$,\,那么:
+\[\delta(\bs{\Delta})=\left\{\begin{matrix}0& (\bs{\Delta\neq \bs{0}}) \\ +\infty&(\bs{\Delta= \bs{0}})\end{matrix}\right.\quad,\quad \int\limits_D \delta(\bs{\Delta})\ud \bs{\Delta}=\left\{\begin{matrix}0& (\bs{0}\in D) \\ 1&(\bs{0}\notin D)\end{matrix}\right.\]
+
+统一为分布力系将有利于统一运算:\,如果是力个数可数的离散的空间力系,\,可以考虑两个力系的集合并:
+\[\{(\bs{r}_{1i},\,\bs{F}_{1i})\}\quad \cup\quad\{(\bs{r}_{2j},\,\bs{F}_{2j})\}=\{(\bs{r}_{1i},\,\bs{F}_{1i}),\,(\bs{r}_{2j},\,\bs{F}_{2j})\}\]
+
+但是如果力共点了又应当去求矢量和.\,也就是说,\,本来共点力系的力就是一个三维空间中的线性代数,\,它们理所当然地定义了加法和数乘:
+\[\mathfrak{Addition}:\quad \bs{F}_1+\bs{F}_2=\bs{F}\]
+\[\mathfrak{Multiplication}:\quad \lambda \bs{F}_1=\bs{F}_2\]
+
+现在就可以发现.\,第一,\,把共点力系的加法(力的叠加),\,现在就可以自然地推广到分布力系的加法来(数乘也同理).\,只需要逐点把每点处的两个力密度矢量加在一起就是合力系.\,例如,\,如果两个力系分别为$\mathfrak{F}_1:\,\bs{f}_1(\bs{r})$和$\mathfrak{F}_2:\,\bs{f}_2(\bs{r})$,\,那么:
+\[\mathfrak{F}_1+\mathfrak{F}_2:\,\bs{f}_1(\bs{r})+\bs{f}_2(\bs{r})\]
+\[\lambda \mathfrak{F}_1:\,\lambda \bs{f}_1(\bs{r})\]
+
+这样就不需要分离散力系的并与共点力系的和来阐述物理上的``叠加'',\,它们本质上就是力密度分布函数的和.\,线性代数中一切应当符合的``泛性质''它也应当符合.\,其零元素就称作\emph{零力系}(null force system):
+\[\mathfrak{0}:\,\bs{o}(\bs{r})=\bs{0}\]
+
+静力学自成一套的理论核心,\,是虽然质点平衡时一定意味着合力系为零力系.\,但是在一个刚体平衡的时候,\,它依然可以对应在不同点受到不同力的一个力系.\,事实上,\,即使不平衡,\,两个不同的力系其``效果''也可以是相同的.\,以往的力学告诉我们,\,效果其实就是指产生的加速度或角加速度等运动学响应.\,但是,\,在公理化静力学的过程中,\,我们不需要关心``效果''一词的具体含义,\,而是抽象的定义一种新的关系:
+
+这就是两个力系的\emph{等效}(equivalence),\,如果两个力系$\mathfrak{F}$和$\mathfrak{G}$等效,\,就记作$\mathfrak{F}\equiv\mathfrak{G}$.\,其实数学上有一对应的概念为\emph{等价关系}(equivalence relation),\,它需要满足以下三个条件,\,在物理观点下看是显然的:
+\begin{itemize}
+	\item \emph{反身性}(reflexive property):\qquad$\mathfrak{F}\equiv\mathfrak{F}$
+	\item \emph{对称性}(symmetric property):\qquad$\mathfrak{F}\equiv\mathfrak{G}\quad \Leftrightarrow\quad\mathfrak{G}\equiv\mathfrak{F} $
+	\item \emph{传递性}(transitive property):\qquad$\mathfrak{F}\equiv\mathfrak{G}\,,\,\mathfrak{G}\equiv\mathfrak{H}\quad \Rightarrow\quad\mathfrak{F}\equiv\mathfrak{H} $
+\end{itemize}
+
+但是还有一点十分必要,\,这样一个等价关系必须还得是\emph{同余}(congruence)的.\,即,\,它必须保持代数关系不变.\,这就构成了静力学第二公理:
+\[\text{公理二}:\qquad \mathfrak{F}_1\equiv\mathfrak{F}_2\,,\,\mathfrak{G}_1\equiv\mathfrak{G}_2\quad \Rightarrow \quad \mathfrak{F}_1+\mathfrak{G}_1\equiv\mathfrak{F}_2+\mathfrak{G}_2\,,\,\lambda\mathfrak{F}_1\equiv\lambda\mathfrak{F}_2\]
+
+这两个公理赋予力系这一个代数系统以极其规则而且性质丰富的结构.\,例如,\,我们可以定义\emph{平衡力系}(equilibrium force system)的概念:\,如果$\mathfrak{K}\equiv \mathfrak{0}$,\,即等效于零力系的力系就是平衡力系.\,那么显然任何一个力系上增减平衡力系的结果都会得到等效的力系:
+\[\mathfrak{K}\equiv \mathfrak{0}\quad \Rightarrow \quad \mathfrak{F}+\mathfrak{K}\equiv \mathfrak{F}\]
+
+那么就可以把所有平衡力系全部都找到,\,构成一个平衡力系的集合,\,称作\emph{平衡核}(kernal of equilibrium):
+\[{\rm K}=\{\mathfrak{K}|\mathfrak{K}\equiv \mathfrak{0}\}\]
+
+那么两个力系等效的充要条件就是其差在平衡核内,\,就是说如果把一个力系中的力完全做反向操作后两者就可以平衡:
+\[\mathfrak{F}\equiv \mathfrak{G}\quad \Leftrightarrow \quad \mathfrak{F}- \mathfrak{G}\equiv \mathfrak{0}\quad \Leftrightarrow \quad \mathfrak{F}- \mathfrak{G}\in {\rm K}\]
+
+最后就可以定义力系的等效类:\,所有与力系$\mathfrak{F}$等效的力系也构成了一个集合,\,记作$[\mathfrak{F}]$.\,也就是说上面的平衡核其实就是$[\mathfrak{0}]$.\,那么这个类的结构其实就是:
+\[[\mathfrak{F}]=\{\mathfrak{F}+\mathfrak{K}|\mathfrak{K}\in {\rm K}\}\]
+
+这样就把所有可能的力系的集合分解为一个一个的等效类,\,每一个集合内部的每个力系彼此之间完全等效,\,而平衡核是它们之中所有平衡力系构成的``核心''等效类.\,不同的类之间就不存在等效关系.\,每一个等效类内部的差其实都是一些平衡力系.\,两个不同的等效类中的力系差依然是一个非平衡的力系.
+
+所以这样就把最终问题直接等效为最后一个细节:\,那就是平衡核究竟有多大?\,怎样的力系是平衡力系,\,属于平衡核?
+
+这个问题的答案其实简单:\,那便是找到最基础的平衡力系,\,它是平衡核的\emph{生成元}(generating element).\,这就是静力学的第三公理:\,任意二力构成的,\,等大反向共线的力系全构成平衡力系,\,它是二力平衡的充分且必要条件:
+\[\text{公理三}:\qquad \{(\bs{r}_1,\,\bs{F}_1),\,(\bs{r}_2,\,\bs{F}_2)\}\in{\rm K}\quad \Leftrightarrow \quad \bs{F}_1+\bs{F}_2=\bs{0}\,,\,\bs{F}_1//\bs{F}_2//(\bs{r}_2-\bs{r}_1)\]
+
+\begin{wrapfigure}[10]{o}[-10pt]{8cm}
+\centering
+\includegraphics[width=8cm]{image/6-2-9.png}
+\caption{第三公理和第四公理}
+\end{wrapfigure}
+
+
+这个定理又忽然把我们从分布力系的问题拉回了特殊的空间力系分析的问题,\,它们都实用且简单.\,但是从特殊到普遍,\,从二力平衡条件开始,\,一步步去探究力系是否是平衡力系的判据,\,乃至找到所有可能的平衡力系的过程可是非常细致与漫长.\,后面我们会一个推论一个推论地来完成这个过程.\,在这里我们先尚且指出另外两个通常也被认为是静力学公理的性质,\,成为我们接下来一些推理的出发点.
+
+当我们分析一个含约束的质点,\,刚体构成的系统时,\,它们不仅受到外力,\,还要受约束力(作为内力).\,那么以前的牛顿第三定律就可以完全被静力学化也成为公理:\,如果约束发生在两个物体的两点1和2之间,\,位置分别为$\bs{r}_1$和$\bs{r}_2$.\,那么1给2的力$\bs{F}_{12}$和2给1的力$\bs{F}_{12}$就要符合:
+\[\text{公理四}:\qquad \bs{F}_{12}+\bs{F}_{21}=\bs{0}\,,\,\bs{F}_{12}//\bs{F}_{21}//(\bs{r}_2-\bs{r}_1)\]
+
+这样是否就能解决任何静力学平衡问题呢?\,对一个刚体而言这就够了.\,其力系是平衡力系自然就是平衡条件.\,然而对复杂体系的事实是:\,约束力作为被动力往往也要作为待求的量进入平衡方程.\,在约束力确定之前自然不能知道是否能平衡.\,那么如何评价含未知约束力时的平衡问题呢?\,我们规定:
+
+\[\text{公理五}:\qquad \text{系统平衡充要条件是,\,存在一种约束力取值,\,考虑约束力后每一个部分单独平衡.}\]
+
+它还有一个常见推论:\,由于考虑每一个部分的力系的时候是平衡力系,\,那么把这些力系进行叠加也是平衡力系,\,再考虑到成对存在的内力符合公理四,\,再由公理三,\,公理四的条件恰好让这些内力构成平衡力系.\,故扣除掉以后,\,剩下的外力力系自然也必须是平衡力系,\,也就是说如果设想整个体系等效为一个大刚体,\,那么外力就是它受到的所有力,\,此时就能得出为了平衡,\,外力就必须构成平衡力系的条件,\,因此,\,这个推论得名\emph{刚化原理}(principle of solidification).\,这是原来体系平衡的必要条件.
+\[\text{刚化原理}:\qquad \text{系统平衡必要条件是外力}\mathfrak{F}\equiv \mathfrak{0}\]
+
+
 
 
 
@@ -280,7 +373,7 @@ T 	&=\frac{1}{2}(m_1\dot{s}_1^2+m_2\dot{s}_2^2+m_3\dot{s}_3^2)\\
 
 一
 
-\section{平衡问题:\,矢量力学}
+\section{平衡问题:  矢量力学}
 
 \subsection{平衡问题的要素}
 
@@ -290,7 +383,7 @@ T 	&=\frac{1}{2}(m_1\dot{s}_1^2+m_2\dot{s}_2^2+m_3\dot{s}_3^2)\\
 
 一
 
-\subsection{负静定,\,静定与超静定}
+\subsection{负静定,  静定与超静定}
 
 一
 
@@ -298,7 +391,7 @@ T 	&=\frac{1}{2}(m_1\dot{s}_1^2+m_2\dot{s}_2^2+m_3\dot{s}_3^2)\\
 
 一
 
-\section{平衡问题:\,虚功原理}
+\section{平衡问题:  虚功原理}
 
 \subsection{理想约束}
 
@@ -308,7 +401,7 @@ T 	&=\frac{1}{2}(m_1\dot{s}_1^2+m_2\dot{s}_2^2+m_3\dot{s}_3^2)\\
 
 一
 
-\subsection{静定,\,超静定问题的求解}
+\subsection{静定,  超静定问题的求解}
 
 一
 
