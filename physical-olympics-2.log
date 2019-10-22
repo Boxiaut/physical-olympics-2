@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  18 OCT 2019 13:38
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  22 OCT 2019 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2203,18 +2203,27 @@ Underfull \hbox (badness 1005) in paragraph at lines 358--359
  力 \T1/lmr/m/n/10.53937 (\TU/方正聚珍新仿简体(0)/m/n/10.53937 作 为 内
  []
 
-[17] [18]) [19]
+[17]
+File: image/6-2-10.png Graphic file (type bmp)
+<image/6-2-10.png>
+File: image/6-2-11.png Graphic file (type bmp)
+<image/6-2-11.png>
+File: image/6-2-12.png Graphic file (type bmp)
+<image/6-2-12.png>
+File: image/6-2-13.png Graphic file (type bmp)
+<image/6-2-13.png>
+ [18] [19]) [20]
 \openout2 = `chapter/harmonics.aux'.
 
- (./chapter/harmonics.tex [20
-
-
-
-]
+ (./chapter/harmonics.tex
 第四章
 LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
 (Font)              scaled to size 7.27965pt on input line 26.
-[21] [22]) [23] [24]
+[21
+
+
+
+] [22]) [23] [24]
 \openout2 = `chapter/gravity.aux'.
 
  (./chapter/gravity.tex
@@ -2245,12 +2254,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29237 strings out of 492960
- 560955 string characters out of 6136939
- 658988 words of memory out of 5000000
- 32771 multiletter control sequences out of 15000+600000
+ 29253 strings out of 492960
+ 561239 string characters out of 6136939
+ 658989 words of memory out of 5000000
+ 32783 multiletter control sequences out of 15000+600000
  649426 words of font info for 177 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,15n,92p,958b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (24 pages, 279028 bytes).
+Output written on physical-olympics-2.xdv (24 pages, 293960 bytes).

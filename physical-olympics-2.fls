@@ -433,6 +433,10 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm5.tfm
 INPUT image/6-2-8.png
 INPUT image/6-2-9.png
+INPUT image/6-2-10.png
+INPUT image/6-2-11.png
+INPUT image/6-2-12.png
+INPUT image/6-2-13.png
 OUTPUT chapter/harmonics.aux
 INPUT chapter/harmonics.tex
 INPUT chapter/harmonics.tex
