@@ -666,28 +666,200 @@ II.\,空间力系:
 用下式减上式,\,就得到了:
 \[\delta \bs{r}_k=\sum_i \frac{\partial \bs{r}_k}{\partial q_i}\delta q_i\quad,\quad \sum_k\left(\frac{\partial f_j}{\partial x_k}\delta x_k+\frac{\partial f_j}{\partial y_k}\delta y_k+\frac{\partial f_j}{\partial z_k}\delta z_k\right)=0\]
 
+这和$t$作为常数的稳定约束对运动的限制才是一致了.\,下一步,\,自然时要求约束力不能做虚功,\,注意,\,理想的却不稳定的约束情形中,\,约束力是可以做实功的,\,从而体系能量一般都不会守恒.\,总之,\,所谓理想约束,\,依然指的是:
+\[R_{kx}=\lambda \frac{\partial f_j}{\partial x_k}\quad,\quad R_{ky}=\lambda \frac{\partial f_j}{\partial y_k}\quad,\quad R_{kz}=\lambda \frac{\partial f_j}{\partial z_k}\]
+\[\forall\delta \bs{r}_k,\, \delta W_R=\sum_k \bs{R}_k\cdot \delta \bs{r}_k=0\]
+
+最后只需解决主动力如何描述,\,最终重要的其实是主动力造成的广义力.\,也就是说我们计算以下量并以之描述所有主动力造成的``效果'':
+\[Q_i=\sum_k \bs{F}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}\]
+
+
 \subsection{用广义坐标表示能量}
 
-一
+一个体系最终会具有的能量,\,主要包括动能和势能.\,我们分别来研究两者:
+
+\subsubsection{动能}
+一个体系如果还包含刚体,\,那么其实总动能应当体现为:
+\[T=\sum_k \frac{1}{2}m_k \bs{v}_k^2+\sum_l\frac{1}{2}\bs{\omega}_l\cdot \mathbb{I}_l\cdot \bs{\omega}_l\]
+
+这里不可避免地需要使用到以后引入的刚体的惯量张量$\mathbb{I}_l$的概念.\,为了简化问题,\,我们可以考虑把刚体也抽象为带约束的质点系,\,那么只需要写出:
+\[T=\sum_k \frac{1}{2}m_k \bs{v}_k^2\]
+
+就注意表达任意复杂体系的动能函数.\,现在我们来进行广义坐标化.\,利用上一小节给出的:
+\[\ud \bs{r}_k=\sum_i \frac{\partial \bs{r}_k}{\partial q_i}\ud q_i+\frac{\partial \bs{r}_k}{\partial t}\ud t\]
+
+等号两侧同时除$\ud t$,\,得到质点速度的广义坐标表达法:
+\[\bs{v}_k=\sum_i \frac{\partial \bs{r}_k}{\partial q_i}\dot{q_i} +\frac{\partial \bs{r}_k}{\partial t}\]
+
+带回动能表达式,\,我们得到:
+\[T=\sum_i\sum_j\sum_k\frac{1}{2}m_k\frac{\partial \bs{r}_k}{\partial q_i}\cdot\frac{\partial \bs{r}_k}{\partial q_j}\dot{q_i}\dot{q_j}+\sum_i\sum_k m_k\frac{\partial \bs{r}_k}{\partial q_i}\cdot\frac{\partial \bs{r}_k}{\partial t}\dot{q_i}+\sum_k \frac{1}{2}m_k\left(\frac{\partial \bs{r}_k}{\partial t}\right)^2\]
+
+这就是说,\,动能可以分解广义速度$\dot{q_i}$的二次齐次项$T_2$,\,一次齐次项$T_1$,\,和随时间变的常数项$T_0$的和:
+\[T=T_2+T_1+T_0\]
+\[T_2=\sum_i\sum_j A_{ij}\dot{q_i}\dot{q_j}\quad,\quad A_{ij}=\frac{1}{2}\sum_k m_k\frac{\partial \bs{r}_k}{\partial q_i}\cdot\frac{\partial \bs{r}_k}{\partial q_j}\]
+\[T_1=\sum_i B_i \dot{q_i}\quad,\quad B_i=\sum_k m_k\frac{\partial \bs{r}_k}{\partial q_i}\cdot\frac{\partial \bs{r}_k}{\partial t}\]
+\[T_0=C\quad,\quad C=\frac{1}{2}\sum_k m_k\left(\frac{\partial \bs{r}_k}{\partial t}\right)^2\]
+
+如果体系包含的约束全都是稳定约束,\,那么一切关于$t$的偏导数消失,\,动能就只剩下二次齐次项了,\,即$T=T_2$.
+
+我们再定义两个量,\,一个是与广义坐标$q_i$相伴相生的那些广义速度,\,广义加速度,\,广义力同系列的最后一个量:\,\emph{广义动量}(general momentum).\,它的定义始终为:
+\[p_i=\frac{\partial T}{\partial \dot{q_i}}\]
+
+也就是把实际的动能看作$\dot{q_i}$的至多二次多项式,\,而把下面的偏导数定义为与第$i$广义坐标$q_i$共轭的广义动量:
+\[p_i=\frac{\partial}{\partial \dot{q_i}}\left(\sum_i\sum_j A_{ij}\dot{q_i}\dot{q_j}+\sum_i B_i \dot{q_i}+C\right)=2\sum_j A_{ij}\dot{q_j}+B_i\]
+
+第二个量,\,在数学上称作\emph{勒让德变换}(Legendre transform),\,我们定义一个动能的变式:
+\[U=\sum_i p_i\dot{q_i}-T\]
+
+很容易验证,\,在以上三项分解法下,\,这个变式的动能其实为:
+\[U=T_2-T_0\]
+
+广义动量和变式动能的意义何在?\,至少从定义上考虑,\,$p_i\ud \dot{q_i}$将会是动能的实际改变中的一项,\,完整的写法为:
+\[\ud T=\sum_i \frac{\partial T}{\partial q_i}\ud q_i+\sum_i \frac{\partial T}{\partial \dot{q_i}}\ud \dot{q_i}+\frac{\partial T}{\partial t}\ud t\]
+
+三项中第二项就是$p_i\ud \dot{q_i}$.\,而外力做功中的对应项为$Q_i\ud q_i$,\,虽然两者不存在直接的等量关系,\,但是它们至少是同量纲的.\,现在即使让两者相等也得不到任何有意思的结果.\,这是因为这个动能函数还需要修正.\,如果考虑变式动能$U$,\,根据定义,\,有:
+\[\ud U=-\sum_i \frac{\partial T}{\partial q_i}\ud q_i+\sum_i \dot{q_i}\ud p_i-\frac{\partial T}{\partial t}\ud t\]
+
+乍一看这样的做法找不到经典力学中的对应,\,其实不然:\,经典力学中根本就不会有非稳定约束,\,从而$T=U=T_2$.\,所以在更普遍的情况下,\,用$U$在某些场合代替原来的$T$也是可以理解的.\,最关键是,\,如果设想让外力在$q_i$上做功转化为上式第二个求和项中对应项(注意下式是错误的结论,\,仅仅是一种在特殊情况下成立的设想):
+\[Q_i\ud q_i=\dot{q_i}\ud p_i=\frac{\ud q_i \ud p_i}{\ud t}=\dot{p_i}\ud q_i\quad\Rightarrow\quad Q_i=\dot{p_i}\]
+
+这就是说,\,广义力的效果其实就是在改变对应自由度上的广义动量.\,这个说法后面却可以说明是对的,\,虽然上式不对,\,它漏项了.
+
+\subsubsection{势能}
+
+之前,\,我们简单地把体系中质点和刚体的受力二分为约束力(即被动力)和主动力.\,现在我们要重新观察众多种类的主动力中,\,保守力的可能性.\,有时候,\,体系内部的部分之间具有势能,\,带来非约束力的内力.\,有时候体系受到的外力也可以由势能来描述.\,多个势能函数直接求和,\,自然可以同时产生多个对应的保守力.\,从而我们定义,\,如果体系的所有主动力都有对应的势能,\,即都是保守力,\,那么体系称作\emph{保守}(conserved)的.\,也就是说,\,主动力全都由势能函数$V(\bs{r}_k)$描述:
+\[\bs{F}_k=-\frac{\partial V}{\partial x_k}\bs{e}_x-\frac{\partial V}{\partial y_k}\bs{e}_y-\frac{\partial V}{\partial z_k}\bs{e}_z=-\nabla_k V\]
+
+但是旋即便发现,\,如果用广义坐标表示$\bs{r}_k$并最终表示势能,\,在约束为非稳定约束情形下,\,势能将变成显含时间的形式$V(q_i,\,t)$.\,所以我们从一开时就默认最初势能也可以含有$t$,\,即$V(\bs{r}_k,\,t)$.\,对应的例子比如,\,在质量变化的太阳$M(t)$外距离为$r$的地球$m$的势能,\,就是:
+\[V(\bs{r},\,t)=-\frac{GM(t)m}{r}\]
+
+势能,\,以后都要理解为势能函数,\,作为一个数它不一定与动能的和守恒,\,但是上面这个势能至少可以告诉我们,\,地球的受力就是这个函数的负梯度:
+\[\bs{F}(\bs{r},\,t)=-\nabla V=-\frac{GM(t)m}{r^2}\bs{e}_r\]
+
+故现在,\,我们直接总结,\,保守体系的主动力部分,\,由势能函数$V(q_i,\,t)$来描述.\,十分容易验证的一点是,\,此时主动力在广义坐标上的广义力,\,也恰好可以通过负偏导数来计算:
+\[Q_i=-\frac{\partial V}{\partial q_i}\]
+
+但是一定要注意,\,由于势能本身就在随时间变化,\,故主动力做的实功并不会等于势能的降低,\,而是有:
+\[-\ud V=\sum_i Q_i\ud q_i -\frac{\partial V}{\partial t}\ud t\]
+
+反倒是在虚位移情形下,\,有
+\[-\delta V=\sum_i Q_i\delta q_i\]
+
 
 \subsection{拉格朗日方程}
 
-一
+至此,\,一个由广义坐标描述的,\,反映广义力是如何改变广义动量的严谨正确的最终方程就呼之欲出,\,只差临门一脚了.\,我们先不做任何体系上的主动力是否保守的假设,\,在一个十分普遍的问题中,\,每一个自由度$q_i$上的广义力为$Q_i$.\,最初我们只能知道每一个质点都符合牛顿定律:
+\[\bs{R}_k+\bs{F}_k=m_k \ddot{\bs{r}}_k\]
+
+如何从这个定律抽象到广义坐标呢?\,核心的问题是要解决$\ddot{\bs{r}}_k$的广义坐标化.\,为了将求导的阶数降低,\,我们构造真实路径$\bs{r}_k(t)$周围的虚位移以后的路径$\bs{r}_k(t)+\delta \bs{r}_k(t)$.\,一如既往地,\,虚位移要符合约束条件.\,而在牛顿定律两侧点乘虚位移,\,再来求和计算虚功和相伴产生的项:
+\[\sum_k\bs{R}_k\cdot \delta \bs{r}_k+\sum_k\bs{F}_k\cdot \delta \bs{r}_k=\sum_k m_k \ddot{\bs{r}}_k\cdot \delta \bs{r}_k\]
+
+第一项是约束力的虚功,\,由于是理想约束所以等于零.\,第二项才是真正的主动力虚功,\,用广义力和广义位移表示为$Q_i\delta q_i$的求和.\,第三项就是尚未算过的,\,这样处理也恰好提供了去除二阶导数的便利,\,从而方便广义坐标化:
+\begin{align*}
+\ddot{\bs{r}}_k\cdot \delta \bs{r}_k  	&=\sum_i\ddot{\bs{r}}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}\delta q_i\\
+\ddot{\bs{r}}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}&=\frac{\ud }{\ud t}\left(\dot {\bs{r}}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}\right)- \dot {\bs{r}}_k\cdot \frac{\ud }{\ud t}\frac{\partial \bs{r}_k}{\partial q_i}\\
+\sum_k m_k \ddot{\bs{r}}_k\cdot \delta \bs{r}_k&=\sum_i\left[\frac{\ud }{\ud t}\left(\sum_k m_k\dot {\bs{r}}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}\right)- \sum_k m_k\dot {\bs{r}}_k\cdot \frac{\ud }{\ud t}\frac{\partial \bs{r}_k}{\partial q_i}\right]\delta q_i
+\end{align*}
+
+现在我们暂时把动能写作:
+\[T=\sum_k\frac{1}{2}m_k \dot {\bs{r}}_k^2\]
+
+而其中$\dot {\bs{r}}_k$视作$q_i,\,\dot{q}_i$函数,\,有下列结论成立:
+\[\frac{\partial T}{\partial q_i}=\sum_k m_k\dot {\bs{r}}_k\cdot \frac{\partial \dot {\bs{r}}_k}{\partial q_i}\]
+\[\frac{\partial T}{\partial \dot{q}_i}=\sum_k m_k\dot {\bs{r}}_k\cdot \frac{\partial \dot {\bs{r}}_k}{\partial \dot{q}_i}\]
+\[\dot {\bs{r}}_k=\sum_j\frac{\partial \bs{r}_k}{\partial q_j}\dot{q}_j+\frac{\partial \bs{r}_k}{\partial t}\quad\Rightarrow \quad \frac{\partial \dot {\bs{r}}_k}{\partial \dot{q}_i}=\frac{\partial \bs{r}_k}{\partial q_i}\]
+\[\frac{\partial \dot {\bs{r}}_k}{\partial q_i}=\sum_j\frac{\partial^2 \bs{r}_k}{\partial q_i\partial q_j}\dot{q}_j+\frac{\partial^2 \bs{r}_k}{\partial q_i\partial t}\quad\Rightarrow \quad \frac{\ud }{\ud t}\frac{\partial \bs{r}_k}{\partial q_i}=\frac{\partial \dot {\bs{r}}_k}{\partial q_i}\]
+
+后两式带入前两式并对比之前待化简的项,\,发现:
+\[\sum_k m_k \ddot{\bs{r}}_k\cdot \delta \bs{r}_k=\sum_i\left[\frac{\ud }{\ud t}\left(\frac{\partial T}{\partial \dot{q}_i}\right)-\frac{\partial T}{\partial q_i}\right]\delta q_i\]
+
+所以原来的牛顿定律,\,最后就变为:
+\[Q_i=\frac{\ud }{\ud t}\left(\frac{\partial T}{\partial \dot{q}_i}\right)-\frac{\partial T}{\partial q_i}\]
+
+这就是著名的\emph{拉格朗日方程}(Lagrange equation)的原型.\,也可以写成:
+\[Q_i+\frac{\partial T}{\partial q_i}=\dot{p}_i\]
+
+所以产生第$i$自由度上广义动量变化的原因除了广义力,\,还有一个动能本身对该自由度变化偏导数的因子.\,可以称做``几何力'',\,它的原因在于广义坐标与广义速度之间的耦合.
+
+一个典型的例子比如在平面极坐标中研究粒子的运动,\,以矢径$r$和极角$\theta$为两自由度.\,矢量力学给出粒子受力$F_r,\,F_\theta$.\,但是粒子广义力为:
+\[Q_r=F_r\quad,\quad Q_\theta=rF_\theta\]
+
+写出动能:
+\[T=\frac{1}{2}m(\dot{r}^2+r^2\dot{\theta}^2)\]
+
+从而两个广义动量:
+\[p_r=m\dot{r}\quad,\quad p_\theta=mr^2\dot{\theta}\]
+
+后者即角动量.\,注意到在半径方向还有几何力:
+\[\frac{\partial T}{\partial r}=m\dot{\theta}^2r\]
+
+故拉格朗日方程,\,就变为:
+\[F_r+m\dot{\theta}^2r=\frac{\ud}{\ud t}(m\dot{r})\quad ,\quad rF_\theta =\frac{\ud}{\ud t}(mr^2\dot{\theta})\]
+
+这与矢量力学给出了一样的结果.
+
+\vspace{1cm}
+在体系为保守体系时,\,拉格朗日方程还可以获得一种更普遍的形式.\,只需要注意到势能函数,\,由于不能含有广义速度,\,与广义力之间符合以下关系:
+\[Q_i=-\frac{\partial V}{\partial q_i}+\frac{\ud }{\ud t}\left(\frac{\partial V}{\partial \dot{q}_i}\right)\]
+
+这样就得到了:
+\[\frac{\ud }{\ud t}\frac{\partial (T-V)}{\partial \dot{q}_i}-\frac{\partial (T-V)}{\partial q_i}=0\]
+
+一件令人震惊的事情就发生了:\,动能势能不是做和,\,而是做差,\,以函数的形式组合为了一个矢量力学中从未见过的新函数$L=T-V$.\,它就是著名的\emph{拉格朗日量}(Lagrangian).\,于是我们就遇到了标准的拉格朗日方程:
+\[\frac{\ud }{\ud t}\frac{\partial L}{\partial \dot{q}_i}-\frac{\partial L}{\partial q_i}=0\]
+
+对于$f$自由度系统拉格朗日方程也恰恰是$f$个,\,恰好能把问题解决.
+
+在以上过程中,\,我们对势能的性质放松到了可以含有时间.\,这一步可以进一步放松.\,在有的场合下,\,拉格朗日量也是由两项构成,\,一项是常规意义下的动能,\,但是另一项势能也是含有速度的.\,这种势能函数叫做\emph{广义势能}(general potential energy).\,一种典型的情形是带点粒子在电磁场中运动的情形,\,此时动能势能为:
+\[T=\frac{1}{2}m\dot{\bs{r}}^2\]
+\[V=q(\varphi+\dot{\bs{r}}\cdot \bs{A})\]
+
+其中$\varphi$是往往与电场对应的标势,\,$\bs{A}$则是往往与磁场对应的矢势.\,在这样的场合下,\,广义力的计算也要以下式为准:
+\[Q_i=-\frac{\partial V}{\partial q_i}+\frac{\ud }{\ud t}\left(\frac{\partial V}{\partial \dot{q}_i}\right)\]
+
+容易得到,\,最终粒子的拉格朗日方程,\,化简以后就是:
+\[m\ddot{\bs{r}}=q\left[-\nabla\varphi+\frac{\partial \bs{A}}{\partial t}+\dot{\bs{r}}\times(\nabla\times\bs{A})\right]\]
+
+故只要把电场,\,磁场视作:
+\[\bs{E}=-\nabla\varphi+\frac{\partial \bs{A}}{\partial t}\quad,\quad \bs{B}=\nabla\times\bs{A}\]
+
+就能给出正确的洛伦兹力公式和牛顿定律.\,以往在经典力学中与势能毫无关联的磁场力,\,分析力学下也是广义势能的结果.
+
+\vspace{1cm}
+最后我们来探讨守恒量的问题.\,用动能减势能这个操作固然不会得到什么守恒量,\,经典力学告诉我们保守系统守恒量应当是两者加起来,\,但是它导致了拉格朗日方程,\,以它为基础,\,我们能先后得到两个可能的守恒量.
+
+一是在可能含有广义势的普遍情况下,\,广义动量被重新定义为:
+\[p_i=\frac{\partial L}{\partial \dot{q}_i}\]
+
+直接从拉格朗日方程可以看出,\,如果有
+\[\frac{\partial L}{\partial {q}_i}=0\]
+
+也就是拉格朗日量中不显含某个坐标$q_i$,\,这样的坐标称作\emph{循环坐标}(cyclic coordinate),\,那么这个自由度上的广义动量就不会随着时间改变.\,也就是``坐标平移不变导致动量守恒''.
+
+二是,\,我们还记得之前引入过变式动能$U$,\,那么其实$U+V$才是对应经典力学中的总能量.\,或者,\,更普遍的,\,对任意拉格朗日量,\,定义\emph{哈密顿量}(Hamiltonian):
+\[H=\sum_i p_i\dot{q}_i-L\]
+
+那么直接计算其对时间导数就可以得到:
+\[\frac{\ud H}{\ud t}=-\frac{\partial L}{\partial t}\]
+
+从而如果拉格朗日量中不显含时间$t$\footnote{即使约束不稳定这也有可能发生.}.\,那么哈密顿量就会守恒.\,也就是``时间平移不变导致能量守恒''.
+
 
 \subsection{再论冲击问题}
 
-一
+利用拉格朗日方程也可以求解碰撞问题.\,其实就是考虑拉格朗日方程的积分形式:
+\[p_i'-p_i=\int \left(\frac{\partial T}{\partial q_i}+Q_i\right)\ud t\]
 
-\subsection{哈密顿力学简介}
+其中$p_i,\,p_i'$就是碰前碰后的广义动量,\,考虑到实际碰撞过程中几何力其实都是一些仅仅取决与广义坐标和广义速度的函数,\,过程中最多突变,\,但不会无限大,\,所以在极短时间内积分是趋于零的,\,而广义力积分给出了广义冲量$I_i$,\,它也正是各个主动力冲量(一般也就一个)$\bs{I}_k$计算的结果:
+\[I_i=\sum_k \bs{I}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}\]
 
-一
 
-\section{平衡态稳定性}
+%\section{平衡态稳定性}
 
-\subsection{一自由度体系}
+%\subsection{一自由度体系}
 
-一
 
-\subsection{多自由度体系}
 
-一
+%\subsection{多自由度体系}
+
+
