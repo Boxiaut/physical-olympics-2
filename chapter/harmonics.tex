@@ -3,7 +3,7 @@
 
 
 \section{方程与谐振}
-\begin{comment}
+
 \subsection{简谐振动的定义}
 振动是最常见的物理现象.\,而振动中的最简单(simple)而和谐(harmonic)者谓之\emph{简谐振动}(simple harmonic oscillation).\,对\emph{谐振子}(harmonic oscillator)的学习与研究是会贯彻整个物理理论不同层次内容的始终的.\,现在是经典力学,\,以后会上升到场论,\, 量子力学与量子场论的高度.
 
@@ -112,13 +112,128 @@
 \[T=\frac{2\pi}{\omega}=2\pi\sqrt{\frac{l}{g}}\]
 
 但是一定要注意这个振动仅仅对小振动成立.\,例如在摆角为$10\dgr=0.087{\rm rad}$时会有约$2\permil$的误差.\,如何计算这个误差?\,之后的非线性振动将讨论这个问题.
-\end{comment}
-
 
 
 \section{阻尼振动与受迫振动}
 
+阻尼振动,\,狭义地是指普通的弹簧型谐振子,\,但是让振子运动的空间充满介质而产生湿摩擦(流体摩擦).\,从而产生一个正比于速度的阻尼的情形.\,其牛顿定律为:
+\[m\ddot{x}=-kx-\gamma \dot{x}\]
 
+这里的$\gamma$即\emph{阻尼系数}(damping coefficient).\,习惯上把$m/\gamma$称作\emph{弛豫时间}(relaxation time).\,最后还定义\emph{衰减参数}(attenuation parameter)或\emph{损耗参数}(loss parameter)为:
+\[\beta=\frac{\gamma}{2m}\]
+
+而无阻尼情况下的\emph{固有频率}(natural frequency), 这里是角频率,\,为:
+\[\omega_0=\sqrt{\frac{k}{m}}\]
+
+这样原来的方程又被重新写为:
+\[\ddot{x}+2\beta \dot{x}+\omega_0^2 x=0\]
+
+我们定义广义的\emph{阻尼振动}(damped oscillation),\,只需要一个运动的任意自由度$q$,\,符合或者可以近似为以上式子形式的动力学方程,\,那么这个自由度上的运动就是一个阻尼振动.\,所有的阻尼振动只有两个常数特征,\,一个是固有角频率,\,一个是损耗的大小.
+
+\vspace{1cm}
+阻尼振动的求解需要分为三种情况.\,我们统一猜解:
+\[x=A\ue^{\ui\omega t}\]
+
+带入原方程以后发现$\omega$需要满足:
+\[\omega^2-2\ui\beta\omega-\omega_0^2=0\]
+
+从而:
+
+\begin{itemize}
+	\item \emph{欠阻尼}(underdamped)
+
+	常见的小阻尼情况,\,此时$0<\beta<\omega_0$.\,通过对以上方程求解得到两个含有正虚部的关于虚轴对称的根:
+	\[\omega_{1,2}=\ui\beta \pm\sqrt{\omega_0^2-\beta^2}\]
+
+	这样就得到了原阻尼振动方程的通解:
+	\[x=\ue^{-\beta t}[A\cos(\sqrt{\omega_0^2-\beta^2}t)+B\sin(\sqrt{\omega_0^2-\beta^2}t)]=C\ue^{-\beta t}\cos(\sqrt{\omega_0^2-\beta^2}t+\varphi)\]
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{image/6-3-1.png}
+	\caption{欠阻尼, 临界阻尼与过阻尼}
+	\end{figure}
+
+	\item \emph{过阻尼}(overdamped)
+
+	此时$\beta>\omega_0$.\,从而振动和回复力被极大地抑制了.\,主要是一个在大阻力和初速度下缓慢回到平衡位置的运动.\,以上方程两根此时为两个正虚根:
+	\[\omega_{1,2}=\ui(\beta\pm\sqrt{\beta^2-\omega_0^2})\]
+
+	这样就得到了原阻尼振动方程的通解:
+	\[x=\ue^{-\beta t}[A\ue^{\sqrt{\beta^2-\omega_0^2}t}+B\ue^{-\sqrt{\beta^2-\omega_0^2}t}]=C\ue^{-\beta t}\cosh(\sqrt{\beta^2-\omega_0^2}t+\varphi)\footnote{也有可能是$\sinh$}\]
+
+	\item \emph{临界阻尼}(critical damped)
+
+	这对应$\beta=\omega_0$的特殊情况.\,可以通过微分方程的理论,\,或者采用求$\beta\to \omega_0$极限的方式得到此时的运动方程.\,它为:
+	\[x=\ue^{-\beta t}(A+Bt)\]
+
+	临界阻尼在实际生活中的应用为:\,它是较快能够让振子回到平衡位置的理想阻尼大小.\,这一点不难理解,\,不难看出,\,欠阻尼情况的振幅随时间的衰减方式为$\ue^{-\beta t}$,\,也就是适当增大$\beta$有利于振幅尽快衰减.\,但是,\,过阻尼时,\,长时间后位移与时间的关系为
+	\[x\sim \ue^{-\beta t}\cosh(\sqrt{\beta^2-\omega_0^2}t)\sim\ue^{-\beta t}\ue^{\sqrt{\beta^2-\omega_0^2}t}\sim \ue^{-\frac{\omega_0^2t}{\beta+\sqrt{\beta^2-\omega^2}}}\]
+
+	这就不难发现,\,此时增加$\beta$只会使得$t$前的衰减系数变小而不利于尽快衰减其位移.\,从而,\,无论是欠阻尼还是过阻尼,\,临界阻尼是它们能够尽快回到平衡位置的极限.\,此时原来的固有频率对应的周期就是它回到平衡位置的特征时间.
+\end{itemize}
+
+对于欠阻尼情况,\,尤其是衰减因子$\beta<<\omega_0$的小阻尼情况,\,还有一些重要的性质值得挖掘.\,下面都默认是这样的前提:
+
+\begin{wrapfigure}[17]{o}[-10pt]{7cm}
+\centering
+\includegraphics[width=7cm]{image/6-3-2.png}
+\caption{\quad 小阻尼下的振幅衰减}
+\end{wrapfigure}
+从之前的运动方程解不难看出来,\,我们可以把小阻尼情况下的运动方程看作是一个振幅不断随着时间衰减的简谐振动.\,其振幅衰减函数和阻尼化角频率为:
+\[A(t)=A_0\ue^{-\beta t}\]
+\[\omega_d=\sqrt{\omega_0^2-\beta^2}\approx \omega_0\]
+
+要讨论其衰减的原因,\,还有一种新的角度,\,便是考虑其能量.\,当振幅为$A$时,\,其动能,\,势能的和为:
+\[E=T+V=\frac{1}{2}m\dot{x}^2+\frac{1}{2}kx^2\]
+
+现在它不是守恒的,\,仅仅是在少数几个周期里面``近似''守恒.\,但是我们可以考虑求它在一个周期内的平均:
+\[\bar{E}=\frac{1}{2}\cdot\frac{1}{2}m\omega_d^2 A^2+\frac{1}{2}\cdot\frac{1}{2} kA^2=\frac{1}{2}m\frac{\omega_0^2+\omega_d^2}{2} A^2\approx \frac{1}{2}m\omega_0^2 A^2\]
+
+现在我们计算单位时间减少的能量的平均值.\,它其实就是阻尼造成的负功功率的平均值:
+\[\bar{P}=\overline{\gamma v\cdot v}=\frac{1}{2}\gamma \omega_d^2 A^2\approx \frac{1}{2}\gamma \omega_0^2 A^2=\frac{1}{2}m \omega_0^2 A^2\cdot 2\beta\]
+
+通过损耗功率等于能量的负导数,\,也可以得到振幅随着时间衰减的具体结果.\,我们现在关心一个重要的量,\,它实际上是反应振子振动单位相位所减少的能量占总能量的比例,\,我们把上式换一种写法:
+\[\bar{P}=\frac{\omega_0\bar{E}}{Q}\]
+
+以上引入的$Q$就是著名的\emph{品质因数}(quality factor).\,它越大,\,表示损耗越低,\,振子的阻尼就越小,\,就越接近``谐振''.\,实际上它算法为:
+\[Q=\frac{\omega_0}{2\beta}\]
+
+品质因数经常与另一个因子一起提出,\,两者是简单的导数关系,\,更精确地,\,我们定义:
+\[\tan\delta=\frac{1}{Q}=\frac{2\beta}{\omega_0}\]
+
+$\delta$被称作\emph{损耗角}(loss angle).\,一定要注意这两个概念是普遍的.\,谐振子模型是很多实际问题的抽象,\,它们作为谐振子都有自己的品质因数或损耗角,\,用以描述过程的一些共性,\,而且,\,不光可以用能量的损失的共性来定义品质因数和损耗角,\,还有很多重要的方式.\,详情见后.
+
+\begin{wrapfigure}[17]{o}[-10pt]{7cm}
+\centering
+\includegraphics[width=7cm]{image/6-3-3.png}
+\caption{阻尼振动的相图}
+\end{wrapfigure}
+现在我们来考虑简谐振动的\emph{相图}(phase diagram).\,在动力学中,\,这总是指把单个过程的运动,\,画成以其广义坐标和广义速度(或动量)为坐标轴的\emph{相空间}(phase space)中的曲线形成的图像.\,阻尼振动的代表性解为:
+\[x=A\ue^{-\beta t}\ue^{\ui \omega_d t}\]
+
+在这个解下,\,其速度为:
+\[\dot{x}=(\ui\omega_d-\beta)A\ue^{-\beta t}\ue^{\ui \omega_d t}\]
+
+两个量都在随时间衰减.\,从而在相图上就体现为一随着时间不断向着原点靠近的螺旋线.\,如果没有阻尼,\,那么标准简谐振动的相轨迹就是正椭圆:
+\[\frac{x^2	}{A^2}+\frac{\dot{x}^2}{\omega_0^2A^2}=1\]
+
+但是,\,有阻尼时除了是螺旋式的椭圆,\,它还不是``正''的.\,事实上,\,如果去除衰减因子,\,即将$x$和$\dot{x}$乘以个$\ue^{\beta t}$以抵消其衰减:
+\[X=x\ue^{\beta t}=A\ue^{\ui \omega_d t}\quad,\quad V=\dot{x}\ue^{\beta t}=\ui(\omega_d+\ui\beta)A\ue^{\ui \omega_d t}\]
+
+两者之间也不是恰好相差相位$\pi/2$,\,而是有一个额外相位差:
+\[\Delta=\arctan\frac{\beta}{\omega_d}\]
+
+%然而这个相位差也并不是相空间中的椭圆所倾斜的角度$\delta'$.\,为了得到倾角,\,我们可以先得到$X$与$V$形成的椭圆方程,\,为此取上式实部:
+\[X=A\cos\omega_d t\quad,\quad V=-\omega_dA\sin\omega_d t-\beta A\cos \omega_d t\]
+\[\Rightarrow \quad \omega_d^2X^2+(V+\beta X)^2=\omega_d^2 A^2\]
+\[\Rightarrow \quad \omega_0^2 X^2+V^2+2\beta XV=\omega_d^2 A^2\]
+
+为了求得顶点坐标,\,我们注意到对上式求偏导数就可以得到曲线上该点出的法向量:
+\[\bs{n}=(\omega_0^2 X+\beta V\,,\,V+\beta X)\]
+
+它需要与位矢$\bs{r}=(X\,,\,V)$共线,\,即:
+\[\]
 
 
 \section{多自由度小振动*}
