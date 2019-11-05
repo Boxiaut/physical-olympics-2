@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  1 NOV 2019 13:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  5 NOV 2019 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2101,8 +2101,11 @@ File: image/6-3-2.png Graphic file (type bmp)
  [13]
 File: image/6-3-3.png Graphic file (type bmp)
 <image/6-3-3.png>
-)
+
 [14]
+File: image/6-3-4.png Graphic file (type bmp)
+<image/6-3-4.png>
+ [15]) [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./physical-olympics-2.aux (./chapter/kinematics.aux)
@@ -2112,7 +2115,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 4AC11B177813488D8684747BE62AE3C9.
+(rerunfilecheck)             Checksum: 5A31F8B48CAB89FC13B01CDF3408E5A2.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2124,12 +2127,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29144 strings out of 492960
- 559579 string characters out of 6136939
- 652840 words of memory out of 5000000
- 32710 multiletter control sequences out of 15000+600000
+ 29150 strings out of 492960
+ 559666 string characters out of 6136939
+ 652882 words of memory out of 5000000
+ 32715 multiletter control sequences out of 15000+600000
  633072 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,958b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (11 pages, 95940 bytes).
+Output written on physical-olympics-2.xdv (13 pages, 120624 bytes).

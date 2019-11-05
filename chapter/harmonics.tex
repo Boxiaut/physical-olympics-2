@@ -116,6 +116,8 @@
 
 \section{阻尼振动与受迫振动}
 
+\subsection{阻尼振动}
+
 阻尼振动,\,狭义地是指普通的弹簧型谐振子,\,但是让振子运动的空间充满介质而产生湿摩擦(流体摩擦).\,从而产生一个正比于速度的阻尼的情形.\,其牛顿定律为:
 \[m\ddot{x}=-kx-\gamma \dot{x}\]
 
@@ -199,8 +201,8 @@
 以上引入的$Q$就是著名的\emph{品质因数}(quality factor).\,它越大,\,表示损耗越低,\,振子的阻尼就越小,\,就越接近``谐振''.\,实际上它算法为:
 \[Q=\frac{\omega_0}{2\beta}\]
 
-品质因数经常与另一个因子一起提出,\,两者是简单的导数关系,\,更精确地,\,我们定义:
-\[\tan\delta=\frac{1}{Q}=\frac{2\beta}{\omega_0}\]
+品质因数经常与另一个因子一起提出,\,两者是简单的倒数关系,\,更精确地,\,我们定义:
+\[\sin\delta=\frac{1}{2Q}=\frac{\beta}{\omega_0}\]
 
 $\delta$被称作\emph{损耗角}(loss angle).\,一定要注意这两个概念是普遍的.\,谐振子模型是很多实际问题的抽象,\,它们作为谐振子都有自己的品质因数或损耗角,\,用以描述过程的一些共性,\,而且,\,不光可以用能量的损失的共性来定义品质因数和损耗角,\,还有很多重要的方式.\,详情见后.
 
@@ -222,18 +224,66 @@ $\delta$被称作\emph{损耗角}(loss angle).\,一定要注意这两个概念�
 \[X=x\ue^{\beta t}=A\ue^{\ui \omega_d t}\quad,\quad V=\dot{x}\ue^{\beta t}=\ui(\omega_d+\ui\beta)A\ue^{\ui \omega_d t}\]
 
 两者之间也不是恰好相差相位$\pi/2$,\,而是有一个额外相位差:
-\[\Delta=\arctan\frac{\beta}{\omega_d}\]
+\[\delta=\arctan\frac{\beta}{\omega_d}=\arcsin\frac{\beta}{\omega_0}\]
 
-%然而这个相位差也并不是相空间中的椭圆所倾斜的角度$\delta'$.\,为了得到倾角,\,我们可以先得到$X$与$V$形成的椭圆方程,\,为此取上式实部:
-\[X=A\cos\omega_d t\quad,\quad V=-\omega_dA\sin\omega_d t-\beta A\cos \omega_d t\]
-\[\Rightarrow \quad \omega_d^2X^2+(V+\beta X)^2=\omega_d^2 A^2\]
-\[\Rightarrow \quad \omega_0^2 X^2+V^2+2\beta XV=\omega_d^2 A^2\]
+可以发现这个相位差就是损耗角.\,也就是说,\,损耗角的另一种理解方式是位置与速度振动过程中的相位夹角.\,作为结果,\,其相图中的椭圆也要倾斜一个角度$\delta'$.\,可以证明,\,损耗角越大,\,这个倾斜角度也会越大.
 
-为了求得顶点坐标,\,我们注意到对上式求偏导数就可以得到曲线上该点出的法向量:
-\[\bs{n}=(\omega_0^2 X+\beta V\,,\,V+\beta X)\]
+\subsection{受迫振动}
 
-它需要与位矢$\bs{r}=(X\,,\,V)$共线,\,即:
-\[\]
+如果在谐振子上施加一个周期性的策动外力.\,我们总是研究基本的简谐式的外力\footnote{傅里叶分析理论告诉我们,\,任何函数都可以分解为无穷多助三角函数的线性组合.\,故对于线性系统原则上就可以用叠加原理处理任意任意强迫力的运动求解:\,只要我们把简谐强迫力找到解法.}:
+\[F(t)=F_0\ue^{\ui\omega t}\quad {\rm i.e.}\quad F(t)=F_0\cos{\omega t}\]
+
+这个运动就称作\emph{受迫振动}(driven oscillation).\,这样子原来的方程就变为:
+\[m\ddot{x}+\gamma\dot{x}+kx=F_0\ue^{\ui\omega t}\]
+\[\Rightarrow\quad \ddot{x}+2\beta\dot{x}+\omega_0^2 x=\frac{F_0}{m}\ue^{\ui\omega t}\]
+
+很明显,\,可以猜一个谐振解.\,它是上述微分方程的特解(稳态解).\,通解还需要加上上一部分讨论的阻尼振动解(齐次方程的解是暂态解).\,注意其振动频率应当是策动力的频率$\omega$而不是体系的固有频率$\omega_0$:
+\[x=A\ue^{\ui\omega t}\quad \Rightarrow \quad (\omega_0^2-\omega^2+2\ui\beta\omega)A=\frac{F_0}{m}\]
+
+故,\,复振幅的解法也是相当地直接:
+\[A=\frac{F_0/m}{\omega_0^2-\omega^2+2\ui\beta\omega}\]
+
+
+作为复振幅,\,上$A$表达式其实同时包含了两个因素,\,一个是振幅,\,一个是相位.\,现在我们分离它们:
+\[A=|A|\ue^{\ui \varphi}\]
+\[|A|=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+4\beta^2\omega^2}}\]
+\[\varphi=-\arctan\frac{2\beta\omega}{\omega_0^2-\omega^2}\quad {\rm or} \quad \varphi=-\left(\pi-\arctan\frac{2\beta\omega}{\omega^2-\omega_0^2}\right)\]
+
+\begin{wrapfigure}[17]{o}[-10pt]{7cm}
+\centering
+\includegraphics[width=7cm]{image/6-3-4.png}
+\caption{幅频, 相频特性}\label{6-3-4}
+\end{wrapfigure}
+这就构成了两个关于$\omega$的函数.\,这也是实验上我们特别关心的两个函数,\,它们反映在稳态受迫振动的时候,\,一定外力下振子产生的振幅与相位究竟是怎样取决于策动力的角频率的.\,这就是著名的\emph{幅频特性}(amplitude-frequency characteristic)和\emph{相频特性}(phase-frequency characteristic).\,利用之前定义的品质因数$Q$,\,再命$x=\omega/\omega_0$.\,整理得:
+\[|A|=\frac{QF_0/m\omega_0^2}{\sqrt{Q^2(1-x^2)^2+x^2}}\]
+\[\varphi=-\arccos\frac{Q (1-x^2)}{\sqrt{Q^2(1-x^2)^2+x^2}}\]
+
+
+我们依然只考虑小阻尼情况.\,此时$Q$较大.\,比如如图\ref{6-3-4}所示,\,$Q=5,\,10,\,20$等.
+
+那么受迫振动又被分为三种情形:
+
+\begin{itemize}
+	\item 低频区为弹性控制区.
+
+	在$\omega\ll\omega_0$时,\,$m\ddot{x},\,\gamma\dot{x},\,kx$三项中最后一项最大,\,主要是弹簧的弹性力与策动力去平衡.\,从而体现出以下计算结果:
+	\[|A|\approx \frac{F_0}{m\omega_0^2}=\frac{F_0}{k}\]
+	\[\varphi\approx 0\]
+
+	也就是策动力与位移几乎同相,\,振子有充分的时间去实现平衡.
+
+	\item 高频区为惯性控制区.
+
+	在$\omega\ll\omega_0$时,\,$m\ddot{x},\,\gamma\dot{x},\,kx$三项中第一项最大,\,主要是高速变化的策动力去直接产生振子加速度.\,从而体现出以下计算结果:
+	\[|A|\approx \frac{F_0}{mx^2\omega_0^2}=\frac{F_0}{m\omega^2}\]
+	\[\varphi\approx -\pi\]
+
+	也就是策动力与位移几乎反相(亦反向).\,振子``随波逐流'',\,弹性力和阻尼力没有时间跟上策动力的节奏.
+
+	\item 中频区为共振区.
+
+	在$\omega$在$\omega_0$附近,\,即量级接近时.\,三个项$m\ddot{x},\,\gamma\dot{x},\,kx$也量级相当.\,如果把结果画成图\ref{6-3-4}.\,可以发现十分典型的现象是,\,振幅在某频率处取到了极值.\,而相位差(绝对值)在某频率处从小于$\pi/2$增加到大于$\pi/2$.
+\end{itemize}
 
 
 \section{多自由度小振动*}

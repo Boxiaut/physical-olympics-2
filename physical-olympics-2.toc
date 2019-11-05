@@ -8,9 +8,11 @@
 \contentsline {subsection}{\numberline {4.1.3}简谐振动的判定}{10}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}小振动}{11}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}多自由度小振动*}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}非线性摄动*}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}格波}{14}{section.4.5}
+\contentsline {subsection}{\numberline {4.2.1}阻尼振动}{12}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}受迫振动}{14}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}多自由度小振动*}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}非线性摄动*}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}格波}{16}{section.4.5}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{11}{chapter.5}
 \contentsline {section}{\numberline {5.1}有心力下运动}{11}{section.5.1}
 \contentsline {section}{\numberline {5.2}万有引力下运动}{11}{section.5.2}
