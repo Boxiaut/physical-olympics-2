@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  5 NOV 2019 12:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  6 NOV 2019 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2105,7 +2105,43 @@ File: image/6-3-3.png Graphic file (type bmp)
 [14]
 File: image/6-3-4.png Graphic file (type bmp)
 <image/6-3-4.png>
- [15]) [16]
+ [15]
+Overfull \hbox (11.36145pt too wide) in paragraph at lines 310--311
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 第 二 个 值 得 关 注 的 共 振 参 数\T1/lmr/m/n/10.53937 ,\TU
+/方正聚珍新仿简体(0)/m/n/10.53937 是 共 振 的 峰 的 宽 度\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/
+m/n/10.53937 谐 振 子 模 型 给 出 的 幅 频 曲 线\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/1
+0.53937 与 著 名 的[]柯 西 分 布[]\T1/lmr/m/n/10.53937 (Cauchy
+ []
+
+File: image/6-3-5.png Graphic file (type bmp)
+<image/6-3-5.png>
+[16]
+Missing character: There is no 也 in font ec-lmr10!
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 351.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 351.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 351.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 351.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 351.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 351.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 351.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 351.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 351.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 351.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 351.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 351.
+ [17]) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./physical-olympics-2.aux (./chapter/kinematics.aux)
@@ -2127,12 +2163,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29150 strings out of 492960
- 559666 string characters out of 6136939
+ 29195 strings out of 492960
+ 560246 string characters out of 6136939
  652882 words of memory out of 5000000
- 32715 multiletter control sequences out of 15000+600000
- 633072 words of font info for 150 fonts, out of 8000000 for 9000
+ 32743 multiletter control sequences out of 15000+600000
+ 648910 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,12n,92p,958b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,958b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (13 pages, 120624 bytes).
+Output written on physical-olympics-2.xdv (15 pages, 152500 bytes).

@@ -10,9 +10,9 @@
 \contentsline {section}{\numberline {4.2}阻尼振动与受迫振动}{12}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}阻尼振动}{12}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}受迫振动}{14}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}多自由度小振动*}{16}{section.4.3}
-\contentsline {section}{\numberline {4.4}非线性摄动*}{16}{section.4.4}
-\contentsline {section}{\numberline {4.5}格波}{16}{section.4.5}
+\contentsline {section}{\numberline {4.3}多自由度小振动*}{18}{section.4.3}
+\contentsline {section}{\numberline {4.4}非线性摄动*}{18}{section.4.4}
+\contentsline {section}{\numberline {4.5}格波}{18}{section.4.5}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{11}{chapter.5}
 \contentsline {section}{\numberline {5.1}有心力下运动}{11}{section.5.1}
 \contentsline {section}{\numberline {5.2}万有引力下运动}{11}{section.5.2}

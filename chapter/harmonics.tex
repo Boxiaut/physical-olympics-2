@@ -195,7 +195,7 @@
 现在我们计算单位时间减少的能量的平均值.\,它其实就是阻尼造成的负功功率的平均值:
 \[\bar{P}=\overline{\gamma v\cdot v}=\frac{1}{2}\gamma \omega_d^2 A^2\approx \frac{1}{2}\gamma \omega_0^2 A^2=\frac{1}{2}m \omega_0^2 A^2\cdot 2\beta\]
 
-通过损耗功率等于能量的负导数,\,也可以得到振幅随着时间衰减的具体结果.\,我们现在关心一个重要的量,\,它实际上是反应振子振动单位相位所减少的能量占总能量的比例,\,我们把上式换一种写法:
+通过损耗功率等于能量的负导数,\,也可以得到振幅随着时间衰减的具体结果.\,我们现在关心一个重要的量,\,它实际上是反应振子振动单位时间所减少的能量占由于以$\omega_0$振动导致的总能量转化速率的比例,\,我们把上式换一种写法:
 \[\bar{P}=\frac{\omega_0\bar{E}}{Q}\]
 
 以上引入的$Q$就是著名的\emph{品质因数}(quality factor).\,它越大,\,表示损耗越低,\,振子的阻尼就越小,\,就越接近``谐振''.\,实际上它算法为:
@@ -249,7 +249,7 @@ $\delta$被称作\emph{损耗角}(loss angle).\,一定要注意这两个概念�
 \[|A|=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+4\beta^2\omega^2}}\]
 \[\varphi=-\arctan\frac{2\beta\omega}{\omega_0^2-\omega^2}\quad {\rm or} \quad \varphi=-\left(\pi-\arctan\frac{2\beta\omega}{\omega^2-\omega_0^2}\right)\]
 
-\begin{wrapfigure}[17]{o}[-10pt]{7cm}
+\begin{wrapfigure}[15]{o}[-10pt]{7cm}
 \centering
 \includegraphics[width=7cm]{image/6-3-4.png}
 \caption{幅频, 相频特性}\label{6-3-4}
@@ -285,8 +285,79 @@ $\delta$被称作\emph{损耗角}(loss angle).\,一定要注意这两个概念�
 	在$\omega$在$\omega_0$附近,\,即量级接近时.\,三个项$m\ddot{x},\,\gamma\dot{x},\,kx$也量级相当.\,如果把结果画成图\ref{6-3-4}.\,可以发现十分典型的现象是,\,振幅在某频率处取到了极值.\,而相位差(绝对值)在某频率处从小于$\pi/2$增加到大于$\pi/2$.
 \end{itemize}
 
+\emph{共振}(resonance)是谐振子系统中十分典型的现象.\,一个共振发生的时候有两个量是值得关注的:
+
+第一个值得关注的共振参数,\,是共振的峰的位置.\,即\emph{共振频率}(resonance frequency).\,但是这个因素又被分为位移共振和速度共振,\,即位移振幅$|A|$最大或者速度振幅最大的角频率值.\,或者可以证明,\,等价的是,\,\emph{振幅共振}(amplitude resonance)和\emph{相位共振}(phase resonance).\,前者指的是响应$x$最大的点:
+\[x^2=1-\frac{1}{2Q^2}\approx 1\quad \Rightarrow \quad \omega\approx\omega_0\]
+
+后者则指响应和策动力完全相位差为$\pi/2$的情况:
+\[x^2=1\quad \Rightarrow \quad \omega=\omega_0\]
+
+可见两个共振在小阻尼情况下几乎是重合的.\,在振幅共振的情况下,\,振幅最终为:
+\[|A|=Q\cdot\frac{F_0}{m\omega_0^2}\cdot\sqrt{\frac{4Q^2}{4Q^2-1}}\approx Q\cdot\frac{F_0}{m\omega_0^2}\]
+
+如果以这个角频率的外力$F_0$直接作用在自由的质点上,\,或者是考虑让一个没有阻尼的振子进行固有振动并使弹簧给振子的力就是$F_0$.\,我们发现振子振幅应当是$F_0/m\omega_0^2$.\,这就是说共振时振幅成为了这个振幅的$Q$倍.\,说明了如果让体系从静止开始,\,自某一时刻开始受到周期性的外力而产生振动,\,如果频率接近固有频率,\,体系会十分反常的振幅越来越大,\,直到振幅是自由振幅的$Q$倍.\,这也是品质因数的第二种理解方式:\,共振的放大倍数.
+
+在看相位共振时的策动力-相位差为$\pi/2$的现象.\,这说明了什么?\,这说明策动力与速度完全就是同相的.\,带入$x=1$容易计算此时位移振幅为$|A|=QF_0/m\omega_0^2$,\,等效地可以写成$F_0=m\omega_0^2|A|/Q$.\,那么速度振幅就是$\omega_0|A|$.\,从而策动力对速度单位时间做的功就是:
+\[W=\overline{F(t)\dot{x}(t)}=\frac{1}{2}F_0\omega_0|A|=\left.\frac{1}{2}m\omega_0^3|A|^2\right/ Q\]
+
+这与上一部分得到了相似的结果.\,因为振动的能量其实就是:
+\[\bar{E}=\frac{1}{2}m\omega_0^2|A|^2\]
+
+也就是说品质因数反映了耗散的能量与总能量(动能势能互相转换)的比例:
+\[Q=\frac{\omega_0 \bar{E}}{W}\]
+
+第二个值得关注的共振参数,\,是共振的峰的宽度.\,谐振子模型给出的幅频曲线,\,与著名的\emph{柯西分布}(Cauchy distribution)对应的函数曲线有密切联系,\,柯西分布又常常因为在理论物理学中的广泛使用而称作\emph{洛伦兹型}(lorentzian shape)\footnote{比如谱线的形状,\,即线型,\,就常被视作洛伦兹线型.}.\,所谓柯西分布最初来自概率分布模型,\,它是指以下分布函数:
+\[{\rm pdf.}\footnote{probability distribution function,\,即概率分布函数的缩写.}=\frac{1}{\pi[\gamma^2+(x-x_0)^2]}\]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{image/6-3-5.png}
+\caption{高斯型和洛伦兹型\protect\footnotemark}
+
+\end{figure}
+
+\footnotetext{高斯型是指高斯分布:
+\[{\rm pdf.}=\frac{1}{\sqrt{2\pi}\sigma}\ue^{-\frac{(x-x_0)^2}{2\sigma^2}}\]}
+
+这样一个分布函数是需要有归一化的要求的:
+\[\int_{-\infty}^{+\infty}{\rm pdf. }\,\ud x=1\]
+
+但是现在的幅频特性,\,明显与洛伦兹型是有出入的.\,第一是,\,我们需要把因变量修改为$I=|A|^2$而不是$|A|$.\,这代表振动的强度而不是振幅.\,第二是,\,不同于柯西分布的分母为二次函数,\,这里的分母却作为了$x$的四次函数.\.也是$\omega$的四次函数.\,虽然$I(\omega)$与柯西分布有别,\,而且也不归一化.\,但是却体现出类似的性质.\,它们都是有一个峰,\,并在峰两侧按照较慢的多项式的方式衰减(而不是像高斯型那样指数衰减).\,而且我们都用\emph{半高峰宽}(FWHM,\,full width at half maximum)来描述峰的宽度.\,它被定义为函数值,\,或者代表的强度减少为峰值的一半对应的两点之间的区间宽度.\,对于标准的洛伦兹型,\,容易发现半高峰宽就是:
+\[{\rm FWHM}=2\gamma\]
+
+谐振子的幅频曲线的半高峰宽就更加难算.\,我们此时会采取一个近似技巧,\,不难验证其正确性.\,注意到在洛伦兹型中取到半高的点处分母中的两项是相等的,\,于是有理由相信在$I(x)$函数情况下,\,直接让分母两项相等就也近似是在半高点处:
+\[I(x)=I_0\left/\middle[(1-x^2)^2+\frac{x^2}{Q^2}\right]\quad\Rightarrow\quad I_{\rm max}\approx I_0\]
+\[I=\frac{I_{\rm max}}{2}\quad\Rightarrow\quad 1-x^2\approx \pm\frac{x}{Q}\]
+
+这就可以确定,\,取到半高的点$x_+,\,x_-$为:
+\[x_+=\sqrt{1+\frac{1}{4Q^2}}+\frac{1}{2Q}\quad;\quad x_-=\sqrt{1+\frac{1}{4Q^2}}-\frac{1}{2Q}\quad\Rightarrow \quad x_+-x_-=\frac{1}{Q}\]
+
+
+
+而$\omega_+=x_+\omega_0,\,\omega_-=x_-\omega_0$.\,从而半高峰宽就是:
+\[{\rm FWHM}=\Delta\omega=\omega_+-\omega_-=\frac{\omega_0}{Q}\]
+
+我们又发现了品质因数的一种常见定义方式,\,它被定义为谱线的\emph{锐度}(sharpness),\,即峰处角频率与半高峰宽的比值:
+\[Q=\frac{\omega_0}{\Delta \omega}\]
+
+
+
+
 
 \section{多自由度小振动*}
+
+多自由度小振动,\,首先得是一个多自由度平衡问题.\,在上一章带约束的完整系统的静力学平衡的基础上.\,如果体系还存在$f$个自由度,\,与之对应的有$f$个广义坐标$q_i$.\,那么我们指出过,\,体系的平衡条件为:
+\[Q_i=\sum_k \bs{F}_k\cdot \frac{\partial \bs{r}_k}{\partial q_i}=0\]
+
+但是在绝大多数情况下,\,我们处理的是保守体系的问题.\,所以这种场合下又有势能函数$V(q_i)$.\,广义力也能从势能中得到:
+\[Q_i=\frac{\partial V}{\partial q_i}\]
+
+这完全就能得到保守体系的平衡条件:
+\[\frac{\partial V}{\partial q_i}=0\]
+
+又是在绝大多数情况下,\,势能函数是性质非常良好的函数\footnote{数学上叫做光滑函数.}.\,从而可以在平衡位置附近泰勒展开.\,把平衡位置记作$q_{i0}$,\,而偏离平衡位置的位移为$\delta q_i$,\,平衡位置处势能记作$V_0=V(q_{i0})$,\,由于平衡位置一阶导数为零,\,故:
+\[V(q_{i0}+\delta q_i)=V_0+\frac{1}{2}\sum_{i,\,j}\left.\frac{\partial^2 V}{\partial q_iq_j}\right|_{q_{i0}}\delta q_i\delta q_j+\frac{1}{3!}\sum_{i,\,j,\,k}\left.\frac{\partial^3 V}{\partial q_iq_jq_k}\right|_{q_{i0}}\delta q_i\delta q_j\delta q_k+\cdots\]
 
 \section{非线性摄动*}
 
