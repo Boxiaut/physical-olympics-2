@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  6 NOV 2019 18:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  7 NOV 2019 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2141,17 +2141,22 @@ LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
 (Font)              scaled to size 6.72005pt on input line 351.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
 (Font)              scaled to size 4.80003pt on input line 351.
- [17]) [18]
+ [17]
+File: image/6-3-7.png Graphic file (type bmp)
+<image/6-3-7.png>
+File: image/6-3-6.png Graphic file (type bmp)
+<image/6-3-6.png>
+ [18] [19] [20]) [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
- (./physical-olympics-2.aux (./chapter/kinematics.aux)
-(./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
-(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/fluid.aux)
-(./chapter/elasticity.aux) (./chapter/relativity.aux))
+ (./physical-olympics-2.aux
+(./chapter/kinematics.aux) (./chapter/dynamics.aux) (./chapter/statics.aux)
+(./chapter/harmonics.aux) (./chapter/gravity.aux) (./chapter/rigidbody.aux)
+(./chapter/fluid.aux) (./chapter/elasticity.aux) (./chapter/relativity.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 5A31F8B48CAB89FC13B01CDF3408E5A2.
+(rerunfilecheck)             Checksum: 9B2214EC671BBD00B289AAABC05101BD.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2163,12 +2168,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29195 strings out of 492960
- 560246 string characters out of 6136939
- 652882 words of memory out of 5000000
- 32743 multiletter control sequences out of 15000+600000
+ 29206 strings out of 492960
+ 560407 string characters out of 6136939
+ 656196 words of memory out of 5000000
+ 32752 multiletter control sequences out of 15000+600000
  648910 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,958b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (15 pages, 152500 bytes).
+Output written on physical-olympics-2.xdv (18 pages, 204728 bytes).

@@ -429,6 +429,8 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchbmb.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb5.tfm
+INPUT image/6-3-7.png
+INPUT image/6-3-6.png
 INPUT physical-olympics-2.aux
 INPUT chapter/kinematics.aux
 INPUT chapter/kinematics.aux

@@ -356,8 +356,145 @@ $\delta$被称作\emph{损耗角}(loss angle).\,一定要注意这两个概念�
 这完全就能得到保守体系的平衡条件:
 \[\frac{\partial V}{\partial q_i}=0\]
 
-又是在绝大多数情况下,\,势能函数是性质非常良好的函数\footnote{数学上叫做光滑函数.}.\,从而可以在平衡位置附近泰勒展开.\,把平衡位置记作$q_{i0}$,\,而偏离平衡位置的位移为$\delta q_i$,\,平衡位置处势能记作$V_0=V(q_{i0})$,\,由于平衡位置一阶导数为零,\,故:
-\[V(q_{i0}+\delta q_i)=V_0+\frac{1}{2}\sum_{i,\,j}\left.\frac{\partial^2 V}{\partial q_iq_j}\right|_{q_{i0}}\delta q_i\delta q_j+\frac{1}{3!}\sum_{i,\,j,\,k}\left.\frac{\partial^3 V}{\partial q_iq_jq_k}\right|_{q_{i0}}\delta q_i\delta q_j\delta q_k+\cdots\]
+又是在绝大多数情况下,\,势能函数是性质非常良好的函数\footnote{数学上叫做光滑函数.}.\,从而可以在平衡位置附近泰勒展开.\,把平衡位置记作$q_{i0}$,\,而偏离平衡位置的位移为$\delta_i$,\,平衡位置处势能记作$V_0=V(q_{i0})$,\,由于平衡位置一阶导数为零,\,故:
+\[V(q_{i0}+\delta_i)=V_0+\frac{1}{2}\sum_{i,\,j}\left.\frac{\partial^2 V}{\partial q_i\partial q_j}\right|_{q_{i0}}\delta_i\delta_j+\frac{1}{3!}\sum_{i,\,j,\,k}\left.\frac{\partial^3 V}{\partial q_i\partial q_j\partial q_k}\right|_{q_{i0}}\delta_i\delta_j\delta_k+\cdots\]
+
+在忽略三阶小量(不会成为领头项,\,条件下面再讨论)的前提下,\,再通过去掉常数$V_0$,\,不影响势能的效果.\,我们发现势能实际上就成为了一个二次型:
+\[V=\frac{1}{2}\sum_{i,\,j}\left.\frac{\partial^2 V}{\partial q_i\partial q_j}\right|_{q_{i0}}\delta_i\delta_j=\frac{1}{2}\sum_{i,\,j} V_{ij}\delta_i\delta_j\]
+
+而动能,\,由于在平衡位置附近小范围内做小的运动,\,当然也是一个关于广义速度的二次型,\,系数为常数$T_{ij}$:
+\[T=\frac{1}{2}\sum_{i,\,j} T_{ij}\dot{\delta}_i\dot{\delta}_j\]
+
+关于系数$T_{ij},\,V_{ij}$.\,一个要求是它们必须对称:
+\[T_{ij}=T_{ji}\quad;\quad V_{ij}=V_{ji}\]
+
+其中的道理非常简单,\,例如只有两个广义坐标的变化$\delta_1,\,\delta_2$.\,那么$V_{12}=a\neq V_{21}=b$所决定的势能二次型与$V_{12}=V_{21}=(a+b)/2$决定的二次型根本就是同一个:
+\[V_{12}=a\neq V_{21}=b:\,V=\frac{1}{2}V_{11} \delta_1^2+\frac{1}{2}V_{22} \delta_2^2+\frac{1}{2}a\delta_1\delta_2+\frac{1}{2}b\delta_2\delta_1=\frac{1}{2}V_{11} \delta_1^2+\frac{1}{2}V_{22} \delta_2^2+\frac{1}{2}(a+b)\delta_1\delta_2\]
+\[V_{12}=V_{21}=\frac{a+b}{2}:\,V=\frac{1}{2}V_{11} \delta_1^2+\frac{1}{2}V_{22} \delta_2^2+\frac{1}{2}\frac{a+b}{2}\delta_1\delta_2+\frac{1}{2}\frac{a+b}{2}\delta_2\delta_1=\frac{1}{2}V_{11} \delta_1^2+\frac{1}{2}V_{22} \delta_2^2+\frac{1}{2}(a+b)\delta_1\delta_2\]
+
+反过来,\,如果给一个二次型,\,我们也中总可以把系数写成对称的形式,\,比如在动能中,\,毕竟偏导数本身也是可交换次序的:
+\[T_{ij}=\frac{\partial^2 T}{\partial \dot{\delta}_i\partial \dot{\delta}_j}=\frac{\partial^2 T}{\partial \dot{\delta}_j\partial \dot{\delta}_i}=T_{ji}\]
+
+\begin{wrapfigure}[38]{o}[-10pt]{6cm}
+\centering
+\includegraphics[width=6cm]{image/6-3-7.png}
+\caption{耦合摆}\label{6-3-6}
+\includegraphics[width=2.5cm]{image/6-3-6.png}
+\caption{双摆}\label{6-3-7}
+\end{wrapfigure}
+举两个例子.\,在\emph{耦合摆}(coupled pendulum)问题\ref{6-3-6}中,\,分开看是相同的两个单摆,\,但却因为弹簧而发生弱的耦合,\,设想弹簧原长为$x$为摆间距,\,这样就使得两单摆按原来的位置平衡时,\,弹簧也没有作用力.\,但只要一发生运动就彼此影响,\,设两摆球距离$x'=\sqrt{(x+l\sin\theta_2-l\sin\theta_1)^2+(l\cos\theta_2-l\cos\theta_1)^2}$.\,这样作为整体体系动能和势能为:
+\[T_{\rm cp}=\frac{1}{2}ml^2\dot{\theta}_1^2+\frac{1}{2}ml^2\dot{\theta}_2^2\]
+\[V_{\rm cp}=mgl(1-\cos\theta_1)+mgl(1-\cos\theta_2)+\frac{1}{2}k(x'-x)^2\]
+
+再引入描述耦合强度的参量$\varepsilon=kl/mg$,\,小量近似以后,\,动能,\,势能被近似为二次型:
+\[T_{\rm cp}=\frac{1}{2}\cdot ml^2\cdot \dot{\theta}_1^2+\frac{1}{2}\cdot ml^2\cdot \dot{\theta}_2^2\]
+\[V_{\rm cp}=\frac{1}{2}\cdot (1+\varepsilon)mgl\cdot{\theta}_1^2+\frac{1}{2}\cdot (1+\varepsilon)mgl\cdot{\theta}_2^2-\varepsilon mgl\cdot {\theta}_1{\theta}_2\]
+
+而在\emph{双摆}(double pendulum)问题\ref{6-3-7}中,\,两个摆直接悬挂在一起.\,也会彼此影响.\,体系动能和势能为:
+\[T_{\rm dp}=\frac{1}{2}ml^2\dot{\theta}_1^2+\frac{1}{2}ml^2[\dot{\theta}_1^2+\dot{\theta}_2^2+2\dot{\theta}_1\dot{\theta}_2\cos(\theta_1-\theta_2)]\]
+\[V_{\rm dp}=mgl(1-\cos\theta_1)+mgl(1-\cos\theta_1)+mgl(1-\cos\theta_2)\]
+
+
+小量近似以后,\,动能,\,势能被近似为二次型:
+\[T_{\rm dp}=\frac{1}{2}\cdot 2ml^2\cdot\dot{\theta}_1^2+\frac{1}{2}\cdot ml^2\cdot\dot{\theta}_2^2+ml^2\cdot\dot{\theta}_1\dot{\theta}_2\]
+\[V_{\rm dp}=\frac{1}{2}\cdot 2mgl\cdot{\theta}_1^2+\frac{1}{2}\cdot mgl\cdot{\theta}_2^2\]
+
+如果把$T_{ij}$和$V_{ij}$写成矩阵,\,那么对应的矩阵叫做\emph{惯性矩阵}(inertial matrix)和\emph{弹性矩阵}(elastic matrix):
+\[[T_{ij}]_{\rm cp}=ml^2\begin{bmatrix} 1&0\\ 0&1\end{bmatrix}\quad;\quad [V_{ij}]_{\rm cp}=mgl \begin{bmatrix} 1+\varepsilon&-\varepsilon\\ -\varepsilon &1+\varepsilon\end{bmatrix}\]
+\[[T_{ij}]_{\rm dp}=ml^2\begin{bmatrix} 2&1\\ 1&1\end{bmatrix}\quad;\quad [V_{ij}]_{\rm dp}=mgl \begin{bmatrix} 2&0\\ 0&1\end{bmatrix}\]
+
+从而我们可以发现这两个问题的重大区别在于,\,前一个问题动能规整,\,势能却具有交叉项.\,后一个问题势能规整,\,动能却具有交叉项.
+
+当我们遇到一个这样普遍的小振动问题时,\,该如何得到其运动的特征.\,有两种常见的做法:\,一是通过换元来实现动能势能的简化,\,这种方法需要较深厚的数学基础,\,又最好通过拉格朗日方程来理解一些过程.\,我们下面也写出具体的过程,\,有兴趣的读者可以做进一步研究;\,但也有第二种简易的方法来求解一些直接的量.\,我们也在详细讨论的方法之后加上去:
+
+\subsection{基于线性代数与分析力学的简正坐标求解}
+
+对一个任意的二次型进行配方并不是难事.\,例如$F(x_1,\,x_2\cdots)$是一个二次型,\,那么它必然可以写作:
+\[F(x_1,\,x_2\cdots)=\frac{1}{2}f_{11}x_1^2+x_1(f_{12}x_2+f_{13}x_3+\cdots)+(\frac{1}{2}f_{22}x_2^2+\cdots)\]
+
+即$x_1$自己的项,\,和别的变量``耦合''的项以及与$x_1$无关的项.\,那么做变量代换:
+\[x_1'=x_1+\frac{f_{12}}{f_{11}}x_2+\frac{f_{13}}{f_{11}}x_3+\cdots\]
+
+便可以把``耦合''项配方到$x_1$自己的项内,\,上式变成:
+\[F(x_1,\,x_2\cdots)=\frac{1}{2}f_{11}x_1'^2+F'(x_2,\,x_3\cdots)\]
+
+之后只要继续对$F'$配方,\,每次可以得到一个完全平方的项,\,余项则是剩下的变量的二次型,\,变量数至少减一.\,这样就可以实现任意二次型的完全配方.\,用这个方法可以选择动能或者势能进行化简.\,最终形式,\,由上讨论,\,只包含平方项,\,没有交叉项.\,由于这样对应的矩阵是对角矩阵.\,我们把这样的配方过程称作\emph{对角化}(diagonalization):
+\[T=\sum_i\frac{1}{2}T_i \dot{\delta}_i^2\quad ;\quad V=\sum_i\frac{1}{2}V_i \delta_i^2\]
+
+注意这里动能和势能的对角化是分开来进行的.\,对应的系数$T_i$叫做\emph{惯性系数}(inertial coefficient),\,而$T_i$叫做\emph{弹性系数}(elastic coefficient).\,同时我们对这些系数必然有以下期待:
+
+\begin{itemize}
+	\item 动能的对角化结果:
+		\begin{itemize}
+			\item 非退化正定二次型:\,所有$T_i>0$.
+			\item 退化正定二次型:\,个别$T_i=0$.
+			\item 不可能出现某个$T_i<0$.
+		\end{itemize}
+	\item 势能的对角化结果:
+		\begin{itemize}
+			\item 非退化正定二次型:\,所有$V_i>0$.
+			\item 可以负的二次型:\,存在$V_i<0$.
+			\item 退化的二次型:\,所有$V_i\geq 0$且也存在$V_i= 0$.
+		\end{itemize}
+\end{itemize}
+
+说明:
+
+动能不可以出现负的惯性系数,\,是因为在所有情况下动能都必须大于零.\,但是在有的情况下惯性系数可以为零,\,即,\,即使广义速度不为零,\,造成的动能为零,\,称作\emph{退化}(degenarate)的情况.\,这要么说明体系存在没有动力学效果的冗余自由度.\,例如无限细的杆的自转角就是这样的例子.\,去掉这个广义坐标也不影响能量的表达式.\,要么说明这个自由度上的动能是一个高阶小量.\,只是在目前平衡位置,\,系数``偶然''地等于了零,\,只要偏离这个位置去振动就会产生一定的动能,\,抑或我们在实际问题中需要考虑更高阶泰勒展开产生的广义速度的高次项.\,后面这种情况一般就与简谐振动无关了.\,再次不予考虑.\,故我们此后做假设:\,\emph{所有小振动问题,\,动能必须是非退化正定的.}
+
+势能就更加复杂.\,势能相对平衡位置本来就可正可负.\,那么上面我们分为三种情况其实就包括了所有情况.\,有一点是非常突出的,\,如果沿某方向偏离平衡位置时,\,势能降低了,\,那么原平衡位置就一定是\emph{非稳定平衡}(unstable equilibrium).\,在仅仅考虑二次型的情况下,\,一旦出现一个负的弹性系数这就成为了必然.\,但是即使一个负的弹性系数都没有,\,也不能因此就下断言原位置是稳定的.\,因为还有二次型\emph{退化}的情况.\,它发生在某些弹性系数为零时,\,此时高阶泰勒展开项如果是负的,\,它依然可以不稳定,\,普遍情况得考察多个领头项.\,但是,\,有一点很好判断:\,就是如果所有弹性系数为正,\,那么原来的位置就一定是\emph{稳定平衡}(stable equilibrium).\,因为此时任意的偏离平衡位置都使得势能升高.\,也只有稳定平衡才能作为小振动问题求解的先决条件.\,故我们此后做假设:\,\emph{所有小振动问题,\,势能必须是非退化正定的.}
+
+但是虽然单独对动能或势能对角化简单,\,但是两者却不会同时对角化.\,例如在双摆问题中,\,对于动能:
+\[T_{\rm dp}=\frac{1}{2}\cdot 2ml^2\cdot\dot{\theta}_1^2+\frac{1}{2}\cdot ml^2\cdot\dot{\theta}_2^2+ml^2\cdot\dot{\theta}_1\dot{\theta}_2=\frac{1}{2}\cdot 2ml^2\cdot\left(\dot{\theta}_1+\frac{1}{2}\dot{\theta}_2\right)^2+\frac{1}{2}\cdot \frac{ml^2}{2}\cdot\dot{\theta}_2^2\]
+
+但是如果做换元$\vartheta_1=\theta_1+\theta_2/2,\,\vartheta_2=\theta_2$,\,动能倒是没有交叉项了,\,但原来好好的势能又产生交叉项了:
+\[V_{\rm dp}=\frac{1}{2}\cdot 2mgl\cdot{\vartheta}_1^2+\frac{1}{2}\cdot \frac{3}{2}mgl\cdot{\vartheta}_2^2-mgl\cdot {\vartheta}_1{\vartheta}_2\]
+
+所以,\,我们这里要追求的其实是\emph{同时对角化}(simutalneous diagonalization)的技巧.\,为了进一步研究,\,我们先来抽象对角化的过程.\,根据矩阵理论,\,任何一个坐标变换,\,其实是一个线性变换:
+\[[q_i']=[A_{ij}][q_j]\]
+
+这个式子是以下两种写法的缩略形式:
+\[q_i'=\sum_j A_{ij}q_j\quad {\rm or}\quad \begin{bmatrix}q_1'\\q_2'\\ \vdots\\ q_n'\end{bmatrix}=\begin{bmatrix}A_{11}&A_{12}&\cdots&A_{1n}\\ A_{21}&A_{22}&\cdots &A_{2n}\\ \vdots&\vdots &&\vdots\\ A_{n1}&A_{n2}&\cdots &A_{nn} \end{bmatrix}\begin{bmatrix}q_1\\q_2\\ \vdots\\ q_n\end{bmatrix}\]
+
+它的逆变换:\,求出$[A_{ij}]$的逆矩阵$[B]_{ij}$,\,就可以用新坐标表示旧坐标:
+\[[q_i]=[B_{ij}][q_j']\]
+
+而动能,\,势能都可以用矩阵来表示\footnote{用$\phantom{}^{\rm t}[q_i]$表示转置,\,即把列向量写作行向量.}:
+\[T=\frac{1}{2}\phantom{}^{\rm t}[\dot{q}_i][T_{ij}][\dot{q}_j]\quad ;\quad V=\frac{1}{2}\phantom{}^{\rm t}[q_i][V_{ij}][q_j]\]
+
+这样只要把之前的变换代入这两个二次型,\,就得到了变换之后的二次型:
+\[T=\frac{1}{2}\phantom{}^{\rm t}[\dot{q}'_i]\phantom{}^{\rm t}[B_{ij}][T_{jk}][B_{kl}][\dot{q}'_l]=\frac{1}{2}\phantom{}^{\rm t}[\dot{q}'_i][T'_{il}][\dot{q}'_l]\]
+\[V=\frac{1}{2}\phantom{}^{\rm t}[q'_i]\phantom{}^{\rm t}[B_{ij}][V_{jk}][B_{kl}][q'_l]=\frac{1}{2}\phantom{}^{\rm t}[q'_i][V'_{il}][q'_l]\]
+
+这说明其实在坐标变换以后,\,惯性和弹性矩阵是按照右乘一个矩阵,\,再左乘它的转置来进行的.\,这种对矩阵的变换数学上叫做\emph{合同变换}(congruent transformation):
+\[[T'_{il}]=\phantom{}^{\rm t}[B_{ij}][T_{jk}][B_{kl}]\quad ;\quad [V'_{il}] =\phantom{}^{\rm t}[B_{ij}][V_{jk}][B_{kl}]\]
+
+要把$[T]$和[V]同时对角化,\,其实问题的诀窍是求解本征值问题:
+\[([V_{ij}]+\lambda [T_{ij}])[x_j]=[0]\]
+
+即,\,确定是否存在常数$\lambda$\footnote{后面会知道一定非零.}和非零向量$[x_j]$使得两个矩阵组合以后恰好作为系数使得这个向量作为以上方程的解.\,乍一看这似乎很抽象.\,其实这背后的物理意义可以做这样的理解:\,既然是小振动,\,就有可能找到一些简单的运动模式,\,此时所有坐标上都是做不同振幅的简谐振动,\,即:
+\[[q_i]=[x_i]\cos\omega t\]
+
+
+
+
+如何写出这种情况下的动力学方程?\,一种完全严谨的做法就是利用上一章讨论的拉格朗日方程:
+\[L=T-V=\frac{1}{2}\phantom{}^{\rm t}[\dot{q}_i][T_{ij}][\dot{q}_j]-\frac{1}{2}\phantom{}^{\rm t}[q_i][V_{ij}][q_j]\]
+
+\[\frac{\ud }{\ud t}\frac{\partial L}{\partial \dot{q}_i}=\frac{\partial L}{\partial {q}_i}\quad\RIghtarrow \quad [T_{ij}][\ddot{q}_j]=-[V_{ij}][q_j]\]
+
+将简谐振动解带入,\,就得到了:
+\[([V_{ij}]+\omega^2 [T_{ij}])[x_j]=[0]\]
+
+从而原来的本征值问题中的$\lambda$代表的含义就是振动角频率平方$\omega^2$.\,那么这个本征值问题又如何求解?\,首先,\,上式中方程组存在解且非零的条件为系数行列式为零:
+\[{\rm det}([V_{ij}]+\lambda [T_{ij}])=0\]
+
+这就构成了关于$\lambda$的$n$次方程,\,他就一定有$n$个根,\,不过可以有重根.\,把这$n$个根带入,\,我们就可以把对应的$n$个本征向量\footnote{注意本征向量的存在性,\,非重根是显然的,\,但是如果有个$s$重根,\,是否也有$s$组独立的解向量?\,这不是显然的,\,需要证明,\,在次略去.\,一般线性代数的教材上都会有证明方法,\,不过一般会默认是$[T_{ij}]$为单位矩阵的简单情况,\,其实这不影响证明过程.}$[x_j]$找到,\,这仅仅是个体力活:\,求解至多$n$次$n$元线性方程组.\,一旦求解完毕,\,我们就找到了$n$个$\lamgda$和$n$个$[x_j]$,\,可以记作:
+\[([V_{ij}]+\lambda_k [T_{ij}])[B_{j,k}]=[0]\]
+
+\subsection{基于对称性的简正模判定与简正频率求解}
+
+
 
 \section{非线性摄动*}
 
