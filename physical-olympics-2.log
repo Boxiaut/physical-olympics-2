@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  7 NOV 2019 16:41
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  14 NOV 2019 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2146,17 +2146,81 @@ File: image/6-3-7.png Graphic file (type bmp)
 <image/6-3-7.png>
 File: image/6-3-6.png Graphic file (type bmp)
 <image/6-3-6.png>
- [18] [19] [20]) [21]
+ [18] [19] [20] [21]
+Overfull \hbox (26.17023pt too wide) in paragraph at lines 495--496
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后 还 需 证 明 一 点\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简
+体(0)/m/n/10.53937 就 是 这 $\OML/lmm/m/it/10.53937 k \OT1/lmr/m/n/10.53937 = 1\OML
+/lmm/m/it/10.53937 ;  \OT1/lmr/m/n/10.53937 2 [] \OML/lmm/m/it/10.53937 n$ \TU/
+方正聚珍新仿简体(0)/m/n/10.53937 个 本 征 值 对 应 的 本 征 向 量 不 仅 是 独 立 的\T1/lmr/m/n/10.53937 
+,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 且 还 是[]正 交[]\T1/lmr/m/n/10.53937 (orthogonal)
+ []
+
+[22] [23]) [24]
+\openout2 = `chapter/gravity.aux'.
+
+ (./chapter/gravity.tex
+第五章
+) [25
+
+
+
+]
+\openout2 = `chapter/rigidbody.aux'.
+
+ (./chapter/rigidbody.tex [26
+
+
+
+]
+第六章
+File: image/6-6-1.png Graphic file (type bmp)
+<image/6-6-1.png>
+[27]
+File: image/6-6-2.png Graphic file (type bmp)
+<image/6-6-2.png>
+ [28]) [29]
+\openout2 = `chapter/fluid.aux'.
+
+ (./chapter/fluid.tex [30
+
+
+
+]
+第七章
+) [31]
+\openout2 = `chapter/elasticity.aux'.
+
+ (./chapter/elasticity.tex [32
+
+
+
+]
+第八章
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.75693pt
+(hyperref)                removed on input line 22.
+
+) [33]
+\openout2 = `chapter/relativity.aux'.
+
+ (./chapter/relativity.tex [34
+
+
+
+]
+第九章
+) [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
- (./physical-olympics-2.aux
-(./chapter/kinematics.aux) (./chapter/dynamics.aux) (./chapter/statics.aux)
-(./chapter/harmonics.aux) (./chapter/gravity.aux) (./chapter/rigidbody.aux)
-(./chapter/fluid.aux) (./chapter/elasticity.aux) (./chapter/relativity.aux))
+ (./physical-olympics-2.aux (./chapter/kinematics.aux)
+(./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
+(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/fluid.aux)
+(./chapter/elasticity.aux) (./chapter/relativity.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 9B2214EC671BBD00B289AAABC05101BD.
+(rerunfilecheck)             Checksum: BB85F649352695BDD29F3BD70D7597BE.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2168,12 +2232,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29206 strings out of 492960
- 560407 string characters out of 6136939
- 656196 words of memory out of 5000000
- 32752 multiletter control sequences out of 15000+600000
+ 29229 strings out of 492960
+ 560808 string characters out of 6136939
+ 658792 words of memory out of 5000000
+ 32763 multiletter control sequences out of 15000+600000
  648910 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,958b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (18 pages, 204728 bytes).
+Output written on physical-olympics-2.xdv (32 pages, 307828 bytes).
