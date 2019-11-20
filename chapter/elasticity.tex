@@ -12,14 +12,28 @@
 不失普遍性地,\,我们考虑如何刻画在$\bs{R}=\bs{0}$的形变.\,我们需要研究在$\bs{R}=\bs{0}$的附近$\ud \bs{R}=\ud X\bs{e}_x+\ud Y\bs{e}_y+\ud Z\bs{e}_z$处的位移与中心的位移去比较.\,数学上有以下泰勒展式:
 \[\bs{r}(\ud \bs{R},t)=\bs{r}(\bs{0},t)+\ud \bs{R}\cdot \nabla \bs{r}\]
 
-上式中$\nabla\bs{r}$是一个有九个分量的张量,\,它的作用是可以与之前的矢量点乘把它线性地映射为另一个矢量:
+上式中$\nabla\bs{r}$是一个有九个分量的张量,\,对于\emph{张量}(tensor),\,暂时可以理解为与矩阵类似的概念,\,它是九个分量的三行三列式的组合,\,而且现在它的作用是可以与之前的矢量点乘把它线性地映射为另一个矢量:
 \[\nabla\bs{r}=\sum_{i,j}\frac{\partial x_j}{\partial X_i}\bs{e}_i\bs{e}_j\]
 \[\nabla\bs{r}:\; \sum_i\ud X_i\bs{e}_i\rightarrow \sum_j\ud x_j\bs{e}_j=\sum_j\left(\sum_i \frac{\partial x_j}{\partial X_i}\ud X_i\right)\bs{e}_j\]
 
-不难发现第二个式子是不证自明的.\,所以实际上刻画形变的包含于$\nabla\bs{r}$这个张量.\,但是并不是完全取决于它,\,考虑像刚体这样的不能变形的物体,\,由于
+\[\nabla\bs{r}:\; \begin{bmatrix}\frac{\partial x}{\partial X}&\frac{\partial y}{\partial X}&\frac{\partial z}{\partial X}\\\frac{\partial x}{\partial Y}&\frac{\partial y}{\partial Y}&\frac{\partial z}{\partial Y}\\\frac{\partial x}{\partial Z}&\frac{\partial y}{\partial Z}&\frac{\partial z}{\partial Z}\end{bmatrix}\]
+
+不难发现第二个式子是不证自明的.\,所以实际上刻画形变的包含于$\nabla\bs{r}$这个张量.\,但是并不是完全取决于它,\,考虑像刚体这样的不能变形的物体,\,上一章介绍过,\,旋转依然是可能的.\,不妨设刚体不仅随$\bs{R}=\bs{0}$的点发生了$\bs{r}(\bs{0},t)$式的平动,\,也要发生一个$\ud\bs{\theta}$的小角度转动.\,在这里我们让转动的角度足够小以至于可以做小角近似.\,这样就可以把刚体式的位移的以上张量写成:
+\[\bs{r}(\ud \bs{R},t)=\bs{r}(\bs{0},t)+\ud \bs{\theta}\times \ud \bs{R}\]
+\[\nabla\bs{r}:\; \begin{bmatrix} 0&\ud \theta_z &-\ud \theta_y \\-\ud \theta_z&0&\ud \theta_x \\ \ud \theta_y &-\ud \theta_x &0\end{bmatrix}\]
+
+这个矩阵是一个反对称矩阵,\,从而我们得出一个结论:\,一个固体在某点位移对应的$\nabla\bs{r}$如果是反对称的,\,则不产生任何形变,\,仅仅是局部整体发生了平移和旋转.
+
+但是有一个简单的定理.\,任何一个方矩阵$[M_{ij}]$都能被唯一地分解为对称矩阵和反对称矩阵.\,分别称作原来矩阵的\emph{对称部分}(symmetric component)和\emph{反对称部分}(anti-symmetric component).\,用矩阵的转置可以很简单的得到这个结果:
+\[[M_{ij}]=[S_{ij}]+[A_{ij}]\]
+\[[S_{ij}]=\frac{[M_{ij}]+\phantom{}^{\rm t}[M_{ij}]}{2}\quad,\quad [A_{ij}]=\frac{[M_{ij}]-\phantom{}^{\rm t}[M_{ij}]}{2}\]
+
+那么问题就很简单了,\,之前那个矩阵的对称部分就是描述形变的部分.\,这个部分被叫做\emph{应变张量}(strain tensor),\,以后用$\bs{\varepsilon}$来表示\footnote{本书印刷体张量都是与矢量一致的粗体.\,手写时,\,为了区分,\,可以把张量写作带异型箭头的形式$\stackrel{\leftrightarrow}{T}$或者直接用自由指标的分量代指构成的整体$T_{ij}$.}:
+\[\bs{\varepsilon}=\frac{1}{2}(\nabla\bs{r}+\phantom{}^{\rm t}\nabla\bs{r})\]
+\[\bs{\varepsilon}:\; \begin{bmatrix}\frac{\partial x}{\partial X}&\frac{1}{2}\frac{\partial y}{\partial X}+\frac{1}{2}\frac{\partial x}{\partial Y}&\frac{1}{2}\frac{\partial z}{\partial Y}+\frac{1}{2}\frac{\partial y}{\partial Z}\\\frac{1}{2}\frac{\partial y}{\partial X}+\frac{1}{2}\frac{\partial x}{\partial Y}&\frac{\partial y}{\partial Y}&\frac{1}{2}\frac{\partial x}{\partial Z}+\frac{1}{2}\frac{\partial z}{\partial X}\\\frac{1}{2}\frac{\partial z}{\partial Y}+\frac{1}{2}\frac{\partial y}{\partial Z}&\frac{1}{2}\frac{\partial x}{\partial Z}+\frac{1}{2}\frac{\partial z}{\partial X}&\frac{\partial z}{\partial Z}\end{bmatrix}=\begin{bmatrix} \varepsilon_x&\theta_{xy} &\theta_{zx} \\ \theta_{xy}&\varepsilon_y&\theta_{yz} \\ \theta_{zx}&\theta_{yz}&\varepsilon_z\end{bmatrix}\]
 
 
-\section{弹性棒,\,弹性膜与弹性体}
+\section{弹性棒,\,弹性绳,\,弹性膜与弹性体}
 
 \section{弹性波}
 

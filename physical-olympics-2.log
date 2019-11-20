@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  19 NOV 2019 09:13
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  20 NOV 2019 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2186,21 +2186,27 @@ File: image/6-6-2.png Graphic file (type bmp)
 
 ]
 第七章
+[31]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 22.
+(hyperref)                removed on input line 36.
 
-) [31]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.75693pt
+(hyperref)                removed on input line 36.
+
+) [32]
 \openout2 = `chapter/fluid.aux'.
 
- (./chapter/fluid.tex [32
+ (./chapter/fluid.tex
+第八章
+) [33
 
 
 
 ]
-第八章
-) [33]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./physical-olympics-2.aux (./chapter/kinematics.aux)
@@ -2210,7 +2216,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 0ABDB6035F5FC5194E966BF04C3EC3F2.
+(rerunfilecheck)             Checksum: B457AC03860F9FD4D5BE070FCCA72CD1.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2224,10 +2230,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
 Here is how much of TeX's memory you used:
  29220 strings out of 492960
  560628 string characters out of 6136939
- 657711 words of memory out of 5000000
+ 657740 words of memory out of 5000000
  32761 multiletter control sequences out of 15000+600000
  648910 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,958b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (30 pages, 302176 bytes).
+Output written on physical-olympics-2.xdv (30 pages, 313572 bytes).
