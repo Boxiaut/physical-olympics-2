@@ -429,6 +429,8 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb5.tfm
 INPUT image/6-3-7.png
 INPUT image/6-3-6.png
+INPUT image/6-3-10.png
+INPUT image/6-3-8.png
 OUTPUT chapter/gravity.aux
 INPUT chapter/gravity.tex
 INPUT chapter/gravity.tex

@@ -13,23 +13,23 @@
 \contentsline {section}{\numberline {4.3}多自由度小振动*}{18}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}基于线性代数与分析力学的简正坐标求解}{20}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}基于对称性的简正模判定与简正频率求解}{24}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}非线性摄动*}{24}{section.4.4}
-\contentsline {section}{\numberline {4.5}格波}{24}{section.4.5}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}有心力下运动}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}万有引力下运动}{25}{section.5.2}
-\contentsline {section}{\numberline {5.3}二体与潮汐}{25}{section.5.3}
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}刚体}{27}{chapter.6}
-\contentsline {section}{\numberline {6.1}刚体的物理描述}{27}{section.6.1}
-\contentsline {section}{\numberline {6.2}平面平行运动}{29}{section.6.2}
-\contentsline {section}{\numberline {6.3}空间刚体运动*}{29}{section.6.3}
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}弹性体}{31}{chapter.7}
-\contentsline {section}{\numberline {7.1}弹性体的物理描述}{31}{section.7.1}
-\contentsline {section}{\numberline {7.2}弹性棒,\tmspace +\thinmuskip {.1667em}弹性绳,\tmspace +\thinmuskip {.1667em}弹性膜与弹性体}{32}{section.7.2}
-\contentsline {section}{\numberline {7.3}弹性波}{32}{section.7.3}
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}流体}{33}{chapter.8}
-\contentsline {section}{\numberline {8.1}流体的物理描述}{33}{section.8.1}
-\contentsline {section}{\numberline {8.2}定常流动动力学}{33}{section.8.2}
-\contentsline {section}{\numberline {8.3}黏滞流体动力学}{33}{section.8.3}
-\contentsline {section}{\numberline {8.4}流体中的波}{33}{section.8.4}
-\contentsline {section}{\numberline {8.5}波的色散}{33}{section.8.5}
+\contentsline {section}{\numberline {4.4}非线性摄动*}{25}{section.4.4}
+\contentsline {section}{\numberline {4.5}格波}{25}{section.4.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}有心力下运动}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}万有引力下运动}{27}{section.5.2}
+\contentsline {section}{\numberline {5.3}二体与潮汐}{27}{section.5.3}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}刚体}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}刚体的物理描述}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}平面平行运动}{31}{section.6.2}
+\contentsline {section}{\numberline {6.3}空间刚体运动*}{31}{section.6.3}
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}弹性体}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}弹性体的物理描述}{33}{section.7.1}
+\contentsline {section}{\numberline {7.2}弹性棒,\tmspace +\thinmuskip {.1667em}弹性绳,\tmspace +\thinmuskip {.1667em}弹性膜与弹性体}{34}{section.7.2}
+\contentsline {section}{\numberline {7.3}弹性波}{34}{section.7.3}
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}流体}{35}{chapter.8}
+\contentsline {section}{\numberline {8.1}流体的物理描述}{35}{section.8.1}
+\contentsline {section}{\numberline {8.2}定常流动动力学}{35}{section.8.2}
+\contentsline {section}{\numberline {8.3}黏滞流体动力学}{35}{section.8.3}
+\contentsline {section}{\numberline {8.4}流体中的波}{35}{section.8.4}
+\contentsline {section}{\numberline {8.5}波的色散}{35}{section.8.5}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  20 NOV 2019 11:59
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  21 NOV 2019 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2154,19 +2154,24 @@ Overfull \hbox (26.17023pt too wide) in paragraph at lines 495--496
 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 且 还 是[]正 交[]\T1/lmr/m/n/10.53937 (orthogonal)
  []
 
-[22] [23]) [24]
+[22] [23] [24]
+File: image/6-3-10.png Graphic file (type bmp)
+<image/6-3-10.png>
+File: image/6-3-8.png Graphic file (type bmp)
+<image/6-3-8.png>
+) [25]
 \openout2 = `chapter/gravity.aux'.
 
- (./chapter/gravity.tex
-第五章
-) [25
+ (./chapter/gravity.tex [26
 
 
 
 ]
+第五章
+) [27]
 \openout2 = `chapter/rigidbody.aux'.
 
- (./chapter/rigidbody.tex [26
+ (./chapter/rigidbody.tex [28
 
 
 
@@ -2174,19 +2179,19 @@ Overfull \hbox (26.17023pt too wide) in paragraph at lines 495--496
 第六章
 File: image/6-6-1.png Graphic file (type bmp)
 <image/6-6-1.png>
-[27]
+[29]
 File: image/6-6-2.png Graphic file (type bmp)
 <image/6-6-2.png>
- [28]) [29]
+ [30]) [31]
 \openout2 = `chapter/elasticity.aux'.
 
- (./chapter/elasticity.tex [30
+ (./chapter/elasticity.tex [32
 
 
 
 ]
 第七章
-[31]
+[33]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
@@ -2197,12 +2202,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
 (hyperref)                removed on input line 36.
 
-) [32]
+) [34]
 \openout2 = `chapter/fluid.aux'.
 
  (./chapter/fluid.tex
 第八章
-) [33
+) [35
 
 
 
@@ -2228,12 +2233,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29220 strings out of 492960
- 560628 string characters out of 6136939
+ 29228 strings out of 492960
+ 560766 string characters out of 6136939
  657740 words of memory out of 5000000
- 32761 multiletter control sequences out of 15000+600000
+ 32767 multiletter control sequences out of 15000+600000
  648910 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,958b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (30 pages, 313572 bytes).
+Output written on physical-olympics-2.xdv (32 pages, 326128 bytes).
