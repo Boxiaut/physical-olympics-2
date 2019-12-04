@@ -459,6 +459,7 @@ INPUT chapter/elasticity.tex
 INPUT chapter/elasticity.tex
 INPUT image/6-7-1.png
 INPUT image/6-7-2.png
+INPUT image/6-7-3.png
 OUTPUT chapter/fluid.aux
 INPUT chapter/fluid.tex
 INPUT chapter/fluid.tex

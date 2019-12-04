@@ -32,8 +32,7 @@
 \[\bs{\varepsilon}=\frac{1}{2}(\nabla\bs{\delta}+\phantom{}^{\rm t}\nabla\bs{\delta})\]
 \[\bs{\varepsilon}:\; \begin{bmatrix}\frac{\partial \delta_x}{\partial X}&\frac{1}{2}\frac{\partial \delta_y}{\partial X}+\frac{1}{2}\frac{\partial \delta_x}{\partial Y}&\frac{1}{2}\frac{\partial \delta_z}{\partial Y}+\frac{1}{2}\frac{\partial \delta_y}{\partial Z}\\\frac{1}{2}\frac{\partial y}{\partial X}+\frac{1}{2}\frac{\partial \delta_x}{\partial Y}&\frac{\partial \delta_y}{\partial Y}&\frac{1}{2}\frac{\partial \delta_x}{\partial Z}+\frac{1}{2}\frac{\partial \delta_z}{\partial X}\\\frac{1}{2}\frac{\partial \delta_z}{\partial Y}+\frac{1}{2}\frac{\partial \delta_y}{\partial Z}&\frac{1}{2}\frac{\partial \delta_x}{\partial Z}+\frac{1}{2}\frac{\partial \delta_z}{\partial X}&\frac{\partial \delta_z}{\partial Z}\end{bmatrix}=\begin{bmatrix} \varepsilon_x&\theta_{xy}/2 &\theta_{zx}/2 \\ \theta_{xy}/2&\varepsilon_y&\theta_{yz}/2 \\ \theta_{zx}/2&\theta_{yz}/2&\varepsilon_z\end{bmatrix}\]
 
-\begin{wrapfigure}[15]{o}[-10pt]{7cm}
-\vspace{-0.5cm}
+\begin{wrapfigure}[13]{o}[-10pt]{7cm}
 \centering
 \includegraphics[width=7cm]{image/6-7-1.png}
 \caption{正应变与剪应变}\label{6-7-1}
@@ -50,8 +49,7 @@
 
 接下来需要考虑弹性体的内部受力情况.\,令人惊讶的是,\,它也必然由一个对称张量描述.\,首先我们意识到弹性力内部的受力具有以下特征:\,A.\,是空间点的函数,\,不同点处可以不同,\,但每一点应当有一个受力情况,\,它就是内部的\emph{应力}(stress).\,B.\,不是一个矢量.\,显然指出弹性体中的一点,\,并不能马上对应出来这个点处的某个受力的情况,\,因为我们考虑的是内力而不是外力,\,但是点处的受力不可能有明确的施力物体与受力物体.\,那么其实还需要在这一点处找到一个面矢量$\ud \bs{S}$,\,才能说是谁对谁的力.\,我们这样就发现了,\,其实指定一个应力,\,本质上就是在每一点指定一个面矢量$\ud \bs{S}$到相互作用力$\ud \bs{F}$的映射.\,C.\,显然,\,这样的映射应当为线性映射\footnote{证明留给读者做思考,\,需要用到极限微元受力分析.}.
 
-\begin{wrapfigure}[15]{o}[-10pt]{7cm}
-\vspace{-0.5cm}
+\begin{wrapfigure}[9]{o}[-10pt]{7cm}
 \centering
 \includegraphics[width=7cm]{image/6-7-2.png}
 \caption{正应力与剪应力}\label{6-7-2}

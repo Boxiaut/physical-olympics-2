@@ -25,11 +25,11 @@
 \contentsline {section}{\numberline {6.3}空间刚体运动*}{44}{section.6.3}% 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}弹性体}{45}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}弹性体的物理描述}{45}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}弹性棒,\tmspace +\thinmuskip {.1667em}弹性绳,\tmspace +\thinmuskip {.1667em}弹性膜与弹性体}{48}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}弹性波}{48}{section.7.3}% 
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}流体}{49}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}流体的物理描述}{49}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}定常流动动力学}{49}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}黏滞流体动力学}{49}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}流体中的波}{49}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}波的色散}{49}{section.8.5}% 
+\contentsline {section}{\numberline {7.2}弹性棒,\tmspace +\thinmuskip {.1667em}弹性绳,\tmspace +\thinmuskip {.1667em}弹性膜与弹性体}{49}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}弹性波}{49}{section.7.3}% 
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}流体}{51}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}流体的物理描述}{51}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}定常流动动力学}{51}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}黏滞流体动力学}{51}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}流体中的波}{51}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}波的色散}{51}{section.8.5}% 
