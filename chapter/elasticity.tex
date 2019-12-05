@@ -109,7 +109,89 @@
 三个弹性模量的单位也是应力的单位,\,即帕斯卡,\,而典型材料的弹性模量在$10^{10}{\rm Pa}$的数量级.
 
 
-\section{弹性棒,\,弹性绳,\,弹性膜与弹性体}
+\section{弹性棒, 弹性绳, 弹性膜与弹性体}
+
+在弹性的语境下,\,除了体状的大块弹性介质的研究,\,一些边缘化的状态:\,比如弹性体的表面,\,或者本来就在空间上受到限制的情况,\,包括本节介绍的弹性棒,\,绳,\,膜等,\,都是值得研究,\,且具有相似行为的体系.\,这种相似性体现在具有同一类的动力学方程和能量结构上.\,并最终导致了下一节介绍的弹性波的结果.
+
+\subsection{弹性棒}
+
+\begin{wrapfigure}[16]{o}[-10pt]{6cm}
+\centering
+\includegraphics[width=6cm]{image/6-7-4.png}
+\caption{弹性棒的建模}\label{6-7-4}
+\end{wrapfigure}
+考虑一根弹性棒\ref{6-7-4},\,忽略其在垂直棒方向的运动带来的动力学效应.\,那么棒就被简化为一维的模型.\,在变量上,\,我们选取棒未形变时的坐标$x$和时间$t$为自变量,\,而沿正方向向前的位移$\xi$为因变量,\,即$\xi(x,\,t)$.\,此时如(a)图,\,在棒上$x$处找一个固连在棒上的面元,\,随$x$改变的不仅仅是$\xi$,\,其实还有通过这一个面元相互拉扯的应力$\sigma$.\,于是我们就来到了(b)中关于应力的计算.\,同时参考(c)图,\,一个体积元$\ud x$的左右侧原坐标$x$与$x+\ud x$,\,但是它们的位移是不一样的,\,前者是$\xi(x)$,\,后者则是$\xi(x+\ud x)=\xi+\ud \xi$,\,即:
+\[\ud \xi=\frac{\partial \xi}{\partial x}\ud x\]
+
+那么这一段微元长度就变为$\ud x+\ud \xi$.\,根据胡克定律,\,由于伸长产生的应力就是:
+\[\sigma(x,\,t)=E\frac{\ud \xi}{\ud x}=E\frac{\partial \xi}{\partial x}\]
+
+最后(c)图再取出$\ud x$的微元,\,其质量密度为$\rho$,\,截面积为$S$,\,那么其质量和两段受力的合力为:
+\[\ud m=\rho S\ud x\]
+\[\ud F=\ud \sigma S=ES\frac{\partial^2 \xi}{\partial x^2}\ud x\]
+
+根据牛顿第二定律$\ud F=\ud m \cdot a$,\,$a$则是位移$u$对时间的二阶导数.\,这就给出了以下方程:
+\[\frac{\partial^2 \xi}{\partial t^2}=\frac{E}{\rho} \frac{\partial^2 \xi}{\partial x^2}\]
+
+这样的方程有一个名字,\,这也是我们第一次遇到这样的方程,\,称为\emph{波动方程}(wave equation).\,一维波动方程的一般形式为:
+\[\frac{\partial^2 \xi}{\partial t^2}=v^2 \frac{\partial^2 \xi}{\partial x^2}\]
+
+其中$v$必须是一个常数数学上才叫波动方程,\,$v$称为\emph{波速}(wave velocity).\,而弹性棒对应的波速就是:
+\[v=\sqrt{\frac{E}{\rho}}\]
+
+波动方程和波速,\,正如其名,\,在下一节我们去解它之后就会发现就是产生的弹性波的特征.
+
+下一个问题是考虑棒振动的能量.\,动能是比较简单的,\,我们把微元的动能做积分就是总动能:
+\[T=\int_0^L \frac{1}{2}\ud m \left(\frac{\partial \xi}{\partial t}\right)^2\]
+
+但我们尤其关心能量的\emph{定域化}(localization)问题.\,就是说能量是否可以表示为逐点的能量密度的体积分.\,就动能来看这也是成立的:
+\[T=\int_0^L\mathscr{T}\cdot S\ud x\quad\Rightarrow \quad \mathscr{T}=\frac{1}{2}\rho\left(\frac{\partial \xi}{\partial t}\right)^2\]
+
+现在我们来思考势能的定义.\,显然棒不均匀伸长的情况相对于以往棒均匀伸长是两种完全不同的情况,\,棒所储存的势能不仅要重新推导,\,甚至需要在推导中确立其存在性.\,事实上如果某一段$\ud x$内应力为拉力$\sigma>0$,\,那么如果在这个力下这一段伸长$\ud \xi(t+\ud t)-\ud \xi(t)=\frac{\partial }{\partial t}\left(\frac{\partial \xi}{\partial x}\ud x\right)\ud t$,\,内部应力就会做负功,\,我们只需要证明这个功对应的功率(除以$\ud t$)等于对应体积内的势能的增加,\,即:
+\[ES\frac{\partial \xi}{\partial x}\cdot \frac{\partial^2 u}{\partial x\partial t}\ud x=\frac{\ud}{\ud t} (\mathscr{V}S\ud x)\]
+
+这样就得到了:
+\[\mathscr{V}=\frac{1}{2}E\left(\frac{\partial \xi}{\partial x}\right)^2\quad ,\quad V=\int_0^L\mathscr{V}\cdot S\ud x\]
+
+总能量总是要守恒的,\,对于棒的能量的计算,\,现在就可以普遍地写为棒上\emph{能量密度}(energy density)的积分,\,这个总能量密度就是动能密度$\mathscr{T}$和势能密度$\mathscr{V}$的和:
+\[w=\frac{1}{2}\rho\left(\frac{\partial \xi}{\partial t}\right)^2+\frac{1}{2}E\left(\frac{\partial \xi}{\partial x}\right)^2\]
+
+\subsection{弹性绳}
+考虑一条质量线密度为$\lambda$,\,预先被拉紧且拉力为$T$的细绳.\,由于形变小所以沿绳方向的拉力几乎是个常数.\,那么考虑这个绳在垂直$x$方向发生位移$\xi(x,\,t),\,\eta(x,\,t)$.\,我们立马就发现了这个问题不同于上一个问题之处在于因变量变多了.\,上一个弹性棒中的运动模式是\emph{纵波}(lontitudinal wave).\,而这里要建立的是垂直传播方向的\emph{横波}(transverse wave)模型.\,横波不同于纵波的一大本质区别在于它有\emph{偏振}(polarization).\,我们把$\xi$和$\eta$两个方向叫做其偏振方向.
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{image/6-7-5.png}
+\caption{弹性绳的建模}
+\end{figure}
+
+在建模上,\,两者具有相似性.\,同样是找到$\ud x$微元两端作用的力.\,现在它大小几乎就是$T$,\,只是方向变成了$\bs{e}$,\,它是绳端的单位切向量:
+\[\ud\bs{r}=(\ud x,\,\ud \xi,\,\ud \eta)\quad\Rightarrow \quad \bs{e}=\frac{(\ud x,\,\ud \xi,\,\ud \eta)}{\sqrt{\ud x^2+\ud \xi^2+\ud \eta^2}}\]
+
+由于在$\xi,\,\eta$方向的位移产生的斜率是小量,\,上式近似为:
+\[\bs{e}=\left(1,\,\frac{\ud \xi}{\ud x},\,\frac{\ud \eta}{\ud x}\right )=\left(1,\,\frac{\partial \xi}{\partial x},\,\frac{\partial \eta}{\partial x}\right )\]
+
+那么拉力$T\bs{e}$的主要效果也就是在$T_\xi=T\frac{\partial \xi}{\partial x}$和$T_\eta=T\frac{\partial \eta}{\partial x}$两个方向上,\,在微元段$\ud x$两侧的力的差产生了在$\xi,\,\eta$方向的加速度.\,那么就得到了波动方程:
+\[\frac{\partial^2 \xi}{\partial t^2}=\frac{T}{\lambda} \frac{\partial^2 \xi}{\partial x^2}\]
+\[\frac{\partial^2 \eta}{\partial t^2}=\frac{T}{\lambda} \frac{\partial^2 \eta}{\partial x^2}\]
+
+可以发现,\,波动方程的形式相对弹性棒没有本质的变化,\,只不过从一个方程变成了两个独立量要满足的波动方程.\,以及波速公式变成了:
+\[v=\sqrt{\frac{T}{\lambda}}\]
+
+能量的表现与推导方法也是类似的.\,唯一的区别是现在的密度指的是线密度.\,可以给出:
+\[\mathscr{T}=\frac{1}{2}\lambda\left(\frac{\partial \xi}{\partial t}\right)^2+\frac{1}{2}\lambda\left(\frac{\partial \eta}{\partial t}\right)^2\]
+\[\mathscr{V}=\frac{1}{2}T\left(\frac{\partial \xi}{\partial x}\right)^2+\frac{1}{2}T\left(\frac{\partial \eta}{\partial x}\right)^2\]
+
+还有一点值得指出.\,就是在这样的情况下势能还有一种极其简单的等效计算方法,\,就是\emph{表面能}(surface energy)的计算方法,\,体系的势能实际上就是简单地正比于变形之后的总绳长的:
+\[V=T\int |\ud \bs{r}|=T\int \sqrt{\ud x^2+\ud \xi^2+\ud \eta^2}=T\int \sqrt{1+\left(\frac{\partial \xi}{\partial x}\right)^2+\left(\frac{\partial \eta}{\partial x}\right)^2}\ud x\]
+
+事实上,\,对上式进行小量近似就可以发现:
+\[V=T\int \left[1+\frac{1}{2}\left(\frac{\partial \xi}{\partial x}\right)^2+\frac{1}{2}\left(\frac{\partial \eta}{\partial x}\right)^2\right]\ud x=V_0+\int \mathscr{V}\ud x\]
+
+从而不变拉力绳的势能实际上单纯地正比于绳子被拉长到了多长.\,形成单位长度的绳子需要的能量是完全一致的.
+
+\subsection{弹性膜}
+
+
 
 \section{弹性波}
 
