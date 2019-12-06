@@ -115,7 +115,7 @@
 
 \subsection{弹性棒}
 
-\begin{wrapfigure}[16]{o}[-10pt]{6cm}
+\begin{wrapfigure}[17]{o}[-10pt]{6cm}
 \centering
 \includegraphics[width=6cm]{image/6-7-4.png}
 \caption{弹性棒的建模}\label{6-7-4}
@@ -191,7 +191,206 @@
 
 \subsection{弹性膜}
 
+\begin{wrapfigure}[10]{o}[-10pt]{7cm}
+\vspace{-0.5cm}
+\centering
+\includegraphics[width=7cm]{image/6-7-6.png}
 
+\vspace{-1.2cm}
+\caption{弹性膜的建模}\label{6-7-4}
+\end{wrapfigure}
+
+弹性膜的情况则与弹性绳的情况互补:\,这一次是自变量变成了二维的$x,\,y$,\,当然还有时间$t$一共三个.\,倒是因变量只剩下垂直于面方向的位移$\xi$.\,即$\xi(x,\,y,\,t)$.\,面的惯性由质量面密度$\mu$来描述.\,而面的弹性,\,类似于弹性绳,\,我们也给面拉紧造成各向同性的内部张力.\,这种拉紧是均匀的,\,所以才造成均匀的面密度.\,而同时也会对面上线元$\ud s$造成彼此之间垂直于线元的,\,平行于面方向的拉力$\ud F=\sigma \ud s$.\,其中$\sigma$称作\emph{张力系数}(tension coefficient).\,那么如果在$x-y$平面上选取右旋的闭合曲线圈,\,中间围着一块膜.\,在边界上一个典型的线段元和当点处的法向量就是:
+\[\ud \bs{r}=(\ud x,\,\ud y,\,\ud \xi)=\left(\ud x,\,\ud y,\,\frac{\partial \xi}{\partial x}\ud x+\frac{\partial \xi}{\partial y}\ud y\right)\quad ,\quad \bs{n}=\left(-\frac{\partial \xi}{\partial x},\,-\frac{\partial \xi}{\partial y},\,1\right)\]
+
+那么通过这一段弧元,\,周围膜对这一段膜施加的力,\,忽略二阶小量就是:
+\[\ud \bs{F}=-\sigma\bs{n}\times \ud\bs{r}=\sigma\left(\ud y,\,-\ud x,\,\frac{\partial \xi}{\partial x}\ud y-\frac{\partial \xi}{\partial y}\ud x\right)\]
+
+足以发现,\,如果考虑曲线中的膜受到的合力,\,显然$x-y$方向是平衡的.\,合力在$\xi$方向,\,大小可以根据数学上的格林公式\footnote{\emph{格林公式}(Green formula)为,\,对任何平面区域$D$与其边界右旋闭合曲线$\partial D$:
+\[\oint\limits_{\partial D} P(x,\,y)\ud x+Q(x,\,y)\ud y=\iint\limits_D \left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\ud x\ud y\]
+}得到:
+\[F_\xi=\sigma\oint \left(\frac{\partial \xi}{\partial x}\ud y-\frac{\partial \xi}{\partial y}\ud x\right)=\iint \sigma\left(\frac{\partial^2 \xi}{\partial x^2}+\frac{\partial^2 \xi}{\partial y^2}\right)\ud x\ud y\]
+
+从中我们可以发现,\,单位面积上给出的内力就是:
+\[f=\frac{\ud F_\xi}{\ud x\ud y}=\sigma\left(\frac{\partial^2 \xi}{\partial x^2}+\frac{\partial^2 \xi}{\partial y^2}\right)\]
+
+那么根据牛顿第二定律,\,这就是让膜产生$\xi$方向加速度的力.\,化简就得到了膜对应的二维波动方程:
+\[\frac{\partial^2 \xi}{\partial t^2}=\frac{\sigma}{\mu}\left(\frac{\partial^2 \xi}{\partial x^2}+\frac{\partial^2 \xi}{\partial y^2}\right)\]
+
+对应波速就是:
+\[v=\sqrt{\frac{\sigma}{\mu}}\]
+
+同理,\,对应动能和势能的面密度为:
+\[\mathscr{T}=\frac{1}{2}\mu\left(\frac{\partial \xi}{\partial t}\right)^2\]
+\[\mathscr{V}=\frac{1}{2}\sigma\left(\frac{\partial \xi}{\partial x}\right)^2+\frac{1}{2}\sigma\left(\frac{\partial \xi}{\partial y}\right)^2\]
+
+同样的,\,势能可以重新表述为表面能:
+\[V=\sigma\int|\ud \bs{S}|V_0+\int \mathscr{V}\ud x\ud y\]
+
+\subsection{弹性体*}
+
+终于我们可以讨论自变量有$x-y-z$三维空间和$t$一维时间,\,因变量,\,即弹性体的位移矢量$\bs{\delta}$也有三个维度的最复杂的情况.\,本章第一节的讨论总结下来就是两个式子:
+\[\bs{\varepsilon}=\frac{1}{2}(\nabla\bs{\delta}+\phantom{}^{\rm t}\nabla\bs{\delta})\]
+\[\bs{\sigma}=2\mu\cdot\bs{\varepsilon}+\lambda {\rm Tr}(\bs{\varepsilon})\cdot\bs{I}\]
+
+它给出了位移的一阶倒数是如何产生力的.\,另外一部分物理公式,\,就是计算单位体积受到的合力,\,最后联立牛顿第二定律,\,我们就有希望给出波动方程.
+
+计算合力需要对一个体积区域$D$的边界闭合外向曲面$\partial D$上受到的外力进行积分:
+\[\bs{F}=\oint\limits_{\partial D}\ud\bs{S}\cdot\bs{\sigma}\]
+
+这其实可以使用数学上广义上的高斯定理化为体积分:
+\[\bs{F}=\iiint\limits_{D}\nabla\cdot\bs{\sigma}\ud x\ud y\ud z\quad\Rightarrow \quad \bs{f}=\frac{\ud\bs{F}}{\ud x\ud y\ud z}=\nabla\cdot\bs{\sigma}\]
+
+最后再联立牛顿第二定律,\,我们就化简出来第三个方程:
+\[\frac{\partial^2 \bs{\delta}}{\partial t^2}=\frac{1}{\rho}\nabla\cdot\bs{\sigma}\]
+
+可以得到,\,如果把$\bs{\delta}$记做$(\xi,\,\eta,\,\zeta)$,\,那么对应的方程就称作\emph{纳维-柯西方程}(Navier-Cauchy equation).\,完全展开的形式为:
+\[\frac{\partial^2 \xi}{\partial t^2}=\frac{\lambda+2\mu}{\rho}\frac{\partial^2 \xi}{\partial x^2}+\frac{\lambda+\mu}{\rho}\left(\frac{\partial^2 \eta}{\partial x\partial y}+\frac{\partial^2 \zeta}{\partial x\partial z}\right)\]
+\[\frac{\partial^2 \eta}{\partial t^2}=\frac{\lambda+2\mu}{\rho}\frac{\partial^2 \xi}{\partial y^2}+\frac{\lambda+\mu}{\rho}\left(\frac{\partial^2 \zeta}{\partial y\partial z}+\frac{\partial^2 \xi}{\partial y\partial x}\right)\]
+\[\frac{\partial^2 \zeta}{\partial t^2}=\frac{\lambda+2\mu}{\rho}\frac{\partial^2 \xi}{\partial z^2}+\frac{\lambda+\mu}{\rho}\left(\frac{\partial^2 \xi}{\partial z\partial x}+\frac{\partial^2 \eta}{\partial z\partial y}\right)\]
+
+这样写是不利于我们分析其求解的.\,通过数学化简,\,我们暂时先把波动方程写成如下形式:
+\[\rho\frac{\partial^2 \bs{\delta}}{\partial t^2}=(\lambda+2\mu)\nabla(\nabla\cdot \bs{\delta})-\mu\nabla\times(\nabla\times\bs{\delta})\]
+
+其中需要用到矢量微分恒等式:
+\[\nabla(\nabla\cdot \bs{\delta})-\nabla\times(\nabla\times\bs{\delta})=\nabla^2\bs{\delta}\]
+
+最后,\,棒中的能量守恒,\,动能密度是简单的.\,而势能密度在只有正应变或剪应变情况下容易证明,\,它就是应力和产生的应变乘积的一半.\,普遍情况下只需要做叠加即可:
+\[\mathscr{T}=\frac{1}{2}\rho\left(\frac{\partial \bs{\delta}}{\partial t}\right)^2=\frac{1}{2}\rho\left(\frac{\partial \xi}{\partial t}\right)^2+\frac{1}{2}\rho\left(\frac{\partial \eta}{\partial t}\right)^2+\frac{1}{2}\rho\left(\frac{\partial \zeta}{\partial t}\right)^2\]
+\[\mathscr{V}=\frac{1}{2}(\sigma_x\varepsilon_x+\sigma_y\varepsilon_y+\sigma_z\varepsilon_z+\tau_{xy}\theta_{xy}+\tau_{yz}\theta_{yz}+\tau_{zx}\theta_{zx})=\frac{1}{2}\lambda(\nabla\cdot\bs{\delta})^2+\frac{1}{2}\mu(\nabla\bs{\delta}:\nabla\bs{\delta}+\phantom{}^{\rm t}\nabla\bs{\delta}:\nabla\bs{\delta})\]
+
+式中``$:$''符号表示张量之间的双点乘运算.\,具体来说:
+\[\left(\sum_{ij}T_{ij}\bs{e}_i\bs{e}_j\right):\left(\sum_{ij}S_{ij}\bs{e}_i\bs{e}_j\right)={\rm Tr}(\bs{T}\cdot\bs{S})=\sum_{ij}T_{ij}S_{ji}\]
 
 \section{弹性波}
 
+波动方程的求解问题其实是非常简单的.\,它其实是普遍的\emph{偏微分方程}(partial differential equation,\,PDE)求解问题中最简单的一类.\,不同于常微分方程,\,一个多元函数,\,如$\xi(x,\,t)$,\,在自变量取某值时不仅仅可以求函数值和对$x$的各阶导数,\,还可以求对$t$的各阶导数,\,甚至还可以求$x$和$t$的各阶混合导数.\,对这些值提出限制,\,就构成了偏微分方程:
+\[F\left(x,\,t,\,\frac{\partial^{m+n}\xi}{\partial x^m\partial t^n}\right)=F\left(x,\,t,\,\xi,\,\frac{\partial\xi}{\partial x},\,\frac{\partial\xi}{\partial t},\,\frac{\partial^2\xi}{\partial x^2},\,\frac{\partial^2\xi}{\partial x\partial t}\cdots\right)=0\]
+
+与常微分方程类似的一点是,\,它一般也存在着大量的解.\,尤其是线性偏微分方程的特殊情况,\,其解也是满足常微分方程的叠加原理,\,通特解原理的:
+\[\sum_{i,\,j}c_{ij}(x,\,t)\frac{\partial^{m+n}\xi}{\partial x^m\partial t^n}=f(x,\,t)\]
+
+其中最简单的波动方程其实就是二阶的齐次的常系数的线性偏微分方程:
+\[f(x,\,t)=0,\,c_{00}=c_{01}=c_{10}=0,\,c_{20}=-v^2,\,c_{11}=0,\,c_{02}=1,\,c_{ij}=0\;(i>2\,{\rm or}\,j>2)\]
+\[\Rightarrow\quad \frac{\partial^2 \xi}{\partial t^2}=v^2 \frac{\partial^2 \xi}{\partial x^2}\]
+
+如何找到以上方程的所有解(通解)?\,我们介绍两种常见的思路:
+
+\subsection{分离变量法}
+
+猜测原方程具有如下形式的特解:
+\[\xi(x,\,t)=A(x)u(t)\]
+
+代入原方程,\,两边同时除以$A(x)u(t)$,\,化为纯粹的分离变量的常微分方程形式:
+\[\frac{\frac{\ud^2 u}{\ud t^2}}{u}=v^2\frac{\frac{\ud^2 A}{\ud x^2}}{A}\]
+
+左侧必然是不含$x$的那一类函数.\,而右侧又必须是不含$t$的那一类函数.\,两者还是同一个函数.\,所以这个函数$x,\,t$都不含有,\,那便是常数.\,最后再注意到随时间变化的部分在简谐函数下恰好能符合常数的要求:
+\[u(t)=\ue^{\ui\omega t}\quad \Rightarrow\quad \frac{\frac{\ud^2 u}{\ud t^2}}{u}=-\omega^2\]
+
+最后求解对$A$的限制,\,得到:
+\[A(x)=A\ue^{\mp\ui kx}\quad,\quad \frac{\omega}{k}=v\]
+
+从而我们就得到了通解的一组基:
+\[\left\{\xi(x,\,t)=A\ue^{\ui(\omega t-kx)},\,\xi(x,\,t)=A\ue^{\ui(\omega t+kx)}\middle|\frac{\omega}{k}=v \right\}\]
+
+根据傅里叶理论.\,上述解的叠加其实就是所有可能在一维下符合波动方程的解.\,这样一组基本的解就是右行波和左行波解.\,注意到这样的波有一点不符合实际情况:\,它完全没有色散,\,所有的频率的波传播速度都完全一样,\,说明我们的建模过于简单.
+
+\subsection{变量代换法}
+
+如果我们尝试变量代换:
+\[x_+=x+vt,\,x_-=x-vt\]
+
+那么容易发现,\,原来的方程居然变成了:
+\[\frac{\partial^2 \xi}{\partial x_+\partial x_-}=0\]
+
+这样,\,只需要$\xi$仅仅是其中一个变量的函数,\,对另一个函数的偏导数就是零,\,就能符合以上的方程.\,即任意的$f(x_+)$和$g(x_-)$都是以上方程的解.\,由于叠加原理,\,我们就能肯定地找到以下特解:
+\[\xi(x,\,t)=g(x-vt)+f(x+vt)\]
+
+这其实也构成了通解,\,它甚至直接就是任意通解的形式,\,不仅仅是可以叠加形成通解的一组基:
+\[\left\{\xi(x,\,t)=g(x-vt)+f(x+vt)\middle|\forall f\forall g\right\}\]
+
+其中任意的$g(x-vt)$就代表初始时刻波形$g(x)$任意的一列右行波.\,而$f$就是左行波.\,即任何一维的波动总可以分解为任意波形的左行波和右行波的叠加.\,上一节的任意频率的各种简谐波又可以叠加形成任意波形,\,实际上就是傅里叶理论的重要内容.
+
+\subsection{多维情况}
+
+如果是类似于弹性绳那样的波动方程:
+\[\frac{\partial^2 \xi}{\partial t^2}=
+v^2 \frac{\partial^2 \xi}{\partial x^2}\quad,\quad \frac{\partial^2 \eta}{\partial t^2}=v^2 \frac{\partial^2 \eta}{\partial x^2}\]
+
+那么这个一维传播的二维振动的基础行波解就可以表达为:
+\[(\xi,\,\eta)=(A,\,B)\ue^{\ui(\omega t\pm kx)}\quad,\quad \frac{\omega}{k}=v\]
+
+其中偏振矢量$(A,\,B)$可以是任何可能性,\,如果是$(0,\,1)$就是$\xi$方向的线偏振,\,如果是$(1,\,0)$就是$\eta$方向的线偏振.\,故这个振动还可以按偏振模式分解为两个.\,注意到$A,\,B$都是复数还可以带有相位.\,如果两个方向复振幅的模相等而相位差$90^\circ$,\,那么这个偏振模式就叫做圆偏振.\,即,\,相对简单一维振动,\,它还多了偏振这一个自由度.
+
+\vspace{0.5cm}
+
+如果是类似于弹性膜那样的波动方程:
+\[\frac{\partial^2 \xi}{\partial t^2}=v^2\left(\frac{\partial^2 \xi}{\partial x^2}+\frac{\partial^2 \xi}{\partial y^2}\right)\]
+
+那么这个二维传播的一维振动的基础行波解就被表达为:
+\[\xi=A\ue^{\ui(\omega t- k_x x-k_y y)}\quad,\quad \frac{\omega}{\sqrt{k_x^2+k_y^2}}=v\]
+
+那么这个波就同时具有了以下自由度:\,频率(决定$\omega$和$k$以及引申的周期,\,波长等等),\,传播方向(决定$k_x$和$k_y$的比例和正负),\,强度(决定$A$的模),\,以及相位(决定$A$的幅角).
+
+\vspace{0.5cm}
+
+最后考虑弹性体中的波动方程,\,即纳维-柯西方程:
+\[\rho\frac{\partial^2 \bs{\delta}}{\partial t^2}=(\lambda+2\mu)\nabla(\nabla\cdot \bs{\delta})-\mu\nabla\times(\nabla\times\bs{\delta})\]
+
+这个方程看上去很难直接求解.\,但是实际上数学上有一重要定理为我们提供了重要的线索.\,就是\emph{斯托克斯-亥姆霍兹定理}(Stokes-Helmholtz's theorem)发现,\,任何三维空间中的矢量$\bs{\delta}(\bs{r})$都可以分解为一个有旋无散场$\bs{\delta}_S$与有散无旋场$\bs{\delta}_P$的叠加:
+\[\bs{\delta}=\bs{\delta}_S+\bs{\delta}_P\quad :\quad \nabla\cdot \bs{\delta}_S=0\;,\;\nabla \times \bs{\delta}_P=\bs{0}\]
+
+基于这一点,\,我们可以考虑纳维-柯西方程在仅仅有有旋无散的振动和有散无旋的振动情况下的各自的解,\,只要存在,\,叠加在一起就是通解了.\,再次结合式子:
+\[\nabla(\nabla\cdot \bs{\delta})-\nabla\times(\nabla\times\bs{\delta})=\nabla^2\bs{\delta}\]
+
+首先考虑有旋无散的振动.\,那么纳维-柯西方程简化为:
+\[\rho\frac{\partial^2 \bs{\delta}_S}{\partial t^2}=-\mu\nabla\times(\nabla\times\bs{\delta}_S)\]
+
+但是旋即借助前式发现:
+\[-\nabla\times(\nabla\times\bs{\delta}_S)=\nabla^2\bs{\delta}_S\]
+
+这就相当于给出了:
+\[\frac{\partial^2 \bs{\delta}_S}{\partial t^2}=v_S^2\nabla^2\bs{\delta}_S=v_S^2\left(\frac{\partial^2 }{\partial x^2}+\frac{\partial^2 }{\partial y^2}+\frac{\partial^2 }{\partial z^2}\right)\bs{\delta}_S\quad ,\quad v_S=\sqrt{\frac{\mu}{\rho}}\]
+
+这样就可以求解了,\,其通解的基为:
+\[\bs{\delta}_S=\bs{A}_S\ue^{\ui(\omega t- \bs{k}\cdot\bs{r})}\quad,\quad \frac{\omega}{|\bs{k}|}=v_S\]
+
+最后验证它是否符合散度为零的条件,\,发现必须要满足:
+\[\bs{k}\cdot\bs{A}_S=0\quad\Rightarrow\quad \bs{k}\perp\bs{A}_S\]
+
+即这样的波其实是一种横波.\,它构成的要素有频率,\,传播方向,\,强度,\,偏振,\,以及相位.\,这样的弹性体体波称作\emph{剪波}(shear wave).\,它发生的形变就是剪应变,\,其波速恰好用的就是剪边模量$\mu=G$:
+\[v_S=\sqrt{\frac{G}{\rho}}\]
+
+再考虑有散无旋的振动.\,那么纳维-柯西方程简化为:
+\[\rho\frac{\partial^2 \bs{\delta}_P}{\partial t^2}=(\lambda+2\mu)\nabla(\nabla\cdot \bs{\delta}_P)\]
+
+但是旋即借助前式发现:
+\[\nabla(\nabla\cdot \bs{\delta}_P)=\nabla^2\bs{\delta}_P\]
+
+这就相当于给出了:
+\[\frac{\partial^2 \bs{\delta}_P}{\partial t^2}=v_P^2\nabla^2\bs{\delta}_P=v_P^2\left(\frac{\partial^2 }{\partial x^2}+\frac{\partial^2 }{\partial y^2}+\frac{\partial^2 }{\partial z^2}\right)\bs{\delta}_P\quad ,\quad v_P=\sqrt{\frac{\lambda+2\mu}{\rho}}\]
+
+这样就可以求解了,\,其通解的基为:
+\[\bs{\delta}_P=\bs{A}_P\ue^{\ui(\omega t- \bs{k}\cdot\bs{r})}\quad,\quad \frac{\omega}{|\bs{k}|}=v_P\]
+
+最后验证它是否符合旋度为零的条件,\,发现必须要满足:
+\[\bs{k}\times\bs{A}_S=0\quad\Rightarrow\quad \bs{k}//\bs{A}_S\]
+
+即这样的波其实是一种纵波.\,它构成的要素有频率,\,传播方向,\,强度,\,以及相位.\,这样的弹性体体波称作\emph{压波}(pressure wave).\,它发生的形变就是正应变,\,注意其波速用的既不是弹性棒情况的杨氏模量$E$,\,也不是体弹性模量$K$,\,与后者关系更近,\,实际上由第一节的知识:
+\[v_P=\sqrt{\frac{K+4G/3}{\rho}}\]
+
+最终我们发现,\,作为纵波的压波波速$v_P$总是要比作为横波的剪波$v_S$快一些.\,故在地震波场合下,\,总是把前者叫做\emph{首波}(primary wave),\,后者叫做\emph{次波}(secondary wave).\,两种命名方法都是导致纵波简记为P波,\,横波简记为S波的原因.\,也经常地,\,我们会把特定方向传播,\,有特定频率(横纵波速不同会导致$k$不同)的横波两种偏振,\,加上纵波称作三种不同的偏振,\,波从振源传播到特定点,\,三种偏振需要的时间是不同的.\,纵波总是先到,\,横波后到.
+
+地球内部结构虽然目前只能从现象去反过来建立模型,\,但比较令人相信的一点是内部存在分层的现象,\,在地表以下约$2891{\rm km}$处存在从固态的地幔到高压``液态''的地核的\emph{古登堡不连续性}(Gutenberg discontinuity).\,作为类似于固态的高压液态,\,在建立模型上十分重要的一点是,\,其剪变模量$G$几乎降低到了$0$.\,这给出了两个结果:\,一是通过剪变的弹性得以传播和存在的剪波无法存在,\,故地震波在地幔-地核分界面上会发生$S$波的全反射\footnote{少量S波有可能转化为P波继续向地核传播}.\,二是压波就彻底变成了由体弹性模量决定的波速公式,\,这一个公式也是正常气体,\,液体中的体波的波速公式:
+\[v_P=\sqrt{\frac{K}{\rho}}\]
+
+尤其是在理想气体中,\,比如空气中传播的声波,\,其波速就可以把气体视作理想气体,\,而气团的压缩与膨胀都被视作绝热的(因为振动频率高气体完全无法达到热学平衡),\,于是:
+\[pV^\gamma=C\quad\Rightarrow \quad \frac{\ud p}{p}+\gamma\frac{\ud V}{V}=0\]
+\[\Rightarrow \quad K=-\frac{\ud p}{\ud V/V}=\gamma p\]
+
+带入声速,\,结合密度公式$\rho=\mu p/RT$,\,得到气体中的声速公式:
+\[v=\sqrt{\frac{\gamma RT}{\mu}}\]
+
+这个计算早在1687年就由牛顿完成,\,但是受限于当时几乎等于空白的热学,\,力学理论的限制与同样几乎是空白的实验测量数据,\,牛顿给出的公式中没有出现绝热指数$\gamma$,\,导致它计算出的室温下空气中声速只有$300{\rm m/s}$.\,比正确值$340{\rm m/s}$小了不少.\,这个误差后来由拉普拉斯解释与修正.
+
+%\subsection{再论格波}

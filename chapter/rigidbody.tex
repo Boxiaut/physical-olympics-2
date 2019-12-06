@@ -96,9 +96,20 @@
 	\item 如果是定轴,\,刚体角动量也必须由柯尼希定律转化为两项:\,一项是质心$C$的\emph{轨道角动量}(orbital angular momentum)$L$,\,和相对质心的\emph{自旋角动量}(spin angular momentum)$S$.\,这也是唯一正确的分解方式:\,质心$C$换成其它相对刚体固定的点都是错的.\,刚体对质心的转动惯量$I_C$是常数.\,从而两者可以表示为:
 	\[L=\bs{e}_z\cdot [m\bs{r}_C(t)\times \bs{v}_C(t)]\quad,\quad S=I_C\omega(t)\quad,\quad J=L+S\]
 	
-	\item 其它动轴
+	\item 其它动轴.\,除非变换参考系,\,否则一般极少被考虑.
 \end{itemize}
 \end{itemize}
+
+平面平行运动的刚体的自由度为3,\,所以只需要3个方程就足以求解其运动,\,这三个方程通常取做质心运动定律和绕质心的\emph{转动定律}(rotation law):
+\[\sum_i F_{xi}=m a_{Cx}\]
+\[\sum_i F_{xi}=m a_{Cx}\]
+\[\sum_i M_{i}=I_{C} \beta\]
+
 \section{空间刚体运动*}\label{6.3}
 
+我们来定义空间刚体的转动惯量,\,首当其冲的一点是,\,沿不同方向的轴的转动惯量是不一样的.\,那么我们改变一下定义.\,把转动惯量视作从角速度到角动量的一个映射:
+\[I:\quad \bs{\omega}\to \bs{L}\]
 
+那么这个映射一定是线性的.\,也就是说它一定可以写作一个矩阵:
+
+\[\bs{I}=\begin{bmatrix}I_{x}&I_{xy}&I_{zx}\\I_{xy}&I_{y}&I_{yz}\\I_{zx}&I_{yz}&I_{z}\end{bmatrix}\]
