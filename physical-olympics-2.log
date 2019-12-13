@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  12 DEC 2019 14:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  13 DEC 2019 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2052,217 +2052,6 @@ LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
 \openout4 = `physical-olympics-2.toc'.
 
  [3]
-\openout2 = `chapter/thermoI.aux'.
-
- (./chapter/thermoI.tex [4
-
-
-]
-第一章
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.52812> on input line 9.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 9.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 9.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 9.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 9.
-
-LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 9.
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 9--9
-[][][]\TU/方正聚珍新仿简体(0)/m/n/7.52812 注 意\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7
-.52812 一 是 从 微 观 上 看\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52812 组 成 系 统 的 
-微 观 粒 子 仍 然 处 于 无 休 无 止 的 运 动 中\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52812
- 其 微 观 坐 标 与 速 度 在 发 生 几 急 剧 的 变 化\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52
-812 但 平 衡 态 只 对 宏 观 性 质 定
- []
-
-
-LaTeX Font Warning: Font shape `TU/FZYouHeiS(0)/b/n' undefined
-(Font)              using `TU/FZYouHeiS(0)/m/n' instead on input line 11.
-
-
-Overfull \hbox (0.64665pt too wide) in paragraph at lines 31--32
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 一 是 热 力 学 第 零 定 律 定 义 了 温 度\T1/lmr/m/n/10.53937 
-,\TU/方正聚珍新仿简体(0)/m/n/10.53937 但 它 没 有 量 化 一 个[]温 标[]\T1/lmr/m/n/10.53937 (tempe
-rature scale).\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 何 量 化 一 个 温 标 呢\T1/lmr/m/n/10.5393
-7 ?\TU/方正聚珍新仿简体(0)/m/n/10.53937 从
- []
-
-[5] [6]
-Overfull \hbox (3.77332pt too wide) in paragraph at lines 77--78
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 里 指 以 上 运 动 的 动 能\T1/lmr/m/n/10.53937 ,\TU/方正聚
-珍新仿简体(0)/m/n/10.53937 势 能 全 部 去 除 后\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10
-.53937 由 于 更 加 深 层 次 内 部 相 对 运 动 造 成 的 静 能 量\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(
-0)/m/n/10.53937 如 核 能\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 基
- []
-
-
-Overfull \hbox (35.1048pt too wide) in paragraph at lines 101--102
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 是 系 统 内 能 的 一 部 分\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新
-仿简体(0)/m/n/10.53937 从 而 能 量 传 入 系 统\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10
-.53937 二\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 功 总 是 与 力 对 应\T1/lmr
-/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 热 力 学 中 为 了 方 便 我 们 引 入 所 谓[]广 义 力[
-]\T1/lmr/m/n/10.53937 (generized
- []
-
-[7]
-File: image/5-1-1.png Graphic file (type bmp)
-<image/5-1-1.png>
- [8]
-File: image/5-1-2.png Graphic file (type bmp)
-<image/5-1-2.png>
-File: image/5-1-3.png Graphic file (type bmp)
-<image/5-1-3.png>
- [9]
-Overfull \hbox (3.57387pt too wide) in paragraph at lines 163--164
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 我 们 讨 论 一 下 这 三 个 条 件\T1/lmr/m/n/10.53937 .\TU/方
-正聚珍新仿简体(0)/m/n/10.53937 首 先 第 一 个 条 件 的 意 思\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0
-)/m/n/10.53937 旨 在 把 理 想 气 体 间 的 作 用 力 当 成[]短 程 力[]\T1/lmr/m/n/10.53937 (short-
-range
- []
-
-File: image/5-1-4.png Graphic file (type bmp)
-<image/5-1-4.png>
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 182.
-
-(c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 182.
- [10]
-File: image/5-1-5.png Graphic file (type bmp)
-<image/5-1-5.png>
- [11]
-Underfull \hbox (badness 1642) in paragraph at lines 226--227
-[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 我 们 接 下 来 考 虑 气 体 的 压 强\T1/lmr/m/n/10.53937 .\
-TU/方正聚珍新仿简体(0)/m/n/10.53937 在 这 之 前 我 们 了 解 两 个 概
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 226--227
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 念 是 十 分 有 帮 助 的\T1/lmr/m/n/10.53937 :\TU/方正聚珍新仿简体(
-0)/m/n/10.53937 处 于 平 衡 态 的 系 统 可 以 看 成 互 相 达 到 平
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 226--227
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 度 量[]\T1/lmr/m/n/10.53937 (intensive prop-erty) \T
-U/方正聚珍新仿简体(0)/m/n/10.53937 都 是 完 全 一 致 的\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m
-/n/10.53937 如 理 想 气 体 的 压
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
-[12]
-File: image/5-1-6.png Graphic file (type bmp)
-<image/5-1-6.png>
- [13]
-Overfull \hbox (0.5988pt too wide) in paragraph at lines 307--308
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 热 容 按 同 样 的 方 法 定 义\T1/lmr/m/n/10.53937 ,\TU/方正聚
-珍新仿简体(0)/m/n/10.53937 分 别 称 为 等 体 热 容 和 等 压 热 容[][][][][]\T1/lmr/m/n/10.53937 .
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 而[]热 膨 胀 系 数[]\T1/lmr/m/n/10.53937 (thermal ex-pan
--sion co-ef-fi-cient)
- []
-
-[14]
-File: image/5-1-7.png Graphic file (type bmp)
-<image/5-1-7.png>
- [15]
-File: image/5-1-8.png Graphic file (type bmp)
-<image/5-1-8.png>
- [16]
-File: image/5-1-9.png Graphic file (type bmp)
-<image/5-1-9.png>
- [17]
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 419.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 419.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 419.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 419.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 419.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 419.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 419.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 419.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 419.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 419.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 419.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 419.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 421.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 421.
-
-File: image/5-1-10.png Graphic file (type bmp)
-<image/5-1-10.png>
-[18]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 464.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 464.
-
-
-Overfull \hbox (20.52441pt too wide) in paragraph at lines 465--466
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 我 们 把 流 体 力 学 里 讨 论 的[]伯 努 利 方 程[]\T1/lmr/m/n/10
-.53937 (Bernoulli Equa-tion) \TU/方正聚珍新仿简体(0)/m/n/10.53937 推 广 到 热 力 学 中\T1/lmr/
-m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 它 适 用 条 件 为[]定 常 流 动[]\T1/lmr/m/n/10
-.53937 (steady
- []
-
-File: image/5-1-11.png Graphic file (type bmp)
-<image/5-1-11.png>
-[19]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 501.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 501.
-
-File: image/5-1-12.png Graphic file (type bmp)
-<image/5-1-12.png>
-[20]) [21]
 \openout2 = `chapter/thermoII.aux'.
 
  (./chapter/thermoII.tex [22
@@ -2273,9 +2062,28 @@ File: image/5-1-12.png Graphic file (type bmp)
 第二章
 File: image/5-2-1.png Graphic file (type bmp)
 <image/5-2-1.png>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.52812> on input line 16.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 16.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 16.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 16.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 16.
+
+LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
+(Font)              size <8> substituted on input line 16.
+
 File: image/5-2-2.jpg Graphic file (type bmp)
 <image/5-2-2.jpg>
-[23] [24]
+[23]
+
+LaTeX Font Warning: Font shape `TU/FZYouHeiS(0)/b/n' undefined
+(Font)              using `TU/FZYouHeiS(0)/m/n' instead on input line 26.
+
+[24]
 File: image/5-2-3.png Graphic file (type bmp)
 <image/5-2-3.png>
 File: image/5-2-4.png Graphic file (type bmp)
@@ -2304,9 +2112,16 @@ Underfull \hbox (badness 1968) in paragraph at lines 111--116
 可 以 认 为 是 这 样 四 个 过 程\T1/lmr/m/n/10.53937 :
  []
 
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 128.
+
+(c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 128.
 File: image/5-2-9.png Graphic file (type bmp)
 <image/5-2-9.png>
-[27]
+ [27]
 File: image/5-2-10.png Graphic file (type bmp)
 <image/5-2-10.png>
 
@@ -2333,7 +2148,7 @@ File: image/5-2-15.png Graphic file (type bmp)
 File: image/5-2-16.png Graphic file (type bmp)
 <image/5-2-16.png>
  [34]
-Underfull \hbox (badness 1509) in paragraph at lines 386--387
+Underfull \hbox (badness 1509) in paragraph at lines 391--392
 [][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 熵 是 广 延 量\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
 /m/n/10.53937 混 合 理 想 气 体 的 熵 满 足[]吉 布 斯 定 理[]\T1/lmr/m/n/10.53937 (Gibbs' the-
 o-
@@ -2351,15 +2166,39 @@ File: image/5-2-18.png Graphic file (type bmp)
 File: image/5-2-19.png Graphic file (type bmp)
 <image/5-2-19.png>
  [40] [41] [42] [43]
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 695.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 695.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 695.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 695.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 695.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 695.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 695.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 695.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 695.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 695.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 695.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 695.
 File: image/5-2-20.png Graphic file (type bmp)
 <image/5-2-20.png>
  [44]
-LaTeX Font Info:    Try loading font information for U+eus on input line 736.
+LaTeX Font Info:    Try loading font information for U+eus on input line 741.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 ) [45]
-Overfull \hbox (16.55255pt too wide) in paragraph at lines 741--742
+Overfull \hbox (16.55255pt too wide) in paragraph at lines 746--747
 \TU/方正聚珍新仿简体(0)/m/n/10.53937 电 荷\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53
 937 如 $\OML/mdbch/m/n/10.53937 n$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 型 半 导 体\T1/lmr/m
 /n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 相 反 的 系 数 就 为 负\T1/lmr/m/n/10.53937 .
@@ -2388,296 +2227,22 @@ Underfull \hbox (badness 1715) in paragraph at lines 14--15
 .53937 如 图[][]\T1/lmr/m/n/10.53937 3.1[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 所
  []
 
-File: image/5-3-3.png Graphic file (type bmp)
-<image/5-3-3.png>
-[51]
-Underfull \hbox (badness 1043) in paragraph at lines 43--44
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 晶 格 为 晶 体 带 来 摩 尔 热 容 $\OML/lmm/m/it/10.53937 C 
-\OT1/lmr/m/n/10.53937 = 3\OML/lmm/m/it/10.53937 R$\T1/lmr/m/n/10.53937 ,\TU/方正聚
-珍新仿简体(0)/m/n/10.53937 此 即[]杜 隆\T1/lmr/m/n/10.53937 -\TU/方正聚珍新仿简体(0)/m/n/10.5393
-7 裴 替 定
- []
-
-[52]
+File: image/5-3-4.png Graphic file (type bmp)
+<image/5-3-4.png>
+[51] [52]
 File: image/5-3-1.png Graphic file (type bmp)
 <image/5-3-1.png>
  [53] [54]) [55]
-\openout2 = `chapter/phasechange.aux'.
-
- (./chapter/phasechange.tex [56
-
-
-
-]
-第四章
-File: image/1.png Graphic file (type bmp)
-<image/1.png>
-[57]) [58]
-\openout2 = `chapter/maxwell.aux'.
-
- (./chapter/maxwell.tex
-第五章
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/I" (it probably doesn't exist).
-.................................................
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 22.
-(c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FangSong(0)' created for font 'FangSong' with options
-. [Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"FangSong/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/fsc) with NFSS spec.: 
-.................................................
- [59
-
-
-
-] [60]
-Overfull \hbox (20.46727pt too wide) in paragraph at lines 86--87
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 何 理 解 这 一 点\T1/lmr/m/n/10.53937 ?\TU/方正聚珍新仿简体(
-0)/m/n/10.53937 我 们 再 定 义 另 一 个 随 机 变 量 的 数 字 特 征\T1/lmr/m/n/10.53937 :[]\TU/方正
-聚珍新仿简体(0)/m/n/10.53937 方 差[]\T1/lmr/m/n/10.53937 (variance),\TU/方正聚珍新仿简体(0)/m/n
-/10.53937 物 理 上 称 为[]涨 落[]\T1/lmr/m/n/10.53937 (fluctuation),\TU/方正聚珍新仿简体(0)/m/
-n/10.53937 数
- []
-
-[61] [62] [63] [64] [65]) [66]
-\openout2 = `chapter/goptics.aux'.
-
- (./chapter/goptics.tex
-第六章
-File: image/5-6-1.png Graphic file (type bmp)
-<image/5-6-1.png>
-File: image/5-6-2.png Graphic file (type bmp)
-<image/5-6-2.png>
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 17--18
- [][] 
- []
-
-[67
-
-
-
-]
-File: image/5-6-3.png Graphic file (type bmp)
-<image/5-6-3.png>
-
-Underfull \vbox (badness 4403) has occurred while \output is active []
-
- [68]
-Overfull \hbox (28.07893pt too wide) in paragraph at lines 51--52
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 也 就 是 说\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n
-/10.53937 在 几 何 光 学 研 究 中\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 光 线
- 是 表\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 其 实 作 为 电 磁 场 的 光 波 才 是 
-里\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 光 在 两 种 介 质 表 面 的[]反 射[]\T1
-/lmr/m/n/10.53937 (reflection)
- []
-
-File: image/5-6-4.png Graphic file (type bmp)
-<image/5-6-4.png>
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 58--59
- [][] 
- []
-
-
-Overfull \hbox (2.679pt too wide) in paragraph at lines 63--64
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 横 电 波[]\T1/lmr/m/n/10.53937 (TE wave),\TU/方正聚珍新仿
-简体(0)/m/n/10.53937 即 垂 直 偏 振 波 \T1/lmr/m/n/10.53937 (s[][][][][]-wave,s-polariz
-ed
- []
-
-
-Overfull \hbox (8.56366pt too wide) in paragraph at lines 64--65
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 横 磁 波[]\T1/lmr/m/n/10.53937 (TM wave),\TU/方正聚珍新仿
-简体(0)/m/n/10.53937 即 平 行 偏 振 波 \T1/lmr/m/n/10.53937 (p[][][][][]-wave,p-polariz
-ed
- []
-
-[69]
-File: image/5-6-5.png Graphic file (type bmp)
-<image/5-6-5.png>
- [70]
-File: image/5-6-6.png Graphic file (type bmp)
-<image/5-6-6.png>
- [71]
-File: image/5-6-7.png Graphic file (type bmp)
-<image/5-6-7.png>
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 148--150
- [][] 
- []
-
-[72]
-File: image/5-6-8.png Graphic file (type bmp)
-<image/5-6-8.png>
-File: image/5-6-9.png Graphic file (type bmp)
-<image/5-6-9.png>
- [73] [74]
-File: image/5-6-10.png Graphic file (type bmp)
-<image/5-6-10.png>
-File: image/5-6-11.png Graphic file (type bmp)
-<image/5-6-11.png>
- [75]) [76]
-\openout2 = `chapter/opticals.aux'.
-
- (./chapter/opticals.tex
-第七章
-File: image/5-7-1.png Graphic file (type bmp)
-<image/5-7-1.png>
-File: image/5-7-2.png Graphic file (type bmp)
-<image/5-7-2.png>
-
-Underfull \hbox (badness 1308) in paragraph at lines 33--34
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 概 念\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53
-937 在 一 般 的 光 学 系 统 中\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 光 路 都 是
- 傍 轴 的\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 即 满 足[]傍
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 33--34
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 轴 条 件[]\T1/lmr/m/n/10.53937 (paraxial con-di-tion)
-:\TU/方正聚珍新仿简体(0)/m/n/10.53937 有 一 条 中 心 光 线 作 为[]主 光
- []
-
-[77
-
-
-
-]
-File: image/5-7-3.png Graphic file (type bmp)
-<image/5-7-3.png>
- [78]
-File: image/5-7-4.png Graphic file (type bmp)
-<image/5-7-4.png>
-
-Underfull \hbox (badness 5954) in paragraph at lines 78--79
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 时 意 味 着 入 射\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m
-/n/10.53937 出 射 光 成 为 了[]平 行 光[]\T1/lmr/m/n/10.53937 (collimated
- []
-
-[79]
-File: image/5-7-5.png Graphic file (type bmp)
-<image/5-7-5.png>
-File: image/5-7-6.png Graphic file (type bmp)
-<image/5-7-6.png>
- [80] [81]
-File: image/5-7-7.png Graphic file (type bmp)
-<image/5-7-7.png>
- [82]
-File: image/5-7-8.png Graphic file (type bmp)
-<image/5-7-8.png>
-File: image/5-7-9.png Graphic file (type bmp)
-<image/5-7-9.png>
- [83]
-File: image/5-7-10.png Graphic file (type bmp)
-<image/5-7-10.png>
-File: image/5-7-11.png Graphic file (type bmp)
-<image/5-7-11.png>
-
-Underfull \hbox (badness 2126) in paragraph at lines 276--277
-[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 对 于 更 复 杂 而 常 见 的 厚 透 镜 系 统\T1/lmr/m/n/10.53
-937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 一 般 我
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 276--277
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 们 做 如 图 所 示 的 分 类\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简
-体(0)/m/n/10.53937 即 分 为[]双 凸 透 镜[]\T1/lmr/m/n/10.53937 (biconvex
- []
-
-
-Overfull \hbox (12.30432pt too wide) in paragraph at lines 276--277
-\T1/lmr/m/n/10.53937 lens),[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 双 凹 透 镜[]\T1/lmr/m/n/
-10.53937 (biconcave lens),[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 平 凸 透 镜[]\T1/lmr/m/n/1
-0.53937 (planoconvex
- []
-
-
-Overfull \hbox (18.51076pt too wide) in paragraph at lines 276--277
-\T1/lmr/m/n/10.53937 lens),[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 平 凹 透 镜[]\T1/lmr/m/n/
-10.53937 (planoconcave lens),[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 正 弯 月 透 镜[]\T1/lmr/
-m/n/10.53937 (positive
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 276--277
-\T1/lmr/m/n/10.53937 menis-cus lens) \TU/方正聚珍新仿简体(0)/m/n/10.53937 与[]负 弯 月 透 镜[
-]\T1/lmr/m/n/10.53937 (negative menis-cus
- []
-
-[84]
-File: image/5-7-12.png Graphic file (type bmp)
-<image/5-7-12.png>
-
-Underfull \vbox (badness 2042) has occurred while \output is active []
-
- [85]
-File: image/5-7-13.png Graphic file (type bmp)
-<image/5-7-13.png>
-
-[86] [87]) [88]
-\openout2 = `chapter/opticalp.aux'.
-
- (./chapter/opticalp.tex
-第八章
-
-Overfull \hbox (17.24634pt too wide) in paragraph at lines 12--13
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 光 源 产 生 的 光\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
-/m/n/10.53937 在 光 学 系 统 中 可 能 被 光 学 仪 器 最 终 接 收\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿
-简体(0)/m/n/10.53937 如[]光 电 二 极 管[]\T1/lmr/m/n/10.53937 (photodiode),[]\TU/方正聚珍新仿
-简体(0)/m/n/10.53937 电 荷 耦 合 元 件[]\T1/lmr/m/n/10.53937 (charge-
- []
-
-File: image/5-8-1.png Graphic file (type bmp)
-<image/5-8-1.png>
-
-Underfull \hbox (badness 2564) in paragraph at lines 20--21
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 和 感 受 $\OT1/lmr/m/n/10.53937 400 \OMS/lmsy/m/n/10.
-53937 ^^@ \OT1/lmr/m/n/10.53937 500[]$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 波 长 的[]视 蓝 
-素[]细 胞 \T1/lmr/m/n/10.53937 (tri-
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89
-
-
-
-]
-[90]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
- (./physical-olympics-2.aux (./chapter/thermoI.aux) (./chapter/thermoII.aux) (.
-/chapter/liquidsolid.aux) (./chapter/phasechange.aux)
-(./chapter/maxwell.aux) (./chapter/goptics.aux) (./chapter/opticals.aux)
+ (./physical-olympics-2.aux (./chapter/thermoI.aux)
+(./chapter/thermoII.aux) (./chapter/liquidsolid.aux) (./chapter/phasechange.aux
+) (./chapter/maxwell.aux) (./chapter/goptics.aux) (./chapter/opticals.aux)
 (./chapter/opticalp.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 2DE52ADBC2AF6D3B6BE39F496B7CACE1.
+(rerunfilecheck)             Checksum: 3CAFD7835BDA8EA53C064ED312B158F5.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2689,12 +2254,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29525 strings out of 492960
- 565789 string characters out of 6136939
- 665871 words of memory out of 5000000
- 32991 multiletter control sequences out of 15000+600000
- 653677 words of font info for 178 fonts, out of 8000000 for 9000
+ 29296 strings out of 492960
+ 561986 string characters out of 6136939
+ 659098 words of memory out of 5000000
+ 32823 multiletter control sequences out of 15000+600000
+ 653029 words of font info for 175 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,13n,92p,978b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,978b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (92 pages, 1230328 bytes).
+Output written on physical-olympics-2.xdv (39 pages, 544516 bytes).

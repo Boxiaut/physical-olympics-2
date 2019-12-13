@@ -27,11 +27,11 @@
 \contentsline {section}{\numberline {2.1}循环过程}{23}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}热机与热泵}{23}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}热机循环}{26}{subsection.2.1.2}
-\contentsline {subsubsection}{\CJKfamily {hei}勒鲁瓦循环(Lenoir cycle)}{26}{subsubsection*.28}
-\contentsline {subsubsection}{\CJKfamily {hei}奥托循环(Otto cycle)}{26}{subsubsection*.30}
-\contentsline {subsubsection}{\CJKfamily {hei}迪塞尔循环(Diesel cycle)}{27}{subsubsection*.32}
-\contentsline {subsubsection}{\CJKfamily {hei}布莱顿循环(Brayton cycle)}{27}{subsubsection*.34}
-\contentsline {subsubsection}{\CJKfamily {hei}卡诺循环(Carnot cycle)}{28}{subsubsection*.36}
+\contentsline {subsubsection}{\CJKfamily {hei}勒鲁瓦循环(Lenoir cycle)}{26}{subsubsection*.6}
+\contentsline {subsubsection}{\CJKfamily {hei}奥托循环(Otto cycle)}{26}{subsubsection*.8}
+\contentsline {subsubsection}{\CJKfamily {hei}迪塞尔循环(Diesel cycle)}{27}{subsubsection*.10}
+\contentsline {subsubsection}{\CJKfamily {hei}布莱顿循环(Brayton cycle)}{27}{subsubsection*.12}
+\contentsline {subsubsection}{\CJKfamily {hei}卡诺循环(Carnot cycle)}{28}{subsubsection*.14}
 \contentsline {section}{\numberline {2.2}理想气体的熵}{28}{section.2.2}
 \contentsline {section}{\numberline {2.3}热力学第二定律}{30}{section.2.3}
 \contentsline {section}{\numberline {2.4}熵的计算}{33}{section.2.4}
@@ -43,22 +43,22 @@
 \contentsline {section}{\numberline {2.5}热力学函数与其特性}{36}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}四个热力学函数与四个状态参量}{36}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}若干定理的证明}{37}{subsection.2.5.2}
-\contentsline {subsubsection}{\CJKfamily {hei}能态定理}{37}{subsubsection*.45}
-\contentsline {subsubsection}{\CJKfamily {hei}物性函数间关系}{40}{subsubsection*.48}
-\contentsline {subsubsection}{\CJKfamily {hei}吉布斯-亥姆霍兹方程}{41}{subsubsection*.49}
+\contentsline {subsubsection}{\CJKfamily {hei}能态定理}{37}{subsubsection*.23}
+\contentsline {subsubsection}{\CJKfamily {hei}物性函数间关系}{40}{subsubsection*.26}
+\contentsline {subsubsection}{\CJKfamily {hei}吉布斯-亥姆霍兹方程}{41}{subsubsection*.27}
 \contentsline {subsection}{\numberline {2.5.3}自由能的含义}{42}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}化学势}{43}{subsection.2.5.4}
 \contentsline {section}{\numberline {2.6}近平衡态热力学*}{44}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}线性输运现象}{44}{subsection.2.6.1}
-\contentsline {subsubsection}{\CJKfamily {hei}傅里叶({\it Fourier\tmspace +\thinmuskip {.1667em}})热传导定律}{44}{subsubsection*.50}
-\contentsline {subsubsection}{\CJKfamily {hei}菲克({\it Fick\tmspace +\thinmuskip {.1667em}})扩散定律}{44}{subsubsection*.51}
-\contentsline {subsubsection}{\CJKfamily {hei}欧姆({\it Ohm\tmspace +\thinmuskip {.1667em}})定律}{44}{subsubsection*.52}
-\contentsline {subsubsection}{\CJKfamily {hei}索瑞({\it Soret\tmspace +\thinmuskip {.1667em}})效应}{44}{subsubsection*.53}
-\contentsline {subsubsection}{\CJKfamily {hei}杜福尔({\it Dufuer\tmspace +\thinmuskip {.1667em}})效应}{45}{subsubsection*.55}
-\contentsline {subsubsection}{\CJKfamily {hei}伽伐尼({\it Galvani\tmspace +\thinmuskip {.1667em}})接触电势差}{45}{subsubsection*.56}
-\contentsline {subsubsection}{\CJKfamily {hei}塞贝克({\it Seebeck\tmspace +\thinmuskip {.1667em}})效应}{45}{subsubsection*.57}
-\contentsline {subsubsection}{\CJKfamily {hei}佩尔捷({\it Peltier\tmspace +\thinmuskip {.1667em}})效应}{46}{subsubsection*.59}
-\contentsline {subsubsection}{\CJKfamily {hei}汤姆孙({\it Thomson\tmspace +\thinmuskip {.1667em}})效应}{46}{subsubsection*.60}
+\contentsline {subsubsection}{\CJKfamily {hei}傅里叶({\it Fourier\tmspace +\thinmuskip {.1667em}})热传导定律}{44}{subsubsection*.28}
+\contentsline {subsubsection}{\CJKfamily {hei}菲克({\it Fick\tmspace +\thinmuskip {.1667em}})扩散定律}{44}{subsubsection*.29}
+\contentsline {subsubsection}{\CJKfamily {hei}欧姆({\it Ohm\tmspace +\thinmuskip {.1667em}})定律}{44}{subsubsection*.30}
+\contentsline {subsubsection}{\CJKfamily {hei}索瑞({\it Soret\tmspace +\thinmuskip {.1667em}})效应}{44}{subsubsection*.31}
+\contentsline {subsubsection}{\CJKfamily {hei}杜福尔({\it Dufuer\tmspace +\thinmuskip {.1667em}})效应}{45}{subsubsection*.33}
+\contentsline {subsubsection}{\CJKfamily {hei}伽伐尼({\it Galvani\tmspace +\thinmuskip {.1667em}})接触电势差}{45}{subsubsection*.34}
+\contentsline {subsubsection}{\CJKfamily {hei}塞贝克({\it Seebeck\tmspace +\thinmuskip {.1667em}})效应}{45}{subsubsection*.35}
+\contentsline {subsubsection}{\CJKfamily {hei}佩尔捷({\it Peltier\tmspace +\thinmuskip {.1667em}})效应}{46}{subsubsection*.37}
+\contentsline {subsubsection}{\CJKfamily {hei}汤姆孙({\it Thomson\tmspace +\thinmuskip {.1667em}})效应}{46}{subsubsection*.38}
 \contentsline {subsection}{\numberline {2.6.2}传热的熵产生}{47}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.6.3}普遍理论与昂萨格倒易关系}{47}{subsection.2.6.3}
 \contentsline {subsection}{\numberline {2.6.4}推证热电耦合的普遍规律}{48}{subsection.2.6.4}
@@ -67,9 +67,9 @@
 \contentsline {section}{\numberline {3.2}固体电子论*}{52}{section.3.2}
 \contentsline {section}{\numberline {3.3}液体的彻体性质}{53}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}液体性质综述与其微观成因}{53}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}热容}{53}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}热容}{54}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}液体的表面性质}{54}{section.3.4}
-\contentsline {section}{\numberline {3.5}极端条件下的其他物态}{54}{section.3.5}
+\contentsline {section}{\numberline {3.5}极端条件下的其他物态}{55}{section.3.5}
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}相与相变摘要}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}相平衡}{57}{section.4.1}
 \contentsline {section}{\numberline {4.2}气液相变}{57}{section.4.2}
