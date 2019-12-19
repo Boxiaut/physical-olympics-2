@@ -64,12 +64,12 @@
 \contentsline {subsection}{\numberline {2.6.4}推证热电耦合的普遍规律}{48}{subsection.2.6.4}
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}液体与固体的性质}{51}{chapter.3}
 \contentsline {section}{\numberline {3.1}固体晶格论}{51}{section.3.1}
-\contentsline {section}{\numberline {3.2}固体电子论*}{52}{section.3.2}
-\contentsline {section}{\numberline {3.3}液体的彻体性质}{53}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}液体性质综述与其微观成因}{53}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}热容}{54}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}液体的表面性质}{54}{section.3.4}
-\contentsline {section}{\numberline {3.5}极端条件下的其他物态}{55}{section.3.5}
+\contentsline {section}{\numberline {3.2}固体电子论*}{54}{section.3.2}
+\contentsline {section}{\numberline {3.3}液体的彻体性质}{55}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}液体性质综述与其微观成因}{55}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}热容}{55}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}液体的表面性质}{56}{section.3.4}
+\contentsline {section}{\numberline {3.5}极端条件下的其他物态}{56}{section.3.5}
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}相与相变摘要}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}相平衡}{57}{section.4.1}
 \contentsline {section}{\numberline {4.2}气液相变}{57}{section.4.2}
