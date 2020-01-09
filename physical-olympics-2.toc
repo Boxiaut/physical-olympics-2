@@ -15,6 +15,7 @@
 \contentsline {subsection}{\numberline {1.4.1}电偶极子}{17}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}电荷密度}{20}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}极化强度}{21}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}若干对称带电体系的场}{23}{subsection.1.4.4}
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}导体与介质}{25}{chapter.2}
 \contentsline {section}{\numberline {2.1}导体与静电平衡}{25}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}导体特点}{25}{subsection.2.1.1}
