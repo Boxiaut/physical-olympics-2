@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  7 JAN 2020 15:25
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  9 JAN 2020 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2078,31 +2078,31 @@ LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
 
 File: image/7-1-1.png Graphic file (type bmp)
 <image/7-1-1.png>
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 30.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 30.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 30.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 30.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 30.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 30.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 30.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 30.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 30.
 [5]
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 32.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2201,28 +2201,29 @@ File: image/7-1-14.png Graphic file (type bmp)
  [20]
 File: image/7-1-16.png Graphic file (type bmp)
 <image/7-1-16.png>
- [21]) [22]
+ [21] [22]) [23]
 \openout2 = `chapter/conductordielectric.aux'.
 
- (./chapter/conductordielectric.tex
-第二章
-) [23
+
+(./chapter/conductordielectric.tex [24
 
 
 
 ]
+第二章
+) [25]
 \openout2 = `chapter/steadycurrent.aux'.
 
- (./chapter/steadycurrent.tex [24
+ (./chapter/steadycurrent.tex [26
 
 
 
 ]
 第三章
-[25] [26]
+[27] [28]
 File: image/7-3-1.png Graphic file (type bmp)
 <image/7-3-1.png>
- [27]
+ [29]
 File: image/7-3-2.jpg Graphic file (type bmp)
 <image/7-3-2.jpg>
 .................................................
@@ -2259,7 +2260,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 .................................................
 File: image/7-3-3.jpg Graphic file (type bmp)
 <image/7-3-3.jpg>
- [28]
+ [30]
 File: image/7-3-4.jpg Graphic file (type bmp)
 <image/7-3-4.jpg>
 
@@ -2268,7 +2269,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.75693pt
 (hyperref)                removed on input line 126.
 
-[29] [30]
+[31] [32]
 File: image/7-3-5.png Graphic file (type bmp)
 <image/7-3-5.png>
 
@@ -2277,165 +2278,12 @@ Underfull \hbox (badness 4156) in paragraph at lines 193--194
 on-electrostatic
  []
 
-[31]
+[33]
 File: image/7-3-6.png Graphic file (type bmp)
 <image/7-3-6.png>
 File: image/7-3-7.png Graphic file (type bmp)
 <image/7-3-7.png>
- [32]) [33]
-\openout2 = `chapter/magnetostatics.aux'.
-
- (./chapter/magnetostatics.tex [34
-
-
-
-]
-第四章
-) [35]
-\openout2 = `chapter/induction.aux'.
-
- (./chapter/induction.tex [36
-
-
-
-]
-第五章
-) [37]
-\openout2 = `chapter/maxwelle.aux'.
-
- (./chapter/maxwelle.tex [38
-
-
-
-]
-第六章
-) [39]
-\openout2 = `chapter/accurrent.aux'.
-
- (./chapter/accurrent.tex [40
-
-
-
-]
-第七章
-) [41]
-\openout2 = `chapter/interference.aux'.
-
- (./chapter/interference.tex [42
-
-
-
-]
-第八章
-File: image/14-1-1.png Graphic file (type bmp)
-<image/14-1-1.png>
-[43]
-Overfull \hbox (7.9013pt too wide) in paragraph at lines 48--49
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 味 着 研 究 单 色 光 的 传 播\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新
-仿简体(0)/m/n/10.53937 那 么 代 入 便 会 发 现 实 际 上 $\OML/lmm/m/it/10.53937 A\OT1/lmr/m/n
-/10.53937 ([])$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 需 要 满 足 的 对 空 间 的 方 程 为[]亥 姆 霍 兹 方
- 程[]\T1/lmr/m/n/10.53937 (helmholtz
- []
-
-File: image/14-1-2.png Graphic file (type bmp)
-<image/14-1-2.png>
-[44]
-Underfull \hbox (badness 1173) in paragraph at lines 73--74
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 时 我 们 习 惯 把 $\OML/lmm/m/it/10.53937 x$ \TU/方正聚珍新仿简
-体(0)/m/n/10.53937 和 $\OML/lmm/m/it/10.53937 y$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 方 向
- 方 向 余 弦
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 73--74
-[] \OML/lmm/m/it/10.53937 ^^K[];  [] ^^K[]$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 使 用 的 
-约 $\OT1/lmr/m/n/10.53937 90$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 度 的 角 度
- []
-
-[45] [46]) [47]
-\openout2 = `chapter/diffraction.aux'.
-
- (./chapter/diffraction.tex [48
-
-
-
-]
-第九章
-) [49]
-\openout2 = `chapter/photon.aux'.
-
- (./chapter/photon.tex [50
-
-
-
-]
-第十章
-
-Overfull \hbox (25.21039pt too wide) in paragraph at lines 7--8
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 蓝 天\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.
-53937 白 云\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 红 太 阳\T1/lmr/m/n/10
-.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 在 简 单 的 自 然 现 象 中 蕴 含 着 光 在 传 播 过 程 中 的 另 
-外 一 种 典 型 的 现 象\T1/lmr/m/n/10.53937 :[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 散 射[]\T1/lm
-r/m/n/10.53937 (scattering).\TU/方正聚珍新仿简体(0)/m/n/10.53937 而
- []
-
-File: image/16-1-1.jpg Graphic file (type bmp)
-<image/16-1-1.jpg>
-[51]
-
-Package Fancyhdr Warning: \headheight is too small (12.64723pt): 
- Make it at least 12.64728pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]
-File: image/18-1-2.jpg Graphic file (type bmp)
-<image/18-1-2.jpg>
- [53]
-Underfull \hbox (badness 1221) in paragraph at lines 113--114
-[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 历 史 上 虽 然 电 子 作 为 粒 子 的 发 现 是 \T1/lmr/m/n/10.5
-3937 1897 \TU/方正聚珍新仿简体(0)/m/n/10.53937 年[]汤 姆 孙[]\T1/lmr/m/n/10.53937 (J. J.
- []
-
-[54]
-File: image/18-1-1.png Graphic file (type bmp)
-<image/18-1-1.png>
-
-Overfull \hbox (14.69402pt too wide) in paragraph at lines 150--151
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 两 个 函 数 看 上 去 复 杂\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新
-仿简体(0)/m/n/10.53937 其 实 都 属 于 近 似 的[]洛 伦 兹 型 函 数[]\T1/lmr/m/n/10.53937 (lorentz
-ian
- []
-
-File: image/18-1-3.png Graphic file (type bmp)
-<image/18-1-3.png>
-File: image/18-1-4.png Graphic file (type bmp)
-<image/18-1-4.png>
-[55]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 191.
-
-) [56]
-\openout2 = `chapter/quantum.aux'.
-
- (./chapter/quantum.tex
-第十一章
-) [57
-
-
-
-]
-\openout2 = `chapter/scale.aux'.
-
- (./chapter/scale.tex [58
-
-
-
-]
-第十二章
-) [59]
+ [34]) [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./physical-olympics-2.aux (./chapter/electrostatics.aux)
@@ -2447,7 +2295,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: FE46DD548AB7F1BD217ABCC58581183A.
+(rerunfilecheck)             Checksum: A912C9C7088480AF580B367F3EDDCECA.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2459,12 +2307,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29430 strings out of 492960
- 565564 string characters out of 6136939
- 666154 words of memory out of 5000000
- 32902 multiletter control sequences out of 15000+600000
+ 29363 strings out of 492960
+ 563855 string characters out of 6136939
+ 660570 words of memory out of 5000000
+ 32860 multiletter control sequences out of 15000+600000
  663367 words of font info for 187 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,13n,92p,958b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (61 pages, 687524 bytes).
+Output written on physical-olympics-2.xdv (37 pages, 503724 bytes).
