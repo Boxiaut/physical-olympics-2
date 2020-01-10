@@ -624,5 +624,39 @@ I 	&=\frac{\varepsilon_0}{2}\int\limits_V (\nabla \varphi)^2\ud V-\frac{\varepsi
 \vspace{0.3cm}
 \textbf{1.}\,薄球壳:\,以球心为原点,\,三维旋转对称性.
 
+\[\varphi=\begin{cases} \ke \frac{Q}{R}& (r<R) \\[3pt] \ke \frac{Q}{r} & (r>R) \end{cases} \quad,	\quad \bs{E}=\begin{cases}  \bs{0} & (r<R) \\[3pt] \ke \frac{Q}{r^2}\bs{e}_r & (r>R) \end{cases}\]
+
+我们来到第一个问题:\,球面上的场是如何的?\,我们就会遇到\emph{发散困难}(divergency difficulty).\,这时候的处理需要特定的方法.\,论电势,\,问题不大,\,从球内球外的电势数据(下面的势曲线\ref{fig7-1-18})来看,\,球面上的电势连续,\,但是其变化率不连续(不光滑).\,所以很自然地球面上电势定义为双边的极限值即球内电势$\ke \frac{Q}{R}$.\,有限面电荷情况的电势都是不存在发散困难的.\,因为在面上局部划出来一个近似均匀带电$\sigma$,\,半径为$a$小圆盘,\,则盘心电势:
+\[\varphi=\int_0^a \ke \frac{\sigma \cdot 2\pi r \ud r}{r}=\frac{\sigma a}{2\varepsilon_0}\]
+
+是一个有限值.\,而圆盘以外的电荷对圆心的电势显然也是有限的.\,故无发散困难.\,反观电场强度,\,这情况就很不一样了.\,首当其冲地从以上公式上看,\,球内球外的电场显然不连续而在球面上具有不同的极限.\,其更深层次的原因在于:\,面电荷的电场强度积分本质上是发散的.\,考虑一个均匀带电$\sigma$,\,圆心角为可近似的小角$\Delta\alpha$,\,半径$a$的扇形.\,圆心处的场强:
+\[E=\int_0^a \ke \frac{\sigma \cdot \Delta \alpha r \ud r}{r^2}=\frac{\sigma\Delta\alpha}{4\pi\varepsilon_0}\ln\frac{a}{0}=\infty\]
+
+规避掉发散\footnote{称作\emph{正规化}(regularization).}的思想有两种.\,一是通过\emph{主值积分}(principal value integral)的方式去做\emph{截断}(cutoff),\,在需要确定场强的点处挖去一个半径为$a$的球,\,计算其他部分在该点处的场强并最后让$a\to 0$;\,二是通过平均来理解发散的场强,\,如之前所说的,\,点电荷模型与连续分布的电荷模型是统一的,\,后者计算出来的场强就是前一种不均匀场强的球体平均.\,故只需要在面电荷情况也做平均就能规避发散点的计算而利用球内其他可以计算的点来计算场强.\,计算过程略去,\,但不管哪种方法,\,最后的结果都是:
+\[E=\frac{Q}{8\pi\varepsilon_0 R^2}\]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/7-1-18.png}
+\caption{薄球壳与球体的势曲线}\label{fig7-1-18}
+\end{figure}
+
+\textbf{2.}\,球体:\,以球心为原点,\,三维旋转对称性.
+
+\[\varphi=\begin{cases} -\frac{\rho }{6\varepsilon_0}r^2+C& (r<R) \\[3pt] \ke \frac{Q}{r} & (r>R) \end{cases} \quad,	\quad \bs{E}=\begin{cases}  \frac{\rho }{3\varepsilon_0}r \bs{e}_r & (r<R) \\[3pt] \ke \frac{Q}{r^2}\bs{e}_r & (r>R) \end{cases}\]
+
+均匀带电球体没有发散困难.\,但注意在无穷远电势为零的规范下为了使得以上电势连续,\,附加常数$C$应当为:
+\[C=\frac{3Q}{8\pi\varepsilon_0 R}\]
+
+\vspace{0.3cm}
+\textbf{3.}\, 无限大带电平面:\,保持平面位置不变的平移,\,旋转对称性.\,上下镜像对称.
 
 
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/7-1-19.png}
+\caption{无限大平面与无限长直线}\label{fig7-1-19}
+\end{figure}
