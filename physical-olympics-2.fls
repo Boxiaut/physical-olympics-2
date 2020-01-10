@@ -457,6 +457,7 @@ INPUT image/7-1-16.png
 INPUT image/7-1-17.png
 INPUT image/7-1-18.png
 INPUT image/7-1-19.png
+INPUT image/7-1-20.png
 OUTPUT chapter/conductordielectric.aux
 INPUT chapter/conductordielectric.tex
 INPUT chapter/conductordielectric.tex

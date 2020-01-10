@@ -622,14 +622,14 @@ I 	&=\frac{\varepsilon_0}{2}\int\limits_V (\nabla \varphi)^2\ud V-\frac{\varepsi
 最后还有一些常见的带电体系的电场是值得作为现成结论去记忆的.\,它们易于计算的原因在于或多或少具有某些对称性.\,在此逐一加以回忆与讨论.
 
 \vspace{0.3cm}
-\textbf{1.}\,薄球壳:\,以球心为原点,\,三维旋转对称性.
+\textbf{1.}\,薄球壳:\,以球心为原点,\,三维旋转对称性.\,过球心的镜面对称性.
 
 \[\varphi=\begin{cases} \ke \frac{Q}{R}& (r<R) \\[3pt] \ke \frac{Q}{r} & (r>R) \end{cases} \quad,	\quad \bs{E}=\begin{cases}  \bs{0} & (r<R) \\[3pt] \ke \frac{Q}{r^2}\bs{e}_r & (r>R) \end{cases}\]
 
 我们来到第一个问题:\,球面上的场是如何的?\,我们就会遇到\emph{发散困难}(divergency difficulty).\,这时候的处理需要特定的方法.\,论电势,\,问题不大,\,从球内球外的电势数据(下面的势曲线\ref{fig7-1-18})来看,\,球面上的电势连续,\,但是其变化率不连续(不光滑).\,所以很自然地球面上电势定义为双边的极限值即球内电势$\ke \frac{Q}{R}$.\,有限面电荷情况的电势都是不存在发散困难的.\,因为在面上局部划出来一个近似均匀带电$\sigma$,\,半径为$a$小圆盘,\,则盘心电势:
 \[\varphi=\int_0^a \ke \frac{\sigma \cdot 2\pi r \ud r}{r}=\frac{\sigma a}{2\varepsilon_0}\]
 
-是一个有限值.\,而圆盘以外的电荷对圆心的电势显然也是有限的.\,故无发散困难.\,反观电场强度,\,这情况就很不一样了.\,首当其冲地从以上公式上看,\,球内球外的电场显然不连续而在球面上具有不同的极限.\,其更深层次的原因在于:\,面电荷的电场强度积分本质上是发散的.\,考虑一个均匀带电$\sigma$,\,圆心角为可近似的小角$\Delta\alpha$,\,半径$a$的扇形.\,圆心处的场强:
+是一个有限值.\,而圆盘以外的电荷对圆心的电势显然也是有限的.\,故无发散困难.\,反观电场强度,\,这情况就很不一样了.\,首当其冲地从以上公式上看,\,球内球外的电场显然不连续而在球面上具有不同的极限.\,其更深层次的原因在于:\,面电荷的电场强度积分本质上是发散的,\,有\emph{奇异性}(sigularity)的.\,考虑一个均匀带电$\sigma$,\,圆心角为可近似的小角$\Delta\alpha$,\,半径$a$的扇形.\,圆心处的场强:
 \[E=\int_0^a \ke \frac{\sigma \cdot \Delta \alpha r \ud r}{r^2}=\frac{\sigma\Delta\alpha}{4\pi\varepsilon_0}\ln\frac{a}{0}=\infty\]
 
 规避掉发散\footnote{称作\emph{正规化}(regularization).}的思想有两种.\,一是通过\emph{主值积分}(principal value integral)的方式去做\emph{截断}(cutoff),\,在需要确定场强的点处挖去一个半径为$a$的球,\,计算其他部分在该点处的场强并最后让$a\to 0$;\,二是通过平均来理解发散的场强,\,如之前所说的,\,点电荷模型与连续分布的电荷模型是统一的,\,后者计算出来的场强就是前一种不均匀场强的球体平均.\,故只需要在面电荷情况也做平均就能规避发散点的计算而利用球内其他可以计算的点来计算场强.\,计算过程略去,\,但不管哪种方法,\,最后的结果都是:
@@ -641,7 +641,7 @@ I 	&=\frac{\varepsilon_0}{2}\int\limits_V (\nabla \varphi)^2\ud V-\frac{\varepsi
 \caption{薄球壳与球体的势曲线}\label{fig7-1-18}
 \end{figure}
 
-\textbf{2.}\,球体:\,以球心为原点,\,三维旋转对称性.
+\textbf{2.}\,球体:\,以球心为原点,\,三维旋转对称性.\,过球心的镜面对称性.
 
 \[\varphi=\begin{cases} -\frac{\rho }{6\varepsilon_0}r^2+C& (r<R) \\[3pt] \ke \frac{Q}{r} & (r>R) \end{cases} \quad,	\quad \bs{E}=\begin{cases}  \frac{\rho }{3\varepsilon_0}r \bs{e}_r & (r<R) \\[3pt] \ke \frac{Q}{r^2}\bs{e}_r & (r>R) \end{cases}\]
 
@@ -649,9 +649,11 @@ I 	&=\frac{\varepsilon_0}{2}\int\limits_V (\nabla \varphi)^2\ud V-\frac{\varepsi
 \[C=\frac{3Q}{8\pi\varepsilon_0 R}\]
 
 \vspace{0.3cm}
-\textbf{3.}\, 无限大带电平面:\,保持平面位置不变的平移,\,旋转对称性.\,上下镜像对称.
+\textbf{3.}\, 无限大带电平面:\,保持平面位置不变的平移,\,旋转对称性.\,带电平面镜像对称.\,竖直面镜像对称.
 
+\[\varphi =-\frac{\sigma}{2\varepsilon_0}|z| \quad,\quad \bs{E}=\frac{\sigma}{2\varepsilon_0} {\rm sgn}(z)\bs{e}_z\]
 
+其中${\rm sgn}$是\emph{符号函数}(sign function),\,即当自变量$z$取正时为$+1$,\,为负时取$-1$.\,${\rm sgn}(z)=z/|z|$.\,从计算上看,\,面上电场依然有奇异性.\,面外则通过积分的方式定义的电场奇异性消失.\,但是电势即使在面外此时也有奇异性了,\,不能通过电荷积分得到电势的值,\,只能通过与电场的关系,\,所以此时无法把无穷远作为势能的零点,\,这里的无穷远也自动被分离为下半空间无穷远和上半空间无穷远,\,所有涉及到无穷大带电平面的问题这样两个无穷远都必须要被区别对待.
 
 
 
@@ -660,3 +662,41 @@ I 	&=\frac{\varepsilon_0}{2}\int\limits_V (\nabla \varphi)^2\ud V-\frac{\varepsi
 \includegraphics[width=0.7\textwidth]{image/7-1-19.png}
 \caption{无限大平面与无限长直线}\label{fig7-1-19}
 \end{figure}
+
+\textbf{4.}\, 无限长带电直线:\,保持直线位置不变的平移,\,旋转对称性.\,水平面镜像对称.\,过直线的竖直面镜像对称.
+
+\[\varphi =-\frac{\lambda}{2\pi\varepsilon_0}\ln r \quad,\quad \bs{E}=\frac{\lambda}{2\pi\varepsilon_0 r}\bs{e}_r\]
+
+请尤其注意电势前的负号.\,同样地,\,电场在导线外是没有奇异性的,\,但是电势有奇异性,\,电势是通过与电场关系定义的,\,不能把无穷远电势视作零.\,与上一种电荷分布之所以具有不能把无穷远视作势能零点的共同点,\,是因为电荷分布的范围不是有限.\,试想在无穷远外都有电荷了怎么不可能不影响无穷远的电势分布?
+
+如果是一个半径为$R$的,\,带电面密度为$\sigma$的圆柱薄壳,\,那么内部也将没有电场,\,等势.\,这一点从高斯定律很容易能看出来.
+
+\vspace{0.3cm}
+\textbf{5.}\, 圆环:\,旋转对称性.\,过环水平面镜像对称.\,过轴线的竖直面镜像对称.
+
+\begin{wrapfigure}[11]{o}[0pt]{7cm}
+\centering
+\includegraphics[width=7cm]{image/7-1-20.png}
+\caption{圆环的中心附近电场}
+\end{wrapfigure}
+这样一个体系只有轴线上的电势和电场才有比较简单的表达式:
+\[\varphi=\frac{\lambda}{2\varepsilon_0}\frac{1}{\sqrt{R^2+z^2}} \quad, \quad \bs{E}=\frac{\lambda}{2\varepsilon_0}\frac{z}{(R^2+z^2)^{\frac{3}{2}}}\bs{e}_z\]
+
+但是实际应用场合中,\,环心附近的场也是非常需要的.\,其计算方法其实就是之前介绍的多极展开,\,不过现在需要保留到二阶项才能得到领头项:
+\begin{align*}
+\varphi  	&= \int \ke \frac{\ud Q}{|\bs{r}-\bs{R}|}\\
+				&= \int_0^{2\pi} \ke \frac{\lambda R\ud \theta}{\sqrt{(R\cos\theta -\rho)^2+ R^2\sin^2 \theta +z^2}}\\
+				\end{align*}
+				\begin{align*}
+				&= \int_0^{2\pi} \ke \frac{\lambda \ud \theta}{\sqrt{1+\frac{z^2+\rho^2-2R\rho\cos\theta}{R^2}}}\\
+				&= \frac{\lambda}{4\pi\varepsilon_0}\int_0^{2\pi} \left(1+\frac{z^2+\rho^2-2R\rho\cos\theta}{R^2}\right)^{-\frac{1}{2}}\ud \theta\\
+				&\approx \frac{\lambda}{4\pi\varepsilon_0}\int_0^{2\pi} \left[1-\frac{1}{2}\frac{z^2+\rho^2-2R\rho\cos\theta}{R^2}+\frac{3}{8}\left( \frac{z^2+\rho^2-2R\rho\cos\theta}{R^2} \right)^2 \right]\ud \theta\\
+				&\approx \frac{\lambda}{4\pi\varepsilon_0}\int_0^{2\pi} \left(1+\frac{\rho\cos\theta}{R}-\frac{z^2+\rho^2}{2R^2}+\frac{3\rho^2\cos^2\theta}{2R^2} \right)\ud \theta\\
+				&= \frac{\lambda}{2\varepsilon_0}\left(1-\frac{z^2}{2R^2}+\frac{\rho^2}{4R^2} \right)\\
+\end{align*}
+
+于是原点附近的场强就是这个势的梯度:
+\[E_\rho=-\frac{\partial \varphi}{\partial \rho}=-\frac{\lambda}{4\varepsilon_0 R^2}\rho \quad,\quad E_z=-\frac{\partial \varphi}{\partial z}=-\frac{\lambda}{2\varepsilon_0 R^2}z\]
+
+%\vspace{0.3cm}
+%\textbf{6.}\, 均匀带电线段

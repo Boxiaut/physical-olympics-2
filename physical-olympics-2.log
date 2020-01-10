@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  10 JAN 2020 11:17
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  10 JAN 2020 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2209,17 +2209,23 @@ File: image/7-1-18.png Graphic file (type bmp)
 <image/7-1-18.png>
 File: image/7-1-19.png Graphic file (type bmp)
 <image/7-1-19.png>
-) [24] [25]
+ [24]
+File: image/7-1-20.png Graphic file (type bmp)
+<image/7-1-20.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25])
+[26]
 \openout2 = `chapter/conductordielectric.aux'.
 
-
-(./chapter/conductordielectric.tex [26
+ (./chapter/conductordielectric.tex
+第二章
+) [27
 
 
 
 ]
-第二章
-) [27]
 \openout2 = `chapter/steadycurrent.aux'.
 
  (./chapter/steadycurrent.tex [28
@@ -2315,12 +2321,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 29377 strings out of 492960
- 564090 string characters out of 6136939
+ 29381 strings out of 492960
+ 564161 string characters out of 6136939
  660814 words of memory out of 5000000
- 32871 multiletter control sequences out of 15000+600000
+ 32874 multiletter control sequences out of 15000+600000
  663367 words of font info for 187 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,13n,92p,958b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (39 pages, 531652 bytes).
+Output written on physical-olympics-2.xdv (39 pages, 546292 bytes).
