@@ -698,5 +698,35 @@ I 	&=\frac{\varepsilon_0}{2}\int\limits_V (\nabla \varphi)^2\ud V-\frac{\varepsi
 于是原点附近的场强就是这个势的梯度:
 \[E_\rho=-\frac{\partial \varphi}{\partial \rho}=-\frac{\lambda}{4\varepsilon_0 R^2}\rho \quad,\quad E_z=-\frac{\partial \varphi}{\partial z}=-\frac{\lambda}{2\varepsilon_0 R^2}z\]
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/7-1-21.png}
+\caption{均匀极化的球}\label{fig7-1-21}
+\end{figure}
+
+\textbf{6.}\, 均匀极化球体.\,对极化方向的中心轴的旋转对称性,\,过轴的平面的镜像对称性.
+
+\begin{wrapfigure}[11]{o}[0pt]{5cm}
+\vspace{-0.4cm}
+\centering
+\includegraphics[width=5cm]{image/7-1-22.png}
+\caption{均匀极化场}
+\end{wrapfigure}
+设球内极化强度为$P$.\,由之前的极化强度与电荷密度的关系知道,\,这相当于一个表面带电$\sigma=\sigma_0\cos\theta$的球壳.\,但是为了计算其内外的场强,\,我们需要把极化强度还原为单位体积内携带的电偶极子的总和.\,每个电偶极子可视为一对点电荷.\,从而形成两个电荷密度分别为$+\rho$和$-\rho$的球体,\,球心沿极化方向岔开$l$.\,只需计算极限情况:
+\[\rho\to \infty \quad,\quad l\to 0 \quad,\quad \rho l=P\]
+
+定义球内的总电偶极矩$\bs{p}=\bs{P}\cdot\frac{4}{3}\pi R^3$由球对内对外的场强公式计算得,\,球内外的场强为:
+\[\bs{E}=\begin{cases}
+-\frac{\bs{P}}{3\varepsilon_0}&(r<R)\\[3pt]
+\ke \frac{2p\cos\theta}{r^3}\bs{e}_r + \ke \frac{p\sin\theta}{r^3}\bs{e}_\theta &(r>R)
+\end{cases}\]
+
+无奇异性,\,且也可以得到电势公式:
+\[\varphi=\begin{cases}
+\frac{P}{3\varepsilon_0}r\cos\theta &(r<R)\\[3pt]
+\ke \frac{p\cos\theta}{r^2}&(r>R)
+\end{cases}\]
+
+
 %\vspace{0.3cm}
-%\textbf{6.}\, 均匀带电线段
+%\textbf{7.}\, 均匀带电线段
