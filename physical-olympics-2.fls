@@ -464,6 +464,8 @@ OUTPUT chapter/conductordielectric.aux
 INPUT chapter/conductordielectric.tex
 INPUT chapter/conductordielectric.tex
 INPUT image/7-2-1.png
+INPUT image/7-2-2.png
+INPUT image/7-2-3.png
 OUTPUT chapter/steadycurrent.aux
 INPUT chapter/steadycurrent.tex
 INPUT chapter/steadycurrent.tex

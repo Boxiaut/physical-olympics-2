@@ -20,9 +20,9 @@
 \contentsline {section}{\numberline {2.1}导体与静电平衡}{27}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}绝缘体与导体}{27}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}导体的特点}{28}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}电像法}{29}{section.2.2}
-\contentsline {section}{\numberline {2.3}电介质}{29}{section.2.3}
-\contentsline {section}{\numberline {2.4}再议静电能}{29}{section.2.4}
+\contentsline {section}{\numberline {2.2}电像法}{30}{section.2.2}
+\contentsline {section}{\numberline {2.3}电介质}{30}{section.2.3}
+\contentsline {section}{\numberline {2.4}再议静电能}{30}{section.2.4}
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}稳恒电流}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}稳恒电流描述与形成}{31}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}德鲁特模型}{31}{subsection.3.1.1}
