@@ -67,7 +67,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{image/7-2-2.png}
+\includegraphics[width=0.7\textwidth]{image/7-2-2.png}
 \caption{导体内外}
 \end{figure}
 
@@ -76,7 +76,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.65\textwidth]{image/7-2-3.png}
+\includegraphics[width=0.6\textwidth]{image/7-2-3.png}
 \caption{导体表面}
 \end{figure}
 
@@ -86,19 +86,96 @@
 对于导体静电平衡问题的计算求解,\,也包括模拟求解,\,本质上都建立在以下基本原理的基础上:
 
 \begin{verse}
-静电平衡问题可以拆解为一个个独立的在导体外部连通区域的静电边值问题.
+\emph{独立叠加原理}:\,静电平衡问题可以拆解为一个个独立的在导体外部连通区域的静电边值问题.
 \end{verse}
 
-所谓的\emph{边值问题}(boundary value problem)本是偏微分方程的术语,\,在这里特指下面说的静电情况.\,每一种情况中,\,我们无需分析导体的内部的电荷,\,电场,\,电势.\,只需要求解外部的电场$\bs{E}(\bs{r})$和电势$\varphi(\bs{r})$.\,导体外部的电荷分布$\rho(\bs{r})$却是事先给定的.\,还已知的是每一种导体表面的,\,要么是电势$\varphi_i$(从而导体内部的电势也是这个值),\,把这种导体称作第一类导体;\,要么是已知这个面上的总电量$Q_i$,\,把这种导体称作第二类导体.\,而每一个导体外部的区域的边界,\,就回到了各个导体的表面$\Sigma_1,\,\Sigma_2\cdots\Sigma_n$构成的集合.\,但是表面上的电荷分布也是事先不知道的.\,由于电荷,\,电场都可以从电势中得到,\,故只暂时考虑求电势,\,我们把静电边值问题整理一下:
+所谓的\emph{边值问题}(boundary value problem)本是偏微分方程的术语,\,在这里特指下面说的静电情况.\,每一种情况中,\,我们无需分析导体的内部的电荷,\,电场,\,电势.\,只需要求解外部的电场$\bs{E}(\bs{r})$和电势$\varphi(\bs{r})$.\,导体外部的电荷分布$\rho(\bs{r})$却是事先给定的.\,还已知的是每一种导体表面的,\,要么是电势$\varphi_i$(从而导体内部的电势也是这个值),\,把这种导体称作第一类导体,\,对应条件称为第一类边界条件;\,要么是已知这个面上的总电量$Q_i$,\,把这种导体称作第二类导体,\,对应条件称为第一类边界条件.\,而每一个导体外部的区域的边界,\,就回到了各个导体的表面$\Sigma_1,\,\Sigma_2\cdots\Sigma_n$构成的集合.\,但是表面上的电荷分布也是事先不知道的.\,由于电荷,\,电场都可以从电势中得到,\,故只暂时考虑求电势,\,我们把静电边值问题整理一下:
 
 \begin{verse}
-已知:\,导体外连通区域$D$以第一类导体表面$\Sigma_1,\,\Sigma_2\cdots\Sigma_n$和第二类导体表面$\Pi_1,\,\Pi_2\cdots\Pi_m$为边界.\,已知区域$D$内电荷分布$\rho$,\,已知第一类导体表面$\Sigma_i$上的电势$\varphi_i$.\,已知第二类导体表面$\Pi_j$上的电量$Q_j$:
-\[\partial D=\left(\bigcup_i \Sigma_i\right)\cup \left(\bigcup_j\Pi_j  \right) \]
+\emph{已知}:\,导体外连通区域$D$以第一类导体表面$\Sigma_1,\,\Sigma_2\cdots\Sigma_n$和第二类导体表面$\Pi_1,\,\Pi_2\cdots\Pi_m$为边界.\,已知区域$D$内电荷分布$\rho$,\,已知第一类导体表面$\Sigma_i$上的电势$V_i$.\,已知第二类导体表面$\Pi_j$上的电量$Q_j$:
+\[\partial D=\biggl(\bigcup_i \Sigma_i\biggr)\cup \biggl(\bigcup_j\Pi_j  \biggr) \]
 \[\rho=\rho(\bs{r}) \quad,\quad \bs{r}\in D\]
-\[\varphi(\bs{r})|_{\Sigma_i}=\varphi_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_j \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+\[\varphi(\bs{r})|_{\Sigma_i}=V_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_j \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
 
+\emph{未知}:\,导体表面电荷的具体分布$\sigma(\bs{r})|_{\Sigma_i,\,\Pi_j}$
+
+\emph{待求}:\,$D$内的电势分布$\varphi(\bs{r})|_{D}$
 
 \end{verse}
+
+
+\begin{wrapfigure}[11]{o}[0pt]{7cm}
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=7cm]{image/7-2-4.png}
+\caption{边值问题}
+\end{wrapfigure}
+但是还要注意这种边值问题又分为\emph{外问题}(outside problem)和\emph{内问题}(inside problem)两类.\,外问题是区域$D$延伸到了无穷远,\,这种情况的边值问题提法就完全如上所述.\,但是内问题中区域$D$存在一个最外的表面$\Sigma_0$,\,它把整个$D$和其他所有金属表面与内部包含在其内部.\,$\Sigma_0$的外部亦是金属.\,对于内问题,\,我们很容易发现$\Sigma_0$上的总带电量为内部所有带电量的和的相反数,\,且仅仅由内部体系和它产生的电场线不会延伸到$\Sigma_0$外部.\,所以我们可以规定这一类问题中$\Sigma_0$上的电势为$0$:
+\[\varphi(\bs{r})|_{\Sigma_0}=0\]
+
+而其他所有第一类导体的电势皆是相对它而言的电势差.
+
+\begin{wrapfigure}[10]{o}[0pt]{7cm}
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=7cm]{image/7-2-5.png}
+\caption{内问题}
+\end{wrapfigure}
+对于每一个具体的边值问题,\,指导我们求解的重要思想是\emph{广义叠加原理}(general superposition principle)和\emph{唯一性定理}(uniqueness theorem).\,从语义上看广义叠加原理显然与之前的单纯的叠加原理有着直接的联系.\,其实它更是来自于数学上具有线性结构的系统的解的叠加原理.\,这个叠加原理是这样表述的:
+\begin{verse}
+\emph{广义叠加原理}:\,两个边值问题如果$D,\,\Sigma_i,\,\Pi_j$一致.\,第一个问题具有第一类边界条件$V_{1i}$和第二类边界条件$Q_{1j}$和内部电荷分布$\rho_1(\bs{r})|_D$.\,第二个问题具有第一类边界条件$V_{2i}$和第二类边界条件$Q_{2j}$和内部电荷分布$\rho_2(\bs{r})|_D$.\,两个问题的解分别为$\varphi_1(\bs{r})|_D,\,\varphi_2(\bs{r})|_D$.\,则同样以$D$为区域,\,$\Sigma_i,\,\Pi_j$为$D$两类导体边界,\,但是以$V_{1i}+V_{2i}$和$Q_{1j}+Q_{2j}$为两类边界条件的问题的解一定是:
+\[\varphi(\bs{r})=\varphi_1(\bs{r})+\varphi_2(\bs{r})\]
+\end{verse}
+
+这个定理的证明是显然的.\,首先对于一个边值问题的解$\varphi$,\,它只需要满足以下一个全局条件和之前的边值条件:
+\[\nabla^2\varphi=-\frac{\rho}{\varepsilon_0}\]
+\[\varphi(\bs{r})|_{\Sigma_i}=V_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_j \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+
+那么既然$\varphi_1$和$\varphi_2$都是之前两个问题的解,\,这就意味着:
+\[\nabla^2\varphi_1=-\frac{\rho_1}{\varepsilon_0} \quad,\quad \nabla^2\varphi_2=-\frac{\rho_2}{\varepsilon_0}\]
+\[\varphi_1(\bs{r})|_{\Sigma_i}=V_{1i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi_1\cdot \ud \bs{S}=Q_{1j} \quad, \quad \varphi_1(\bs{r})|_{\Pi_j}=C\]
+\[\varphi_2(\bs{r})|_{\Sigma_i}=V_{2i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi_2\cdot \ud \bs{S}=Q_{2j} \quad, \quad \varphi_2(\bs{r})|_{\Pi_j}=C\]
+
+那么定义$\varphi=\varphi_1+\varphi_2$,\,它就自然也能满足:
+
+\[\nabla^2\varphi=-\frac{\rho_1+\rho_2}{\varepsilon_0}\]
+\[\varphi(\bs{r})|_{\Sigma_i}=V_{1i}+V_{2i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_{1j}+Q_{2j} \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+
+从而就的确是原来的问题的一个解.\,但是这个解是否唯一?\,答案是肯定的.\,这就是著名的唯一性定理,\,可以这么表述:
+\begin{verse}
+\emph{唯一性定理}:\,如果同一个边值问题具有两个解$\varphi_1,\,\varphi_2$.\,那么$\varphi_1-\varphi_2= 0$.
+\end{verse} 	 
+
+其证明的核心思想是利用上一章介绍的第一格林等式\footnote{其实使用简单的``电荷发出电场线,\,沿电场线方向电势降低"的观点也是可以论证这个定理的.}.\,首先注意到如果$\varphi_1,\,\varphi_2$都是同一个边值问题的解.\,那么命$\varphi=\varphi_1-\varphi_2$就是以下边值问题的解:
+\[\nabla^2\varphi=-\frac{\rho-\rho}{\varepsilon_0}=0\]
+\[\varphi(\bs{r})|_{\Sigma_i}=0 \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=0 \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+
+上面这个等号右侧都是零的方程称作\emph{齐次方程}(homogeneous equation).\,那么问题就被转化为证明齐次方程的解必为零解.\,想起第一格林等式:
+\[\nabla\cdot(\phi\nabla\psi)=\phi\nabla^2\psi+\nabla\phi\cdot\nabla\psi\]
+
+同样是在$\phi,\,\psi$都取$\varphi$的情况:
+\[\varphi\nabla^2\varphi=\nabla\cdot(\varphi\nabla\varphi)-(\nabla\varphi)^2\]
+
+现在把$\varphi$就视作刚刚定义的$\varphi_1-\varphi_2$,\,并把这个公式运用于$D$中的任意一点,\,由于电势满足的条件$\nabla^2\varphi=0$,\,就有:
+\[(\nabla\varphi)^2=\nabla\cdot(\varphi \nabla\varphi)\]
+
+等号右侧会让人联想到奥-高定理.\,事实上如果把它应用到$D$:\,左右两侧就能化为:
+\[\int\limits_D(\nabla\varphi)^2\ud V=\int\limits_D \nabla\cdot(\varphi \nabla\varphi)\ud V=\oint\limits_{\partial D}\varphi\nabla\varphi \cdot \ud \bs{S}=\oint\limits_{\scriptscriptstyle\left(\cup_i \Sigma_i\right)\cup \left(\cup_j\Pi_j  \right)}\cdots=\sum_i \oint\limits_{\Sigma_i}\varphi\nabla\varphi \cdot \ud \bs{S}+\sum_j \oint\limits_{\Pi_j}\varphi\nabla\varphi \cdot \ud \bs{S}\]
+
+在第一类导体边界上,\,由于$\varphi=0$所以积分为零.\,在第二类导体边界上,\,首先$\varphi$也是常数所以可以提出到积分外面,\,即:
+\[\oint\limits_{\Pi_j}\varphi\nabla\varphi \cdot \ud \bs{S}=C\cdot\oint\limits_{\Pi_j}\nabla\varphi \cdot \ud \bs{S}=C\cdot 0=0\]
+
+从而得到恰好等号的右侧就是$0$.\,这就相当于证明了这个电势$\varphi$满足:
+\[\int\limits_D(\nabla\varphi)^2\ud V=0\]
+
+一个总是不小于零的$(\nabla\varphi)^2$,\,经过积分得到了零的结果.\,这就说明它恒等于零:
+\[\nabla\varphi=\bs{0}\]
+
+从而电势就是一个常数,\,由于在第一类边界条件上得取零,\,故只能是:
+\[\varphi=0\]
+
+
+
 
 \section{电像法}
 
