@@ -180,23 +180,200 @@
 
 \subsection{常见简单体系}
 
-\subsubsection{1.\,平行的无限大导体板}
-我们先考虑无限大的导体平面板,\,它可能具有一定的厚度.\,把这样的$n$块板子从左至右平行放置,\,如图\ref{fig7-2-6}.\,这样就把空间隔离为中间的$D_{12},\,D_{23},\,\cdots,\,D_{n-1\,n}$等区域.
-\begin{wrapfigure}[10]{o}[0pt]{7cm}
+1.\,平行的无限大导体板
+
+\begin{wrapfigure}[11]{o}[0pt]{9cm}
 \vspace{-0.2cm}
 \centering
-\includegraphics[width=7cm]{image/7-2-6.png}
+\includegraphics[width=9cm]{image/7-2-6.png}
 \caption{平行板问题}\label{fig7-2-6}
 \end{wrapfigure}
-不同于上一节介绍的严格边值问题的提法.\,我们没有必要严格的讨论在某些边值条件下这个问题的解.\,仅仅把这种情况下体系需要满足的性质罗列出来.\,首当其冲地当属每一块板上的电量需要满足的关系.\,如果板非常薄,\,那么左右两侧的带电面密度$\sigma_{i{\rm L}}$和右侧
+我们先考虑无限大的导体平面板,\,它可能具有一定的厚度.\,把这样的$n$块板子从左至右平行放置,\,如图\ref{fig7-2-6}.\,这样就把空间隔离为中间的$D_{12},\,D_{23},\,\cdots,\,D_{n-1\,n}$等区域.
 
-\subsubsection{2.\,同心导体球与球壳}
+不同于上一节介绍的严格边值问题的提法.\,我们没有必要严格的讨论在某些边值条件下这个问题的解.\,仅仅把这种情况下体系需要满足的性质罗列出来.\,首当其冲地当属每一块板上的电量需要满足的关系.\,如果板非常薄,\,那么左右两侧的带电面密度$\sigma_{i{\rm L}}$和右侧$\sigma_{i{\rm R}}$就可以合成为统一的$\sigma_i$.\,那么以下两个特征是显著的:
 
-\subsubsection{3.\,共轴的导体圆柱与圆柱壳}
+1.\,$\sigma_{i{\rm R}}+\sigma_{i+1\,{\rm L}}=0$.
 
+2.\,$\sigma_{1{\rm L}}=\sigma_{n{\rm R}}=(\sigma_1+\cdots+\sigma_n)/2$.
+
+而在第$i$与第$i+1$块板之间的区域$D_{i\,i+1}$内,\,如果研究场强,\,以向右为正.\,它应该满足两个关系:
+
+3.\,$E_{i\,i+1}=\sigma_{i{\rm R}}/\varepsilon_0=-\sigma_{i+1\,{\rm L}}/\varepsilon_0$.
+
+4.\,$E_{i\,i+1}=(\sigma_1+\cdots+\sigma_i-\sigma_{i+1}-\cdots-\sigma_n)/2\varepsilon_0$.
+
+请注意,\,在以上关系式中,\,$1,\,2$关系式仅仅依赖于上一节我们推出过的边界条件.\,是无条件成立的.\,但是:\,$3,\,4$却无法从边界条件中推导出来.\,所以这两个式子的成立是有条件的:\,那就是整个体系``仅仅''由这些带电的板组成.\,事实上,\,如果把第$1$块板和第$n$向左向右平移到无限远,\,可以想象不改变板上的电荷分布也能保持静电平衡.\,但是这样中间就只剩下$2,\,3,\,\cdots,\,n-1$这些板,\,它们就是典型的仅仅符合$1,\,3$而不符合$2,\,4$的带电体系.\,所以等价于要求``无穷远处不能有电荷分布''.\,这样我们可以通过叠加原理来解释$4$的正确性.\,又分过来通过$4$计算出来的电场强度用$3$来计算各板左右两侧的带电量.\,最后就能推导出$2$来.
+
+对于等式$2$,\,我们发现这实际上代表一种左右对称性:\,在这些所有板的外侧区域$D_{\infty 1},\,D_{n\infty}$观察,\,这些所有板等效于单块$\sigma_1+\cdots+\sigma_n$的板.\,从而左右的场强都是:
+\[E_\infty=\frac{\sigma_1+\cdots+\sigma_n}{2\varepsilon_0}\]
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{image/7-2-7.png}
+\caption{电容器}
+\end{figure}
+
+但是,\,如果把上面的模型替换为电容器电路,\,各个区域$D$变成电容内部的场强区,\,而每一块导体板内部的区域被改成一根导线,\,并可以通过外界引入电量.\,那么需要额外注意一个性质:\,一般情况下各个电容器外侧的电量都一定是零.\,这是因为电容器初始状态必然不带电,\,而充放电过程是拟稳\footnote{见之后章节的说明}的,\,故两极板积累的电量必然相反.\,故按照上面的公式计算的$E_\infty$就是零.\,所以电容器极板外侧一般不允许有场强.\,除非遇到电容器中间被放置了外电荷的情况,\,比如在中间引入电压可以调控的栅极,\,对于这种``异型''电容的问题应当作为普遍的静电平衡问题来处理.
+
+\vspace{1cm}
+对于一个面积为$S$,\,极板间距为$l$的平板电容器,\,正常工作的时候根据之前的结论,\,两板正对面带相反的电荷,\,电场线起始于带正电的板而终止于带负电的板.\,如果忽略其边缘效应,\,即$S\gg l$情况下,\,我们可以认为其去掉边缘以后的正对面积与$S$的相对误差非常小,\,电容就被定义为两板带正电或负电的绝对值与两板电势差的比值,\,它等于:
+\[C=\frac{Q}{U}=\frac{\varepsilon_0S}{l}\]
+
+当平板电容器带电时,\,其产生的能量可以通过静电能公式或计算外界做功,\,也可以用电场能量计算得到:
+\[E=\frac{1}{2}CU^2=\frac{1}{2}QU=\frac{1}{2}\frac{Q^2}{C}\]
+
+这个公式是普遍的,\,对任何符合上一个式子定义的电容都是成立的.
+
+\npg{-2cm}
+2.\,同心导体球与球壳
+
+\begin{wrapfigure}[18]{o}[0pt]{8.5cm}
+\vspace{0.5cm}
+\centering
+\includegraphics[width=8.5cm]{image/7-2-8.png}
+\caption{球壳或柱壳}\label{fig7-2-8}
+\end{wrapfigure}
+
+
+导体球与球壳反倒简单一些,\,它们的总带电量不存在发散的情况,\,而且也不需要考虑无穷远处的边界条件.\,但是由于最中心就是导体球,\,和表面的弯曲性,\,之前的四个条件现在也需要改写为:
+
+1.\,$\sigma_{i{\rm O}} r_{i{\rm O}}^2+\sigma_{i+1\,{\rm I}}r_{i+1\,{\rm I}}^2=0$.
+
+2.\,$\sigma_{n{\rm O}}=(Q_1+\cdots+Q_n)/4\pi r_{n{\rm O}}^2$
+
+3.\,$E_{i\,i+1}=\sigma_{i{\rm O}}r_{i{\rm O}}^2 /\varepsilon_0r^2=-\sigma_{i+1\,{\rm I}}r_{i+1\,{\rm I}}^2/\varepsilon_0r^2$.
+
+4.\,$E_{i\,i+1}=(Q_1+\cdots+Q_i)/4\pi\varepsilon_0 r^2$.
+
+两个球壳构成的电容器,\,如果内外球壳半径分别为$r_{\rm I}$和$r_{\rm O}$,\,那么电容为:
+\[C=4\pi\varepsilon_0\frac{r_{\rm O}r_{\rm I}}{r_{\rm O}-r_{\rm I}}\]
+
+\vspace{0.5cm}
+3.\,共轴的导体圆柱与圆柱壳
+
+我们先考虑无限长的圆柱.\,那么依然参考上图\ref{fig7-2-8}.\,但是圆柱带电需要用单位长度的电量$\lambda$来描述而不是总电量$Q$,\,仅此一点做修改.\,那么四个关系式依然存在:
+
+1.\,$\sigma_{i{\rm O}} r_{i{\rm O}}+\sigma_{i+1\,{\rm I}}r_{i+1\,{\rm I}}=0$.
+
+2.\,$\sigma_{n{\rm O}}=(\lambda_1+\cdots+\lambda_n)/2\pi r_{n{\rm O}}$
+
+3.\,$E_{i\,i+1}=\sigma_{i{\rm O}}r_{i{\rm O}} /\varepsilon_0r=-\sigma_{i+1\,{\rm I}}r_{i+1\,{\rm I}}/\varepsilon_0r$.
+
+4.\,$E_{i\,i+1}=(\lambda_1+\cdots+\lambda_i)/2\pi\varepsilon_0 r$.
+
+两个柱壳构成的电容器,\,如果内外球壳半径分别为$r_{\rm I}$和$r_{\rm O}$,\,其长度为$l$且忽略边缘效应,\,即$l\gg r_{\rm O}>r_{\rm I}$那么电容为:
+\[C=2\pi\varepsilon_0l\ln\frac{r_{\rm O}}{r_{\rm I}}\]
 
 \section{电像法}
 
-\section{电介质}
+下面考虑两种实际的边值问题的解.\,第一种问题中区域$D$为半无限大空间,\,即,\,其边界为一个无限大导体的表面.\,第二种问题中区域$D$要么是一个球面外的延伸到无穷远的区域(外问题),\,要么是球面内的区域(内问题),\,不管哪种,\,区域边界都是导体的球面表面,\,只是前一种是外表面,\,后一种是内表面.
 
-\section{再议静电能}
+我们提供的方法为电像法.\,其意义是,\,先考虑一个较简单的,\,在空间中$\bs{R}$处放置一个点电荷:
+\[\rho(\bs{r})=q\delta(\bs{r}-\bs{R})\]
+
+的情况下,\,边值问题的求解.
+
+\subsection{半无限大空间的电像法}
+
+下面考虑在无限大导体平板处建立坐标系,\,$z>0$就是待研究的$D$区域.\,现在在$\bs{R}$处放置一个正点电荷$q$,\,容易证明,\,由于导体板延伸到无穷远,\,所以导体板的表面自然成为第一类边界条件的表面且其电势为零$V=0$.\,表面上就会产生一个面电荷分布$\sigma(x,\,y)$.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/7-2-9.png}
+\caption{半无限空间的电像}
+\end{figure}
+
+见上图右,\,单独考虑这个面电荷产生的电场线,\,由于在$z<0$区域内为导体,\,合电场强度必然为零.\,故这个区域面电荷的电场线要与原来的$\bs{R}$处的$q$的电场线相抵消.\,故为指向$\bs{R}$处的汇聚的电场线.\,但是,\,由于这个面电荷产生的电场的上下的镜面对称性,\,这就导致我们可以直接证明它对$z>0$的$D$区域产生的电场线,\,实际上就相当于在$\bs{R}$的镜面对称点$\bs{R}^\ast$处放置一个\emph{像电荷}(image charge),\,值为$-q$而产生的电场.
+
+从而$z>0$区域的电场,\,实际上就是由在$\bs{R}$的原电荷和在$\bs{R}^\ast$的像电荷共同产生的电场.\,或者说,\,满足以下方程的唯一解:
+\[\nabla^2\varphi =-\frac{q\delta(\bs{r}-\bs{R})}{\varepsilon_0}\,(z>0)\quad ,\quad \varphi|_{z=0}=0\]
+
+就是:
+\[\varphi(\bs{r}) =\ke \frac{q}{|\bs{r}-\bs{R}|}-\ke \frac{q}{|\bs{r}-\bs{R}^\ast|}\]
+
+那么我们如何求解下列更加普遍的第一类边值问题\footnote{第二类边值问题此时会有问题:\,首先导体面上的总电荷量就是上方的自由电荷量总值的相反数而不可以任意给定,\,而最终电势的结果也会产生一个未定常数的不确定性.}呢?
+\[\nabla^2\varphi = -\frac{\rho(\bs{r})}{\varepsilon_0}\,(z>0)\quad ,\quad \varphi|_{z=0}=V\]
+
+这个解答是简单的:\,就是对以上点电荷电像法的情形做叠加原理.\,我们把以上问题中,\,如果点电荷为单位电荷时,\,对应的解称作参数为$\bs{R}$处的\emph{格林函数}(Green function):
+\[\delta(\bs{r}-\bs{R})\quad \longrightarrow\quad  \varphi(\bs{r})=\quad G(\bs{R},\,\bs{r})=\ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{1}{|\bs{r}-\bs{R}^\ast|}\right)\]
+
+由于任意的电荷分布可以看成是点电荷的叠加,\,下式$\ud V$为$\bs{R}$改变对应的体积元:
+\[\rho(\bs{r})=\int \rho(\bs{R})\delta(\bs{r}-\bs{R})\ud V\]
+
+那么这个电荷分布产生的电势,\,就是各个点电荷的格林函数的叠加:
+\[\rho(\bs{r})\quad \longrightarrow \quad \varphi(\bs{r})=\int  \rho(\bs{R})G(\bs{R},\,\bs{r})\ud V\]
+
+这样在导体面上产生的电势依然是零,\,为了符合边界条件,\,只需要整体加上常数$V$,\,最终结果为:
+\[\varphi(\bs{r})=V+\int \ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{1}{|\bs{r}-\bs{R}^\ast|}\right)\rho(\bs{R})\ud V\]
+
+\subsection{球面外与球面内的电像法}
+
+有了半无限区域的电像法求解边值问题做基础,\,我们对球面内外区域的边值问题的求解就有了线索.\,同样的,\,在球心处建立原点和坐标系,\,求解这两个问题的关键在于先求解以下两个最简单的第一类边值问题:
+\[\nabla^2\varphi =-\frac{q\delta(\bs{r}-\bs{R})}{\varepsilon_0}\,(|\bs{r}|>a)\quad ,\quad \varphi|_{|\bs{r}|=a}=0\]
+\[\nabla^2\varphi =-\frac{q\delta(\bs{r}-\bs{R})}{\varepsilon_0}\,(|\bs{r}|<a)\quad ,\quad \varphi|_{|\bs{r}|=a}=0\]
+
+分别对应外问题和内问题.\,即下图左和右:
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{image/7-2-10.png}
+\caption{球面的电像}
+\end{figure}
+
+而以上两个问题的电像解,\,其实直接就都是:
+\[\varphi(\bs{r}) =\ke \frac{q}{|\bs{r}-\bs{R}|}+\ke \frac{q^\ast}{|\bs{r}-\bs{R}^\ast|}\]
+
+其中像电荷与原电荷在同一条半径上,\,且其大小$q^\ast$和到原点的距离$R^\ast$与圆的半径$a$分别满足:
+\[RR^\ast=a^2\]
+\[-\frac{q^\ast}{q}=\frac{a}{R}=\frac{R^\ast}{a}\]
+
+证明这两个解的正确性的关键在于原电荷与像电荷的位置对圆是构成了一对反演点的关系.\,见上图中间的几何关系,\,不难证明:
+\[\overline{OP}\cdot\overline{OQ}=a^2=\overline{OR}\quad \Rightarrow \quad \triangle OPR\sim \triangle ORQ\]
+
+于是根据相似关系不难得到:
+\[\frac{\sqrt{\overline{OP}}}{\overline{PR}}=\frac{\sqrt{\overline{OQ}}}{\overline{QR}}\]
+
+所以只要让两个电荷分别位于$P,\,Q$处,\,且电荷量反号且大小之比为$\sqrt{\overline{OP}}:\sqrt{\overline{OQ}}$,\,那么它们在$R$处的电势和就是零.\,实际上上面的电势解就是取了这样的两个电荷的电势的和,\,故就能满足原来的方程的边界条件,\,而这样的电势恰好在给定区域$D$内也能满足对应的微分方程:\,即只和$\bs{R}$处电荷$q$发生拉普拉斯算符$\nabla^2$的关系.
+
+这就证明了以上写出来的解是正确的.\,根据唯一性定理,\,它也是唯一的.
+
+\vspace{0.5cm}
+下面考虑在普遍的第一类和第二类边值问题下外问题的解.\,先考虑第一类边值问题,\,即:
+\[\nabla^2\varphi = -\frac{\rho(\bs{r})}{\varepsilon_0}\,(|\bs{r}|>a)\quad ,\quad \varphi|_{|\bs{r}|=a}=V\]
+
+同样的是利用以上解写出格林函数:
+\[\quad G(\bs{R},\,\bs{r})=\ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{a/|\bs{R}|}{|\bs{r}-\bs{R}^\ast|}\right)\]
+
+于是只需要写出下列积分,\,就可以满足问题前一半的拉普拉斯方程:
+\[\int \rho(\bs{R})G(\bs{R},\,\bs{r})\ud V \]
+
+这样一个势在边界上必然取零的值.\,为了使得最后的解满足边界条件,\,自然去思考叠加原理:\,让外界$\rho=0$且边界上具有电势$V$的电势显然为:
+\[\varphi=\frac{VR}{r}\]
+
+故,\,最后的解就是:
+\[\varphi=\frac{VR}{r}+\int \ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{a/|\bs{R}|}{|\bs{r}-\bs{R}^\ast|}\right)\rho(\bs{R})\ud V\]
+
+但是如果换为第二类边值问题:
+\[\nabla^2\varphi = -\frac{\rho(\bs{r})}{\varepsilon_0}\,(|\bs{r}|>a)\quad ,\quad \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{S}=Q\]
+
+这就需要先考虑格林函数对应的势在边界上产生的总面电荷量,\,他其实就是像电荷的值:
+\[\delta(\bs{r}-\bs{R})\quad \longrightarrow\quad  \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{S}=-\frac{a}{|\bs{R}|}\]
+
+于是单独对格林函数进行积分得到的电势就使得面上带上电荷:
+\[\rho(\bs{r})\quad \longrightarrow\quad \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{S}=-\int \frac{a}{|\bs{R}|}\rho(\bs{R})\ud V\]
+
+那么通过叠加原理,\,为了使得面上电荷量变为$Q$,\,就需要引入一个电势:
+\[\varphi=\ke \frac{Q+\displaystyle\int \frac{a}{|\bs{R}|}\rho(\bs{R})\ud V}{r}\]
+
+综上,\,最后的解为:
+\[\varphi =\ke \frac{Q+\displaystyle\int \frac{a}{|\bs{R}|}\rho(\bs{R})\ud V}{r}+\int \ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{a/|\bs{R}|}{|\bs{r}-\bs{R}^\ast|}\right)\rho(\bs{R})\ud V \]
+
+球面外问题中,\,所有电势的结果都是$\rho(\bs{r})$和球面上的面电荷分布通过叠加原理产生的电势.
+
+最后考虑内问题.\,我们介绍过,\,内问题的内表面将会自动取为电势为零的第一类边界条件.\,故此时只有唯一的一种情况,\,其问题表述和解必然为:
+\[\nabla^2\varphi = -\frac{\rho(\bs{r})}{\varepsilon_0}\,(|\bs{r}|<a)\quad ,\quad \varphi|_{|\bs{r}|=a}=0\]
+\[\varphi=\int \ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{a/|\bs{R}|}{|\bs{r}-\bs{R}^\ast|}\right)\rho(\bs{R})\ud V\]
+
+这个电势就是内部的电荷$\rho(\bs{r})$和面上的感应面电荷共同对球内叠加产生的电势的和.\,对于球外的电势的叠加必然为零.
+
+
+%\section{电介质}
+
+%\section{再议静电能}
