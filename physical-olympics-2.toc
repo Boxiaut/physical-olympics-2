@@ -25,7 +25,10 @@
 \contentsline {subsection}{\numberline {2.2.1}半无限大空间的电像法}{32}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}球面外与球面内的电像法}{33}{subsection.2.2.2}% 
 \contentsline {section}{\numberline {2.3}电介质}{35}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}再议静电能}{35}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.3.1}微观角度理解极化}{36}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}宏观角度理解极化}{38}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}微观与宏观的联系}{42}{subsection.2.3.3}% 
+\contentsline {section}{\numberline {2.4}再议静电能}{43}{section.2.4}% 
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}稳恒电流}{37}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}稳恒电流描述与形成}{37}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}德鲁特模型}{37}{subsection.3.1.1}% 
