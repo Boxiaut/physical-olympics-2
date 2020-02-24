@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.3)  21 FEB 2020 02:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.3)  23 FEB 2020 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,24 +1443,177 @@ LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
 (Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 116.
 
 [2]
+\openout2 = `chapter/electrostatics.aux'.
+
+ (./chapter/electrostatics.tex
+第一章
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.52812> on input line 8.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 8.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 8.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 8.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 8.
+
+LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
+(Font)              size <8> substituted on input line 8.
+
+File: image/7-1-1.png Graphic file (type bmp)
+<image/7-1-1.png>
+[3
+
+
+]
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 10.11786pt on input line 30.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 30.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 32.
+ (c:/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 32.
+File: image/7-1-2.png Graphic file (type bmp)
+<image/7-1-2.png>
+LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
+(Font)              scaled to size 10.19151pt on input line 56.
+LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
+(Font)              scaled to size 6.76897pt on input line 56.
+LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
+(Font)              scaled to size 4.83498pt on input line 56.
+ [4]
+File: image/7-1-3.png Graphic file (type bmp)
+<image/7-1-3.png>
+
+Underfull \hbox (badness 1527) in paragraph at lines 63--64
+[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 如\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.
+53937 压 强 场\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 温 度 场\T1/lmr/m/n/
+10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 波 动 的 相 位 场\T1/lmr/m/n/10.53937 ,\TU/方正聚
+珍新仿简体(0)/m/n/10.53937 都 是 典 型 的 标 量 场 的 例
+ []
+
+LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
+(Font)              scaled to size 7.27965pt on input line 71.
+[5]
+File: image/7-1-4.png Graphic file (type bmp)
+<image/7-1-4.png>
+File: image/7-1-5.png Graphic file (type bmp)
+<image/7-1-5.png>
+
+Underfull \hbox (badness 1067) in paragraph at lines 116--117
+[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 第 二 个 概 念 便 是[]旋 度[]\T1/lmr/m/n/10.53937 (curl
+) \TU/方正聚珍新仿简体(0)/m/n/10.53937 了\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53
+937 它 实 际 上 代 表 矢 量 场
+ []
+
+[6] [7]
+Overfull \hbox (1.52354pt too wide) in paragraph at lines 164--165
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 对 于[]连 通[]\T1/lmr/m/n/10.53937 (connected) \TU/方
+正聚珍新仿简体(0)/m/n/10.53937 体 积 区 域\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.539
+37 如 果 取 体 积 微 元 为 正\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 涉 及 
+到 区 域 边 界 闭 合 曲 面 上 的 面 积 分 时\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937
+ 面
+ []
+
+File: image/7-1-6.png Graphic file (type bmp)
+<image/7-1-6.png>
+[8] [9]
+LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
+(Font)              scaled to size 7.22704pt on input line 237.
+LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
+(Font)              scaled to size 7.22704pt on input line 237.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 7.22704pt on input line 237.
+LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
+(Font)              scaled to size 7.22704pt on input line 237.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <7.52812> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 237.
+File: image/7-1-7.png Graphic file (type bmp)
+<image/7-1-7.png>
+
+
+LaTeX Font Warning: Font shape `TU/FZYouHeiS(0)/b/n' undefined
+(Font)              using `TU/FZYouHeiS(0)/m/n' instead on input line 251.
+
+[10]
+File: image/7-1-8.png Graphic file (type bmp)
+<image/7-1-8.png>
+ [11] [12]
+File: image/7-1-9.png Graphic file (type bmp)
+<image/7-1-9.png>
+
+Overfull \hbox (38.98045pt too wide) detected at line 358
+\OML/lmm/m/it/10.53937 I[] \OT1/lmr/m/n/10.53937 = [] [] [][][]\OML/lmm/m/it/10
+.53937 V[][]V[] \OT1/lmr/m/n/10.53937 = [] \OML/lmm/m/it/10.53937 ^^Z[]'[][]V[]
+ \OT1/lmr/m/n/10.53937 = [] \OML/lmm/m/it/10.53937 ^^Z[]'[][]V[]
+ []
+
+[13] [14]
+File: image/7-1-10.png Graphic file (type bmp)
+<image/7-1-10.png>
+ [15]
+File: image/7-1-11.png Graphic file (type bmp)
+<image/7-1-11.png>
+File: image/7-1-12.png Graphic file (type bmp)
+<image/7-1-12.png>
+ [16]
+File: image/7-1-13.png Graphic file (type bmp)
+<image/7-1-13.png>
+ [17]
+File: image/7-1-14.png Graphic file (type bmp)
+<image/7-1-14.png>
+ [18]
+File: image/7-1-16.png Graphic file (type bmp)
+<image/7-1-16.png>
+ [19] [20]
+File: image/7-1-17.png Graphic file (type bmp)
+<image/7-1-17.png>
+ [21]
+File: image/7-1-18.png Graphic file (type bmp)
+<image/7-1-18.png>
+File: image/7-1-19.png Graphic file (type bmp)
+<image/7-1-19.png>
+ [22]
+File: image/7-1-20.png Graphic file (type bmp)
+<image/7-1-20.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+File: image/7-1-21.png Graphic file (type bmp)
+<image/7-1-21.png>
+File: image/7-1-22.png Graphic file (type bmp)
+<image/7-1-22.png>
+)
+[24]
 \openout2 = `chapter/conductordielectric.aux'.
 
  (./chapter/conductordielectric.tex
 第二章
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.52812> on input line 15.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 15.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 15.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 15.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 15.
-
-LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 15.
-
 
 Overfull \hbox (3.86473pt too wide) in paragraph at lines 15--16
 []\T1/lmr/m/n/10.53937 1. \TU/方正聚珍新仿简体(0)/m/n/10.53937 真 空 导 电\T1/lmr/m/n/10.53
@@ -1480,30 +1633,6 @@ Overfull \hbox (3.69035pt too wide) in paragraph at lines 15--16
 
 File: image/7-2-1.png Graphic file (type bmp)
 <image/7-2-1.png>
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 28.
 [25
 
 
@@ -1518,12 +1647,6 @@ File: image/7-2-3.png Graphic file (type bmp)
 <image/7-2-3.png>
 
 [27]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 98.
- (c:/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.53937> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 98.
 File: image/7-2-4.png Graphic file (type bmp)
 <image/7-2-4.png>
 
@@ -1601,6 +1724,93 @@ Overfull \hbox (17.96576pt too wide) in paragraph at lines 548--549
 File: image/7-2-14.png Graphic file (type bmp)
 <image/7-2-14.png>
  [41] [42]) [43]
+\openout2 = `chapter/steadycurrent.aux'.
+
+ (./chapter/steadycurrent.tex [44
+
+
+
+]
+第三章
+[45] [46]
+File: image/7-3-1.png Graphic file (type bmp)
+<image/7-3-1.png>
+ [47]
+File: image/7-3-2.jpg Graphic file (type bmp)
+<image/7-3-2.jpg>
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 107.
+
+ (c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
+
+File: image/7-3-3.jpg Graphic file (type bmp)
+<image/7-3-3.jpg>
+ [48]
+File: image/7-3-4.jpg Graphic file (type bmp)
+<image/7-3-4.jpg>
+
+[49]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.75693pt
+(hyperref)                removed on input line 126.
+
+[50]
+File: image/7-3-5.png Graphic file (type bmp)
+<image/7-3-5.png>
+
+Underfull \hbox (badness 4156) in paragraph at lines 193--194
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 上 式 $[]$ 代 表[]非 静 电 力 场[]\T1/lmr/m/n/10.53937 (n
+on-electrostatic
+ []
+
+[51]
+File: image/7-3-6.png Graphic file (type bmp)
+<image/7-3-6.png>
+File: image/7-3-7.png Graphic file (type bmp)
+<image/7-3-7.png>
+ [52]
+File: image/7-3-8.png Graphic file (type bmp)
+<image/7-3-8.png>
+File: image/7-3-9.png Graphic file (type bmp)
+<image/7-3-9.png>
+
+Overfull \hbox (2.343pt too wide) in paragraph at lines 261--262
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 恒 压 源\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/1
+0.53937 顾 名 思 义\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 总 是 能 保 持 其 正
+ 极 电 压 比 负 极 电 压 高 $\OMS/mdbch/m/n/10.53937 E$\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简
+体(0)/m/n/10.53937 在 正 常 工 作 状 态 时\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.5
+3937 电 流 应 当 从 正 极 流 出\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 使
+ []
+
+[53]) [54]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./physical-olympics-2.aux (./chapter/electrostatics.aux)
@@ -1608,7 +1818,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 2CA286331EB55B2F3E186D0B1FAE8107.
+(rerunfilecheck)             Checksum: 546CA38E901053759FA95F4616FB76F0.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1620,12 +1830,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 30373 strings out of 492909
- 594998 string characters out of 6136300
- 686338 words of memory out of 5000000
- 33911 multiletter control sequences out of 15000+600000
- 652309 words of font info for 181 fonts, out of 8000000 for 9000
+ 30590 strings out of 492909
+ 599199 string characters out of 6136300
+ 691259 words of memory out of 5000000
+ 34075 multiletter control sequences out of 15000+600000
+ 663463 words of font info for 199 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,14n,92p,958b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,92p,958b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.pdf (23 pages).
+Output written on physical-olympics-2.pdf (56 pages).
