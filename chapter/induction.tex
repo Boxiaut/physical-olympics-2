@@ -3,9 +3,58 @@
 
 
 \section{动生电动势}
+\begin{itemize}
+\item 动生电动势的非静电力:\,磁场力沿导线方向的分量:
+\[\bs{K}=\bs{v}\times \bs{B}\]
+
+\item 回路的总动生电动势的计算方法:
+\[\mathscr{E}_m=\oint \bs{K}\cdot\ud \bs{l}=-\left.\frac{\ud \Phi}{\ud t}\right|_{B\text{不变}}\]
+
+总电动势等于磁通量变化率,\,这就是法拉第电磁感应定律的动生部分.
+
+\item 一段电路动生电动势做功的功率:
+\[\ud P_{\mathscr{E}}=\ud \mathscr{E}\cdot I=I(\bs{v}\times \bs{B})\cdot \ud\bs{l}\]
+
+该功率变成了电路内部的能量.\,但是注意到磁场力的另外一个分力:\,安培力也要做功,\,功率为:
+\[\ud P_A=\ud \bs{F}\cdot \bs{v}=I(\ud\bs{l}\times \bs{B})\cdot  \bs{v}\]
+
+这个功将转化为导线的机械能.\,那么由于磁场力本质上不会做功,\,这一点很容易就能够利用三重标积公式在两个功率上得到印证:
+\[\ud P_{\mathscr{E}}+\ud P_A=0\]
+
+从而两个功率的大小代表机械能和电能转化的快慢.\,对于电动机,\,电能转化为机械能,\,对于发电机,\,机械能转化为电能.
+\end{itemize}
 
 \section{感生电动势}
 
+\begin{itemize}
+\item 相对性原理容易说明,\,如果产生磁场的物质在发生运动以致使其发生变化,\,那么即使线圈静止,\,也会产生感应电动势.\,那么内部电荷受到的非静电力就必然不是磁场力,\,因为根据电磁场的定义:
+\[\bs{F}=q(\bs{E}+\bs{v}\times\bs{B})\]
+
+而现在线圈$\bs{v}=\bs{0}$.\,我们只能把这个力称作电场力.\,这种电场称作\emph{感生电场}(induced electric field).\,它可以理解为由变化的磁场产生的.\,事实上,\,磁场又由电流产生.\,故可以直接认为这个感生电场就是由变化的电流产生的.\,更有甚者,\,以下关系式均是成立的:
+\item 感生电场公式:
+\[\bs{E}=-\frac{\partial \bs{A}}{\partial t}=-\int \frac{\mu_0}{4\pi}\frac{\frac{\partial \bs{j}}{\partial t}}{r^2}\ud V\]
+
+\item 将上式对回路进行积分便得到感生电动势:
+\[\mathscr{E}_i=\oint \bs{E}\cdot\ud \bs{l}=-\frac{\partial }{\partial t}\oint \bs{A}\cdot \ud \bs{l}=-\frac{\partial \Phi}{\partial t}=-\left.\frac{\ud \Phi}{\ud t}\right|_{S\text{不变}}\]
+
+这就是法拉第电磁感应定律的感生部分.
+
+\item 将感应电动势的动生和感生部分合并,\,得到完整的法拉第电磁感应定律:
+\[\mathscr{E}=-\frac{\ud \Phi}{\ud t}\]
+
+\end{itemize}
+
 \section{自感与互感}
 
-\section{法拉第电磁感应定律}
+\begin{itemize}
+\item 自感定义与自感系数公式:
+\[\Psi=LI\quad ,\quad L=\frac{\mu N^2 S}{l}\]
+
+\item 两线圈互感时的相关公式:
+\[E=\frac{1}{2}L_1I_1^2+\frac{1}{2}L_2I_2^2+ MI_1I_2\]
+
+\[\Psi_1=L_1I_1+MI_2\quad \Rightarrow\quad  U_1=-L_1\frac{\ud I_1}{\ud t}-M\frac{\ud I_2}{\ud t}\]
+\[\Psi_2=L_2I_2+MI_1\quad \Rightarrow\quad  U_2=-L_2\frac{\ud I_2}{\ud t}-M\frac{\ud I_1}{\ud t}\]
+\[U_1I_1+U_2I_2=-\frac{\ud E}{\ud t}\]
+\end{itemize}
+
