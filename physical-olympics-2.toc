@@ -1,31 +1,54 @@
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}稳恒电流}{3}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}稳恒电流描述与形成}{3}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}德鲁特模型}{3}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}费米气观点*}{4}{subsection.3.1.2}% 
-\contentsline {subsection}{\numberline {3.1.3}能带论*}{6}{subsection.3.1.3}% 
-\contentsline {subsection}{\numberline {3.1.4}惯性,\tmspace +\thinmuskip {.1667em}阻尼与回复力}{8}{subsection.3.1.4}% 
-\contentsline {subsection}{\numberline {3.1.5}稳恒电流与形成条件}{9}{subsection.3.1.5}% 
-\contentsline {section}{\numberline {3.2}电路与电路方程}{11}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}电路分析基础}{14}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}电路的整体结构与拓扑学结论}{14}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}电路问题的求解套路}{17}{subsection.3.3.2}% 
-\contentsline {section}{\numberline {3.4}电路分析方法}{19}{section.3.4}% 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}静磁场}{21}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}电流与磁场}{21}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}磁场地位与电流分布}{21}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}毕奥-萨伐尔定律}{22}{subsection.4.1.2}% 
-\contentsline {section}{\numberline {4.2}两个定律与矢势}{22}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}磁场环路定律}{22}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}矢势与磁场高斯定律}{23}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}电流体系}{23}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}磁偶极子}{23}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}磁化强度}{24}{subsection.4.3.2}% 
-\contentsline {subsection}{\numberline {4.3.3}若干对称体系的磁场}{24}{subsection.4.3.3}% 
-\contentsline {section}{\numberline {4.4}磁介质与磁能}{25}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}微观角度理解磁化}{25}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}宏观角度理解磁化}{26}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}磁场能量}{26}{subsection.4.4.3}% 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}电磁感应}{27}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}动生电动势}{27}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}感生电动势}{27}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}自感与互感}{28}{section.5.3}% 
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}静磁场}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}电流与磁场}{3}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}磁场地位与电流分布}{3}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}毕奥-萨伐尔定律}{4}{subsection.1.1.2}% 
+\contentsline {section}{\numberline {1.2}两个定律与矢势}{4}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}磁场环路定律}{4}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}矢势与磁场高斯定律}{5}{subsection.1.2.2}% 
+\contentsline {section}{\numberline {1.3}电流体系}{5}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}磁偶极子}{5}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}磁化强度}{6}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}若干对称体系的磁场}{6}{subsection.1.3.3}% 
+\contentsline {section}{\numberline {1.4}磁介质与磁能}{7}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.4.1}微观角度理解磁化}{7}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.2}宏观角度理解磁化}{8}{subsection.1.4.2}% 
+\contentsline {subsection}{\numberline {1.4.3}磁场能量}{8}{subsection.1.4.3}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}电磁感应}{9}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}动生电动势}{9}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}感生电动势}{9}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}自感与互感}{10}{section.2.3}% 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}麦克斯韦方程组}{11}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}麦克斯韦方程组}{11}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}位移电流假说}{11}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}麦克斯韦方程组}{13}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}电荷在电磁场中的运动}{17}{subsection.3.1.3}% 
+\contentsline {section}{\numberline {3.2}平面电磁波}{18}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}真空中的电磁波}{18}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}介质中电磁波的传播}{18}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}电磁场能量与动量}{18}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}电磁场能量与动量的推导与实例}{18}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}电磁场与电荷体系的守恒律}{18}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.4}电磁波辐射}{18}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}电磁辐射概论}{18}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}偶极辐射}{18}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}辐射的相对论变换}{18}{subsection.3.4.3}% 
+\contentsline {section}{\numberline {3.5}电磁学单位制}{18}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}高斯单位制}{18}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}洛伦兹-亥维赛单位制}{18}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}自然单位制}{18}{subsection.3.5.3}% 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}交流电路}{19}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}代数与几何表示}{19}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}拟稳条件与交流元件}{19}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}电阻, 电容, 电感特性}{19}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}常见电路}{19}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}谐振电路}{19}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}滤波电路}{19}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}电报线方程, 再论拟稳条件}{19}{subsection.4.2.3}% 
+\contentsline {section}{\numberline {4.3}变压器}{19}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}磁路定律}{19}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}理想变压器条件}{19}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}电能传输}{19}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}发电机与电动机:\tmspace +\thinmuskip {.1667em}三相绕组}{19}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}变电站与电线损耗}{19}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}市电规范}{19}{subsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.4.4}电源适配器}{19}{subsection.4.4.4}% 
