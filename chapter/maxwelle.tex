@@ -246,31 +246,238 @@
 考虑到等号左侧为粒子动量$\bs{p}$的变化率,\,我们也可以通过推导给出以下式子:
 \[\frac{\ud}{\ud t}(\bs{p}+q\bs{A})=-\nabla q\left(\varphi-\bs{v}\cdot\bs{A}\right)\]
 
+这两个结论引出了三组物理概念:
+
+一是隶属于能量的概念:\,$T$为动能,\,$q\varphi$现在可称作电磁势能.\,而其和$H=T+q\varphi$应当称作广义能量.
+
+二是隶属于动量的概念:\,$\bs{p}$为动量,\,$q\bs{A}$就是我们新发现的一个物理效应,\,事实上磁矢势的物理意义可以理解为与位置有关的存储于场中的粒子的动量,\,称作电磁势动量.\,而机械动量$\bs{p}$与势动量$q\bs{A}$的和$\bs{P}=\bs{p}+q\bs{A}$,\,称作广义动量.
+
+事实上大家已经发现,\,这种称呼其实就是来源于分析力学中的相应理论架构,\,事实上电磁场中的电荷运动这一个实例我们之前分析力学正是以它举过例子,\,读者可以对照着理解.\,故其实我们还可以把$H=T+q\varphi$称作\emph{哈密顿量}(hamiltonian),\,而$\bs{P}=\bs{p}+q\bs{A}$称作\emph{正则动量}(cannonical momentum).
+
+最后还有一个概念,\,它出现于之前两个等式的右侧,\,它也是一种势能函数,\,但是并不对应真实能量,\,而是出现在电荷运动的拉格朗日量中作为势能函数.\,这个项称作广义势:
+\[V=q\left(\varphi-\bs{v}\cdot\bs{A}\right)\]
+
+其表达式中反常地出现了粒子的速度,\,是一种速度势.
+
+以往出现的守恒律与对称性现在就在这两个表达式中体现的淋漓尽致:
+\[\frac{\ud H}{\ud t}=\frac{\partial V}{\partial t}\]
+\[\frac{\ud \bs{P}}{\ud t}=-\nabla V\]
+
+举例来说:\,静电场中带电粒子的运动,\,粒子总能量守恒;\,静磁场中带电粒子的运动,\,粒子干脆动能都不改变.\,这都是源于广义势不随时间改变(时间平移对称性导致能量守恒).\,而在静磁场问题中还经常出现某方向动量与某个关于位置的函数的和守恒的情况,\,究其本质是因为合理选取规范后,\,磁矢势$\bs{A}$和电势$\varphi$都与某个位置坐标无关(空间平移对称性导致动量守恒).
+
 
 \section{平面电磁波}
 
 \subsection{真空中的电磁波}
 
+自由空间中的麦克斯韦方程:
+\begin{align*}
+\nabla\cdot \bs{E} &=  0\\
+\nabla\times \bs{E} &=   -\frac{\partial \bs{B}}{\partial t} \\
+\nabla\cdot \bs{B} &=  0 \\
+\nabla\times\bs{B} &= \varepsilon_0\mu_0\frac{\partial \bs{E}}{\partial t}
+\end{align*}
+
+也可以用势来描述,\,此时达朗贝尔方程直接变成波动方程:
+\[\nabla^2\varphi-\frac{1}{c^2}\frac{\partial^2\varphi}{\partial t^2}=0\]
+\[\nabla^2\bs{A}-\frac{1}{c^2}\frac{\partial^2\bs{A}}{\partial t^2}=\bs{0}\]
+
+注意背后要求洛伦茨规范成立:
+\[\nabla\cdot\bs{A}+\frac{1}{c^2}\frac{\partial \varphi}{\partial t}=0\]
+
+十分使得注意的是,\,以上所有的方程,\,作为齐次方程,\,是具有非零解的.\,最典型的解为平面波解:
+\[\bs{E}=\bs{E}_0e^{\ui(\omega t-\bs{k}\cdot \bs{r})}\]
+\[\bs{B}=\bs{B}_0e^{\ui(\omega t-\bs{k}\cdot \bs{r})}\]
+\[\bs{A}=\bs{A}_0e^{\ui(\omega t-\bs{k}\cdot \bs{r})}\]
+\[\varphi=0\]
+\[\frac{E_0}{B_0}=c\quad,\quad  \bs{E}_0\perp\bs{k}\perp\bs{B}_0\quad,\quad \bs{E}_0\times\bs{B}_0\parallel \bs{k}\]
+\[\bs{E}_0=-\ui \omega \bs{A}_0\quad,\quad \bs{B}_0=-\ui\bs{k}\times\bs{A}_0\]
+\[\omega/k=c\]
+
 \subsection{介质中电磁波的传播}
+
+注意在介质中,\,不能再仿照真空中的电磁波传播公式而写出齐次的麦克斯韦方程.\,这是因为介质内部完全可以存在电荷和电流,\,从而计算电场磁场的散度旋度时必然需要考虑到他们.\,但是我们此前研究过的电介质和磁介质的理论告诉我们,\,通过引入电位移$\bs{D}$和磁场强度$\bs{H}$,\,可以有效地规避掉由介质产生的电荷和电流造成的电场散度和磁场旋度,\,即:
+\[\nabla\cdot \bs{D}=0\]
+\[\nabla\times \bs{H}=\frac{\partial \bs{D}}{\partial t}\]
+
+对于第二式可能需要更多的说明:\,我们知道如果在静磁学磁介质问题中,\,如果把总电流密度$\bs{j}$分解为磁化电流密度$\bs{j}_M$和自由电流密度$\bs{j}_f$,\,那么磁场旋度公式写作:
+\[\nabla\times \bs{B}=\mu_0\bs{j}=\mu_0\bs{j}_M+\mu_0 \bs{j}_f\]
+
+以往的做法是将磁化电流归因于磁化强度的不均匀性$\bs{j}_M=\nabla\times \bs{M}$,\,并进一步定义$\bs{H}=\bs{B}/\mu_0-\bs{M}$,\,这样就给出:
+\[\nabla\times\bs{H}=\bs{j}_f\]
+
+但是现在作为自由介质$\bs{j}_f=0$.\,然而又由于是变化的电磁场,\,故磁场旋度需要增添电场变化带来的项.\,还有一点需要引起注意:\,极化强度$\bs{P}$的变化也会带来一个极化电流密度$\bs{j}_P$,\,它应当为:
+\[\bs{j}_P=\frac{\partial \bs{P}}{\partial t}\]
+
+对比极化电荷密度$\rho_P=-\nabla\cdot \bs{P}$与极化电荷的连续性方程就不难理解这个式子.\,另外引人注目的一点是,\,这个电流与极化强度的关系完全类似与位移电流与电场强度的关系.\,如果做求和就会变成电位移的导数,\,这正是麦克斯韦当初把电场强度的导数称作``位移电流''的原因.
+
+现在修改之后的磁场旋度写作:
+\[\nabla\times \bs{B}=\mu_0\bs{j}+\varepsilon_0\mu_0\frac{\partial \bs{E}}{\partial t}=\mu_0\bs{j}_M+\mu_0\frac{\partial \bs{P}}{\partial t}+\varepsilon_0\mu_0\frac{\partial \bs{E}}{\partial t}\]
+
+最后两项十分恰好地凑出了电位移$\bs{D}$.\,从而整理就得到了介质中修正的齐次磁场旋度公式.
+
+在普遍的介质中的麦克斯韦方程就写作:
+\begin{align*}
+\nabla\cdot \bs{D} &=  0\\
+\nabla\times \bs{E} &=   -\frac{\partial \bs{B}}{\partial t} \\
+\nabla\cdot \bs{B} &=  0 \\
+\nabla\times\bs{H} &= \frac{\partial \bs{D}}{\partial t}
+\end{align*}
+
+在这里介质兼具电与磁的特性,\,这表现在以下两个用于描述介质的结构方程上:
+\[\bs{D}=\varepsilon \bs{E}\]
+\[\bs{B}=\mu \bs{E}\]
+
+其中$\varepsilon,\,\mu$称作介质的电容率和磁导率.\,它们,\,超出我们以往的认知的是,\,往往是复数\footnote{非各向同性介质中甚至抽象为复张量}.\,这一方面来自于微观极化和磁化机理上的弛豫,\,我们之后物理光学还将进一步研究这个问题,\,还有一方面来自于一个非常直接的原因:\,我们综合了不导电的电介质和磁介质,\,却忽视了介质本身完全可能导电的情况.\,对于导电性能较差的情形,\,比如漏电的介质,\,考虑传导电流$ \bs{j}_c$实际上就是自由电流,\,那么磁场旋度的方程还需要被进一步修改为:
+\[\nabla\times\bs{H} = \bs{j}_c+\frac{\partial \bs{D}}{\partial t}\]
+
+如果是考虑单一频率的电磁波,\,那么对时间求导的操作必然转变为乘$\ui\omega$.\,如果介质电导率为$\sigma$,\,那么可以把等号右侧进行以下变形:
+\[\bs{j}_c+\frac{\partial \bs{D}}{\partial t}=\sigma \bs{E}+\ui\omega\varepsilon \bs{E}=\ui\omega\left(\varepsilon-\ui\frac{\sigma}{\omega}\right)\bs{E}=\ui\omega \bs{D}' =\frac{\partial \bs{D}'}{\partial t}\]
+
+这样就通过定义\emph{复电容率}(complex permittivity):
+\[\varepsilon'=\varepsilon-\ui\frac{\sigma}{\omega}\]
+
+实现了把传导电流也吸收进了电位移中,\,造成了形式上的统一.\,代价是电容率和相关的其他所有物理量都需要理解为复数.
+
+这样的做法对于漏电绝缘介质是完全适用的.\,但是对于导电性能非常好的导体介质中电磁波的传播,\,最好是单独建立新的处理方法.\,有兴趣的读者可以阅读其他相关书籍.\,我们指出,\,我们统一用复数描述不同情况下介质中电磁波传播的做法,\,从之后的结果上来看是符合事实的.
+
+把介质的两个结构方程代入介质的齐次麦克斯韦方程,\,就得到了均匀介质中一般形式的麦克斯韦方程,\,习惯上总是以$\bs{E},\,\bs{H}$作为变量:
+
+\begin{align*}
+\nabla\cdot \bs{E} &=  0\\
+\nabla\times \bs{E} &=   -\mu\frac{\partial \bs{H}}{\partial t} \\
+\nabla\cdot \bs{H} &=  0 \\
+\nabla\times\bs{H} &= \varepsilon\frac{\partial \bs{E}}{\partial t}
+\end{align*}
+
+这两个方程具有高度的对称性,\,其解也与真空中的解相似,\,只有两点发生了改变,\,一是传播速度变为:
+\[v=\frac{\omega}{k}=\frac{1}{\sqrt{\varepsilon\mu}}\]
+
+这一点建立在$\varepsilon,\,\mu$都是实数的基础上.\,如果出现复数的情形,\,那么上式一般写作:
+\[k=\sqrt{\varepsilon\mu}\omega\]
+
+即此时将出现复波矢的情况.\,意味着电磁波在介质中的传播伴随着耗散与衰减.
+
+第二点就是电场磁场振幅强度的比例.\,真空中这个比为$c$,\,现在由以下等式描述:
+\[\varepsilon E_0^2=\mu H_0^2\]
+
+对于所谓\emph{良导体}(good conductor)的情况,\,电导率$\sigma$特别大,\,以至于使得复电容率$\varepsilon'$中反倒是与电导率成正比的虚部远大于反应介电的实部.\,那么电磁波在良导体中的传播就存在严重的衰减.\,此时有两个结论:
+
+第一是对电磁场比值的公式,\,取$\varepsilon'\to\infty$,\,就能发现:
+\[E_0\to 0\]
+
+即良导体中类似于静电平衡情况下的导体,\,内部电场是非常微弱的.\,磁场相对电场虽然很大,\,但是也需要迅速沿传播方向衰减.
+
+第二是$k$的公式有以下渐进关系:
+\[\frac{2\pi}{\lambda}\sim k\propto\sqrt{\frac{1}{\omega}}\cdot \omega=\sqrt{\omega}\]
+
+即随着频率升高,\,传播与衰减的特征距离$\lambda$将越来越小.\,这意味着高频交流电路中电流仅仅集中于导线表面薄薄的一层,\,会减小导线的有效截面积而增大线路损耗.\,这个现象称作\emph{趋肤效应}(skin effect).
+
+
 
 \section{电磁场能量与动量}
 
-\subsection{电磁场能量与动量的推导与实例}
+真空中电磁场的能量密度为:
+\[w=\frac{1}{2}\varepsilon_0\bs{E}^2+\frac{1}{2}\mu_0\bs{H}^2\]
 
-\subsection{电磁场与电荷体系的守恒律}
+能流密度,\,即著名的\emph{坡印亭矢量}(Poynting vector)为:
+\[\bs{S}=\bs{E}\times \bs{H}\]
+
+而动量密度与能流密度紧密联系:
+\[\bs{g}=\bs{D}\times \bs{B}=\frac{1}{c^2}\bs{E}\times \bs{H}=\frac{\bs{S}}{c^2}\]
+
+%\subsection{电磁场能量与动量的推导与实例}
+
+%\subsection{电磁场与电荷体系的守恒律}
 
 \section{电磁波辐射}
 
 \subsection{电磁辐射概论}
 
+麦克斯韦方程实际上描述了两类现象:
+
+一类我们已经通过之前所有章节逐一学习.\,表面上看包括静止的电荷产生电场,\,稳恒的电流产生磁场,\,变化的电荷分布与电流分布产生感应的磁场和电场四类.\,但是其实无非都是第一类由库仑定律描述的基本规律在相对论变换下的衍生物.\,在这一大类现象中,\,场始终都是电荷的附庸,\,基本的逻辑是先有荷,\,再有场.\,空间分布上,\,场源电荷对远方的场的支配量级服从平方反比律.
+
+通过本章的推理我们逐渐看到第二类截然不同的图像存在的可能性.\,它诞生于同一个麦克斯韦方程,\,但是故事不再由电荷主演,\,主角阵容中新增了一颗闪亮的明星:\,\emph{辐射场}(radiation field).\,平面波实际上就是形形色色辐射场中最单纯的一种.\,显然,\,它可以独立于电荷而存在.\,但是依然,\,电荷也愿意主动参与进麦克斯韦方程搭建的舞台中,\,与辐射场这样的强势主角又将擦出怎样的火花?\,简单来说,\,我们将得到以下两个新的现象:\,
+
+电荷发出辐射,\,电荷吸收辐射.
+
+拼借电荷吸收辐射的可能性,\,第二类电磁现象也与第一类现象区分开来.\,更何况电荷激发辐射场的空间分布也区别于第一类现象,\,在辐射情形下,\,远方的场是一次反比的.\,这一点之后就能发现.
+
+最后我们针对电荷发出辐射与吸收辐射的条件进行推理:\,静止的点电荷产生静电场,\,匀速运动的点电荷产生一个静电场的相对论变换,\,这是毫无疑问的事实.\,在这些场合下没有辐射场的产生.
+
+所以,\,显然电荷做加速运动是电荷激发辐射场的必要条件.
+
+实际上,\,电荷做加速运动其实即使就是电荷激发辐射场的充要条件,\,我们之后就能给出电荷辐射场与辐射功率与其加速度的直接联系.
+
+那么如何看待电荷吸收辐射的过程?
+
+事实上这个过程可以看做电荷发射辐射的时间反演.\,麦克斯韦方程具有明确的时间反演对称性,\,只需要命$t\to -t$,\,$\bs{B}\to -\bs{B}$,\,$\bs{j}\to -\bs{j}$.\,其他量不改变就可以看出这一点.\,辐射作为麦克斯韦方程的解,\,其时间反演解自然也是合理的.\,但需要注意先后发生的两件事总是存在因果的区别,\,故时间反演后,\,因果关系需要重新解释,\,两个物理现象需要理解为不具有相通性\footnote{例如,\,不能通过洛伦兹变换来颠倒因果.}的独立现象.\,我们可以举一个电荷吸收辐射的例子:\,考虑电子的经典模型:\,将一个平面电磁波照射到真空中的自由电子上,\,那么电子就会在周期性的电场力(速度不大时磁场力可忽略)作用下做简谐振动,\,那么根据下一小节的内容我们将知道,\,电子会以一定功率向四面八方产生辐射场.\,那么根据能量守恒,\,电子必然是从原来入射的平面波中吸收了能量,\,即平面波在一个周期内对电子做净的正功.\,这种先吸收再辐射的行为就称作\emph{散射}(scattering),\,而以上经典的处理方法构成\emph{托马斯散射模型}(Thomas scattering model).\,而散射的总功率,\,对应了原来平面波面积为$\sigma$范围内通过的功率.\,这个面积称作\emph{散射截面}(scattering cross section).\,经典理论计算结果为:
+\[\sigma=\frac{8\pi}{3}r_e^2\]
+
+其中$r_e$就是由洛伦兹提出的\emph{经典电子半径}(classical electron radius):
+\[r_e=\frac{e^2}{4\pi\varepsilon_0m_e c^2}\]
+
+
+
+
 \subsection{偶极辐射}
 
-\subsection{辐射的相对论变换}
+通过点电荷产生的电势公式,\,我们知道,\,数学上以德尔塔函数作为泊松方程的非齐次项的解为一次反比势:
+\[\nabla^2\varphi =-\delta (\bs{r})\quad \Rightarrow \quad \varphi =\frac{1}{4\pi r}\]
 
-\section{电磁学单位制}
+数学上容易猜想并证明,\,如果将方程替换为达朗贝尔方程,\,而如果将非齐次项以$\omega$的角频率产生振荡,\,那么这个新的方程的解应当变为球面波:
+\[\nabla^2\varphi -\frac{1}{c^2}\frac{\partial^2 \varphi}{\partial t^2}=-\delta (\bs{r})e^{\ui \omega t}\quad \Rightarrow \quad \varphi =\frac{e^{\ui(\omega t\pm kr)}}{4\pi r}\quad ,\quad k=\frac{\omega}{c}\]
 
-\subsection{高斯单位制}
+对于两个可能的解,\,$+$数学上表示内行球面波,\,$-$数学上表示外行球面波.\,两个解在时间反演下对称.\,目前我们在因果性上是考虑电荷体系的自发辐射,\,故考虑负号的外行波解.
 
-\subsection{洛伦兹-亥维赛单位制}
+现在考虑一个这样的体系:\,两个无限小的导体球用长为$l$的导线连接,\,第一个球位于$x=\frac{l}{2}$处,\,第二个导体球位于$x=-\frac{l}{2}$处.\,由于两个球发生了$LC$振荡,\,第一个球上电荷量为$q_+=q\cos\omega t$,\,第二个球上电荷量为$q_-=-q\cos\omega t$.\,那么导线上的电流为$I=-\omega q\sin\omega t$.\,如果换成复数记法,\,把实际值看做复数的实部,\,则:
+\[q_+=qe^{\ui\omega t}\quad ,\quad q_-=-qe^{\ui\omega t} \quad ,\quad I=\ui\omega qe^{\ui\omega t}\]
 
-\subsection{自然单位制}
+定义从第二个球指向第一个球的矢量为$\bs{l}$.\,那么此时标势和矢势符合的达朗贝尔方程就写作:
+\[\nabla^2\varphi -\frac{1}{c^2}\frac{\partial^2 \varphi}{\partial t^2}=-\frac{q}{\varepsilon_0}\delta \left(\bs{r}-\frac{\bs{l}}{2}\right)e^{\ui \omega t}+\frac{q}{\varepsilon_0}\delta \left(\bs{r}+\frac{\bs{l}}{2}\right)e^{\ui \omega t}\]
+\[\nabla^2\bs{A} -\frac{1}{c^2}\frac{\partial^2 \bs{A}}{\partial t^2}=-\ui\mu_0\omega q\bs{l}\delta \left(\bs{r}\right)e^{\ui \omega t}\]
+
+那么标势和矢势的解就根据之前的数学结论得到:
+\[\varphi=e^{\ui\omega t}\cdot\frac{q}{4\pi\varepsilon_0} \frac{e^{- \ui k\left|\bs{r}-\frac{\bs{l}}{2}\right|}}{\left|\bs{r}-\frac{\bs{l}}{2}\right|}-e^{\ui\omega t}\cdot\frac{q}{4\pi\varepsilon_0} \frac{e^{- \ui k\left|\bs{r}+\frac{\bs{l}}{2}\right|}}{\left|\bs{r}+\frac{\bs{l}}{2}\right|}\]
+\[\bs{A}=e^{\ui\omega t}\cdot\frac{\ui\mu_0\omega q\bs{l}}{4\pi} \frac{e^{- \ui kr}}{r}\]
+
+这样的解称作\emph{推迟势}(retarded potential)解.\,而对于电势可以进一步在足够远$r\gg l$处进行小量近似,\,我们不再考虑两项分母的区别,\,这只会带来类似于电偶极子远方的电势那样的平方反比的高阶小量.\,而主要关注分子的差:
+\[e^{- \ui k\left|\bs{r}-\frac{\bs{l}}{2}\right|}-e^{- \ui k\left|\bs{r}+\frac{\bs{l}}{2}\right|}\approx \frac{\ud e^{-\ui kr}}{\ud r}\cdot\left(\left|\bs{r}-\frac{\bs{l}}{2}\right|-\left|\bs{r}+\frac{\bs{l}}{2}\right|\right)\]
+\[\approx \ui kl\cos\theta e^{- \ui kr}\]
+
+其中$\theta$为$\bs{r}$方向与$\bs{l}$的夹角.\,则在以$\bs{l}$方向为极轴的球坐标下,\,写出近似后的标势与矢势:
+\[\varphi=e^{\ui(\omega t- kr)}\cdot\frac{\ui kql\cos\theta}{4\pi\varepsilon_0 r} \]
+\[A_r=e^{\ui(\omega t- kr)}\cdot\frac{\ui \mu_0\omega ql\cos\theta}{4\pi r}\quad ,\quad  A_\theta=-e^{\ui(\omega t- kr)}\cdot\frac{\ui \mu_0\omega ql\sin\theta}{4\pi r}\]
+
+最后再由势与场之间的关系:
+\[\bs{E}=-\nabla \varphi-\frac{\partial \bs{A}}{\partial t}\quad ,\quad\bs{B}=\nabla \times \bs{A}\]
+
+忽略超过一阶反比于半径的项,\,就最终得到了电磁场的表达式:
+\[\bs{E}=E_\theta \bs{e}_\theta\quad ,\quad E_\theta=-\frac{\omega^2 q l \sin\theta}{4\pi\varepsilon_0 c^2 r}e^{\ui(\omega t- kr)}\]
+\[\bs{B}=B_\varphi \bs{e}_\varphi\quad ,\quad B_\varphi=-\frac{\omega^2 q l \sin\theta}{4\pi\varepsilon_0 c^3 r}e^{\ui(\omega t- kr)}=\frac{E_\theta}{c}\]
+
+从而取实部,\,计算瞬时能流密度为:
+\[S=\frac{\omega^4q^2l^2\sin^2\theta}{16\pi^2\varepsilon_0 c^3 r^2 }\cos^2(\omega t-kr)\]
+
+在一个周期内的平均辐射能流为:
+\[\bar{S}=\frac{\omega^4q^2l^2\sin^2\theta}{32\pi^2\varepsilon_0 c^3 r^2 }\]
+
+最后计算全立体角内的总辐射功率:
+\[P=\int_0^\pi \bar{S}\cdot 2\pi r^2\sin\theta\ud \theta=\frac{\omega^4q^2l^2}{12\pi\varepsilon_0 c^3  }\]
+
+考虑到辐射等价于由两个电荷量恒定,\,但在$\pm l/2$范围内做简谐振动,\,加速度振幅为$a=\omega^2 l/2$的电荷共同贡献.\,那么每一个电荷加速度幅值$a$对应的辐射幅值为:
+\[P=\frac{q^2a^2}{6\pi\varepsilon_0 c^3  }\]
+
+这就是著名的\emph{拉莫尔公式}(Larmor formula)
+
+
+%\subsection{辐射的相对论变换}
+
+%\section{电磁学单位制}
+
+%\subsection{高斯单位制}
+
+%\subsection{洛伦兹-亥维赛单位制}
+
+%\subsection{自然单位制}
