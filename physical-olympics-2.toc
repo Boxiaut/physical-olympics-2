@@ -1,37 +1,29 @@
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}静磁场}{3}{chapter.4}
-\contentsline {section}{\numberline {4.1}电流与磁场}{3}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}磁场地位与电流分布}{3}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}毕奥-萨伐尔定律}{4}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}两个定律与矢势}{4}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}磁场环路定律}{4}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}矢势与磁场高斯定律}{5}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}电流体系}{5}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}磁偶极子}{5}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}磁化强度}{6}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}若干对称体系的磁场}{6}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}磁介质与磁能}{7}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}微观角度理解磁化}{7}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}宏观角度理解磁化}{8}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}磁场能量}{8}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}电磁感应}{9}{chapter.5}
-\contentsline {section}{\numberline {5.1}动生电动势}{9}{section.5.1}
-\contentsline {section}{\numberline {5.2}感生电动势}{9}{section.5.2}
-\contentsline {section}{\numberline {5.3}自感与互感}{10}{section.5.3}
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}麦克斯韦方程组}{11}{chapter.6}
-\contentsline {section}{\numberline {6.1}麦克斯韦方程组}{11}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}位移电流假说}{11}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}麦克斯韦方程组}{13}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}电荷在电磁场中的运动}{17}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}平面电磁波}{18}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}真空中的电磁波}{18}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}介质中电磁波的传播}{19}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}电磁场能量与动量}{21}{section.6.3}
-\contentsline {section}{\numberline {6.4}电磁波辐射}{21}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}电磁辐射概论}{21}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}偶极辐射}{22}{subsection.6.4.2}
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}交流电路}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}相量表示}{25}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}拟稳条件与交流元件}{25}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}电阻, 电容, 电感特性}{25}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}常见电路}{27}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}谐振电路}{27}{subsection.7.2.1}
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}光的干涉}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}标量波理论}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}分波面干涉}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}分振幅干涉}{7}{section.1.3}
+\contentsline {section}{\numberline {1.4}偏振干涉}{7}{section.1.4}
+\contentsline {section}{\numberline {1.5}相干性}{7}{section.1.5}
+\contentsline {section}{\numberline {1.6}多光束干涉}{7}{section.1.6}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}光的衍射}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}光栅与波带片}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}布拉格衍射}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}衍射积分公式}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}波前分析法}{9}{section.2.4}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}物理光学}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}经典色散理论}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}色散,\tmspace +\thinmuskip {.1667em}散射与吸收}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}群速与展宽}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}光量子}{16}{section.3.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}量子论}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}黑体辐射}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}光粒子性}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}玻尔原子}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}电子波动性}{17}{section.4.4}
+\contentsline {section}{\numberline {4.5}物质波与波函数}{17}{section.4.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}物理学尺度}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}宇观}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}宏观}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}介观}{19}{section.5.3}
+\contentsline {section}{\numberline {5.4}微观原子}{19}{section.5.4}
+\contentsline {section}{\numberline {5.5}微观亚原子}{19}{section.5.5}
