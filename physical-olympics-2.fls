@@ -238,10 +238,6 @@ INPUT chapter/diffraction.aux
 INPUT chapter/diffraction.aux
 INPUT chapter/photon.aux
 INPUT chapter/photon.aux
-INPUT chapter/quantum.aux
-INPUT chapter/quantum.aux
-INPUT chapter/scale.aux
-INPUT chapter/scale.aux
 OUTPUT physical-olympics-2.aux
 INPUT c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 INPUT c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdacmr.fd
@@ -436,12 +432,6 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb7.tfm
 INPUT image/18-1-1.png
 INPUT image/18-1-3.png
 INPUT image/18-1-4.png
-OUTPUT chapter/quantum.aux
-INPUT chapter/quantum.tex
-INPUT chapter/quantum.tex
-OUTPUT chapter/scale.aux
-INPUT chapter/scale.tex
-INPUT chapter/scale.tex
 INPUT physical-olympics-2.aux
 INPUT chapter/interference.aux
 INPUT chapter/interference.aux
@@ -449,8 +439,4 @@ INPUT chapter/diffraction.aux
 INPUT chapter/diffraction.aux
 INPUT chapter/photon.aux
 INPUT chapter/photon.aux
-INPUT chapter/quantum.aux
-INPUT chapter/quantum.aux
-INPUT chapter/scale.aux
-INPUT chapter/scale.aux
 INPUT ./physical-olympics-2.out
