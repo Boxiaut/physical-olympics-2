@@ -8,7 +8,7 @@
 
 不同于以往在透明介质中的平面波传播,\,新的现象需要新的平面波模型.
 
-%\subsection{复波矢与复折射率}
+\subsection{复波矢与复折射率}
 
 我们在波动方程的解中引入复数是为了更好地描述振动形式的解.\,但这却忽视了另一种解的存在性.\,就是如果波矢$\bs{k}$本身亦为复数,\,由于同时又是一个矢量,\,可以表示为$\bs{k}=\bs{\alpha}+\ui\bs{\beta}$.\,代入场的空间部分:
 \[A(\bs{r})=A_0\ue^{\ui \bs{k}\cdot \bs{r}}=A_0\ue^{- \bs{\beta}\cdot \bs{r}}\ue^{\ui \bs{\alpha}\cdot \bs{r}}\]
@@ -99,7 +99,7 @@
 \[\alpha=n_1\frac{\omega}{c}\quad,\quad\beta=n_2\frac{\omega}{c}\]
 
 
-%\subsection{经典电子论的解释}
+\subsection{经典电子论的解释}
 
 下面我们来介绍历史上发挥了重要作用的经典电子论.\,它虽然不够精确但物理图像十分重要.
 
@@ -181,16 +181,29 @@
 其中$\omega_p$仍然统计各个吸收峰的总强度,\,而$c_i$系数的和必须为1则统计各个吸收峰的相对强度.\,我们最后计算远离吸收带处的折射率值.\,忽略各个$\Gamma_i$后得到:
 \[n^2=1+\omega_p^2\cdot\sum_i\frac{c_i}{\omega_i^2-\omega^2}\]
 
-于是便得到著名的色散关系:
-\[n^2=1+\sum_i a_i\cdot\frac{\lambda^2}{\lambda^2-\lambda_i^2}\quad,\quad a_i=\frac{c_i\omega_p^2\lambda_i^2}{4\pi^2}\]
+上式就是著名的\emph{塞尔迈耶尔方程}(Selmeyer'
+s equation),\,如果用波长表示则为:
+\[n^2=1+\sum_i a_i\cdot\frac{\lambda^2}{\lambda^2-\lambda_i^2}\quad,\quad a_i=\frac{c_i\omega_p^2\lambda_i^2}{4\pi^2c^2}\]
 
-上式依然可以做近似,\,把共振的各个波长$\lambda_i$从小到大按$i$来排列.\,不妨设$\lambda_i\ll\lambda_{i+1}$,\,而$\lambda$恰好夹在两者之间,\,那么:
-\[n^2=\]
+上式依然可以做近似,\,把共振的各个波长$\lambda_i$从小到大按$i$来排列.\,不妨设$\lambda_i\ll\lambda_{i+1}$,\,而$\lambda$恰好接近$\lambda_i$,\,那么忽略所有$\lambda_{i+1}$及之后对应的小量项并将$\lambda_{i-1}$及之前的项直接近似为$a_i$:
+\[n^2\approx 1+a_1+a_2+\cdots+a_{i-1}+\frac{a_i\lambda^2}{\lambda^2-\lambda_i^2}\]
+\[= 1+a_1+a_2+\cdots+a_{i-1}+a_i+\frac{a_i\lambda_i^2}{\lambda^2-\lambda_i^2}\]
+\[\approx 1+a_1+a_2+\cdots+a_{i-1}+a_i+\frac{a_i\lambda_i^2}{\lambda^2}\]
+\[=A_0+\frac{B_0}{\lambda^2}\]
+
+而进一步近似得到:
+\[\sqrt{A_0+\frac{B_0}{\lambda^2}}=\sqrt{A_0}\left(1+\frac{B_0}{A_0\lambda^2}\right)^{1/2}=\sqrt{A_0}\left(1+\frac{B_0}{2A_0\lambda^2}-\frac{B_0^2}{8A_0^2 \lambda^4}+\cdots\right)\]
+
+一般就总结为如下\emph{柯西色散公式}(Cauchy dispersion formula):
+\[n(\lambda)=A+\frac{B}{\lambda^2}\]
+
+有时为了精度原因再加上四阶项$+C/\lambda^4$.\,而从推导过程中我们发现系数之间的联系:
+\[A=\sqrt{1+\sum_1^i a_i}\quad ,\quad B=\frac{a_i\lambda_i^2}{2A}\]
 
 
-\section{色散,\,散射与吸收}
+%\section{色散,\,散射与吸收}
 
-\section{群速与展宽}
+%\section{群速与展宽}
 
-\section{光量子}
+%\section{光量子}
 
