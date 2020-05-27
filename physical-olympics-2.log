@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  26 MAY 2020 15:35
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  27 MAY 2020 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2150,7 +2150,7 @@ LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
 File: image/18-1-1.png Graphic file (type bmp)
 <image/18-1-1.png>
 
-Overfull \hbox (14.69402pt too wide) in paragraph at lines 150--151
+Overfull \hbox (14.69402pt too wide) in paragraph at lines 153--154
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 两 个 函 数 看 上 去 复 杂\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新
 仿简体(0)/m/n/10.53937 其 实 都 属 于 近 似 的[]洛 伦 兹 型 函 数[]\T1/lmr/m/n/10.53937 (lorentz
 ian
@@ -2160,7 +2160,13 @@ File: image/18-1-3.png Graphic file (type bmp)
 <image/18-1-3.png>
 File: image/18-1-4.png Graphic file (type bmp)
 <image/18-1-4.png>
-[7] [8]) [9]
+[7] [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.75693pt
+(hyperref)                removed on input line 216.
+
+) [9]
 \openout2 = `chapter/quantum.aux'.
 
  (./chapter/quantum.tex [10
@@ -2169,16 +2175,18 @@ File: image/18-1-4.png Graphic file (type bmp)
 
 ]
 第二章
-) [11]
+File: image/19-1-1.jpg Graphic file (type bmp)
+<image/19-1-1.jpg>
+[11]) [12]
 \openout2 = `chapter/scale.aux'.
 
- (./chapter/scale.tex [12
+ (./chapter/scale.tex
+第三章
+) [13
 
 
 
 ]
-第三章
-) [13]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (./physical-olympics-2.aux (./chapter/photon.aux) (./chapter/quantum.aux) (./c
@@ -2186,7 +2194,7 @@ hapter/scale.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 130.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 26986CFC2DCFCCB0962C988752809A43.
+(rerunfilecheck)             Checksum: BCB55AC8F11DE7F384225C75E79CD0DD.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2198,12 +2206,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 29171 strings out of 492960
- 559768 string characters out of 6136939
- 651816 words of memory out of 5000000
- 32743 multiletter control sequences out of 15000+600000
+ 29185 strings out of 492960
+ 560526 string characters out of 6136939
+ 654139 words of memory out of 5000000
+ 32756 multiletter control sequences out of 15000+600000
  654192 words of font info for 182 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,13n,92p,958b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (15 pages, 122964 bytes).
+Output written on physical-olympics-2.xdv (15 pages, 138848 bytes).
