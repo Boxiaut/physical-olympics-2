@@ -429,6 +429,7 @@ OUTPUT chapter/quantum.aux
 INPUT chapter/quantum.tex
 INPUT chapter/quantum.tex
 INPUT image/19-1-1.jpg
+INPUT image/19-1-2.jpg
 OUTPUT chapter/scale.aux
 INPUT chapter/scale.tex
 INPUT chapter/scale.tex
