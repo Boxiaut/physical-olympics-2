@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1590660152 "physical-olympics-2.xdv" "physical-olympics-2.pdf" "physical-olympics-2" 1590660158
+["xdvipdfmx"] 1590660152 "physical-olympics-2.xdv" "physical-olympics-2.pdf" "physical-olympics-2" 1590725436
   "physical-olympics-2.xdv" 1590660152 164636 2caa1a92c14c42bcf690dffca3be0354 "xelatex"
   (generated)
   "physical-olympics-2.pdf"
-["xelatex"] 1590660144 "physical-olympics-2.tex" "physical-olympics-2.xdv" "physical-olympics-2" 1590660158
+["xelatex"] 1590660144 "physical-olympics-2.tex" "physical-olympics-2.xdv" "physical-olympics-2" 1590725436
   "c:/Windows/Fonts/msyh.ttc" 1552970651 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1538204891 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1538208585 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -202,20 +202,20 @@
   "physical-olympics-2.tex" 1590478517 3527 956560d595be820a9de10065444248a0 ""
   "physical-olympics-2.toc" 1590660152 1602 d038c120f94b1519a091c839960232bf ""
   (generated)
-  "chapter/interference.aux"
+  "physical-olympics-2.toc"
+  "physical-olympics-2.out"
+  "physical-olympics-2.aux"
   "physical-olympics-2.xdv"
-  "chapter/magnetostatics.aux"
-  "chapter/maxwelle.aux"
+  "chapter/photon.aux"
+  "chapter/steadycurrent.aux"
   "chapter/induction.aux"
+  "chapter/magnetostatics.aux"
   "physical-olympics-2.log"
+  "chapter/diffraction.aux"
+  "chapter/conductordielectric.aux"
+  "chapter/quantum.aux"
+  "chapter/maxwelle.aux"
+  "chapter/electrostatics.aux"
+  "chapter/interference.aux"
   "chapter/accurrent.aux"
   "chapter/scale.aux"
-  "chapter/conductordielectric.aux"
-  "chapter/diffraction.aux"
-  "chapter/steadycurrent.aux"
-  "chapter/electrostatics.aux"
-  "physical-olympics-2.out"
-  "chapter/photon.aux"
-  "physical-olympics-2.toc"
-  "chapter/quantum.aux"
-  "physical-olympics-2.aux"

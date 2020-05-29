@@ -200,7 +200,7 @@ s equation),\,如果用波长表示则为:
 有时为了精度原因再加上四阶项$+C/\lambda^4$.\,而从推导过程中我们发现系数之间的联系:
 \[A=\sqrt{1+\sum_1^i a_i}\quad ,\quad B=\frac{a_i\lambda_i^2}{2A}\]
 
-\subsection{辐射阻尼与散射截面}
+\subsection{*辐射阻尼与散射截面}
 
 我们此前得到了电荷做加速运动时需要满足的辐射能流和拉莫尔公式:
 \[S=\frac{q^2\ddot{\bs{r}}^2}{8\pi^2\varepsilon_0c^3 R^2}\sin^2\theta\quad ,\quad P=\frac{q^2\ddot{\bs{r}}^2}{6\pi\varepsilon_0c^3}\]
@@ -259,6 +259,60 @@ A_3e^{t/\tau}&(t>0.5)
 通过这个振幅我们除了推导色散,\,还可以得到两个十分有意义的结果:
 
 第一个结果是重新去计算电子辐射的功率,\,即把外电磁场能量单位时间散射的那部分能量.\,根据偶极振荡公式:
+\[\overline{P}=\frac{e^2\omega^4|x|^2}{12\pi\varepsilon_0c^3}\]
+
+而入射电磁波,\,如果就是沿$z$方向传播,\,沿$x$方向偏振的平面波,\,则具有平均能流:
+\[S=\frac{1}{\mu_0 c}\cdot\frac{|E_x|^2}{2}=\frac{\varepsilon_0c|E_x|^2}{2}\]
+
+用这个功率除以这个能流,\,我们得到一个面积量纲的物理量.\,实际上就是相当于电子吸收了这个面积里面的辐射并以散射的形式做了新的辐射发射.\,这个面积称作\emph{散射截面}(scattering cross section),\,计算可得:
+\[\sigma=\frac{\overline{P}}{S}=\frac{8}{3}\pi r_e^2 \cdot \frac{1}{\omega^2\tau^2 +(1-\omega_0^2/\omega^2)^2}\]
+
+而其中$r_e$就是我们之前提过的\emph{经典电子半径}(classical electron radius).\,它恰恰是在洛伦兹等人在研究辐射的问题时提出的.\,故也称\emph{洛伦兹半径}(Lorentz radius):
+\[r_e=\frac{e^2}{4\pi\varepsilon_0mc^2}\]
+
+我们首先注意一点:\,由于$\tau$是个很短的时间,\,故能够使得$\omega\tau \sim 1$的角频率对应的光波具有以下的量级:
+\[\omega\sim 10^{23}{\rm rad/s}\quad ,\quad \lambda\sim 12{\rm fm}\quad ,\quad E\sim 105{\rm MeV}\]
+
+这实际上是一个极高的频率了,\,到这个能标,\,光子对电子的影响已经完全不能忽略光子的量子性,\,当然也要考虑电子的波动性,\,康普顿散射和量子电动力学的理论时必要的.\,而物质形成的体系总是有$\omega_0\tau\ll 1$,\,故即使在$\omega\gg \omega_0$,\,一般也可以把$\omega\tau$视作小量.\,那么在这种场合下:
+\[\sigma \approx \frac{8}{3}\pi r_e^2\]
+
+这个截面称为\emph{汤姆孙截面}(Thomson cross section).\,反映了在高频电磁波作用下电子接近自由电子散射电磁波的行为.
+
+而在低频下$\omega\ll \omega_0$,\,可做近似:
+\[\sigma \approx \frac{8}{3}\pi r_e^2\cdot \frac{\omega^4}{\omega_0^4}\]
+
+这个式子后面会介绍,\,反映了了瑞利散射的基本原理.
+
+最后,\,在$\omega\approx \omega_0$时,\,截面表达式的分母很接近零.\,散射截面远大于汤姆孙截面,\,电子强烈吸收外电磁场能量,\,并造成大的散射.\,这称作\emph{共振散射}(resonance scattering).\,实验上实际上也观察到了这个现象.\,但是洛伦兹经典色散理论的弱点就在于它是个经典的理论,\,并不能很好地解释实验中得到的数据,\,因为它没有构建出理论模型中谐振子的量子本质.
+
+第二个结果,\,我们来考察一下这个振子在外界电磁场下产生的振动能量:
+\begin{align*}
+K 	&=\overline{\frac{1}{2}k \mathfrak{Re}(x)^2+\frac{1}{2}m \mathfrak{Re}(\dot{x})^2}\\
+	&=\frac{1}{4}m(\omega^2+\omega_0^2)|x|^2\\
+	&=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 |E_x|^2
+\end{align*}
+
+这样也许还不足以引起理论上的价值.\,但是如果设想一个复杂的电磁波场,\,它总可以分解为简单的平面波场(参考下一节介绍的傅里叶变换理论).\,那么该点的瞬时$x$方向电场就可以分解为:
+\[E_x(t)=\int_{0}^{\infty}[A(\omega)\cos{\omega t}+B(\omega)\sin{\omega t}]\ud \omega\]
+
+而对于波$A(\omega)\cos{\omega t}$和$B(\omega)\sin{\omega t}$,\,在谐振子上激发的能量是:
+\[K(\omega)=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
+
+作为原因,\,多个谐振电场的叠加产生的结果就是简单的振子的振动的简单叠加,\,这是因为谐振电场与振子的振动满足的微分方程是线性的.\,而按照简谐分解的一个数学结果就是,\,能量也可以直接叠加:
+\[\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}=\frac{1}{2}\varepsilon_0 A(\omega)^2\overline{\cos^2\omega t}+ \frac{1}{2}\varepsilon_0B(\omega)^2\overline{\sin^2\omega t}=\frac{1}{2}\frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
+
+从这个角度来看,\,振子就会因此具有$x$方向的平均能量:
+\begin{align*}
+K_x 	&=\int K(\omega) \ud \omega \\
+		&=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \int \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2 \ud \omega \\
+		&=\frac{e^2}{\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}
+\end{align*}
+
+如果考虑一个热力学系统,\,辐射和谐振子达到了一个温度为$T$的热平衡.\,那么每一个振子在一个方向上应当具有平均能量
+
+
+
+
 
 
 
