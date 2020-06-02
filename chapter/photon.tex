@@ -1,4 +1,5 @@
 %!TEX root = ../physical-olympics-2.tex
+\setcounter{chapter}{9}
 \chapter{物理光学}
 
 
@@ -299,16 +300,37 @@ K 	&=\overline{\frac{1}{2}k \mathfrak{Re}(x)^2+\frac{1}{2}m \mathfrak{Re}(\dot{x
 \[K(\omega)=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
 
 作为原因,\,多个谐振电场的叠加产生的结果就是简单的振子的振动的简单叠加,\,这是因为谐振电场与振子的振动满足的微分方程是线性的.\,而按照简谐分解的一个数学结果就是,\,能量也可以直接叠加:
-\[\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}=\frac{1}{2}\varepsilon_0 A(\omega)^2\overline{\cos^2\omega t}+ \frac{1}{2}\varepsilon_0B(\omega)^2\overline{\sin^2\omega t}=\frac{1}{2}\frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
+\[\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}=\int_{0}^{\infty}\left[\frac{1}{2}\varepsilon_0 A(\omega)^2\overline{\cos^2\omega t}+ \frac{1}{2}\varepsilon_0B(\omega)^2\overline{\sin^2\omega t}\right]\ud\omega=\int_{0}^{\infty}\frac{1}{2}\frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\ud\omega\]
 
 从这个角度来看,\,振子就会因此具有$x$方向的平均能量:
 \begin{align*}
 K_x 	&=\int K(\omega) \ud \omega \\
-		&=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \int \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2 \ud \omega \\
-		&=\frac{e^2}{\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}
+		&=\int \frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2 \ud \omega
 \end{align*}
 
-如果考虑一个热力学系统,\,辐射和谐振子达到了一个温度为$T$的热平衡.\,那么每一个振子在一个方向上应当具有平均能量
+如果考虑一个热力学系统,\,辐射和谐振子达到了一个温度为$T$的热平衡.\,那么经典理论认为:\,每一个振子在一个方向上应当具有平均能量$kT$.\,这一点之后由普朗克发现是错误的.\,但是如果我们坚持这个做法,\,由于电磁辐射的内能密度亦可以根据频率展开:
+\begin{align*}
+u 	&=\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}+\overline{\frac{1}{2}\varepsilon_0 E_y^2(t)}+\overline{\frac{1}{2\mu_0}\varepsilon_0 E_z^2(t)}+\overline{\frac{1}{2\mu_0} B_x^2(t)}+\overline{\frac{1}{2} B_y^2(t)}+\overline{\frac{1}{2\mu_0}B_z^2(t)}\\
+	&=6\cdot \overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}\\
+	&=\int_0^\infty u(\omega \ud \omega)
+\end{align*}
+
+这就得到了:
+\[u(\omega)=3\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
+
+从而之前的积分就可用$u(\omega)$表示.\,但是又由于$\tau$很小,\,故仅在$\omega\sim \omega_0$附近近似:
+\begin{align*}
+K_x 	&=\int \frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{u(\omega)}{3} \ud \omega\\
+		&=\int \frac{e^2}{2\varepsilon_0 m\omega_0^2}\cdot \frac{2\omega_0^4}{4\omega_0^4(\omega-\omega_0)^2+\omega_0^6\tau^2}\cdot \frac{u(\omega_0)}{3} \ud \omega\\
+		&=\frac{e^2u(\omega_0)}{12\varepsilon_0 m\omega_0^2}\cdot\int \frac{\ud x}{x^2+\omega_0^2\tau^2/4}\\
+		&=\frac{e^2u(\omega_0)}{12\varepsilon_0 m\omega_0^2}\cdot\frac{2\pi}{\omega_0\tau}\\
+		&=kT
+\end{align*}
+
+代入$\tau$的表达式,\,这就得到了:
+\[u(\omega_0)=\frac{3kT\omega_0^3}{2\pi^2c^3}\]
+
+这就是辐射与振子热力学平衡的理论基础,\,从此建立的理论可以导出著名的瑞利-金斯公式,\,从而招致了著名的紫外灾难.\,普朗克提出了辐射的量子理论成功地解决了这个问题.\,参见下一章.
 
 
 
@@ -318,9 +340,10 @@ K_x 	&=\int K(\omega) \ud \omega \\
 
 
 
-\section{色散,\,散射与吸收}
 
-\section{群速与展宽}
+%\section{色散,\,散射与吸收}
 
-\section{光量子}
+%\section{群速与展宽}
+
+%\section{光量子}
 

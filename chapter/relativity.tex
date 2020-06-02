@@ -4,9 +4,250 @@
 
 \section{相对论运动学}
 
+\begin{itemize}
+\item 光速不变原理:\,时空的结构为平直时空:\,$\text{d}s^2=c^2\text{d}t^2-\text{d}x_i^2$:\,物质运动的``舞台''.
+
+\item 相对性原理:\,物理规律的协变性:
+\[\text{Sca}.=\text{Sca}. \quad , \quad \text{Vec}.=\text{Vec}. \quad ,\quad  \text{Vec}.\cdot \text{Vec}.=\text{Sca}. \quad \text{etc}.\]
+
+\item \emph{四-标量}(four-scalar)与\emph{四-矢量}(four-vector)的定义:\,类比三维空间标量矢量,\,但按闵可夫斯基空间处理.
+
+\item 洛伦兹变换的定义:\,保度规的变换.\,物理上是不同共原点惯性参考者建立的参考系.
+
+\item 洛伦兹群:
+\[\text{SO}\left( 3,1 \right) =<R_x, R_y, R_z, B_x, B_y, B_z>\]
+
+其中$B_x$为$x$方向的\emph{推促}(boost):
+\[\left[ \begin{array}{c}
+	ct\\
+	x_1\\
+	x_2\\
+	x_3\\
+\end{array} \right] ^{'} =\left[ \begin{matrix}
+	\gamma&		-\gamma \beta&		0&		0\\
+	-\gamma \beta&		\gamma&		0&		0\\
+	0&		0&		1&		0\\
+	0&		0&		0&		1\\
+\end{matrix} \right] \left[ \begin{array}{c}
+	ct\\
+	x_1\\
+	x_2\\
+	x_3\\
+\end{array} \right] \]
+
+\item 经典物理没有协变性,\,但电磁学与相对论理论具有协变性.\,意为所有物理定律都由协变的对象构成,\,这主要包括标量,\,矢量,\,张量,\,旋量四类.\,四-矢量尤其常见:
+\[\left[ \begin{array}{c}
+	A_0\\
+	A_1\\
+	A_2\\
+	A_3\\
+\end{array} \right] ^{'} =\left[ \begin{matrix}
+	\gamma&		-\gamma \beta&		0&		0\\
+	-\gamma \beta&		\gamma&		0&		0\\
+	0&		0&		1&		0\\
+	0&		0&		0&		1\\
+\end{matrix} \right] \left[ \begin{array}{c}
+	A_0\\
+	A_1\\
+	A_2\\
+	A_3\\
+\end{array} \right] \]
+
+出于方便,\,四-矢量也被简记为$A_{\mu}=\left( A_0, A_i \right) =\left( A_0, \boldsymbol{A} \right) $.\,而$A_i=\left( A_1, A_2, A_3 \right) $是三维矢量的简记.\,四-矢量与四-矢量可以算\emph{伪内积}(pseudo-inner-product):
+\[A_{\mu}B^{\mu}=A_0B_0-A_iB_i\]
+
+伪内积将得到四-标量.\,即参考系变换下不变的量.
+
+\item 洛伦兹变换下任意四-矢量具有不变量$A_{\mu}A^{\mu}=A_{0}^{2}-\boldsymbol{A}^2$,\,对于类时四-矢量这将大于零,\,即$A_{\mu}A^{\mu}=A_{\text{proper}}^2$,\,事实上以速度$\boldsymbol{v}=\frac{\boldsymbol{A}}{A_0}c$做洛伦兹变换,\,可以把空间分量变为零.\,这叫做\emph{本征参考系}(proper reference system).\,得到本征四-矢量$A_{\mu}'=\left( A_{\text{proper}}, \mathbf{0} \right)$.
+
+\item 三个基本图像:
+
+\begin{itemize}
+\item 尺缩:\,$L=L_0/\gamma$.
+
+\item 钟慢:\,$t=\gamma t_0$.
+
+\item 同时相对性:\,$\tau=-\beta \frac{x}{c}$.
+
+\end{itemize}
+
+只要是真的尺子,\,真的钟,\,就永远不可能错!\,没有真的尺子和钟就去构造.
+
+\item 相对论质点运动:
+
+具有四-标量:\,间隔$\text{d}s=\sqrt{\text{d}x_{\mu}\text{d}x^{\mu}}$,\,本征时$\ud t_0=\ud s/c$,\,下四-速度的不变模长$v_\mu v^\mu=c^2$.
+
+具有四-矢量:\,四-位移$\text{d}x_{\mu}=\left( c\text{d}t, \text{d}\boldsymbol{r} \right) $,\,四-速度$v_{\mu}=\left( \gamma c, \gamma \boldsymbol{v} \right) $,\,四-加速度见下节.
+
+\item 速度变换公式:
+
+$$
+\gamma '=\frac{1-\frac{uv_x}{c^2}}{\sqrt{1-u^2/c^2}}\gamma 
+$$
+
+$$
+v_x'=\frac{v_x-u}{1-\frac{uv_x}{c^2}}
+$$
+
+$$
+v_{y,z}'=\frac{\sqrt{1-u^2/c^2}}{1-\frac{uv_x}{c^2}}v_{y,z}
+$$
+
+\item 光行差公式:\,可以用速度变换推导,\,也可以之后用流变换推导:
+\[\cos \theta'=\frac{\cos \theta -\beta}{1-\beta \cos\theta}\quad ,\quad \sin \theta'=\sin\theta\cdot \frac{\sqrt{1-\beta^2}}{1-\beta \cos\theta}\quad ,\quad \tan\theta =\frac{\sin \theta'}{\cos \theta'}\]
+
+\item 相对论下讨论刚体?\,模型存在缺陷:\,隧道佯谬,\,转盘佯谬.\,故整个刚体运动学都没有必要建立.
+
+\end{itemize}
+
 \section{相对论动力学}
 
+\begin{itemize}
+\item 动量-能量构成四矢量的必要性:\,守恒律需要被保留且协变.
+
+\item 四-动量:
+\[p_{\mu}=\left( \frac{E}{c}, \boldsymbol{p} \right) \,\,, p_{\mu}p^{\mu}c^2=E^2-p^2c^2=m^2c^4\,\,, \boldsymbol{v}=\frac{\boldsymbol{p}c^2}{E}\]
+
+\[\boldsymbol{p}=\frac{m\boldsymbol{v}}{\sqrt{1-v^2/c^2}}\,\,, E=\frac{mc^2}{\sqrt{1-v^2/c^2}}\]
+
+\item 普遍的过程的守恒律:
+\[\sum_i{p_{i,\mu}}=\sum_j{p_{j,\mu}}\]
+
+\item 四-力与四-加速度:
+\[a_{\mu}=\frac{\text{d}v_{\mu}}{\text{d}t_0}=\left( \gamma \frac{\text{d}\gamma}{\text{d}t}c, \gamma \frac{\text{d}\gamma \boldsymbol{v}}{\text{d}t} \right) \,\,, \frac{\text{d}\boldsymbol{v}}{\text{d}t}:=\boldsymbol{a}\]
+
+\[F_{\mu}=\frac{\text{d}p_{\mu}}{\text{d}t_0}=\left( \gamma \frac{\text{d}E}{c\text{d}t},\gamma \frac{\text{d}\boldsymbol{p}}{\text{d}t} \right) :=\left( \gamma \frac{W}{c},\gamma \boldsymbol{F} \right) \]
+
+\begin{itemize}
+\item 推论一:\,$F_\mu=a_\mu$.\,但三维矢量之间不会直接符合Newton-like的动力学方程.
+
+\item 推论而:\,$F_\mu v^\mu=0$.\,这个三维继续可以得到:
+\[\boldsymbol{F}\text{d}t=\text{d}\boldsymbol{p}\,\,, \boldsymbol{F}\cdot \text{d}\boldsymbol{r}=\text{d}E\]
+\end{itemize}
+
+\item 单方向受力时,\,在该方向的推促下力不变.
+
+\item 本征加速度与本征力:\,它本意指的是\emph{四-速度的本征系}中的四-加速度与四-力,\,不过神奇的是恰好让两者的时间分量变为零(类空,\,与类时的四-速度正交),\,空间分量为$\bs{a}_0,\,\bs{F}_0$:
+\[\bs{F}_0=m\bs{a}_0\]
+\[a_\mu a^\mu=-a_0^2\]
+
+\item 沿平行于本征加速度与本征力方向施以推促:
+\[F=F_0\quad ,\quad a=a_0/\gamma^3\]
+
+\item 沿垂直于本征加速度与本征力方向施以推促:
+\[F=F_0/\gamma\quad ,\quad a=a_0/\gamma^2\]
+
+\item \emph{快度}(rapidity):\,$\beta={\rm th} \vartheta,\,\gamma={\rm ch} \vartheta$.
+
+\item 自然坐标下的相对论性牛顿定律:
+\[F_\tau=\gamma^3 ma_\tau\]
+\[F_n=\gamma ma_n\]
+
+\item 相对论关于碰撞的新理解:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+情形 &经典 & 相对论\\\hline
+弹性 & 无耗散,\,$\bs{p}'=\bs{p},\,E'=E$ &粒子守恒,\,$\bs{p}'=\bs{p},\,E'=E$\\\hline
+非弹性 & 有耗散,\,$\bs{p}'=\bs{p},\,E$不可列 &粒子变性,\,$\bs{p}'=\bs{p},\,E'=E$\\\hline
+\end{tabular}
+\end{table}
+
+只有一个例外:\,光子的散射若频率不变,\,叫做弹性散射.\,如经典的瑞利散射,\,米氏散射;\,但如果频率变了,\,叫做非弹性散射,\,如拉曼散射,\,康普顿散射.
+
+\item 相对论碰撞根据具体情形一般有以下大的分类:\,弹性的散射,\,非弹性的散射,\,粒子反应.
+
+\item 质点系的动量-能量也将构成一个四-矢量,\,即:
+\[(E,\,\bs{p})=\sum_i (E_i,\,\bs{p}_i)\]
+
+那么这个四-矢量的本征系速度:
+\[\bs{v}=\frac{\bs{p}c^2}{E}\]
+
+称作\emph{动量中心系}(center-of-momentum frame),\,以代替经典物理的质心系.\,简称动心系.\,顾名思义,\,此系中质点系总动量为零:\,而总能量:
+\[E_0^2=E^2-\bs{p}^2c^2=m_0^2 c^4\]
+
+$m_0$为动心系中的总动质量,\,以后称作质点系的等效静质量.\,这个式子可以解释一部分的质量起源问题.
+
+\item 一个等效静质量$m_0$的质点系若选取相对动心系以$\bs{v}$运动的参考系,\,动量与能量为:
+\[\bs{p}=\sum_i \bs{p}_i =\frac{m_0\boldsymbol{v}}{\sqrt{1-v^2/c^2}}\]
+\[E=\sum_i E_i=\frac{m_0 c^2}{\sqrt{1-v^2/c^2}}\]
+
+\item 放能反应:\,$\sum_i m_i>\sum_j m_j$.\,则无论取哪个系,\,静能转化为动能的量都相等.\,定义为反应能$Q$:
+\[Q=\left(\sum_i m_i-\sum_j m_j\right)c^2\]
+
+\item 吸能反应:\,$\sum_i m_i<\sum_j m_j$.\,则具有阈能.\,\emph{仅在动心系中},\,反应发生的最小动能(阈能)的值为:
+\[Q=\left(\sum_j m_j-\sum_i m_i\right)c^2\]
+
+\end{itemize}
+	
 \section{相对论连续物质}
+
+\begin{itemize}
+\item 若有一守恒荷$Q$作为四-标量,\,则其空间分布与流动构成一个密度场$\rho,\,\bs{j}$:
+\[\ud Q=\rho\ud V\]
+\[\ud Q=\bs{j}\cdot \ud \bs{S} \ud t\]
+
+\item 那么$(\rho c,\,\bs{j})$是一个四-矢量且符合洛伦兹变换,\,如$x$方向的推促:
+\[\left[ \begin{array}{c}
+	\rho^{'}c\\
+	j_x^{'}\\
+	j_y^{'}\\
+	j_z^{'}\\
+\end{array} \right]  =\left[ \begin{matrix}
+	\gamma&		-\gamma \beta&		0&		0\\
+	-\gamma \beta&		\gamma&		0&		0\\
+	0&		0&		1&		0\\
+	0&		0&		0&		1\\
+\end{matrix} \right] \left[ \begin{array}{c}
+	\rho c\\
+	j_x\\
+	j_y\\
+	j_z\\
+\end{array} \right] \]
+
+\item 若有一平面波场,\,其必要的一个要素为相位,\,它随着时空分布必然写作:
+\[\varphi=\omega t-\bs{k}\cdot\bs{r}\]
+
+$\omega$称作角频率,\,$\bs{k}$为波矢.
+
+\item 那么由于相位为四-标量,\,且可以写作以下形式,\,故$k_\mu=(\omega/c,\,\bs{k})$为四-矢量,\,称作四-波矢:
+\[\varphi=k_\mu x^\mu\]
+
+如$x$方向的推促:
+\[\left[ \begin{array}{c}
+	\omega^{'}/c\\
+	k_x^{'}\\
+	k_y^{'}\\
+	k_z^{'}\\
+\end{array} \right]  =\left[ \begin{matrix}
+	\gamma&		-\gamma \beta&		0&		0\\
+	-\gamma \beta&		\gamma&		0&		0\\
+	0&		0&		1&		0\\
+	0&		0&		0&		1\\
+\end{matrix} \right] \left[ \begin{array}{c}
+	\omega /c\\
+	k_x\\
+	k_y\\
+	k_z\\
+\end{array} \right] \]
+
+\item 可以从上式出发得到光行差公式,\,同时也能得到多普勒效应公式.\,在前提$\omega/k=c$(四-波矢类光)时:
+\[\omega'=\omega\cdot \frac{1-\beta \cos\theta}{\sqrt{1-\beta^2}}\]
+
+\[\cos \theta'=\frac{\cos \theta -\beta}{1-\beta \cos\theta}\]
+
+\item 将三维的力密度和功率密度:
+\[\bs{f}=\frac{\ud \bs{F}}{\ud V}\]
+\[p=\frac{\ud P}{\ud V}\]
+
+合并可以得到四-力密度$f_\mu=(p/c,\,\bs{f})$.
+
+\end{itemize}
 
 \section{相对论电磁场}
 
+相对论场变换公式:
+\[E_{//}'=E_{//}\quad ,\quad B_{//}'=B_{//}\]
+\[\bs{E}_\perp'=\frac{\bs{E}_\perp+\bs{v}\times \bs{B}_\perp}{\sqrt{1-\beta^2}}\quad,\quad \bs{B}_\perp'=\frac{\bs{B}_\perp-\bs{v}\times \bs{E}_\perp/c^2}{\sqrt{1-\beta^2}}\]
