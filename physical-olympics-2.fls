@@ -148,6 +148,8 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/verse/verse.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/verse/verse.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
