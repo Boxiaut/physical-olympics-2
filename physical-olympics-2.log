@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  10 JUN 2020 18:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  12 JUN 2020 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2159,51 +2159,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removed on input line 123.
 
 [17]
+File: image/6-1-15.png Graphic file (type bmp)
+<image/6-1-15.png>
 File: image/6-1-3.png Graphic file (type bmp)
 <image/6-1-3.png>
 
 
-Package caption Warning: \label without proper reference on input line 160.
+Package caption Warning: \label without proper reference on input line 174.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `6-1-3' on page 18 undefined on input line 171.
+LaTeX Warning: Reference `6-1-3' on page 18 undefined on input line 185.
 
 [18]
 File: image/6-1-4.png Graphic file (type bmp)
 <image/6-1-4.png>
- [19]
+ [19] [20]
 File: image/6-1-5.png Graphic file (type bmp)
 <image/6-1-5.png>
 File: image/6-1-6.png Graphic file (type bmp)
 <image/6-1-6.png>
- [20] [21]
+ [21] [22]
 
-Package caption Warning: \label without proper reference on input line 242.
+Package caption Warning: \label without proper reference on input line 256.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `6-1-5' on page 22 undefined on input line 314.
+LaTeX Warning: Reference `6-1-5' on page 23 undefined on input line 328.
 
-[22]
+[23]
 File: image/6-1-7.png Graphic file (type bmp)
 <image/6-1-7.png>
- [23] [24]
+ [24] [25]
 File: image/6-1-8.png Graphic file (type bmp)
 <image/6-1-8.png>
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 433.
+(Font)              scaled to size 7.22704pt on input line 447.
 LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 433.
+(Font)              scaled to size 7.22704pt on input line 447.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 433.
+(Font)              scaled to size 7.22704pt on input line 447.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 433.
- [25] [26]
+(Font)              scaled to size 7.22704pt on input line 447.
+ [26] [27]
 File: image/6-1-10.png Graphic file (type bmp)
 <image/6-1-10.png>
 
-Overfull \hbox (3.45781pt too wide) in paragraph at lines 518--519
+Overfull \hbox (3.45781pt too wide) in paragraph at lines 532--533
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 很 容 易 证 明\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
 /m/n/10.53937 对 一 个 矢 量 求 导 数\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937
  一 看 分 量 变 不 变\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 看 基 矢 量 本 身 
@@ -2211,8 +2213,8 @@ Overfull \hbox (3.45781pt too wide) in paragraph at lines 518--519
 lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 实
  []
 
-[27]
-Overfull \hbox (13.02522pt too wide) in paragraph at lines 541--542
+[28]
+Overfull \hbox (13.02522pt too wide) in paragraph at lines 555--556
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 柯 氏 即 柯 里 奥 利\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(
 0)/m/n/10.53937 相 对 速 度 与 相 对 加 速 度 就 是 $[][]\OML/lmm/m/it/10.53937 ;  [][]$\T1
 /lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 言 下 之 意 就 是 我 们 定 义 了 所 谓 的[]牵 
@@ -2220,7 +2222,7 @@ Overfull \hbox (13.02522pt too wide) in paragraph at lines 541--542
  []
 
 
-Overfull \hbox (2.15442pt too wide) in paragraph at lines 553--554
+Overfull \hbox (2.15442pt too wide) in paragraph at lines 567--568
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后 值 得 注 意\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
 /m/n/10.53937 如 果 $[]$ 和 $[]$ 恒 为 零\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10
 .53937 这 也 并 不 少 见\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 这 样 的 
@@ -2228,10 +2230,10 @@ Overfull \hbox (2.15442pt too wide) in paragraph at lines 553--554
 10.53937 此
  []
 
-[28]
+[29]
 File: image/6-1-11.png Graphic file (type bmp)
 <image/6-1-11.png>
- [29] [30]) [31]
+ [30] [31]) [32]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (./physical-olympics-2.aux (./chapter/preamble.aux)
@@ -2267,12 +2269,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 29504 strings out of 492960
- 565216 string characters out of 6136939
- 673392 words of memory out of 5000000
- 32939 multiletter control sequences out of 15000+600000
+ 29509 strings out of 492960
+ 565297 string characters out of 6136939
+ 673393 words of memory out of 5000000
+ 32943 multiletter control sequences out of 15000+600000
  653264 words of font info for 180 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,13n,92p,958b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (31 pages, 563476 bytes).
+Output written on physical-olympics-2.xdv (32 pages, 569160 bytes).
