@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.17)  3 JUL 2020 12:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.17)  3 JUL 2020 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1916,15 +1916,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
 (./chapter/quantum.aux) (./chapter/scale.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
+(rerunfilecheck)             Checksum: 222B79560482F2107E4D88D048B172B5;11027.
 
-
-Package rerunfilecheck Warning: File `physical-olympics-2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `physical-olympics-2.out':
-(rerunfilecheck)             Before: 4D2D2E47F6552C49E63BE34C039101D3;1439
-(rerunfilecheck)             After:  222B79560482F2107E4D88D048B172B5;11027.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.34248pt have occurred.
@@ -1941,10 +1935,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 22116 strings out of 479418
- 430338 string characters out of 5888105
- 747879 words of memory out of 5000000
- 38957 multiletter control sequences out of 15000+600000
+ 22141 strings out of 479418
+ 430649 string characters out of 5888105
+ 758619 words of memory out of 5000000
+ 38982 multiletter control sequences out of 15000+600000
  655530 words of font info for 200 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  56i,15n,96p,978b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
