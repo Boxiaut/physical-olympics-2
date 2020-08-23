@@ -253,11 +253,11 @@
 这就化为求关于$t$的二次函数恒大于零的系数条件问题,\,结论是初等的:\,判别式小于零:
 \[\left(\dfrac{3}{2}gv_0\sin\varphi\right)^2-4\left(\dfrac{1}{2}g^2 \right)(v_0^2)<0\quad \Rightarrow\quad \sin\varphi<\frac{2\sqrt{2}}{3}\]
 
-\begin{wrapfigure}[12]{o}[-10pt]{6cm}\label{6-1-5}
+\begin{wrapfigure}[12]{o}[-10pt]{6cm}
 \vspace{-0.4cm}
 \centering
 \includegraphics[width=6cm]{image/6-1-5.png}
-\caption{首尾相追}
+\caption{首尾相追}\label{6-1-5}
 \end{wrapfigure}
 采用极坐标系描述抛体运动也许是费力而不讨好的.\,但是描述其他一些运动又比直角坐标系存在天然的优势.\,比如一类经典追击问题的表述如下:\,四个平面运动的质点初始组成正方形.\,这个环形的结构中每一个质点都向着前一个质点运动发生追击.\,其中运动速度矢量具有变化的方向,\,即向着前方质点.\,但具有不变的速率$v$.\,确定物体的运动方程和轨迹.
 
@@ -267,7 +267,7 @@
 但是对于位置和速度,\,我们还知道一个信息,\,就是它们夹钝角而且为$3\pi/4$.\,用直角坐标系的公式仔细化简的话也可以得到:
 \[\tan \phi_{\bs{r}\curvearrowright \bs{v}}=-1\quad \Rightarrow \quad \frac{\bs{r}\cdot\bs{v}}{|\bs{r}\times \bs{v}|}=\frac{x\dot{x}+y\dot{y}}{x\dot{y}-y\dot{x}}=-1\]
 
-\begin{wrapfigure}[12]{o}[-10pt]{6cm}\label{6-1-6}
+\begin{wrapfigure}[13]{o}[-10pt]{6cm}\label{6-1-6}
 \vspace{-0.4cm}
 \centering
 \includegraphics[width=6cm]{image/6-1-6.png}
@@ -305,7 +305,7 @@
 这就足以给出:
 \[(\ud \bs{A})_r=\ud A_r-A_\theta \ud \theta\]
 \[(\ud \bs{A})_\theta=\ud A_\theta+A_r \ud \theta\]
-\newpage
+
 两边再同时除以时间,\,我们得到粒子运动过程中一个矢量导数的两个分量与这矢量两个分量的导数之间的关系:
 \[(\dot{\bs{A}})_r=\dot{A_r}-\dot{\theta}A_\theta\]
 \[(\dot{\bs{A}})_\theta=\dot{A_\theta}+\dot{\theta}A_r\]
@@ -436,14 +436,15 @@
 
 \subsection{刚体的运动}
 
-关于刚体的运动,\,它的定义我们其实将在之后的刚体专门的章节又一次做更进一步的探讨.\,初步我们认为所谓刚体就是这样一种物体:\,存在一个特殊的参考系(平动或转动)能够使得该物体上每一个点都每时每刻相对静止.\,但是这样我们又涉及到下一节才讲的参考系的概念.\,在此我们又不得不早于预期提及.
-
 \begin{wrapfigure}[12]{o}[-10pt]{6cm}\label{6-1-8}
-\vspace{-0.2cm}
+\vspace{-1.5cm}
 \centering
 \includegraphics[width=6cm]{image/6-1-8.png}
 \caption{刚体的本征框架}
 \end{wrapfigure}
+关于刚体的运动,\,它的定义我们其实将在之后的刚体专门的章节又一次做更进一步的探讨.\,初步我们认为所谓刚体就是这样一种物体:\,存在一个特殊的参考系(平动或转动)能够使得该物体上每一个点都每时每刻相对静止.\,但是这样我们又涉及到下一节才讲的参考系的概念.\,在此我们又不得不早于预期提及.
+
+
 为此我们换一种更加直观的方式引入这些概念而不是去严格定义刚体与参考系的概念.\,设想我们有一个正交的刚性框架,\,即三条射线状坐标轴构成的物体,\,下称$\xi,\,\eta,\,\zeta$轴,\,该框架就会自然造成四个矢量.\,首先是框架原点$C$的位置矢量$\bs{r}$.\,其次是三坐标轴方向的三个基矢\footnote{原来的基矢方向记做$\bs{e}_{x,\,y,\,z}$.}$\bs{i},\,\bs{j},\,\bs{k}$.\,它们都会随着时间变化,\,可以用四个导数表征.\,其中$\bs{v}=\dot{\bs{r}},\,\bs{a}=\ddot{\bs{r}}$.\,但是,\,对于三个基矢导数有没有更加简单的描述方法呢?\,如果我们把三个基矢导数就向三个基矢本来的方向分解\footnote{由于字母$i,\,j$上本来就有点,\,所以在符号上约定遇到要在这两个字母上加点时改为横向$\ddot{\imath},\,\ddot{\jmath}$.\,偶尔也见到反而去掉点的$\imath,\,\jmath$.\,出于这样无法表示高阶导数,\,我们不采用这种模式.}:
 \[\begin{array}{rlll}
 \bs{\ddot{\imath}}=		&	+\omega_{11}\bs{i} 	&	+\omega_{12}\bs{j} 		& +\omega_{13}\bs{k}\\
