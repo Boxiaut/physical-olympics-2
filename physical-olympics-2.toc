@@ -152,11 +152,11 @@
 \contentsline {section}{\numberline {12.1}循环过程}{159}{section.12.1}
 \contentsline {subsection}{\numberline {12.1.1}热机与热泵}{159}{subsection.12.1.1}
 \contentsline {subsection}{\numberline {12.1.2}热机循环}{162}{subsection.12.1.2}
-\contentsline {subsubsection}{\CJKfamily {hei}勒鲁瓦循环(Lenoir cycle)}{162}{subsubsection*.91}
-\contentsline {subsubsection}{\CJKfamily {hei}奥托循环(Otto cycle)}{162}{subsubsection*.93}
-\contentsline {subsubsection}{\CJKfamily {hei}迪塞尔循环(Diesel cycle)}{163}{subsubsection*.95}
-\contentsline {subsubsection}{\CJKfamily {hei}布莱顿循环(Brayton cycle)}{163}{subsubsection*.97}
-\contentsline {subsubsection}{\CJKfamily {hei}卡诺循环(Carnot cycle)}{164}{subsubsection*.99}
+\contentsline {subsubsection}{\CJKfamily {hei}勒鲁瓦循环(Lenoir cycle)}{162}{subsubsection*.6}
+\contentsline {subsubsection}{\CJKfamily {hei}奥托循环(Otto cycle)}{162}{subsubsection*.8}
+\contentsline {subsubsection}{\CJKfamily {hei}迪塞尔循环(Diesel cycle)}{163}{subsubsection*.10}
+\contentsline {subsubsection}{\CJKfamily {hei}布莱顿循环(Brayton cycle)}{163}{subsubsection*.12}
+\contentsline {subsubsection}{\CJKfamily {hei}卡诺循环(Carnot cycle)}{164}{subsubsection*.14}
 \contentsline {section}{\numberline {12.2}理想气体的熵}{164}{section.12.2}
 \contentsline {section}{\numberline {12.3}热力学第二定律}{166}{section.12.3}
 \contentsline {section}{\numberline {12.4}熵的计算}{169}{section.12.4}
@@ -168,22 +168,22 @@
 \contentsline {section}{\numberline {12.5}热力学函数与其特性}{172}{section.12.5}
 \contentsline {subsection}{\numberline {12.5.1}四个热力学函数与四个状态参量}{172}{subsection.12.5.1}
 \contentsline {subsection}{\numberline {12.5.2}若干定理的证明}{173}{subsection.12.5.2}
-\contentsline {subsubsection}{\CJKfamily {hei}能态定理}{173}{subsubsection*.108}
-\contentsline {subsubsection}{\CJKfamily {hei}物性函数间关系}{176}{subsubsection*.111}
-\contentsline {subsubsection}{\CJKfamily {hei}吉布斯-亥姆霍兹方程}{177}{subsubsection*.112}
+\contentsline {subsubsection}{\CJKfamily {hei}能态定理}{173}{subsubsection*.23}
+\contentsline {subsubsection}{\CJKfamily {hei}物性函数间关系}{176}{subsubsection*.26}
+\contentsline {subsubsection}{\CJKfamily {hei}吉布斯-亥姆霍兹方程}{177}{subsubsection*.27}
 \contentsline {subsection}{\numberline {12.5.3}自由能的含义}{178}{subsection.12.5.3}
 \contentsline {subsection}{\numberline {12.5.4}化学势}{179}{subsection.12.5.4}
 \contentsline {section}{\numberline {12.6}近平衡态热力学*}{180}{section.12.6}
 \contentsline {subsection}{\numberline {12.6.1}线性输运现象}{180}{subsection.12.6.1}
-\contentsline {subsubsection}{\CJKfamily {hei}傅里叶({\it Fourier\tmspace +\thinmuskip {.1667em}})热传导定律}{180}{subsubsection*.113}
-\contentsline {subsubsection}{\CJKfamily {hei}菲克({\it Fick\tmspace +\thinmuskip {.1667em}})扩散定律}{180}{subsubsection*.114}
-\contentsline {subsubsection}{\CJKfamily {hei}欧姆({\it Ohm\tmspace +\thinmuskip {.1667em}})定律}{180}{subsubsection*.115}
-\contentsline {subsubsection}{\CJKfamily {hei}索瑞({\it Soret\tmspace +\thinmuskip {.1667em}})效应}{180}{subsubsection*.116}
-\contentsline {subsubsection}{\CJKfamily {hei}杜福尔({\it Dufuer\tmspace +\thinmuskip {.1667em}})效应}{181}{subsubsection*.118}
-\contentsline {subsubsection}{\CJKfamily {hei}伽伐尼({\it Galvani\tmspace +\thinmuskip {.1667em}})接触电势差}{181}{subsubsection*.119}
-\contentsline {subsubsection}{\CJKfamily {hei}塞贝克({\it Seebeck\tmspace +\thinmuskip {.1667em}})效应}{181}{subsubsection*.120}
-\contentsline {subsubsection}{\CJKfamily {hei}佩尔捷({\it Peltier\tmspace +\thinmuskip {.1667em}})效应}{182}{subsubsection*.122}
-\contentsline {subsubsection}{\CJKfamily {hei}汤姆孙({\it Thomson\tmspace +\thinmuskip {.1667em}})效应}{182}{subsubsection*.123}
+\contentsline {subsubsection}{\CJKfamily {hei}傅里叶({\it Fourier\tmspace +\thinmuskip {.1667em}})热传导定律}{180}{subsubsection*.28}
+\contentsline {subsubsection}{\CJKfamily {hei}菲克({\it Fick\tmspace +\thinmuskip {.1667em}})扩散定律}{180}{subsubsection*.29}
+\contentsline {subsubsection}{\CJKfamily {hei}欧姆({\it Ohm\tmspace +\thinmuskip {.1667em}})定律}{180}{subsubsection*.30}
+\contentsline {subsubsection}{\CJKfamily {hei}索瑞({\it Soret\tmspace +\thinmuskip {.1667em}})效应}{180}{subsubsection*.31}
+\contentsline {subsubsection}{\CJKfamily {hei}杜福尔({\it Dufuer\tmspace +\thinmuskip {.1667em}})效应}{181}{subsubsection*.33}
+\contentsline {subsubsection}{\CJKfamily {hei}伽伐尼({\it Galvani\tmspace +\thinmuskip {.1667em}})接触电势差}{181}{subsubsection*.34}
+\contentsline {subsubsection}{\CJKfamily {hei}塞贝克({\it Seebeck\tmspace +\thinmuskip {.1667em}})效应}{181}{subsubsection*.35}
+\contentsline {subsubsection}{\CJKfamily {hei}佩尔捷({\it Peltier\tmspace +\thinmuskip {.1667em}})效应}{182}{subsubsection*.37}
+\contentsline {subsubsection}{\CJKfamily {hei}汤姆孙({\it Thomson\tmspace +\thinmuskip {.1667em}})效应}{182}{subsubsection*.38}
 \contentsline {subsection}{\numberline {12.6.2}传热的熵产生}{183}{subsection.12.6.2}
 \contentsline {subsection}{\numberline {12.6.3}普遍理论与昂萨格倒易关系}{183}{subsection.12.6.3}
 \contentsline {subsection}{\numberline {12.6.4}推证热电耦合的普遍规律}{184}{subsection.12.6.4}
@@ -214,9 +214,9 @@
 \contentsline {section}{\numberline {16.1}界面上的反射与折射}{205}{section.16.1}
 \contentsline {subsection}{\numberline {16.1.1}光波与光线}{205}{subsection.16.1.1}
 \contentsline {subsection}{\numberline {16.1.2}菲涅尔公式}{207}{subsection.16.1.2}
-\contentsline {subsubsection}{\CJKfamily {hei}半波损失发生条件}{209}{subsubsection*.135}
-\contentsline {subsubsection}{\CJKfamily {hei}布儒斯特角}{209}{subsubsection*.136}
-\contentsline {subsubsection}{\CJKfamily {hei}全内反射与隐失波}{210}{subsubsection*.138}
+\contentsline {subsubsection}{\CJKfamily {hei}半波损失发生条件}{209}{subsubsection*.134}
+\contentsline {subsubsection}{\CJKfamily {hei}布儒斯特角}{209}{subsubsection*.135}
+\contentsline {subsubsection}{\CJKfamily {hei}全内反射与隐失波}{210}{subsubsection*.137}
 \contentsline {section}{\numberline {16.2}光线方程}{211}{section.16.2}
 \contentsline {subsection}{\numberline {16.2.1}光线方程与折射定律}{211}{subsection.16.2.1}
 \contentsline {subsection}{\numberline {16.2.2}光力类比}{212}{subsection.16.2.2}
