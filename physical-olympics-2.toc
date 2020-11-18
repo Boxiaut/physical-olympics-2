@@ -191,12 +191,13 @@
 \contentsline {section}{\numberline {13.1}固体晶格论}{187}{section.13.1}
 \contentsline {subsection}{\numberline {13.1.1}经典晶格论}{187}{subsection.13.1.1}
 \contentsline {subsection}{\numberline {13.1.2}量子晶格论*}{190}{subsection.13.1.2}
-\contentsline {section}{\numberline {13.2}固体电子论*}{193}{section.13.2}
-\contentsline {section}{\numberline {13.3}液体的彻体性质}{194}{section.13.3}
-\contentsline {subsection}{\numberline {13.3.1}液体性质综述与其微观成因}{194}{subsection.13.3.1}
-\contentsline {subsection}{\numberline {13.3.2}热容}{194}{subsection.13.3.2}
-\contentsline {section}{\numberline {13.4}液体的表面性质}{195}{section.13.4}
-\contentsline {section}{\numberline {13.5}极端条件下的其他物态}{195}{section.13.5}
+\contentsline {section}{\numberline {13.2}固体电子论*}{195}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}德鲁特模型}{195}{subsection.13.2.1}
+\contentsline {section}{\numberline {13.3}液体的彻体性质}{196}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}液体性质综述与其微观成因}{196}{subsection.13.3.1}
+\contentsline {subsection}{\numberline {13.3.2}热容}{197}{subsection.13.3.2}
+\contentsline {section}{\numberline {13.4}液体的表面性质}{198}{section.13.4}
+\contentsline {section}{\numberline {13.5}极端条件下的其他物态}{198}{section.13.5}
 \contentsline {chapter}{\numberline {第十四章\hspace {.3em}}相与相变摘要}{195}{chapter.14}
 \contentsline {section}{\numberline {14.1}相平衡}{195}{section.14.1}
 \contentsline {section}{\numberline {14.2}气液相变}{195}{section.14.2}
