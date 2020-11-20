@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  19 NOV 2020 16:38
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  20 NOV 2020 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1827,6 +1827,25 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
+(c:/texlive/2018/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count313
+\ST@wd=\dimen266
+\ST@rightskip=\skip154
+\ST@leftskip=\skip155
+\ST@parfillskip=\skip156
+\ST@pageleft=\dimen267
+\ST@headht=\dimen268
+\ST@tailht=\dimen269
+\ST@pagesofar=\dimen270
+\ST@pboxht=\dimen271
+\ST@lineht=\dimen272
+\ST@stretchht=\dimen273
+\ST@prevht=\dimen274
+\ST@toadd=\dimen275
+\ST@dimen=\dimen276
+\ST@pbox=\box64
+)
 (./physical-olympics-2.aux (./chapter/preamble.aux) (./chapter/kinematics.aux)
 (./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
 (./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/elasticity.aux
@@ -1844,54 +1863,54 @@ LaTeX Warning: Label `6-7-4' multiply defined.
 (./chapter/scale.aux))
 \openout1 = `physical-olympics-2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 95.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 95.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for LG/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for LG+cmr on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for LG/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for LG+cmr on input line 95.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lgreek/LGcmr.fd
 File: LGcmr.fd 1995/04/22 v2.3f Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 95.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 94.
+LaTeX Info: Redefining \selectfont on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1927,19 +1946,19 @@ LaTeX Info: Redefining \selectfont on input line 94.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 94.
+\AtBeginShipoutBox=\box65
+Package hyperref Info: Link coloring ON on input line 95.
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count313
+\c@section@level=\count314
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./physical-olympics-2.out) (./physical-olympics-2.out)
 \@outlinefile=\write3
@@ -1951,6 +1970,7 @@ Option `squaren' provided!
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 .................................................
@@ -1980,126 +2000,126 @@ Package caption Info: End \AtBeginDocument code.
 . <->"FZYouHeiS/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/fsc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 101.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 100.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 101.
 
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 100
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 101
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 100
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 101
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <26.09749> on input line 100.
+(Font)              <26.09749> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <22.08249> on input line 100.
+(Font)              <22.08249> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16.06> on input line 100.
+(Font)              <16.06> on input line 101.
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 10
-0.
+1.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 100.
+(Font)              scaled to size 25.05376pt on input line 101.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 100.
+(Font)              scaled to size 21.19933pt on input line 101.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 100.
+(Font)              scaled to size 15.4177pt on input line 101.
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 10
-0.
+1.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 100.
+(Font)              scaled to size 25.05376pt on input line 101.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 100.
+(Font)              scaled to size 21.19933pt on input line 101.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 100.
+(Font)              scaled to size 15.4177pt on input line 101.
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 10
-0.
+1.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 100.
+(Font)              scaled to size 25.05376pt on input line 101.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 100.
+(Font)              scaled to size 21.19933pt on input line 101.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 100.
+(Font)              scaled to size 15.4177pt on input line 101.
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 10
-0.
+1.
 
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 25.05376pt on input line 100.
+(Font)              scaled to size 25.05376pt on input line 101.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 21.19933pt on input line 100.
+(Font)              scaled to size 21.19933pt on input line 101.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 15.4177pt on input line 100.
+(Font)              scaled to size 15.4177pt on input line 101.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <26.09749> not available
-(Font)              size <24.88> substituted on input line 100.
+(Font)              size <24.88> substituted on input line 101.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <22.08249> not available
-(Font)              size <20.74> substituted on input line 100.
+(Font)              size <20.74> substituted on input line 101.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 100.
+(Font)              size <17.28> substituted on input line 101.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.045> on input line 100.
+(Font)              <12.045> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 100.
+(Font)              <8> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 100.
+(Font)              <6> on input line 101.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 100.
+(Font)              scaled to size 11.56328pt on input line 101.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 100.
+(Font)              scaled to size 7.68005pt on input line 101.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 100.
+(Font)              scaled to size 5.76004pt on input line 101.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 100.
+(Font)              scaled to size 11.56328pt on input line 101.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 100.
+(Font)              scaled to size 7.68005pt on input line 101.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 100.
+(Font)              scaled to size 5.76004pt on input line 101.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 100.
+(Font)              scaled to size 11.56328pt on input line 101.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 100.
+(Font)              scaled to size 7.68005pt on input line 101.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 100.
+(Font)              scaled to size 5.76004pt on input line 101.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.56328pt on input line 100.
+(Font)              scaled to size 11.56328pt on input line 101.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 100.
+(Font)              scaled to size 7.68005pt on input line 101.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 100.
+(Font)              scaled to size 5.76004pt on input line 101.
 [1
 
 
@@ -2116,7 +2136,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/b/n' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 103.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 104.
 
 (./physical-olympics-2.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2212,26 +2232,106 @@ File: image/5-8-2.png Graphic file (type bmp)
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 31.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [234]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+)
+File: image/5-8-3.png Graphic file (type bmp)
+<image/5-8-3.png>
+ [234]
+File: image/5-8-4.png Graphic file (type bmp)
+<image/5-8-4.png>
+ [235]
+Overfull \hbox (13.72008pt too wide) in paragraph at lines 75--76
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 并 不 是 色 度 图 上 每 一 个 点 都 代 表 实 际 的 某 种 光 产 生 的 三 
+激 励 值\T1/lmr/m/n/10.53937 . \TU/方正聚珍新仿简体(0)/m/n/10.53937 而 是 分 布 在 一 个 舌 形 的[]视
+ 觉 色 域[]\T1/lmr/m/n/10.53937 (gamut
+ []
 
-(./physical-olympics-2.aux (./chapter/preamble.aux) (./chapter/kinematics.aux)
-(./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
-(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/elasticity.aux)
-(./chapter/fluid.aux) (./chapter/relativity.aux) (./chapter/thermoI.aux)
-(./chapter/thermoII.aux) (./chapter/liquidsolid.aux) (./chapter/phasechange.aux
-) (./chapter/maxwell.aux) (./chapter/goptics.aux) (./chapter/opticals.aux)
-(./chapter/opticalp.aux) (./chapter/electrostatics.aux)
-(./chapter/conductordielectric.aux) (./chapter/steadycurrent.aux)
+
+Overfull \hbox (4.80002pt too wide) in paragraph at lines 84--85
+\T1/lmr/m/n/10.53937 1931CIE \TU/方正聚珍新仿简体(0)/m/n/10.53937 标 准 中 选 取 的 三 原 色 均 来
+ 自 可 见 光 谱 的 红 绿 蓝 三 种 单 色 光\T1/lmr/m/n/10.53937 , \TU/方正聚珍新仿简体(0)/m/n/10.53937
+ 波 长 分 别 为 $\OT1/lmr/m/n/10.53937 700[]\OML/lmm/m/it/10.53937 ;  \OT1/lmr/m/n/1
+0.53937 546\OML/lmm/m/it/10.53937 :\OT1/lmr/m/n/10.53937 1[]\OML/lmm/m/it/10.53
+937 ;  \OT1/lmr/m/n/10.53937 435\OML/lmm/m/it/10.53937 :\OT1/lmr/m/n/10.53937 8
+[]$\T1/lmr/m/n/10.53937 ,
+ []
+
+File: image/5-8-5.png Graphic file (type bmp)
+<image/5-8-5.png>
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 89--90
+ [][] 
+ []
+
+[236]
+Overfull \hbox (1.16673pt too wide) in paragraph at lines 112--113
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 其 实 就 是 说\T1/lmr/m/n/10.53937 , \TU/方正聚珍新仿简体(0
+)/m/n/10.53937 如 果 一 个 频 率 为 $\OT1/lmr/m/n/10.53937 540 \OMS/lmsy/m/n/10.53937 
+^^B \OT1/lmr/m/n/10.53937 10[][]$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 的 单 色 点 光 源 向 四 
+面 八 方 均 匀 发 光\T1/lmr/m/n/10.53937 , \TU/方正聚珍新仿简体(0)/m/n/10.53937 辐 射 强 度 为 $\OT
+1/lmr/m/n/10.53937 1[]$\T1/lmr/m/n/10.53937 (\TU/方正聚珍新仿简体(0)/m/n/10.53937 即
+ []
+
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FangSong/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FangSong/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FangSong/I" (it probably doesn't exist).
+.................................................
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 114.
+
+(c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FangSong(0)' created for font 'FangSong' with options
+. [Script={CJK}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"FangSong/OT:script=hani;language=DFLT;"
+. - 'small caps'  (m/fsc) with NFSS spec.: 
+.................................................
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 118.
+
+
+LaTeX Warning: Float too large for page by 1008.77611pt on input line 193.
+
+) [237
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ (./physical-olympics-2.aux (./chapter/preamble.aux)
+(./chapter/kinematics.aux) (./chapter/dynamics.aux) (./chapter/statics.aux)
+(./chapter/harmonics.aux) (./chapter/gravity.aux) (./chapter/rigidbody.aux)
+(./chapter/elasticity.aux) (./chapter/fluid.aux) (./chapter/relativity.aux)
+(./chapter/thermoI.aux) (./chapter/thermoII.aux) (./chapter/liquidsolid.aux)
+(./chapter/phasechange.aux) (./chapter/maxwell.aux) (./chapter/goptics.aux)
+(./chapter/opticals.aux) (./chapter/opticalp.aux) (./chapter/electrostatics.aux
+) (./chapter/conductordielectric.aux) (./chapter/steadycurrent.aux)
 (./chapter/magnetostatics.aux) (./chapter/induction.aux)
 (./chapter/maxwelle.aux) (./chapter/accurrent.aux) (./chapter/interference.aux)
 (./chapter/diffraction.aux) (./chapter/photon.aux) (./chapter/quantum.aux)
 (./chapter/scale.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 4E865EC275B81E4AECB4EB33F3D21268.
+(rerunfilecheck)             Checksum: 45F69FF8D99D76AB7856B91D3C12C92C.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2243,15 +2343,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 29630 strings out of 492960
- 566936 string characters out of 6136939
- 673050 words of memory out of 5000000
- 33086 multiletter control sequences out of 15000+600000
- 632493 words of font info for 147 fonts, out of 8000000 for 9000
+ 29784 strings out of 492960
+ 569211 string characters out of 6136939
+ 682669 words of memory out of 5000000
+ 33222 multiletter control sequences out of 15000+600000
+ 633141 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,12n,92p,958b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,958b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.pdf (13 pages).
+Output written on physical-olympics-2.pdf (16 pages).
