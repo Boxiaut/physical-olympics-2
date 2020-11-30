@@ -1,5 +1,5 @@
 %!TEX root = ../physical-olympics-2.tex
-\chapter{光学仪器知识摘要}
+\chapter{光学仪器}
 
 
 我们暂时不讨论光的干涉与衍射, 故暂时不太需要光的波动理论. 但实际上到了实用的层面上, 各个光学仪器, 从原理上说尽管几乎只用到几何光学的内容, 似乎也是避不开对光的强度的讨论的. 故本章先对在光的波动学说成型之前就已经蓬勃发展起来的\emph{光度学}(photometry)进行说明. 然后从若干方面对实用度最高的一些光学仪器做未免以偏概全的介绍.
@@ -293,17 +293,77 @@ $\lambda/{\rm nm}$ & $V(\lambda)$ \\
 
 一支一体式荧光灯(俗称日光灯)的典型数据为$23{\rm W},\,1500{\rm lm}$. 而如果使用发光二极管(LED)灯, 相同流明数的白光功率需求可以降低一半多, 即达到$200{\rm lm/W}$左右的能效系数. 黑体辐射则最高只有$95{\rm lm/W}$左右的能效系数, 在黑体温度约$6500{\rm K}$时达到极限.
 
-点光源向不同方向发光的情况不一定是均匀的. ...
+点光源向不同方向发光的情况不一定是均匀的. 为了描述不同方向的发光强度引入单位立体角内的光通量, 即\emph{发光强度}(luminous intensity):
+\[I=\frac{\ud\varPhi }{\ud \Omega}\]
 
 电子行业的发展使得面光源发光成为照明的主要情形, 任何电子产品的显示界面就是一个面光源. 而我们也关心一个面受到照射的强度情况. 从而就产生了照度和亮度两个新的概念.
+
+\emph{照度}(illuminance)描述被照射面单位面积从四面八方被照射的总光通量:
+\[E=\frac{\ud \varPhi}{\ud S}\]
+
+\emph{亮度}(luminance)则更为复杂, 它本应是面光源单位面积朝某特定方向的发光强度. 但是若该方向与发光面法向夹角为$\theta$, 则定义变为:
+\[B=\frac{\ud I}{\ud S\cos\theta}=\frac{\ud\varPhi }{\ud \Omega\ud S\cos\theta}\]
+
+这是因为, 如果一个发光面元朝四边八方的单位立体角内发光强度正比于该方向与发光面法向夹角的余弦$\cos\theta$, 这种余弦发光体称为\emph{朗伯体}(Lambertian body), 它就具有特殊的研究价值: 比如黑体辐射与漫反射都遵从这种发光性质. 从而把这种发光定义为各个方向亮度一致的, 注意到上式中$\ud S\cos\theta=\ud S_{\perp}$, 故朗伯体的发光面积即发光方向看过去的投影面积. 用来算亮度时的面积也用的是这个面积.
+
+\subsection{光度学守恒量}
+
+\begin{itemize}
+\item \emph{光扩展量}(etendue)守恒: 
+\[\ud G=n^2 \ud S \cos\theta \ud \varOmega\]
+\item \emph{拉格朗日-亥姆霍兹不变性}(Lagrange-Helmholtz invariance): 
+\[nyu=n'y'u'\]
+\item 亮度不变性: 
+\[B=B'\]
+\end{itemize}
 
 
 \section{光阑与光瞳}
 
-\section{眼睛}
+\subsection{光阑}
 
-\section{显微镜}
+\begin{itemize}
+\item \emph{光阑}(stop)定义: 阻碍光传播的客观对象(如光圈, 透镜边缘, 镜筒等).
+\item \emph{孔径光阑}(aperture stop): 起到限制最后像的范围或人能观察到的像的范围的作用. 缩小非孔径光阑的视场光阑能改变像的面积, 不改变像的照度.
+\item \emph{视场光阑}(field stop): 起到限制系统能通过的光的夹角大小的作用. 缩小非视场光阑的孔径光阑能改变像的照度, 不改变像的面积.
+\end{itemize}
 
-\section{望远镜}
+\subsection{光瞳}
 
-\section{照相机}
+\begin{itemize}
+\item \emph{光瞳}(pupil)定义: 光阑本身或光阑经过成像系统成的像.
+\item \emph{入射光瞳}(entrance pupil): 物镜方的光瞳. 最好与物镜孔径匹配.
+\item \emph{出射光瞳}(exit pupil): 目镜方的光瞳. 最好与人眼瞳孔直径匹配.
+\end{itemize}
+
+\section{常见仪器简介}
+
+\subsection{人眼}
+
+\begin{itemize}
+\item 人眼明视距离 $s = 25{\rm cm}$
+\item 最小分辨角 $1'$
+\item 瞳孔直径 $D = 5{\rm mm}$
+\item 水平视场角 $160\deg$ 竖直视场角 $130\deg$
+\item 如果一个助视光学仪器是为人眼设计, 那么要考虑三个角度量是否合适: 视角放大率, 最小分辨角与视场角.
+\end{itemize}
+
+\subsection{显微镜}
+
+\begin{itemize}
+%\item 分类:
+\item 放大镜放大率公式:
+\[M=\frac{s}{f}\]
+\item 光学显微镜放大率公式:
+\[M=\frac{s\Delta}{f_Of_E}\]
+\end{itemize}
+
+\subsection{望远镜}
+
+\begin{itemize}
+\item 分类: 开普勒式, 伽利略式, 格里高利式, 卡塞格林式, 牛顿式\ldots
+\item 开普勒望远镜放大率公式:
+\[M=\frac{f_O}{f_E}\]
+\end{itemize}
+
+%\subsection{照相机}
