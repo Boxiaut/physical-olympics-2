@@ -382,7 +382,7 @@
 \subsection{几种其他情况*}
 
 \vspace{0.2cm}
-1. 球谐函数
+1. 立体谐函数
 \vspace{0.2cm}
 
 将一个中心在原点$\bs{r}=\bs{0}$,\,半径为$a$的球置于外场中讨论静电平衡为上一节中外问题的设置.\,但是上一节选择了在距离球心$R$处放置了一个点电荷.\,从而得到了球面在点电荷产生的外场下形成的格林函数$G(\bs{R},\,\bs{r})$.\,实用问题中通常把外场按照\emph{立体谐函数}(solid harmonics)在原点进行分解,\,类似于泰勒展开.\,只不过立体谐函数更适合于球坐标:
@@ -430,7 +430,7 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 不难验证它们都会符合拉普拉斯方程:
 \[\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}\right)\mathcal{P}_l(x,\,y,\,z)=0\]
 
-就是这样一些正规立体谐函数代表的电势,\,如果作为外场施加在置于原点的接地导体球上,\,应该得到怎样的静电平衡结果呢?\,首先我们明确这种场合下第一类边值问题表述为:
+就是这样的正规立体谐函数中的某项代表的电势,\,如果作为外场施加在置于原点的接地导体球上,\,应该得到怎样的静电平衡结果呢?\,首先我们明确这种场合下第一类边值问题表述为:
 \[\nabla^2\varphi=0(|\bs{r}|>a)\quad ,\quad \varphi|_{|\bs{r}|=a}=0 \quad ,\quad \varphi|_{|\bs{r}|\to+ \infty}=\lambda R_l(\bs{r})\]
 
 由于正规立体谐函数电荷摆放于无穷远处,\,而球面上感应电荷产生的电势在无穷远处影响一次反比于半径,\,故此时边界条件变成了一个\emph{渐进边值条件}(asymptotic boundary condition),\,它规定了半径趋近于无穷远时电势函数的变化趋势.
@@ -444,6 +444,9 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 从而马上得到$\mu=-a^{2l+1}\lambda$.\,或者更简单地,\,我们把以下电势作为这一类问题的基础解:
 \[\varphi=\frac{Q}{2^ll!\cdot 4\pi\varepsilon_0 a}\cdot\left[\left(\frac{a}{r}\right)^{l+1}-\left(\frac{r}{a}\right)^l\right]\cdot\left(\frac{\ud}{\sin\theta\ud \theta}\right)^l\sin^{2l}\theta\]
 
+\vspace{0.2cm}
+2. 正交坐标系
+\vspace{0.2cm}
 
 
 \section{电介质}
