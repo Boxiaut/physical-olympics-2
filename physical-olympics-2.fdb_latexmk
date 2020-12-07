@@ -1,13 +1,13 @@
 # Fdb version 3
-["xdvipdfmx"] 1607275295 "physical-olympics-2.xdv" "physical-olympics-2.pdf" "physical-olympics-2" 1607275297
-  "physical-olympics-2.xdv" 1607275295 447212 89f0d61ae20bc3114c92734280fdbd0b "xelatex"
+["xdvipdfmx"] 1607356756 "physical-olympics-2.xdv" "physical-olympics-2.pdf" "physical-olympics-2" 1607356759
+  "physical-olympics-2.xdv" 1607356756 453104 08dfcac8b033b07bc92ad38cbab536dc "xelatex"
   (generated)
   "physical-olympics-2.pdf"
-["xelatex"] 1607275293 "physical-olympics-2.tex" "physical-olympics-2.xdv" "physical-olympics-2" 1607275297
+["xelatex"] 1607356754 "physical-olympics-2.tex" "physical-olympics-2.xdv" "physical-olympics-2" 1607356759
   "c:/Windows/Fonts/msyh.ttc" 1552970651 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "chapter/accurrent.aux" 1607275096 3041 cd6924b803e417548340579298e09c35 ""
-  "chapter/conductordielectric.aux" 1607275295 5684 b90a3a4f14b380f3f5d9ba20f76db85a "xelatex"
-  "chapter/conductordielectric.tex" 1607275096 73171 39c2f29f4e6a4ef2f09848b862b7219f ""
+  "chapter/conductordielectric.aux" 1607356756 5927 6036cf217c425d4edcafa6b6e3aa8282 "xelatex"
+  "chapter/conductordielectric.tex" 1607356751 74335 8216dfb06a0f87c921e19ed4ee9f8176 ""
   "chapter/diffraction.aux" 1607275096 1877 67771146f3ff558de954a53c80f7596c ""
   "chapter/dynamics.aux" 0 -1 0 ""
   "chapter/elasticity.aux" 0 -1 0 ""
@@ -225,6 +225,7 @@
   "d:/texlive/2020/texmf-dist/web2c/texmf.cnf" 1601655200 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "d:/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1601656424 4783803 b96a45322f6eb86285cc6f74a3a10e5e ""
   "d:/texlive/2020/texmf.cnf" 1599459589 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  "image/7-1-23.png" 1607356745 119459 319bdc704f6cf151e2b675e0652fdce4 ""
   "image/7-2-1.png" 1579762670 21911 c427f97157c232b9d203e1f4f10a5686 ""
   "image/7-2-10.png" 1581279360 28323 9c6e1a0d458aaefb5c05fc117c744d3a ""
   "image/7-2-11.png" 1582148982 7105 7774a1e62282f7c37f3829e2a67ad786 ""
@@ -239,14 +240,14 @@
   "image/7-2-7.png" 1581270352 8666 8ad384966a27101118cc582540297f58 ""
   "image/7-2-8.png" 1581272854 61064 a6319b1bdca019f1932028cb0f77904c ""
   "image/7-2-9.png" 1581276302 20479 cfd16de67837546431f63f74125a191b ""
-  "physical-olympics-2.aux" 1607275295 1653 8ceb745f15dd808699b2f22d3bdfc7ae "xelatex"
-  "physical-olympics-2.out" 1607275295 1555 86d30f8a7c15add091f4bb4004ef52f3 "xelatex"
+  "physical-olympics-2.aux" 1607356756 1653 8ceb745f15dd808699b2f22d3bdfc7ae "xelatex"
+  "physical-olympics-2.out" 1607356756 1555 86d30f8a7c15add091f4bb4004ef52f3 "xelatex"
   "physical-olympics-2.tex" 1607275096 4265 7722958599d84b5ea57ebb1acb13ebf2 ""
-  "physical-olympics-2.toc" 1607275295 10868 0f9b887d430a449fe979969decffe925 "xelatex"
+  "physical-olympics-2.toc" 1607356756 10868 8610984669949e274729b92e5fabf974 "xelatex"
   (generated)
-  "chapter/conductordielectric.aux"
-  "physical-olympics-2.xdv"
-  "physical-olympics-2.aux"
-  "physical-olympics-2.toc"
   "physical-olympics-2.out"
+  "physical-olympics-2.aux"
+  "chapter/conductordielectric.aux"
+  "physical-olympics-2.toc"
   "physical-olympics-2.log"
+  "physical-olympics-2.xdv"
