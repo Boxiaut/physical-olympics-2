@@ -388,7 +388,7 @@
 将一个中心在原点$\bs{r}=\bs{0}$,\,半径为$a$的球置于外场中讨论静电平衡为上一节中外问题的设置.\,但是上一节选择了在距离球心$R$处放置了一个点电荷.\,从而得到了球面在点电荷产生的外场下形成的格林函数$G(\bs{R},\,\bs{r})$.\,实用问题中通常把外场按照\emph{立体谐函数}(solid harmonics)在原点进行分解,\,类似于泰勒展开.\,只不过立体谐函数更适合于球坐标:
 \[R_{lm}(\bs{r})=\sqrt{\frac{(l-m)!}{(l+m)!}}r^lP_{lm}(\cos\theta)e^{\ui m\varphi}\]
 \[P_{lm}(x)=(-)^m(1-x^2)^{m/2}\frac{\ud^mP_l(x)}{\ud x^m}\]
-\[P_l(x)=\frac{(-)^l}{2^ll!}\frac{\ud^l}{\ud x^l}(1-x^2)^l\]
+\[P_l(x)=\frac{(-)^l}{2^ll!}\frac{\ud^l}{\ud x^l}(1-x^2)^l=\frac{1}{2^ll!}\frac{\ud^l}{\ud x^l}(x^2-1)^l\]
 
 这样的复杂定义其实非常自然地缘起于球坐标下拉普拉斯方程的解.\,除了以上\emph{正规}(regular)部分,\,还有一组对应的在原点发散的\emph{非正规}(irregular)解:
 \[I_{lm}(\bs{r})=\sqrt{\frac{(l-m)!}{(l+m)!}}r^{-(l+1)}P_{lm}(\cos\theta)e^{\ui m\varphi}\]
@@ -455,13 +455,137 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{image/7-1-23.png}
-\caption{立体谐函数的平衡}\label{fig:7-1-23}
+\caption{低阶立体谐函数静电平衡}\label{fig:7-1-23}
 \end{figure}
 
+有意思的是,\,这样的解也可以适用于内问题.\,此时球面上的感应电荷在原点产生的场应该展开为正规项,\,而非正规项对应放在球心的外电荷,\,此前的解两项将交换意义:
 
-\vspace{0.2cm}
+作为内问题,\,$l=0$电势中的$\frac{V_0 a}{r}$就必须理解为外场,\,而$-V_0$则理解为球面上的感应电荷产生的场,\,很显然,\,这相当于球心放了一个$Q=4\pi\varepsilon_0 aV_0$的点电荷造成的静电平衡,\,如图\ref{fig:7-1-23}右的第一种情况.
+
+作为内问题,\,$l=1$电势中的$\frac{V_0 a^2\cos\theta}{2r^2}=\frac{p_0\cos\theta}{4\pi\varepsilon_0r^2}$就必须理解为外场,\,而$-\frac{V_0}{2a}r\cos\theta=-\frac{p_0}{4\pi\varepsilon_0 a^3} z$则理解为球面上的感应电荷产生的场,\,很显然,\,外场此时由$+z$方向的电偶极子$p_0\bs{e}_z$产生,\,而球面上的感应电荷产生的电势恰好是一个匀强电场$\bs{E}=\frac{\bs{p_0}}{4\pi\varepsilon_0 a^3}$.\,如图\ref{fig:7-1-23}右的第二种情况.
+
+立体谐函数的意义在于,\,我们可以在原点附近去以球坐标的方式用正规的那些函数去展开一个电势,\,或者在一个球面外用非正规的那些函数去描写球面内的电荷体系产生的电势.\,故它天然地与多级展开挂钩.\,我们记得上一章我们用多级展开的思想来处理了偏移中心电荷的电势,\,多展开几项就是:
+\[\ke \frac{q}{|\bs{r}-\bs{R}|}=\frac{q}{4\pi\varepsilon_0} \left[\frac{1}{r}+\frac{R\cos\theta}{r^2}+\frac{R^2(3\cos^2\theta-1)}{2r^3}+\frac{R^3(5\cos^3\theta-3\cos\theta)}{2r^4}+\cdots\right]\]
+
+轻易就能发现,\,展开后各项,\,原来对应总电荷,\,电偶极矩,\,电四极矩,\,电八极矩等等,\,现在恰好就是一个个立体谐函数.\,它便是这样自然地产生于电势的多极展开中.\,个中原理在于以下展开式,\,又称\emph{勒让德多项式的母函数}(generatin function of Legendre polynomials):
+\[\frac{1}{\sqrt{1-2xt+t^2}}=\sum_{n=0}^\infty P_l(x)t^l\]
+
+而其中$P_l(x)$就是此前使用的\emph{勒让德多项式}(Legendre polynomials).\,我们此前是通过\emph{罗德里格公式}(Rodrigues' formula)引入它的:
+\[P_l(x)=\frac{(-)^l}{2^ll!}\frac{\ud^l}{\ud x^l}(1-x^2)^l=\frac{1}{2^ll!}\frac{\ud^l}{\ud x^l}(x^2-1)^l\]
+
+我们简要介绍一种通过母函数证明罗德里格公式的方法:
+
+容易发现,\,根式$\sqrt{1-2xt+t^2}$出现在以下方程的解中:
+\[tr^2-2r+2x-t=0\quad\Rightarrow\quad  r=\frac{1-\sqrt{1-2xt+t^2}}{t}\]
+
+这样$t$也可以用$r$表示:
+\[t=\frac{2(x-r)}{1-r^2}\]
+
+但是$r$对$t$的泰勒展开为$r=x+(x^2-1)t/2+O(t^2)$.\,故重新命:
+\[s=r-x=\frac{1-tx-\sqrt{1-2xt+t^2}}{t}=f(t)\]
+
+这样用$s$表示$t$就是:
+\[t=\frac{2s}{(s+x)^2-1}=g(s)\]
+
+这样就存在两个互反函数$f\circ g=id$.\,且两者泰勒展开第一项都为一次项:
+\[f(t)=f_1t^1+f_2t^2+\cdots\quad ,\quad f_1=\frac{x^2-1}{2}\]
+\[g(s)=g_1s^1+g_2s^2+\cdots\quad ,\quad g_1=\frac{2}{x^2-1}\]
+
+关于这样的函数有一个著名的\emph{拉格朗日反演定理}(Lagrange inversion theorem),\,如果用下角标表示泰勒展开的系数:
+\[f_n=\frac{1}{n}\left(\frac{id}{g}\right)^n_{n-1}\]
+
+写的更明确一点就是:
+\[\left.\frac{\ud^n}{\ud t^n}f(t)\right|_{t=0}=\left.\frac{\ud^{n-1}}{\ud s^{n-1}}\left(\frac{s}{g(s)}\right)^n\right|_{s=0}\]
+
+这个定理的证明如下:\,把$g(s)$代入$f$的泰勒展开式:
+\[s=\sum_{m=1}^\infty f_m g^m(s)\]
+
+两边对$s$求导数后乘以$s^n/g^n(s)$:
+\begin{align*}
+\left(\frac{s}{g(s)}\right)^n &=s^n\sum_{m=1}^\infty f_m \frac{\left[g^m(s)\right]'}{g^n(s)}\\
+&=s^nf_n\frac{\left[g^n(s)\right]'}{g^n(s)}+s^n\sum_{m\neq n}^{1\to\infty}\frac{m}{m-n}f_m\left[g^{m-n}(s)\right]'\\
+&=nf_ns^n\frac{g'(s)}{g(s)}+s^n\left(\sum_{m\neq n}^{1\to\infty}\frac{mf_m}{m-n} g^{m-n}(s)\right)'\\
+&=nf_ns^n\frac{g_1+2g_2s+\cdots}{g_1s+g_2s^2+\cdots}+s^n\left(\sum_{l=-n+1}^{\infty}\frac{lf_{n+l}}{l} (g_1s+g_2s^2+\cdots)^l\right)'\\
+&=nf_ns^{n-1}\left(1+\frac{g_2}{g_1}s+\cdots\right) +s^n\left(\cdots+\frac{c_{-2}}{s^2}+\frac{c_{-1}}{s}+c_0+c_1s+c_2s^2+\cdots\right)'\\
+\end{align*}
+
+后一项中,\,任意$s$的幂函数的导数都不会带来$s^{-1}$的结果项.\,故等号右侧唯一的$s^{n-1}$项就是$nf_ns^{n-1}$.从而可以提取左侧的$s^{n-1}$项系数得到右侧的$nf_n$.\,原命题得证.
+
+将这个结果重新表示$f(t)$的泰勒展开,\,得到:
+\[f(t)=\sum_{n=1}^{\infty}\frac{t^n}{n!}\left.\frac{\ud^{n-1}}{\ud s^{n-1}}\left(\frac{s}{g(s)}\right)^n\right|_{s=0}\]
+
+现在,\,把此前的$g(s)$代入:
+\begin{align*}
+\frac{1-tx-\sqrt{1-2xt+t^2}}{t} &=\sum_{l=1}^{\infty}\frac{t^l}{2^l l!}\left.\frac{\ud^{l-1}}{\ud s^{l-1}}\left[(s+x)^2-1\right]^l\right|_{s=0}\\
+&=\sum_{l=1}^{\infty}\frac{t^l}{2^l l!}\frac{\ud^{l-1}}{\ud x^{l-1}}\left(x^2-1\right)^l
+\end{align*}
+
+两边再次对$x$求导数:
+\[-1+\frac{1}{\sqrt{1-2xt+t^2}}=\sum_{l=1}^{\infty}\frac{t^l}{2^l l!}\frac{\ud^{l}}{\ud x^{l}}\left(x^2-1\right)^l\]
+\[\Rightarrow\quad \frac{1}{\sqrt{1-2xt+t^2}}=\sum_{l=0}^{\infty}P_l(x)t^l\quad ,\quad P_l(x)=\frac{1}{2^l l!}\frac{\ud^{l}}{\ud x^{l}}\left(x^2-1\right)^l\]
+
+
+\begin{wrapfigure}[7]{o}[0pt]{6cm}
+	\vspace{-0.6cm}
+	\centering
+	\includegraphics[width=6cm]{image/7-2-15.png}
+	\caption{电势的勒让德展开}\label{fig:7-2-15}
+\end{wrapfigure}
+有了这个公式就可以把点电荷的电势进行展开,\,如图\ref{fig:7-2-15}所示,\,在半径$r$很小时原点附近应当视$x=r/R$展开为$r$的正规项,\,但是在半径$r$很大时的远方应当视$x=R/r$展开为$r$的非正规项:
+\[\varphi=\frac{q}{4\pi\varepsilon_0}\frac{1}{\sqrt{R^2+r^2-2Rr\cos\theta}}=\begin{cases}
+\displaystyle\sum_{l=0}^\infty \frac{qr^lP_l(\cos\theta)}{4\pi\varepsilon_0R^{l+1}}&(r<R)\\
+\displaystyle\sum_{l=0}^\infty \frac{qR^lP_l(\cos\theta)}{4\pi\varepsilon_0r^{l+1}}&(r>R)
+\end{cases}\]
+
+\vspace{0.5cm}
+现在让我们来尝试一下新的工具用来解球面内外放置点电荷的第一类边值问题的结果.\,对于外问题,\,在$r=a$处放置球面并接地,\,在$r=R$处放置点电荷$q$并沿其方向建立球极坐标.\,则球面感受到电势:
+\[\varphi_q=\sum_{l=0}^\infty \frac{qr^lP_l(\cos\theta)}{4\pi\varepsilon_0R^{l+1}}=\sum_{l=0}^\infty \frac{qa^l}{4\pi\varepsilon_0R^{l+1}}P_l(\cos\theta)\left(\frac{r}{a}\right)^l\]
+
+根据此前的讨论,\,球面上的感应电荷就会在$r>a$产生一个电势:
+\[\varphi_{q^*}=-\sum_{l=0}^\infty \frac{qa^l}{4\pi\varepsilon_0R^{l+1}}P_l(\cos\theta)\left(\frac{a}{r}\right)^{l+1}=\sum_{l=0}^\infty \frac{(-qa/R)(a^2/R)^lP_l(\cos\theta)}{4\pi\varepsilon_0r^{l+1}}\]
+
+恰好对应一个放置在$r=R^*$处的$q^*$产生的电势:
+\[q^*=-\frac{a}{R}q\quad ,\quad R^*=\frac{a^2}{R}\]
+
+内问题的验证在这里留给读者作为一个练习.
+
+\vspace{1.2cm}
 2. 正交坐标系
 \vspace{0.2cm}
+
+如果第一类边值问题的边界不再是平面或者球面,\,那么此时往往可以考虑建立特殊的坐标系来简化拉普拉斯方程.\,这是\emph{曲线坐标系}(curvelinear coodinates)在处理相关的问题上发挥了重要的用途.\,例如我们做一套坐标变换:
+\[\bs{r}=\bs{r}(q_1,\,q_2,\,q_3)=x(q_1,\,q_2,\,q_3)\bs{i}+y(q_1,\,q_2,\,q_3)\bs{j}+z(q_1,\,q_2,\,q_3)\bs{k}\]
+
+如果广义坐标$q_1,\,q_2,\,q_3$各自变化就可以让空间点沿曲线坐标系的坐标轴移动:
+\[\dot{\bs{r}}=\frac{\partial \bs{r}}{\partial q_1}\dot{q}_1+\frac{\partial \bs{r}}{\partial q_2}\dot{q}_2+\frac{\partial \bs{r}}{\partial q_3}\dot{q}_3\]
+
+三个偏导数就可以看做\emph{拉梅系数}(Lam\`e coefficients),\,其实通常指他们的模:
+\[h_1=|\bs{h}_1|=\frac{\partial \bs{r}}{\partial q_1}\quad ,\quad h_2=|\bs{h}_2|=\frac{\partial \bs{r}}{\partial q_2}\quad ,\quad h_3=|\bs{h}_3|=\frac{\partial \bs{r}}{\partial q_3}\]
+
+(\emph{插图!})
+
+如果三条曲线坐标轴总是互相垂直,\,即:
+\[\bs{h}_i\cdot \bs{h}_j=0\quad (i\neq j)\]
+
+那么这样的曲线坐标系称为\emph{正交坐标系}(orthogonal coordinates).\,接下来就会发现,\,正交坐标系下的静电平衡问题有着非常核心的地位,\,所以我们下面只研究正交坐标系的问题.\,在正交坐标系下的一个显著结论为如果广义坐标发生小的位移$\ud q_i$,\,那么产生的空间位移的模方可用三个位移的勾股定理合成:
+\[\ud s^2=h_1^2\ud q_1^2+h_2^2\ud q_2^2+h_3^2\ud q_3^2\]
+
+利用梯度和散度的几何定义式:
+\[\ud f=\nabla f\cdot \ud\bs{r}\]
+\[\oint \bs{F}\cdot \ud \bs{A}=\int \nabla \cdot \bs{F}\Delta V\]
+
+再考虑到:
+\[\ud r_i=h_i\ud q_i\]
+\[\ud A_{i}=h_jh_k\ud q_j\ud q_k=h_1h_2h_3\ud q_i/h_i\;(i\neq j\neq k)\]
+\[\ud V=h_1h_2h_3\ud q_1\ud q_2\ud q_3\]
+
+这就得到:
+\[\nabla^2\varphi=\nabla\cdot\nabla\varphi=\frac{1}{h_1h_2h_3}\frac{\partial}{\partial q_i}\left(\frac{h_1h_2h_3}{h_i^2}\frac{\partial \varphi}{\partial q_i}\right)\]
+
+
+
+\subsection{格林互易定理}
+
 
 
 \section{电介质}
