@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  9 DEC 2020 18:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  10 DEC 2020 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2353,29 +2353,35 @@ s).\TU/方正聚珍新仿简体(0)/m/n/10.53937 我 们 此 前 是 通 过[]罗
 [40]
 File: image/7-2-15.png Graphic file (type bmp)
 <image/7-2-15.png>
- [41] [42]
-Missing character: There is no 所 in font ec-lmr10!
+ [41]
+File: image/7-2-17.png Graphic file (type bmp)
+<image/7-2-17.png>
+ [42]
+File: image/7-2-19.png Graphic file (type bmp)
+<image/7-2-19.png>
  [43]
+Missing character: There is no 所 in font ec-lmr10!
+ [44]
 File: image/7-2-11.png Graphic file (type bmp)
 <image/7-2-11.png>
- [44] [45]
+ [45] [46]
 File: image/7-2-12.png Graphic file (type bmp)
 <image/7-2-12.png>
- [46]
+ [47]
 File: image/7-2-13.png Graphic file (type bmp)
 <image/7-2-13.png>
- [47]
-Overfull \hbox (17.96576pt too wide) in paragraph at lines 762--763
+ [48]
+Overfull \hbox (17.96576pt too wide) in paragraph at lines 802--803
 []\TU/方正聚珍新仿简体(0)/m/n/10.53937 现 在 让 我 们 看 介 质 球 的 极 化 问 题\T1/lmr/m/n/10.53937 
 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 此 时 均 匀 的 极 化 为 球 的 表 面 带 来 的 电 荷 面 密 度 就 变 成 了 $
 \OML/lmm/m/it/10.53937 ^^[[] \OT1/lmr/m/n/10.53937 = \OML/lmm/m/it/10.53937 P [
 ] ^^R$\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而
  []
 
-[48]
+[49]
 File: image/7-2-14.png Graphic file (type bmp)
 <image/7-2-14.png>
- [49] [50] [51] [52]) [53]
+ [50] [51] [52] [53]) [54]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
  (./physical-olympics-2.aux
@@ -2417,12 +2423,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
- 29770 strings out of 492960
- 568938 string characters out of 6136939
- 665780 words of memory out of 5000000
- 33246 multiletter control sequences out of 15000+600000
+ 29780 strings out of 492960
+ 569104 string characters out of 6136939
+ 665866 words of memory out of 5000000
+ 33254 multiletter control sequences out of 15000+600000
  658692 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,14n,92p,958b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.pdf (33 pages).
+Output written on physical-olympics-2.pdf (34 pages).

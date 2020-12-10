@@ -559,10 +559,14 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 如果广义坐标$q_1,\,q_2,\,q_3$各自变化就可以让空间点沿曲线坐标系的坐标轴移动:
 \[\dot{\bs{r}}=\frac{\partial \bs{r}}{\partial q_1}\dot{q}_1+\frac{\partial \bs{r}}{\partial q_2}\dot{q}_2+\frac{\partial \bs{r}}{\partial q_3}\dot{q}_3\]
 
+\begin{wrapfigure}[12]{o}[0pt]{6.5cm}
+	\vspace{-0.6cm}
+	\centering
+	\includegraphics[width=6.5cm]{image/7-2-17.png}
+	\caption{曲线坐标系}\label{fig:7-2-17}
+\end{wrapfigure}
 三个偏导数就可以看做\emph{拉梅系数}(Lam\`e coefficients),\,其实通常指他们的模:
 \[h_1=|\bs{h}_1|=\frac{\partial \bs{r}}{\partial q_1}\quad ,\quad h_2=|\bs{h}_2|=\frac{\partial \bs{r}}{\partial q_2}\quad ,\quad h_3=|\bs{h}_3|=\frac{\partial \bs{r}}{\partial q_3}\]
-
-(\emph{插图!})
 
 如果三条曲线坐标轴总是互相垂直,\,即:
 \[\bs{h}_i\cdot \bs{h}_j=0\quad (i\neq j)\]
@@ -581,6 +585,42 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 
 这就得到:
 \[\nabla^2\varphi=\nabla\cdot\nabla\varphi=\frac{1}{h_1h_2h_3}\frac{\partial}{\partial q_i}\left(\frac{h_1h_2h_3}{h_i^2}\frac{\partial \varphi}{\partial q_i}\right)\]
+
+我们关心一种情况下体系的特殊静电平衡解存在的条件,\,这种解在求解区域内无任何外电荷(只在导体边界上存在自带电荷),\,且以比如$q_1$为唯一变量,\,而与$q_2,\,q_3$无关:
+\[\varphi=\varphi(q_1)\quad :\quad \frac{\partial \varphi}{\partial q_2}=\frac{\partial \varphi}{\partial q_3}=0\]
+
+代入拉普拉斯方程:
+\[\nabla^2 \varphi=0\]
+\[\Rightarrow \quad \frac{\partial}{\partial q_1}\left(\frac{h_2h_3}{h_1}\frac{\partial \varphi}{\partial q_1}\right)=0\]
+
+这就等价于要求最后对$q_1$求偏导数前扩号内不含$q_1$.\,唯一可能的情形是:
+\[\frac{h_2h_3}{h_1}=\frac{f(q_2,\,q_3)}{\partial \varphi/\partial q_1}=f(q_2,\,q_3)/g(q_1)\]
+
+即:\,如果一个曲线坐标系的三个拉梅系数使得某坐标$q_1$对应的$h_2h_3/h_1$能够分离变量,\,即分解成$f(q_2,\,q_3)/g(q_1)$.\,则$\varphi(q_1)$形式的齐次拉普拉斯方程解存在且其值为:
+\[\varphi=C_1+C_2\int g(q_1)\ud q_1\]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/7-2-19.png}
+\caption{双极坐标与椭圆坐标}\label{fig:7-2-19}
+\end{figure}
+
+平面上有两套常见的正交曲线族.\,如图\ref{fig:7-2-19}所示,\,过平面上两点的圆族与到两点距离比值为常数的\emph{阿波罗尼斯圆}(Apollonian circle)族构成正交曲线族.\,而分别以两点为焦点的椭圆族与双曲线族也构成正交曲线族.\,对于这两个正交曲线族对应的正交坐标可以这样产生:\,考虑复平面$\mathbb{C}=\{x+\ui y|x,\,y\in \mathbb{R}\}$.\,平面上的点$(x,\,y)$用复数$z=x+\ui y$表示.\,那么取平面上两点$(\pm c,\,0)$,\,对应两个复数$\pm c$.
+
+那么考虑函数$w(z)=u(z)+\ui v(z)$:
+\[w=\ln\frac{z-c}{z+c}=\ln\frac{|z-c|}{|z+c|}+\ui\left[\arg(z-c)-\arg(z+c)\right]\]
+
+从而:
+\[u=\ln\frac{|z-c|}{|z+c|}\quad ,\quad v=\arg(z-c)-\arg(z+c)\]
+
+那么$u-$坐标线,\,即$v$固定让$u$变,\,就是对两点张角固定的过两点的圆线(图\ref{fig:7-2-19}左的红线).\,而$v-$坐标线,\,即$u$固定让$v$变,\,就是到两点距离比为定值的圆线(图\ref{fig:7-2-19}左的蓝线).
+
+从而反过来确定出用$w$计算$z$的方法:
+\[z=c\tanh \frac{w}{2}\]
+
+拆开实部虚部得到:
+\[x=\frac{\sinh u}{\cosh u+\cos v}\quad ,\quad y=\frac{\sin v}{\cosh u+\cos v}\]
+
 
 
 
