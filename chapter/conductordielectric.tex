@@ -599,6 +599,9 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 即:\,如果一个曲线坐标系的三个拉梅系数使得某坐标$q_1$对应的$h_2h_3/h_1$能够分离变量,\,即分解成$f(q_2,\,q_3)/g(q_1)$.\,则$\varphi(q_1)$形式的齐次拉普拉斯方程解存在且其值为:
 \[\varphi=C_1+C_2\int g(q_1)\ud q_1\]
 
+\vspace{1cm}
+为了应用这套理论,\,我们先构造一些实例.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{image/7-2-19.png}
@@ -608,20 +611,100 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 平面上有两套常见的正交曲线族.\,如图\ref{fig:7-2-19}所示,\,过平面上两点的圆族与到两点距离比值为常数的\emph{阿波罗尼斯圆}(Apollonian circle)族构成正交曲线族.\,而分别以两点为焦点的椭圆族与双曲线族也构成正交曲线族.\,对于这两个正交曲线族对应的正交坐标可以这样产生:\,考虑复平面$\mathbb{C}=\{x+\ui y|x,\,y\in \mathbb{R}\}$.\,平面上的点$(x,\,y)$用复数$z=x+\ui y$表示.\,那么取平面上两点$(\pm c,\,0)$,\,对应两个复数$\pm c$.
 
 那么考虑函数$w(z)=u(z)+\ui v(z)$:
-\[w=\ln\frac{z-c}{z+c}=\ln\frac{|z-c|}{|z+c|}+\ui\left[\arg(z-c)-\arg(z+c)\right]\]
+\[w=\ln\frac{c+z}{c-z}=\ln\frac{|c+z|}{|c-z|}+\ui\left[\arg(c+z)-\arg(c-z)\right]\]
 
 从而:
-\[u=\ln\frac{|z-c|}{|z+c|}\quad ,\quad v=\arg(z-c)-\arg(z+c)\]
+\[u=\ln\frac{|c+z|}{|c-z|}\quad ,\quad v=\arg(c+z)-\arg(c-z)\]
 
-那么$u-$坐标线,\,即$v$固定让$u$变,\,就是对两点张角固定的过两点的圆线(图\ref{fig:7-2-19}左的红线).\,而$v-$坐标线,\,即$u$固定让$v$变,\,就是到两点距离比为定值的圆线(图\ref{fig:7-2-19}左的蓝线).
+这就是\emph{双极坐标}(bipolar coordinates):\,$u-$坐标线,\,即$v$固定让$u$变,\,就是对两点张角固定的过两点的圆线(图\ref{fig:7-2-19}左的红线).\,而$v-$坐标线,\,即$u$固定让$v$变,\,就是到两点距离比为定值的圆线(图\ref{fig:7-2-19}左的蓝线).
 
 从而反过来确定出用$w$计算$z$的方法:
 \[z=c\tanh \frac{w}{2}\]
 
 拆开实部虚部得到:
-\[x=\frac{\sinh u}{\cosh u+\cos v}\quad ,\quad y=\frac{\sin v}{\cosh u+\cos v}\]
+\[x=\frac{c\sinh u}{\cosh u+\cos v}\quad ,\quad y=\frac{c\sin v}{\cosh u+\cos v}\]
 
+求偏导数得到:
+\[h_u=h_v=\frac{c}{\cosh u+\cos v}\]
 
+\vspace{1cm}
+下面构造椭圆坐标.\,如果$(x,\,y)$到$(\pm c,\,0)$的距离和为$A$,\,距离差为$a$,\,那么点在椭圆和双曲线的交点上:
+\[\frac{x^2}{A^2}+\frac{y^2}{A^2-c^2}=1\]
+\[\frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1\]
+
+对于上式一种常见的换元为三角或双曲换元:
+\[A=c\cosh v\]
+\[a=c\sin u \]
+
+这样代入反解就得到:
+\[x=c\cosh v \sin u\]
+\[y=c\cos u\sinh v\]
+
+这就是\emph{椭圆坐标}(elliptic coordinates):\,$u-$坐标线,\,即$v$固定让$u$变,\,就是对两点距离和固定的椭圆线(图\ref{fig:7-2-19}右的红线).\,而$v-$坐标线,\,即$u$固定让$v$变,\,就是到两点距离差固定的双曲线(图\ref{fig:7-2-19}右的蓝线).
+
+求偏导数得到:
+\[h_u=h_v=c\sqrt{\cos^2u+\sinh^2 v}\]
+
+\vspace{1cm}
+两套坐标系有一个相似之处:\,$h_u=h_v$.\,这就预示着单看平面问题会存在一个较简单的解.\,三维空间中对应柱型坐标变换$(x,\,y,\,z)\to(u,\,v,\,z)$:
+\[h_u=h_v=h(u,\,v)\quad ,\quad h_z=1\]
+
+那么单看$u$($v$同理),\,的确符合之前说的:
+\[\frac{h_vh_z}{h_u}=1=\frac{f(v,\,z)}{g(u)}\]
+
+故此时存在静电平衡解:
+\[\varphi=C_1+C_2\int g(u)\ud u=C_1+C_2u\]
+
+这样我们就可以计算两个非同轴圆柱或是椭圆柱单位长度的电容.\,普遍地来说,\,如果这个电容夹在两个面$u=u_1,\,u=u_2$之间($u_1<u_2$),\,对应的电势差就是:
+\[U=\Delta \varphi=C_2(u_2-u_1)\]
+
+而一定长度$l$的电量$Q_l$可以这样计算:\,首先垂直于$u=C$的面上的场强和面元为:
+\[E_n=\varepsilon_0\frac{\partial \varphi}{h_u\partial u}\quad ,\quad \ud S=h_v\ud v\cdot h_z\cdot l=h_vl\ud v\]
+
+那么根据高斯定律,\,让$v$变化一周得到闭合的面就可以计算电量:
+\[Q_l=\oint E_n\ud S\]
+
+由于$h_u=h_v$,\,得到:
+\[Q_l=\varepsilon_0 C_2l\Delta v\]
+
+从而单位长度的电容就是:
+\[C_l=\frac{Q_l}{U}=\frac{\varepsilon_0 l\Delta v}{u_2-u_1}\]
+
+例如,\,通过计算可以得到半径$r_1<r_2$,\,但轴错开了$\varepsilon$的两个圆柱之间的电容为:
+\[C_l=\frac{2\pi \varepsilon_0 l}{\mathrm{arch} \frac{r_1^2+r_2^2-\varepsilon^2}{2r_1 r_2}}\]
+
+如果让电容带电$Q$,\,那么其静电能:
+\[V(\varepsilon)=\frac{Q^2}{2C}=\frac{Q^2}{4\pi\varepsilon_0 l}\mathrm{arch} \frac{r_1^2+r_2^2-\varepsilon^2}{2r_1 r_2}\]
+
+考虑$\varepsilon$若是一个小量,\,则:
+\[V(\varepsilon)=\frac{Q^2}{4\pi\varepsilon_0 l}\left(\ln \frac{r_2}{r_1}-\frac{\varepsilon^2}{r_2^2-r_1^2}\right)\]
+
+这说明内圆柱在与外圆柱在中心形成静电平衡时力学上并不是一个稳定平衡.
+
+而同样的方法用于共焦点两椭圆柱间的电容,\,如果半长轴分别为$a_1<a_2$,\,焦距为$c$,\,长为$l$.\,则电容为:
+\[C_l=\frac{2\pi \varepsilon_0 l}{\mathrm{arch}\frac{a_2}{c}-\mathrm{arch}\frac{a_1}{c}}\]
+
+\vspace{1cm}
+而如果把平面上的双极坐标或者椭球坐标绕$x$轴或$y$轴做旋转,\,就会得到另外的四类三维正交坐标.\,双极坐标绕$x$轴旋转得到\emph{双球坐标}(bispherical coordinates),\,绕$y$轴旋转得到\emph{环面坐标}(torodial coordinates),\,椭球坐标绕$x$轴旋转得到\emph{长球坐标}(prolate spheroidal coordinates),\,绕$y$轴旋转得到\emph{扁球坐标}(oblate spheroidal coordinates).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{image/7-2-20.png}
+\caption{四类三维坐标}\label{fig:7-2-20}
+\end{figure}
+
+以绕$x$轴旋转为例.\,在这种情况下$(x_0,\,y_0,\,z_0)$旋转$\varphi$角形成的点坐标变为:
+\[x=x_0(u,\,v)\]
+\[y=y_0(u,\,v)\cos\varphi\]
+\[z=y_0(u,\,v)\sin\varphi\]
+
+从而位移长度微元为:
+\[\ud s^2=h_u^2\ud u^2+h_v^2 \ud v^2+y_0^2(u,\,v)\ud \varphi^2\]
+
+这说明新的坐标的拉梅系数$u,\,v$依然是$h_u,\,h_v$.\,而$h_\varphi=|y_0(u,\,v)|$
+
+从而,\,以坐标$u$为例,\,对于此前的两类坐标,\,有:
+\[\frac{h_vh_\varphi}{h_u}=h_\varphi=y_0(u,\,v)\]
 
 
 \subsection{格林互易定理}
