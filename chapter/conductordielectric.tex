@@ -38,7 +38,7 @@
 这里说的导体,\,主要指固体形式的金属.
 
 首先界定我们研究的问题范围:\,\emph{静电平衡}(electrostatic equilibrium)问题是一种\emph{稳态}(steady state).\,我们研究的问题由各式各样的,\,有限的块状导体${\rm C}_1,\,{\rm C}_2\cdots {\rm C}_n$构成,\,这些导体带电情况由体电荷密度$\rho$和面电荷密度$\sigma$描述.\,但是导体${\rm C}_i$上的总电荷量不一定为零:
-\[Q_i=\int\limits_{{\rm C}_i}\rho \ud V+\int\limits_{\partial{\rm C}_i}\sigma \ud S\neq 0\]
+\[Q_i=\int\limits_{{\rm C}_i}\rho \ud V+\int\limits_{\partial{\rm C}_i}\sigma \ud A\neq 0\]
 
 这个电量$Q_i$一般也是可以在一定范围内人为控制的,\,即给导体\emph{充电}(charge).\,利用电容的性质很容易可以做到这一点.\,在为导体充电后由于电量守恒,\,其总电量就不能改变了,\,但是其电荷分布一般是未知的.
 
@@ -95,7 +95,7 @@
 \emph{已知}:\,导体外连通区域$D$以第一类导体表面$\Sigma_1,\,\Sigma_2\cdots\Sigma_n$和第二类导体表面$\Pi_1,\,\Pi_2\cdots\Pi_m$为边界.\,已知区域$D$内电荷分布$\rho$,\,已知第一类导体表面$\Sigma_i$上的电势$V_i$.\,已知第二类导体表面$\Pi_j$上的电量$Q_j$:
 \[\partial D=\biggl(\bigcup_i \Sigma_i\biggr)\cup \biggl(\bigcup_j\Pi_j  \biggr) \]
 \[\rho=\rho(\bs{r}) \quad,\quad \bs{r}\in D\]
-\[\varphi(\bs{r})|_{\Sigma_i}=V_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_j/\varepsilon_0 \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+\[\varphi(\bs{r})|_{\Sigma_i}=V_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{A}=Q_j/\varepsilon_0 \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
 
 \emph{未知}:\,导体表面电荷的具体分布$\sigma(\bs{r})|_{\Sigma_i,\,\Pi_j}$
 
@@ -125,17 +125,17 @@
 
 这个定理的证明是显然的:\,首先$\varphi$作为一个边值问题的解,\,当且仅当它满足以下的一个全局条件和若干边值条件:
 \[\nabla^2\varphi=-\frac{\rho}{\varepsilon_0}\]
-\[\varphi(\bs{r})|_{\Sigma_i}=V_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_j \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+\[\varphi(\bs{r})|_{\Sigma_i}=V_i \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{A}=Q_j \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
 
 那么既然$\varphi_1$和$\varphi_2$都是之前两个问题的解,\,这就意味着:
 \[\nabla^2\varphi_1=-\frac{\rho_1}{\varepsilon_0} \quad,\quad \nabla^2\varphi_2=-\frac{\rho_2}{\varepsilon_0}\]
-\[\varphi_1(\bs{r})|_{\Sigma_i}=V_{1i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi_1\cdot \ud \bs{S}=Q_{1j} \quad, \quad \varphi_1(\bs{r})|_{\Pi_j}=C\]
-\[\varphi_2(\bs{r})|_{\Sigma_i}=V_{2i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi_2\cdot \ud \bs{S}=Q_{2j} \quad, \quad \varphi_2(\bs{r})|_{\Pi_j}=C\]
+\[\varphi_1(\bs{r})|_{\Sigma_i}=V_{1i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi_1\cdot \ud \bs{A}=Q_{1j} \quad, \quad \varphi_1(\bs{r})|_{\Pi_j}=C\]
+\[\varphi_2(\bs{r})|_{\Sigma_i}=V_{2i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi_2\cdot \ud \bs{A}=Q_{2j} \quad, \quad \varphi_2(\bs{r})|_{\Pi_j}=C\]
 
 那么定义$\varphi=\varphi_1+\varphi_2$,\,它就自然也能满足:
 
 \[\nabla^2\varphi=-\frac{\rho_1+\rho_2}{\varepsilon_0}\]
-\[\varphi(\bs{r})|_{\Sigma_i}=V_{1i}+V_{2i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=Q_{1j}+Q_{2j} \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+\[\varphi(\bs{r})|_{\Sigma_i}=V_{1i}+V_{2i} \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{A}=Q_{1j}+Q_{2j} \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
 
 从而就的确是新问题的一个解.\,但是这个解是否唯一?\,答案是肯定的.\,这就是著名的唯一性定理,\,可以这么表述:
 \begin{verse}
@@ -144,7 +144,7 @@
 
 其证明的核心思想是利用上一章介绍的第一格林等式\footnote{其实使用简单的``电荷发出电场线,\,沿电场线方向电势降低"的观点也是可以论证这个定理的.\,请读者思考过程.}.\,首先注意到如果$\varphi_1,\,\varphi_2$都是同一个边值问题的解.\,那么命$\varphi=\varphi_1-\varphi_2$就是以下边值问题的解:
 \[\nabla^2\varphi=-\frac{\rho-\rho}{\varepsilon_0}=0\]
-\[\varphi(\bs{r})|_{\Sigma_i}=0 \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{S}=0 \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
+\[\varphi(\bs{r})|_{\Sigma_i}=0 \quad, \quad \int\limits_{\Pi_j}\nabla\varphi\cdot \ud \bs{A}=0 \quad, \quad \varphi(\bs{r})|_{\Pi_j}=C\]
 
 上面这个等号右侧都是零的方程称作\emph{齐次方程}(homogeneous equation).\,那么问题就被转化为证明齐次方程的解必为零解.\,想起第一格林等式:
 \[\nabla\cdot(\phi\nabla\psi)=\phi\nabla^2\psi+\nabla\phi\cdot\nabla\psi\]
@@ -156,10 +156,10 @@
 \[(\nabla\varphi)^2=\nabla\cdot(\varphi \nabla\varphi)\]
 
 等号右侧会让人联想到奥-高定理.\,事实上如果把它应用到$D$:\,左右两侧就能化为:
-\[\int\limits_D(\nabla\varphi)^2\ud V=\int\limits_D \nabla\cdot(\varphi \nabla\varphi)\ud V=\oint\limits_{\partial D}\varphi\nabla\varphi \cdot \ud \bs{S}=\oint\limits_{\scriptscriptstyle\left(\cup_i \Sigma_i\right)\cup \left(\cup_j\Pi_j  \right)}\cdots=\sum_i \oint\limits_{\Sigma_i}\varphi\nabla\varphi \cdot \ud \bs{S}+\sum_j \oint\limits_{\Pi_j}\varphi\nabla\varphi \cdot \ud \bs{S}\]
+\[\int\limits_D(\nabla\varphi)^2\ud V=\int\limits_D \nabla\cdot(\varphi \nabla\varphi)\ud V=\oint\limits_{\partial D}\varphi\nabla\varphi \cdot \ud \bs{A}=\oint\limits_{\scriptscriptstyle\left(\cup_i \Sigma_i\right)\cup \left(\cup_j\Pi_j  \right)}\cdots=\sum_i \oint\limits_{\Sigma_i}\varphi\nabla\varphi \cdot \ud \bs{A}+\sum_j \oint\limits_{\Pi_j}\varphi\nabla\varphi \cdot \ud \bs{A}\]
 
 在第一类导体边界上,\,由于$\varphi=0$所以积分为零.\,在第二类导体边界上,\,首先$\varphi$也是常数所以可以提出到积分外面,\,即:
-\[\oint\limits_{\Pi_j}\varphi\nabla\varphi \cdot \ud \bs{S}=C\cdot\oint\limits_{\Pi_j}\nabla\varphi \cdot \ud \bs{S}=C\cdot 0=0\]
+\[\oint\limits_{\Pi_j}\varphi\nabla\varphi \cdot \ud \bs{A}=C\cdot\oint\limits_{\Pi_j}\nabla\varphi \cdot \ud \bs{A}=C\cdot 0=0\]
 
 从而得到恰好等号的右侧就是$0$.\,这就相当于证明了这个电势$\varphi$满足:
 \[\int\limits_D(\nabla\varphi)^2\ud V=0\]
@@ -357,13 +357,13 @@
 \[\varphi=\frac{VR}{r}+\int \ke \left(\frac{1}{|\bs{r}-\bs{R}|}-\frac{a/|\bs{R}|}{|\bs{r}-\bs{R}^\ast|}\right)\rho(\bs{R})\ud V\]
 
 但是如果换为第二类边值问题:
-\[\nabla^2\varphi = -\frac{\rho(\bs{r})}{\varepsilon_0}\,(|\bs{r}|>a)\quad ,\quad \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{S}=Q\;,\;\varphi|_{|\bs{r}|=a}=C\]
+\[\nabla^2\varphi = -\frac{\rho(\bs{r})}{\varepsilon_0}\,(|\bs{r}|>a)\quad ,\quad \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{A}=Q\;,\;\varphi|_{|\bs{r}|=a}=C\]
 
 这就需要先考虑格林函数对应的势在边界上产生的总面电荷量,\,他其实就是像电荷的值:
-\[\delta(\bs{r}-\bs{R})\quad \longrightarrow\quad  \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{S}=-\frac{a}{|\bs{R}|}\]
+\[\delta(\bs{r}-\bs{R})\quad \longrightarrow\quad  \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{A}=-\frac{a}{|\bs{R}|}\]
 
 于是单独对格林函数进行积分得到的电势就使得面上带上电荷:
-\[\rho(\bs{r})\quad \longrightarrow\quad \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{S}=-\int \frac{a}{|\bs{R}|}\rho(\bs{R})\ud V\]
+\[\rho(\bs{r})\quad \longrightarrow\quad \int\limits_{|\bs{r}|=a}\nabla\varphi\cdot \ud \bs{A}=-\int \frac{a}{|\bs{R}|}\rho(\bs{R})\ud V\]
 
 那么通过叠加原理,\,为了使得面上电荷量变为$Q$,\,就需要引入一个电势:
 \[\varphi=\ke \frac{Q+\displaystyle\int \frac{a}{|\bs{R}|}\rho(\bs{R})\ud V}{r}\]
@@ -379,11 +379,11 @@
 
 这个电势就是内部的电荷$\rho(\bs{r})$和面上的感应面电荷共同对球内叠加产生的电势的和.\,对于球外的电势的叠加必然为零.
 
-\subsection{几种其他情况*}
+\subsection{立体谐函数*}
 
-\vspace{0.2cm}
-1. 立体谐函数
-\vspace{0.2cm}
+%\vspace{0.2cm}
+%1. 立体谐函数
+%\vspace{0.2cm}
 
 将一个中心在原点$\bs{r}=\bs{0}$,\,半径为$a$的球置于外场中讨论静电平衡为上一节中外问题的设置.\,但是上一节选择了在距离球心$R$处放置了一个点电荷.\,从而得到了球面在点电荷产生的外场下形成的格林函数$G(\bs{R},\,\bs{r})$.\,实用问题中通常把外场按照\emph{立体谐函数}(solid harmonics)在原点进行分解,\,类似于泰勒展开.\,只不过立体谐函数更适合于球坐标:
 \[R_{lm}(\bs{r})=\sqrt{\frac{(l-m)!}{(l+m)!}}r^lP_{lm}(\cos\theta)e^{\ui m\varphi}\]
@@ -495,7 +495,7 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 \[f_n=\frac{1}{n}\left(\frac{id}{g}\right)^n_{n-1}\]
 
 写的更明确一点就是:
-\[\left.\frac{\ud^n}{\ud t^n}f(t)\right|_{t=0}=\left.\frac{\ud^{n-1}}{\ud s^{n-1}}\left(\frac{s}{g(s)}\right)^n\right|_{s=0}\]
+\[\left.\frac{\ud^n}{\ud t^n}f(t)\right|_{t=0}=\left.\frac{\ud^{n-1}}{\ud A^{n-1}}\left(\frac{s}{g(s)}\right)^n\right|_{s=0}\]
 
 这个定理的证明如下:\,把$g(s)$代入$f$的泰勒展开式:
 \[s=\sum_{m=1}^\infty f_m g^m(s)\]
@@ -512,11 +512,11 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 后一项中,\,任意$s$的幂函数的导数都不会带来$s^{-1}$的结果项.\,故等号右侧唯一的$s^{n-1}$项就是$nf_ns^{n-1}$.从而可以提取左侧的$s^{n-1}$项系数得到右侧的$nf_n$.\,原命题得证.
 
 将这个结果重新表示$f(t)$的泰勒展开,\,得到:
-\[f(t)=\sum_{n=1}^{\infty}\frac{t^n}{n!}\left.\frac{\ud^{n-1}}{\ud s^{n-1}}\left(\frac{s}{g(s)}\right)^n\right|_{s=0}\]
+\[f(t)=\sum_{n=1}^{\infty}\frac{t^n}{n!}\left.\frac{\ud^{n-1}}{\ud A^{n-1}}\left(\frac{s}{g(s)}\right)^n\right|_{s=0}\]
 
 现在,\,把此前的$g(s)$代入:
 \begin{align*}
-\frac{1-tx-\sqrt{1-2xt+t^2}}{t} &=\sum_{l=1}^{\infty}\frac{t^l}{2^l l!}\left.\frac{\ud^{l-1}}{\ud s^{l-1}}\left[(s+x)^2-1\right]^l\right|_{s=0}\\
+\frac{1-tx-\sqrt{1-2xt+t^2}}{t} &=\sum_{l=1}^{\infty}\frac{t^l}{2^l l!}\left.\frac{\ud^{l-1}}{\ud A^{l-1}}\left[(s+x)^2-1\right]^l\right|_{s=0}\\
 &=\sum_{l=1}^{\infty}\frac{t^l}{2^l l!}\frac{\ud^{l-1}}{\ud x^{l-1}}\left(x^2-1\right)^l
 \end{align*}
 
@@ -549,6 +549,7 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 
 内问题的验证在这里留给读者作为一个练习.
 
+\begin{comment}
 \vspace{1.2cm}
 2. 正交坐标系
 \vspace{0.2cm}
@@ -572,7 +573,7 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 \[\bs{h}_i\cdot \bs{h}_j=0\quad (i\neq j)\]
 
 那么这样的曲线坐标系称为\emph{正交坐标系}(orthogonal coordinates).\,接下来就会发现,\,正交坐标系下的静电平衡问题有着非常核心的地位,\,所以我们下面只研究正交坐标系的问题.\,在正交坐标系下的一个显著结论为如果广义坐标发生小的位移$\ud q_i$,\,那么产生的空间位移的模方可用三个位移的勾股定理合成:
-\[\ud s^2=h_1^2\ud q_1^2+h_2^2\ud q_2^2+h_3^2\ud q_3^2\]
+\[\ud A^2=h_1^2\ud q_1^2+h_2^2\ud q_2^2+h_3^2\ud q_3^2\]
 
 利用梯度和散度的几何定义式:
 \[\ud f=\nabla f\cdot \ud\bs{r}\]
@@ -659,10 +660,10 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 \[U=\Delta \varphi=C_2(u_2-u_1)\]
 
 而一定长度$l$的电量$Q_l$可以这样计算:\,首先垂直于$u=C$的面上的场强和面元为:
-\[E_n=\varepsilon_0\frac{\partial \varphi}{h_u\partial u}\quad ,\quad \ud S=h_v\ud v\cdot h_z\cdot l=h_vl\ud v\]
+\[E_n=\varepsilon_0\frac{\partial \varphi}{h_u\partial u}\quad ,\quad \ud A=h_v\ud v\cdot h_z\cdot l=h_vl\ud v\]
 
 那么根据高斯定律,\,让$v$变化一周得到闭合的面就可以计算电量:
-\[Q_l=\oint E_n\ud S\]
+\[Q_l=\oint E_n\ud A\]
 
 由于$h_u=h_v$,\,得到:
 \[Q_l=\varepsilon_0 C_2l\Delta v\]
@@ -699,7 +700,7 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 \[z=y_0(u,\,v)\sin\varphi\]
 
 从而位移长度微元为:
-\[\ud s^2=h_u^2\ud u^2+h_v^2 \ud v^2+y_0^2(u,\,v)\ud \varphi^2\]
+\[\ud A^2=h_u^2\ud u^2+h_v^2 \ud v^2+y_0^2(u,\,v)\ud \varphi^2\]
 
 这说明新的坐标的拉梅系数$u,\,v$依然是$h_u,\,h_v$.\,而$h_\varphi=|y_0(u,\,v)|$
 
@@ -709,7 +710,7 @@ R_4(\bs{r})=\mathcal{P}_4(x,\,y,\,z)	&=\frac{35z^4-30z^2(x^2+y^2)-3(x^2+y^2)^2}{
 
 \subsection{格林互易定理}
 
-
+\end{comment}
 
 \section{电介质}
 
@@ -919,8 +920,8 @@ $$
 
 但是凭以上方程不足以确定整个问题,\,一般还需要配合\emph{边界条件}(boundary relation).\,介质静电平衡问题的边界条件有它独特的重要性,\,一般会做如下表述:
 
-\begin{wrapfigure}[8]{o}[0pt]{6cm}
-\vspace{-0.9cm}
+\begin{wrapfigure}[9]{o}[0pt]{6cm}
+\vspace{-0.3cm}
 \centering
 \includegraphics[width=6cm]{image/7-2-14.png}
 \caption{边界条件}\label{fig7-2-14}

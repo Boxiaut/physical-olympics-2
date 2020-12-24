@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  11 DEC 2020 17:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.29)  24 DEC 2020 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2202,196 +2202,121 @@ LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
 \openout4 = `physical-olympics-2.toc'.
 
  [4]
-\openout2 = `chapter/statics.aux'.
+\openout2 = `chapter/magnetostatics.aux'.
 
- (./chapter/statics.tex
-第一章
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 6.
-(c:/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.52812> on input line 16.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 16.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 16.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 16.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.22704pt on input line 16.
+ (./chapter/magnetostatics.tex [96
 
 
-LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 16.
 
-File: image/6-2-1.png Graphic file (type bmp)
-<image/6-2-1.png>
 
-Underfull \vbox (badness 1931) has occurred while \output is active []
 
- [5
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 ]
-Overfull \hbox (3.89781pt too wide) in paragraph at lines 50--51
-[]\T1/lmr/m/n/10.53937 A.\TU/方正聚珍新仿简体(0)/m/n/10.53937 一 个 圆 盘 状 的 冰 球 本 来 由 盘 心
- 的 $\OT1/lmr/m/n/10.53937 (\OML/lmm/m/it/10.53937 x;  y;  z\OT1/lmr/m/n/10.5393
-7 )$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 和 盘 面 方 向\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0
-)/m/n/10.53937 即 垂 直 盘 面 的 单 位 法 向 量 $\OT1/lmr/m/n/10.53937 ([] \OML/lmm/m/it/1
-0.53937 ^^K;  [] ^^L;  [] ^^M\OT1/lmr/m/n/10.53937 )$
+第五章
+
+Overfull \hbox (13.36566pt too wide) in paragraph at lines 9--11
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 在 历 史 上 很 长 一 段 时 期 内\T1/lmr/m/n/10.53937 , \TU/
+方正聚珍新仿简体(0)/m/n/10.53937 磁 学 与 电 学 的 研 究 一 直 彼 此 独 立 地 发 展 着\T1/lmr/m/n/10.5393
+7 . \TU/方正聚珍新仿简体(0)/m/n/10.53937 丹 麦 物 理 学 家[]奥 斯 特[]\T1/lmr/m/n/10.53937 (\T1/
+lmr/m/it/10.53937 H. C.Ørsted\T1/lmr/m/n/10.53937 )
  []
 
-[6]
-File: image/6-2-6.jpg Graphic file (type bmp)
-<image/6-2-6.jpg>
- [7]
-LaTeX Font Info:    Try loading font information for LG+lmr on input line 97.
-LaTeX Font Info:    No file LGlmr.fd. on input line 97.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.52812> on input line 13.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 13.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 13.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 13.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.22704pt on input line 13.
 
+LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
+(Font)              size <8> substituted on input line 13.
 
-LaTeX Font Warning: Font shape `LG/lmr/m/n' undefined
-(Font)              using `LG/cmr/m/n' instead on input line 97.
-
-
-LaTeX Font Warning: Font shape `LG/cmr/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 97.
-
-
-LaTeX Font Warning: Font shape `LG/lmr/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 97.
-
-File: image/6-2-2.png Graphic file (type bmp)
-<image/6-2-2.png>
-[8]
-File: image/6-2-3.png Graphic file (type bmp)
-<image/6-2-3.png>
-
-Overfull \hbox (21.35533pt too wide) in paragraph at lines 150--151
-[]\T1/lmr/m/n/10.53937 Case4.\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 果 绳 子 还 绕 过 了 滑 轮\T
-1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 原 则 上 每 一 段 绳 带 来 一 个 约 束 
-减 少 一 个 自 由 度\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 例 如 坐 标 为 $\OT1
-/lmr/m/n/10.53937 (\OML/lmm/m/it/10.53937 x[];  y[];  z[]\OT1/lmr/m/n/10.53937 
-)$
+File: image/7-4-3.png Graphic file (type bmp)
+<image/7-4-3.png>
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 30.
+(c:/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (37.28835pt too wide) detected at line 30
+\OML/lmm/m/it/10.53937 F[] \OT1/lmr/m/n/10.53937 = \OML/lmm/m/it/10.53937 F[] \
+OMS/lmsy/m/n/10.53937 ^^@ [] [] [] \OML/lmm/m/it/10.53937 ;  F[] \OT1/lmr/m/n/1
+0.53937 = [] \OML/lmm/m/it/10.53937 ;  F[] \OT1/lmr/m/n/10.53937 = []
  []
 
-[9] [10]
-File: image/6-2-4.png Graphic file (type bmp)
-<image/6-2-4.png>
+[97]
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 209.
+(Font)              scaled to size 10.11786pt on input line 42.
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 209.
+(Font)              scaled to size 6.72005pt on input line 42.
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 209.
+(Font)              scaled to size 4.80003pt on input line 42.
 LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 209.
+(Font)              scaled to size 10.11786pt on input line 42.
 LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 209.
+(Font)              scaled to size 6.72005pt on input line 42.
 LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 209.
+(Font)              scaled to size 4.80003pt on input line 42.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 209.
+(Font)              scaled to size 10.11786pt on input line 42.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 209.
+(Font)              scaled to size 6.72005pt on input line 42.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 209.
+(Font)              scaled to size 4.80003pt on input line 42.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 209.
+(Font)              scaled to size 10.11786pt on input line 42.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 209.
+(Font)              scaled to size 6.72005pt on input line 42.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 209.
-
-Overfull \hbox (0.69016pt too wide) in paragraph at lines 209--210
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 还 有 一 个 重 要 概 念 需 要 先 一 步 加 以 介 绍\T1/lmr/m/n/10.
-53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 果 我 们 考 虑 任 何 一 个 作 用 在 实 际 体 系 的 某 质 点 上
- 的 力 $[]$\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 该
+(Font)              scaled to size 4.80003pt on input line 42.
+ [98]
+File: image/7-4-4.png Graphic file (type bmp)
+<image/7-4-4.png>
+File: image/7-4-5.png Graphic file (type bmp)
+<image/7-4-5.png>
+ [99]
+File: image/7-4-6.png Graphic file (type bmp)
+<image/7-4-6.png>
+File: image/7-4-7.png Graphic file (type bmp)
+<image/7-4-7.png>
+ [100]
+Overfull \hbox (9.66008pt too wide) in paragraph at lines 193--194
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 可 以 设 想 存 在 可 以 像 点 电 荷 产 生 电 场 那 样 的 方 式 产 生 磁 
+场 的 物 质\T1/lmr/m/n/10.53937 , \TU/方正聚珍新仿简体(0)/m/n/10.53937 称 作[]磁 单 极 子 \T1/lmr
+/m/n/10.53937 `[](mag-netic monopole),
  []
 
-File: image/6-2-5.png Graphic file (type bmp)
-<image/6-2-5.png>
-[11]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-240.
-
-File: image/6-2-7.png Graphic file (type bmp)
-<image/6-2-7.png>
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24
-5.
-
-[12]
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 10.19151pt on input line 283.
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 6.76897pt on input line 283.
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 4.83498pt on input line 283.
-File: image/6-2-8.png Graphic file (type bmp)
-<image/6-2-8.png>
- [13] [14]
-Overfull \hbox (3.77924pt too wide) in paragraph at lines 346--347
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 个 问 题 的 答 案 其 实 简 单\T1/lmr/m/n/10.53937 :\TU/方
-正聚珍新仿简体(0)/m/n/10.53937 那 便 是 找 到 最 基 础 的 平 衡 力 系\T1/lmr/m/n/10.53937 ,\TU/方正聚珍
-新仿简体(0)/m/n/10.53937 它 是 平 衡 核 的[]生 成 元[]\T1/lmr/m/n/10.53937 (generating el-e-
-ment).\TU/方正聚珍新仿简体(0)/m/n/10.53937 这
+[101]
+File: image/7-4-1.png Graphic file (type bmp)
+<image/7-4-1.png>
+ [102] [103]
+Overfull \hbox (48.88997pt too wide) in paragraph at lines 281--282
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 果 分 子 的 固 有 磁 矩 为 零\T1/lmr/m/n/10.53937 , \TU/
+方正聚珍新仿简体(0)/m/n/10.53937 那 么 在 外 磁 场 下 会 产 生 一 个 与 外 磁 场 反 向 的 磁 矩\T1/lmr/m/n/1
+0.53937 , \TU/方正聚珍新仿简体(0)/m/n/10.53937 宏 观 上 造 成[]抗 磁 性[]\T1/lmr/m/n/10.53937 (
+diamagnetism).
  []
 
-File: image/6-2-9.png Graphic file (type bmp)
-<image/6-2-9.png>
-
-Underfull \hbox (badness 1005) in paragraph at lines 358--359
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 统 时\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53
-937 它 们 不 仅 受 到 外 力\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 还 要 受 约 束
- 力 \T1/lmr/m/n/10.53937 (\TU/方正聚珍新仿简体(0)/m/n/10.53937 作 为 内
- []
-
-[15]
-File: image/6-2-10.png Graphic file (type bmp)
-<image/6-2-10.png>
-File: image/6-2-11.png Graphic file (type bmp)
-<image/6-2-11.png>
-File: image/6-2-12.png Graphic file (type bmp)
-<image/6-2-12.png>
-File: image/6-2-13.png Graphic file (type bmp)
-<image/6-2-13.png>
- [16]
-File: image/6-2-14.png Graphic file (type bmp)
-<image/6-2-14.png>
-File: image/6-2-15.png Graphic file (type bmp)
-<image/6-2-15.png>
- [17] [18] [19]
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 7.27965pt on input line 547.
- [20] [21] [22] [23]
-File: image/6-2-16.png Graphic file (type bmp)
-<image/6-2-16.png>
-
-Overfull \hbox (3.45781pt too wide) in paragraph at lines 669--670
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 想 的 却 不 稳 定 的 约 束 情 形 中\T1/lmr/m/n/10.53937 ,\TU/方
-正聚珍新仿简体(0)/m/n/10.53937 约 束 力 是 可 以 做 实 功 的\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0
-)/m/n/10.53937 从 而 体 系 能 量 一 般 都 不 会 守 恒\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m
-/n/10.53937 总 之\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 所 谓 理 想 约 束\T
-1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 依
- []
-
-[24] [25]
-Overfull \hbox (0.95279pt too wide) in paragraph at lines 739--740
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 故 现 在\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/1
-0.53937 我 们 直 接 总 结\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 保 守 体 系 的
- 主 动 力 部 分\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 由 势 能 函 数 $\OML/lm
-m/m/it/10.53937 V\OT1/lmr/m/n/10.53937 (\OML/lmm/m/it/10.53937 q[];  t\OT1/lmr/
-m/n/10.53937 )$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 来 描 述\T1/lmr/m/n/10.53937 .\TU/方正聚
-珍新仿简体(0)/m/n/10.53937 十 分 容 易 验 证 的 一 点 是\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/
-m/n/10.53937 此
- []
-
-[26] [27] [28]) [29] [30]
+[104]) [105]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
  (./physical-olympics-2.aux
@@ -2421,7 +2346,7 @@ No file chapter/opticalp.aux.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 139.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
 Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 0AE3DB263997420030863B64D7700A00.
+(rerunfilecheck)             Checksum: 262F220324A1B6AF2486693372A1D872.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2433,12 +2358,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
- 29772 strings out of 492960
- 568791 string characters out of 6136939
- 667538 words of memory out of 5000000
- 33245 multiletter control sequences out of 15000+600000
- 649791 words of font info for 178 fonts, out of 8000000 for 9000
+ 29711 strings out of 492960
+ 567889 string characters out of 6136939
+ 661415 words of memory out of 5000000
+ 33200 multiletter control sequences out of 15000+600000
+ 652610 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,15n,92p,958b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,958b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.pdf (32 pages).
+Output written on physical-olympics-2.pdf (16 pages).
