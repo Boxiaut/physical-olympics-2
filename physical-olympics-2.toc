@@ -73,16 +73,16 @@
 \contentsline {subsection}{\numberline {5.1.1}磁场地位与电流分布}{97}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}毕奥-萨伐尔定律}{99}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}两个定律与矢势}{101}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}磁场环路定律}{101}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}矢势与磁场高斯定律}{101}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}电流体系}{102}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}磁偶极子}{102}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}磁化强度}{102}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}若干对称体系的磁场}{102}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}磁介质与磁能}{104}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}微观角度理解磁化}{104}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}宏观角度理解磁化}{105}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}磁场能量}{105}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.2.1}磁场的环路定律}{101}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}矢势与磁场的高斯定律}{103}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}电流体系}{105}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}磁偶极子}{105}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}磁化强度}{106}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}若干对称体系的磁场}{106}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}磁介质与磁能}{107}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}微观角度理解磁化}{107}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}宏观角度理解磁化}{108}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}磁场能量}{108}{subsection.5.4.3}
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}电磁感应}{105}{chapter.6}
 \contentsline {section}{\numberline {6.1}动生电动势}{105}{section.6.1}
 \contentsline {section}{\numberline {6.2}感生电动势}{105}{section.6.2}
