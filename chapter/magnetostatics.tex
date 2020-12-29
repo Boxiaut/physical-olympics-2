@@ -329,26 +329,136 @@ $\bs{A}$这个矢量称作\emph{磁矢势}(magnetic vector potential). 由于叠
 
 \section{电流体系}
 
+研究更进一步的磁场与电流相互作用的模型前, 熟悉一些常见的电流体系的结论是大有裨益的, 这些包括:
+
 \subsection{磁偶极子}
 
-\begin{itemize}
-\item \emph{磁偶极子}(magnetic dipole)模型一般不指由正负磁单极子构成的体系, 和电偶极子类似, 它也来自矢势与磁场计算过程中的多极展开, 由于需要用到较深的张量知识, 在此仅仅给出展开的结果:
-\[\bs{m}=\frac{1}{2}\int\limits_V \bs{r}\times \bs{j}\ud V\quad ,\quad \bs{A}=\frac{\mu_0}{4\pi}\frac{\bs{m}\times \bs{e}_r}{r^2}\quad ,\quad B_r=\frac{\mu_0}{4\pi}\frac{2m\cos\theta }{r^3}\quad ,\quad B_\theta=\frac{\mu_0}{4\pi}\frac{m\sin\theta }{r^3}\]
+同样类似于对静电学中一个分布在原点附近的电流体系在远场产生的电势进行展开的思想, 我们此时运用到静磁学情形: 计算一个分布在原点附近的电流体系在远场产生的磁矢势:
+\[\bs{A}=\int\limits_{V'}\kb \frac{\bs{j}\ud V'}{|\bs{r}-\bs{r}'|}\]
+利用分解为线圈可以简化以上计算:
+\[\bs{A}=\sum_i\oint\kb \frac{I_i\ud\bs{l}_i}{|\bs{r}-\bs{r}_i|}\]
 
-其中$\bs{m}$称作\emph{磁矩}(magnetic moment), 任何情况下这都会是一个电流体系激发的磁场的领头项, 因为磁单极子不存在, 类似点电荷产生平方反比的电场那样的磁荷项, 由于磁高斯定律, 永远是不可能的.
+依然利用静电学中的展开公式:
+\begin{align*}
+\frac{1}{|\bs{r}-\bs{r}_i|} 	&=[(\bs{r}-\bs{r}_i)^2]^{-\frac{1}{2}}=(\bs{r}^2-2\bs{r}_i\cdot\bs{r}+\bs{r}_i^2)^{-\frac{1}{2}} \\
+								&\approx (\bs{r}^2-2\bs{r}_i\cdot\bs{r})^{-\frac{1}{2}}=\frac{1}{r}\left(1-2\frac{\bs{r}_i\cdot\bs{r}}{r^2}\right)^{-\frac{1}{2}} \\
+								&\approx \frac{1}{r}\left(1+\frac{\bs{r}_i\cdot\bs{r}}{r^2}\right)\\
+								&=\frac{1}{r}+\frac{\bs{e}_r}{r^2}\cdot \bs{r}_i 
+\end{align*}
 
-\item 一个线圈, 面矢量为$\bs{S}$, 它的磁矩, 由于以下积分公式:
-\[\bs{S}=\frac{1}{2}\oint\limits_{\partial S}\bs{r}\times \ud \bs{r}\]
+代入上式, 注意到$\ud\bs{l}_i=\ud \bs{r}_i$得到磁矢势展开的前两项:
+\[\bs{A}\approx\frac{\mu_0}{4\pi r}\sum_i I_i\oint\ud \bs{r}_i+\frac{\mu_0}{4\pi r^2}\sum_i I_i\oint(\bs{e}_r\cdot \bs{r}_i)\ud \bs{r}_i\]
 
-可以发现:
-\[\bs{m}=\frac{1}{2}\int\limits_V \bs{r}\times I \ud \bs{l}=I\bs{S}\]
+第一项由于对回路积分必然为零. 第二个积分中需要注意$\bs{e}_r$照理应当是可以提取到积分号外面的常矢量, 但是这样积分内部的$\bs{r}_i\ud \bs{r}_i$构成了一个不直观的张量. 我们采用一个更加简单的做法: \emph{常矢量点乘法}(method of dot product by a constant vector). 任意取一个常矢量$\bs{v}$来点乘积分结果:
+\[\bs{v}\cdot\oint(\bs{e}_r\cdot \bs{r}_i)\ud \bs{r}_i=\oint(\bs{e}_r\cdot \bs{r}_i)(\bs{v}\cdot\ud \bs{r}_i)=\bs{e}_r\cdot \oint(\bs{v}\cdot\ud \bs{r}_i)\bs{r}_i\]
 
-如果考虑$I\to \infty, S\to 0$的模型, 就构成了\emph{点磁偶极子}(point dipole).
+这样倒是可以实现$\bs{e}_r$移到积分外, 但代价是另一个类似的$\bs{v}$又到了积分内. 其实无济于事. 但是注意到中间的积分其实完全可以使用开尔文-斯托克斯定理:
+\[\oint(\bs{e}_r\cdot \bs{r}_i)(\bs{v}\cdot\ud \bs{r}_i)=\oint\left[(\bs{e}_r\cdot \bs{r}_i)\bs{v}\right]\cdot\ud \bs{r}_i=\int\limits_{\bs{S}_i}\nabla\times\left[(\bs{e}_r\cdot \bs{r}_i)\bs{v}\right]\cdot\ud \bs{S}_i\]
 
-\item 磁偶极子的磁势能, 受力与力矩:
+根据叉乘的定义:
+\[\nabla\times\left[(\bs{e}_r\cdot \bs{r}_i)\bs{v}\right]=\begin{vmatrix}
+\frac{\partial}{\partial x} &\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\
+(\bs{e}_r\cdot \bs{r}_i)v_x &(\bs{e}_r\cdot \bs{r}_i)v_y&(\bs{e}_r\cdot \bs{r}_i)v_z\\
+\bs{e}_x&\bs{e}_y&\bs{e}_z
+\end{vmatrix}\]
+
+其中$\bs{e}_r=(e_{rx},\,e_{rx},\,e_{rx})$和$(v_x,\,v_y,\,v_z)$都是常的. 故求偏导只发生在点乘式$\bs{e}_r\cdot \bs{r}_i$中的一项上给出不为零的系数. 即:
+\[\nabla\times\left[(\bs{e}_r\cdot \bs{r}_i)\bs{v}\right]=\begin{vmatrix}
+e_{rx}&e_{rx}&e_{rx}\\
+v_x &v_y&v_z\\
+\bs{e}_x&\bs{e}_y&\bs{e}_z
+\end{vmatrix}=\bs{e}_r\times\bs{v}\]
+
+最终得到:
+\[\bs{v}\cdot\oint(\bs{e}_r\cdot \bs{r}_i)\ud \bs{r}_i=\int\limits_{\bs{S}_i}\left(\bs{e}_r\times\bs{v}\right)\cdot\ud \bs{S}_i=\bs{v}\cdot\left[\left(\int\limits_{\bs{S}_i}\ud\bs{S}_i\right)\times\bs{e}_r\right]=\bs{v}\cdot\left(\bs{S}_i\times\bs{e}_r\right)\]
+
+由于工具$\bs{v}$的任意性, 现在就可以看出以下关系:
+\[\oint(\bs{e}_r\cdot \bs{r}_i)\ud \bs{r}_i=\bs{S}_i\times\bs{e}_r\]
+
+再代入此前的磁矢势, 得到最终结果:
+\[\bs{A}\approx\frac{\mu_0}{4\pi r^2}\left(\sum_i I_i\bs{S}_i\right)\times\bs{e}_r\]
+
+\begin{wrapfigure}[22]{o}[-10pt]{6cm}
+\centering
+\includegraphics[width=6cm]{image/7-4-10.png}
+\caption{线圈与面矢量}\label{fig:7-4-10}
+\includegraphics[width=6cm]{image/7-4-11.jpg}
+\caption{莫比乌斯带}\label{fig:7-4-11}
+\end{wrapfigure}
+在讨论最终结果前我们对上式出现的一种现象需要做进一步的解释. 如图\ref{fig:7-4-10}所示, 一个线圈对应的面矢量$\bs{S}$的标准定义实际上对应着以下线圈上的路径积分:
+\[\bs{S}=\frac{1}{2}\oint\bs{r}\times \ud \bs{r}\]
+
+这样定义也绝非完美, 我们自然觉得, 一个线圈对应的面矢量的确定应该是与坐标原点选取无关的, 但上式在表面上有关. 如果原点位移了$\bs{R}$, 两个积分的差为:
+\begin{align*}
+\bs{S}'	&=\frac{1}{2}\oint\left(\bs{r}-\bs{R}\right)\times \ud (\bs{r}-\bs{R})\\
+			&=\frac{1}{2}\oint\left(\bs{r}-\bs{R}\right)\times \ud \bs{r}\\
+			&=\bs{S}-\frac{1}{2}\bs{R}\times\oint\ud \bs{r}\\
+			&=\bs{S}
+\end{align*}
+	
+故以上定义的确不依赖于原点的选取. 但是我们要问, 为什么上式就表示以线圈为边界的面矢量呢? 而这样定义又有何好处? 事实上, 如过按照通常的方式来定义一个边界所确定的面的面矢量, 那么就面临着一个奇怪的问题: 不同的面可能共用了同一个边界, 甚至会出现莫比乌斯带那样, 一个简单的闭合曲线却以一个反常的不可定向的面的边界的形式出现了, 我们甚至可以在一个圆环作为边界的情况下构造出莫比乌斯带型的不可定向曲面来, 将莫比乌斯带的边界扯成一个圆环即可. 为了避免这种情况, 我们最好是用曲线积分来定义面矢量, 这样对于复杂曲线(比如自己打结的曲线, 比如螺旋线)也不必受难以确定以其为边界的曲面之苦. 事实上, 如果对于\ref{fig:7-4-10}那样的曲线较为简单的情况, 选取以其为边界的可定向曲面, 依然把右手定则确定的微元面矢量积分定义为整个面的面矢量, 那么对于\ref{fig:7-4-10}中两个不同的面:
+\[\bs{S}_1=\int\limits_{\bs{S}_1}\ud \bs{S}_1\quad ,\quad \bs{S}_2=\int\limits_{\bs{S}_1}\ud \bs{S}_2\]
+
+
+我们自然也要问, 以上两个积分是否会相等? 事实上如果把两个积分相减, 就得到了在一个体的闭合表面上的面元积分:
+\[\bs{S}_1-\bs{S}_2=\oint\limits_{\partial V}\ud\bs{S}\]
+
+要想得到上式的值, 我们又再一次使用常矢量点乘法:
+\[\bs{v}\cdot(\bs{S}_1-\bs{S}_2)=\oint\limits_{\partial V}\bs{v}\cdot\ud\bs{S}\]
+
+很显然, 这表示一个常矢量场在闭合面上的通量, 如匀强电场通过一个闭合面的电通量代数和, 从而一定是零. 由$\bs{v}$的任意性, 总有:
+\[\bs{S}_1-\bs{S}_2=0\quad ,\quad \bs{S}_1=\bs{S}_2\]
+
+从而这个定义也是不依赖于曲面的选取的, 而为了把之前标准定义的曲线积分和对面元的积分联系起来, 我们再使用常矢量点乘法:
+\[\bs{v}\cdot\frac{1}{2}\oint\limits_{\partial\bs{S}}\bs{r}\times \ud \bs{r}=\frac{1}{2}\oint\limits_{\partial \bs{S}}(\bs{v}\times\bs{r}) \cdot \ud \bs{r}=\frac{1}{2}\int\limits_{\bs{S}}\nabla\times(\bs{v}\times\bs{r}) \cdot \ud \bs{S}\]
+
+利用$\bs{v}$为常矢量时可以在$\nabla$前后移动的特性, 得到:
+\[\nabla\times(\bs{v}\times\bs{r})=(\nabla\cdot \bs{r})\bs{v}-(\bs{v}\cdot\nabla)\bs{r}=3\bs{v}-\bs{v}=2\bs{v}\]
+
+代入上式:
+\[\bs{v}\cdot\frac{1}{2}\oint\limits_{\partial\bs{S}}\bs{r}\times \ud \bs{r}=\frac{1}{2}\int\limits_{\bs{S}}2\bs{v} \cdot \ud \bs{S}=\bs{v} \cdot\int\limits_{\bs{S}}\ud \bs{S}\]
+
+从而就证明的确这个曲线积分就是面矢量:
+
+\[\frac{1}{2}\oint\limits_{\partial\bs{S}}\bs{r}\times \ud \bs{r}=\int\limits_{\bs{S}}\ud \bs{S}=\bs{S}\]
+
+关于用曲线积分得到总的面矢量$\bs{S}$还有一种几何理解方式, 再仔细观察图\ref{fig:7-4-10}就会发现, 项:
+\[\frac{1}{2}\bs{r}\times \ud \bs{r}\]
+
+实际上就是原点$O$出发向曲线上的一段$ \ud \bs{r}$连线形成的三角形面元, 它恰好是从$O$出发向曲线上的所有点引射线形成的锥面上的一个面元, 故积分就得到整个锥面的总面矢量且与曲线环绕方向恰好符合右手规则, 它也是一种特殊的以曲线为边界的面的总面矢量.
+
+终于我们回到此前电流体系形成的磁矢势问题, 现在我们就定义一个载流$I_i$的线圈形成的\emph{磁矩}(magnetic moment)为:
+\[\bs{m}_i=I_i\bs{S}_i\]
+
+而这个电流体系形成的总磁矩就是:
+\[\bs{m}=\sum_i \bs{m}_i=\sum_iI_i\bs{S}_i\]
+
+那么在远场的磁矢势的领头项就是由磁矩产生的平方反比项:
+\[\bs{A}=\frac{\mu_0}{4\pi}\frac{\bs{m}\times \bs{e}_r}{r^2}\]
+
+这个式子其实非常类似电流元$\bs{C}$产生的磁场公式:
+\[\bs{B}=\frac{\mu_0}{4\pi}\frac{\bs{C}\times \bs{e}_r}{r^2}\]
+
+但是要计算磁矩产生的磁场, 应对以上形式的磁矢势来求旋度, 计算可得:
+\[B_r=\frac{\mu_0}{4\pi}\frac{2m\cos\theta }{r^3}\quad ,\quad B_\theta=\frac{\mu_0}{4\pi}\frac{m\sin\theta }{r^3}\]
+
+也许令人惊讶的是, 其关于$r,\,\theta$变化的形式居然与电偶极子产生的电场的公式一致\footnote{其实这个形式是拉普拉斯算符, 或者说, 背后的对称性导致的必然结果}.
+
+磁矩产生的磁场具有非常重要的地位, 第一是因为任何情况下这都会是一个电流体系激发的磁场的领头项, 因为磁单极子不存在, 类似点电荷产生平方反比的电场那样的磁荷项, 由于磁高斯定律, 永远是不可能的. 磁矩的计算方式上面已经给出, 但是我们依然要指出, 将求和再还原为对提电流的积分, 可以得到磁矩的体积分算法:
+\[\bs{m}=\frac{1}{2}\int\limits_V \bs{r}\times \bs{j}\ud V\]
+
+而最简单的磁矩模型就是一个平面圆环, 其电流为$I$, 半径为$R$. 那么磁矩就是:
+\[m=I\pi R^2\]
+
+而考虑$I\to \infty, S\to 0$的模型, 就构成了\emph{点磁偶极子}(point dipole)的情况. 此时体系产生的磁场将严格符合我们得出的三个计算式:
+\[\bs{A}=\frac{\mu_0}{4\pi}\frac{\bs{m}\times \bs{e}_r}{r^2}\quad ,\quad B_r=\frac{\mu_0}{4\pi}\frac{2m\cos\theta }{r^3}\quad ,\quad B_\theta=\frac{\mu_0}{4\pi}\frac{m\sin\theta }{r^3}\]
+
+第二, 任何稳恒电流体系可以向线圈分解, 而任何线圈又可以向磁偶极子来分解. 我们把载有电流$I$的线圈所在的可定向曲面分解为无穷多无穷小的网格, 并让每一个网格都载有同样的方向的电流$I$, 那么网格形成的总电流分布实际上就是原线圈的电流分布, 因为有公共边的两个网格在公共边上的电流一定恰好反向而产生的电流互相抵消, 最后只剩下最外面的一圈边界上电流被保留下来. 从而不管是产生的场还是在外场中的受力均可以用于等效原来的线圈.
+
+磁偶极子的磁势能, 受力与力矩:
 \[V=-\bs{m}\cdot \bs{B}\quad ,\quad \bs{F}=\bs{m}\cdot \nabla\bs{B}\quad ,\quad \bs{M}=\bs{m}\times \bs{B}\]
 
-\end{itemize}
+
 
 \subsection{磁化强度}
 
