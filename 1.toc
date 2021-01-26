@@ -1,8 +1,9 @@
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.1}节}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.1.1}小节}{3}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {1.1.1.1}小小节}{3}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.2}节}{4}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.2.1}小节}{4}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {1.2.1.1}小小节}{4}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{5}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{5}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.1}节}{1}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.1.1}小节}{1}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {1.1.1.1}小小节}{1}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.2}节}{2}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.2.1}小节}{2}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {1.2.1.1}小小节}{2}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{3}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{4}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{4}
