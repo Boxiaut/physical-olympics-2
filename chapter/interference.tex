@@ -130,17 +130,213 @@ I(\bs{r}) &=A^\ast A \\
 
 \section{分波面干涉}
 
-以下几种干涉装置一般统一归为\emph{分波面干涉}(interference by dividing wave-front).\,因为它们实现的核心思想都是让本来沿各个方向独立传播的波前的部分改变传播方式而在空间中产生交叠.
-
-\subsection{杨氏双缝干涉仪}
+\begin{comment}
+%\subsection{杨氏双缝干涉仪}
 
 历史上第一个挑战牛顿光的粒子说权威,\,构想出更合理的光的波动说的假设并通过实验证明自己的想法的是谁?\,那必然要归功于\emph{托马斯·杨}(Thomas Young)\footnote{杨氏为英国博物学家,\,也经常作为物理学家而介绍.\,除了双缝实验,\,也因为杨氏模量,\,杨-亥姆霍兹三色视觉论,\,杨-拉普拉斯和杨-杜普蕾附加压强与接触角公式而闻名.\,他还是杰出的语言学家,\,比较了400钟语言的词汇与语法.\,并解密了一部分古埃及象形文字.\,在音乐,\,医学和神学等上也有贡献.}.\,
+\end{comment}
+
+以下几种干涉装置一般统一归为\emph{分波面干涉}(interference by dividing wave-front).\,因为它们实现的核心思想都是让本来沿各个方向独立传播的波前的部分改变传播方式而在空间中产生交叠.
+
+\begin{itemize}
+\item 杨氏双孔干涉:\, 单色扩展光源-单孔-双孔-光屏.
+
+``完美的相干性'':\,诚然,\,单色扩展光源可以分解为大量点光源的叠加,\,彼此之间是非相干的(激光等非相干光源除外).\,但是,\,单孔的存在可以使得我们忽略此前的光场结构而直接把单孔视作单个点光源,\,由它发出的光的同一波前上两点具有完全相干性.\,实际上,\,即使我们对到达单孔的来自扩展光源不同点光源的光进行分解,\,那么每一个光波此后通过单孔形成新的球面波,\,再通过双孔形成两个具有稳定相位差(下面会计算)的相干球面波,\,并在光屏上形成干涉条纹,\,只要不同点光源形成的条纹位置完全一致,\,就等效于从单孔出来的光波整体具有``完美的相干性''.
+
+条纹间距公式:
+\[\Delta x=\frac{\lambda L}{d}\]
+
+缺点:\,只利用了点光源波面上非常有限的两个小面元.\,而以下的都是改善方案,\,直接将波面分成两个区域分别进行成像以实现干涉:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{image/14-1-3.png}
+\caption{分波面干涉们}
+\end{figure}
+
+\item 菲涅尔双面镜:
+\[\Delta x=\frac{\lambda (B+C)}{2\alpha B}\]
+
+\item 菲涅尔双棱镜:
+
+\[\Delta x=\frac{\lambda (B+C)}{2(n-1)\alpha B}\]
+
+棱镜的正反放置有区别.
+
+\item 劳埃德镜:
+
+\[\Delta x=\frac{\lambda D}{2a}\]
+
+\item 比累对切透镜:\,横竖分开有区别.
+
+\item 散斑干涉:\,如果在带一层玻璃板的镜面上撒粉末,\,那么粉末作为散射源,\,对于单色光入射情况也可以视作点光源处理.\,此时也可以发生分波面干涉:\,一部分吸收入射光后形成相应的散射光,\,经反射后继续传播.\,而一部分入射光先反射再被散射.\,相当于在入射光波面上通过粉末和粉末的反射像发生了分波面干涉.
+
+\end{itemize}
+
+作为干涉,\,一般指两个波的叠加.\,但是实际情况常常遇到\emph{多光束干涉}(multiple-beam interference)的情况.\,比如把杨氏实验换成多个孔,\,或者把孔换成全同的散射单元.\,多光束干涉的进一步推广就是\emph{衍射}(diffraction),\,此时一个空间区域内的整个波前应当被分解为无穷多个面微元,\,各产生一个波,\,在光屏上叠加,\,后面会发现表达式成了一个积分.
+
+
+
 
 \section{分振幅干涉}
 
+\begin{wrapfigure}[12]{o}[0pt]{10cm}
+\centering
+\vspace{0.1cm}
+\includegraphics[width=6cm]{image/14-1-4.png}
+\caption{迈克耳孙干涉仪}
+\end{wrapfigure}
+以下几种干涉装置一般统一归为\emph{分振幅干涉}(interference by dividing amplitude).\,因为它们实现的核心思想,\,相比去把一整个波前分成几个部分,\,它选择保持了波前的完整性,\,而是通过界面效应把其强度分解为透射与反射两个成分.
+
+\begin{itemize}
+
+
+\item 迈克耳孙干涉仪:
+
+$\mathrm{G}_1$为半透半反镜, $\mathrm{G}_2$为完全透射的补偿板.\,$\mathrm{M}_2,\,\mathrm{M}_2'$对$\mathrm{G}_1$为物像关系.\,那么在光屏中央为亮斑条件:
+\[2d=j\lambda\]
+事实上,\,等价于薄膜干涉,\,可以是等倾或者等厚.
+\end{itemize}
+
+\begin{itemize}
+\item 薄膜等厚干涉:\,光线倾角固定(往往受制于光路),\,薄膜不同厚度处形成不同光程差导致干涉条纹.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/14-1-5.png}
+\caption{薄膜等厚干涉}
+\end{figure}
+
+\item 薄膜等倾干涉:\,薄膜厚度固定,\,不同光线倾角处造成不同光程差导致干涉条纹.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/14-1-6.png}
+\caption{薄膜等倾干涉}
+\end{figure}
+
+根据有无半波损失,\,薄膜等厚等倾干涉的光程差均为:
+\[\delta=2nd\cos\theta\left(+\frac{\lambda}{2}\right)\]
+
+\item \emph{法布里-泊罗干涉仪}(Fabry-P\`erot interferometer).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{image/14-1-7.png}
+\caption{FP干涉仪}
+\end{figure}
+
+\end{itemize}
+
+\phantom{something}
+\begin{wrapfigure}[12]{o}[0pt]{7cm}
+\centering
+\vspace{-0.5cm}
+\includegraphics[width=6cm]{image/14-1-8.png}
+\caption{多光束干涉}
+\end{wrapfigure}
+真正的薄膜干涉往往是一个多光束干涉.\,以FP干涉仪为例,\,透射振幅为:
+\[A_1=t^2A_0=TA_0=(1-R)A_0\]
+\[A_{i+1}=r^2A_i e^{\ui k\delta}=Re^{\ui k\delta}\cdot A_i\]
+
+做等比数列求和,\,代入薄膜光程差公式,\,模方取光强得到:
+\[I=\frac{I_0}{1+\frac{4R}{(1-R)^2}\sin^2 (kd\cos\theta)}\]
+
+\vspace{0.4cm}
+
+
 \section{偏振干涉}
+
+\begin{itemize}
+\item 相干度:
+\[\gamma=\frac{\langle A_1^\ast A_2 \rangle}{\sqrt{\langle A_1^\ast A_1\rangle\langle A_2^\ast A_2\rangle}}\]
+
+一般是个复数,\,如果模为零代表完全不相干,\,如果模为一代表完全相干,\,但是幅角代表两个信号的相位差.\,模在零一之间代表部分相干.
+
+\item 密度矩阵包含有一个偏振态的全部信息:
+\[\bs{P}=\begin{bmatrix}
+\langle A_x^\ast A_x \rangle & \langle A_x^\ast A_y \rangle\\
+\langle A_y^\ast A_x \rangle & \langle A_y^\ast A_y \rangle
+\end{bmatrix}\]
+
+对角线元素都是实数:\,两个方向光强.\,迹:\,总光强.
+
+\item 线偏振光:
+\[\bs{P}=\begin{bmatrix}
+I & 0\\
+0 & 0
+\end{bmatrix} \quad {\rm or}\quad \bs{P}=I\begin{bmatrix}
+\cos^2\theta & \cos\theta\sin\theta\\
+\cos\theta\sin\theta & \sin^2\theta
+\end{bmatrix}\]
+
+\item 圆偏振光,\,左旋右旋分别为:
+\[\bs{P}=\frac{I}{2}\begin{bmatrix}
+1 & -\ui\\
+\ui & 1
+\end{bmatrix} \quad {\rm or}\quad \bs{P}=\frac{I}{2}\begin{bmatrix}
+1 & -\ui\\
+\ui & 1
+\end{bmatrix}\]
+
+\item 椭圆偏振光,\,左旋右旋分别为:
+\[ \bs{P}=\begin{bmatrix}
+I_x & -\ui \sqrt{I_xI_y}\\
+\ui \sqrt{I_xI_y} & I_y
+\end{bmatrix}\quad {\rm or}\quad \bs{P}=\begin{bmatrix}
+I_x & \ui \sqrt{I_xI_y}\\
+-\ui \sqrt{I_xI_y} & I_y
+\end{bmatrix}\]
+
+\item 以上三种光都具有完全相干性.\,完全相干的光的任意两个分量,\,或者是经过之后的偏振器件处理前后的各分量之间,\,都具有模一的相干度.\,但是,\,两个不同的完全相干光之间又可以是不相干的.\,偏振态为完全相干的充要条件为:
+\[\det \bs{P}=0\]
+
+\item 自然光:\,相干度最差的光:
+\[\bs{P}=\frac{I}{2}\begin{bmatrix}
+1 & 0\\
+0 & 1
+\end{bmatrix}\]
+
+\item 一般的光称作部分偏振光.\,一般来说密度矩阵写作:
+\[ \bs{P}=\begin{bmatrix}
+I_x & I_{xy}e^{-\ui\varphi}\\
+ I_{xy}e^{\ui\varphi} & I_y
+\end{bmatrix}\]
+
+可以证明可以找到``主方向'',\,一方面,\,这两个方向光强分别达到最大和最小(取$x$方向最大,\,$y$方向最小),\,另一方面取这样的方向后恰好有$\varphi=\pi/2$.\,故部分偏振光在主方向坐标系中永远可以写作:
+\[\bs{P}=\begin{bmatrix}
+I_{max} & -\ui J\\
+\ui J & I_{min}
+\end{bmatrix}\]
+
+即:\,视作椭圆偏振光和一个与之不相干的自然光的叠加.
+
+\item 偏振片:\,筛选某个特定方向的分振动:
+\[A_\theta=A_x\cos\theta +A_y\sin\theta\]
+
+\item 波片:\,命$x,\,y$方向的透射振动产生一定的相位差.\,二分之一波片产生$\varphi=\pi$相位差,\,四分之一波片产生$\varphi=\pi/2$相位差,\,合理选取时间原点可以认为$y$方向相位不变,\,那么:
+\[A_x'=e^{\ui \varphi }A_x \quad ,\quad A_y'=A_y\]
+
+\end{itemize}
 
 \section{相干性}
 
-\section{多光束干涉}
+\begin{itemize}
+\item 空间相干性:\,在光源产生的光场同一时间(同一波前)上选取两个不同的空间点,\,其信号相干度模不足一,\,且随着点距离变大而愈发不相干的情况:
+\[A_1=A(\bs{r}_1,t)\quad ,\quad A_2=A(\bs{r}_2,t)\]
+\[\gamma=\frac{\langle A_1^\ast A_2 \rangle}{\sqrt{\langle A_1^\ast A_1\rangle\langle A_2^\ast A_2\rangle}} \quad ,\quad |\gamma|<1\]
+
+一般原因:\,光源的扩展性.\,对于宽度为$b$的单缝,\,相干角度为:
+\[\Delta \theta=\frac{\lambda}{b}\]
+
+\item 时间相干性:\,在光源产生的光场同一位置(同一波列)上选取两个不同的时间点,\,其信号相干度模不足一,\,且随着时间间隔变大而愈发不相干的情况:
+\[A_1=A(\bs{r},t+\Delta t)\quad ,\quad A_2=A(\bs{r},t)\]
+\[\gamma=\frac{\langle A_1^\ast A_2 \rangle}{\sqrt{\langle A_1^\ast A_1\rangle\langle A_2^\ast A_2\rangle}} \quad ,\quad |\gamma|<1\]
+
+一般原因:\,发光的不连续性,\,存在波列长度$L$.\,内在原因为光源的非单色性,\,即波长存在不确定度$\Delta \lambda$.\,两者符合:
+\[L=\frac{\lambda^2}{\Delta \lambda}\]
+\end{itemize}
+
+%\section{多光束干涉}
 

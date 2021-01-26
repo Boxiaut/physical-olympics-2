@@ -1,5 +1,5 @@
 %!TEX root = ../physical-olympics-2.tex
-\chapter{统计物理基础摘要}
+\chapter{统计物理基础}
 
 \section{数学基础}
 
@@ -249,11 +249,79 @@ S_X+S_Y-S &=\sum_{ij}-P(x_i,y_j)\ln P(x_i)+\sum_{ij}-P(x_i,y_j)\ln P(y_j)-\sum_{
 
 \section{麦克斯韦分布律}
 
-三维麦克斯韦速度分布律是指:
-\[f(\bs{v})=(\frac{m}{2\pi kT})^\frac{3}{2}\ue^{-\frac{m\bs{v}^2}{2kT}}=\prod_1^3 \sqrt{\frac{m}{2\pi kT}}\]
+三维\emph{麦克斯韦速度分布律}(Maxwell distribution law)是指:
+\[f(\bs{v})=\left(\frac{m}{2\pi kT}\right)^\frac{3}{2}\ue^{-\frac{m\bs{v}^2}{2kT}}=\prod_1^3 \sqrt{\frac{m}{2\pi kT}}\ue^{-\frac{mv_i^2}{2kT}}\]
+
+\begin{itemize}
+\item 这是速度空间中的概率分布函数. 即若分子数$N$很大则$\ud N = Nf(\bs{v})\ud v_x\ud v_y\ud v_z$.
+
+\item 由于三个方向分布律独立, 每个方向上的分布律也叫麦克斯韦速度分布律:
+\[ \sqrt{\frac{m}{2\pi kT}}\ue^{-\frac{mv_i^2}{2kT}}\]
+\[f(\bs{v})=f(v_x)f(v_y)f(v_z)\]
+
+\item 麦克斯韦速率分布律是指速度空间中等速率球之间的概率微元决定的函数:
+\[\frac{\ud N}{N}=\ud p=F(v)\ud v \]
+\[F(v)=4\pi v^2\left(\frac{m}{2\pi kT}\right)^{\frac{3}{2}}\ue^{-\frac{mv^2}{2kT}}\]
+
+\item 平均速率与方均根速率:
+\[\overline{v}=\sqrt{\frac{8kT}{\pi m}}\quad ;\quad \sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{m}}\]
+
+\item 泻流数与压强既可以用速率分布计算也可以用单方向的分布函数计算:
+\[\varGamma=\frac{1}{4}n\overline{v}\quad ;\quad \ud \varGamma=\frac{1}{4}\ud nv\]
+\[p=\frac{2}{3}n\overline{\varepsilon}\quad ;\quad \ud p=\frac{2}{3}\ud n\varepsilon\]
+
+\item 光子气的以上公式是类似的:
+\[\varGamma=\frac{1}{4}nc\quad ;\quad \ud \varGamma=\frac{1}{4}\ud nc\]
+\[p=\frac{1}{3}n\overline{\varepsilon}\quad ;\quad \ud p=\frac{1}{3}\ud n\varepsilon\]
+\end{itemize}
 
 \section{能均分定理}
 
+\begin{itemize}
+	\item \emph{近独立子系}(nearly independent system): 体系的内能可以写出各个粒子内能的和, 即忽略粒子之间的相互作用或者做\emph{平均场}(mean field theory)处理:
+	\[U=\sum u_i=\sum h(q_i,\,p_i)\]
+
+	\item \emph{玻尔兹曼分布律}(Boltzmann distribution law): 若粒子在某一自由度上的能量为$h(q,\,p)$, 那么概率即为:
+	\[\ud p=C\ue^{-\frac{h(q,\,p)}{kT}}\ud p\ud q\]
+
+	其中$p$为该自由度上的广义动量, $C$为归一化常数, 可积分计算. 或者直接我们写出最关心的平均能量:
+	\[u=\frac{\iint h(q,\,p)\ue^{-\frac{h(q,\,p)}{kT}}\ud p\ud q}{\iint \ue^{-\frac{h(q,\,p)}{kT}}\ud p\ud q}\]
+
+	\item 每一个平方项形式的能量在麦克斯韦分布律下都具有如下相同的平均能量:
+	\[\overline{\frac{1}{2}M\dot{q}^2}=\overline{\frac{1}{2}Kq^2}=\frac{1}{2}kT\]
+	\item 非平方项故不符合能均分的例子: 重力场, 离散线性能级, 二能级系统, 三维电偶极子...
+\end{itemize}
+
 \section{功, 热, 熵}
 
-\section{量子与相对论}
+\begin{itemize}
+	\item 通过以上近独立子系的分析可以发现, 体系的内能为温度和哈密顿量中参数(比如系统的体积等整体广义坐标)的函数:
+	\[U=Nu=U(T,\,Q_\alpha)\]
+	\[u=\iint h(q,\,p,\,Q_\alpha)\rho (q,\,p,\,Q_\alpha,\,T)\ud p\ud q\]
+	\[\rho (q,\,p,\,Q_\alpha,\,T)=\left.\ue^{-\frac{h(q,\,p,\,Q_\alpha)}{kT}}\middle/\iint \ue^{-\frac{h(q,\,p,\,Q_\alpha)}{kT}}\ud p\ud q\right.\]
+	\item 绝热功: 在一个过程中, 哈密顿量中参数改变, 温度改变, 导致分布不变:
+	\[\ud\left(\frac{h(q,\,p,\,Q_\alpha)}{kT}\right)=0\quad \Rightarrow \quad\ud \rho (q,\,p,\,Q_\alpha,\,T)=0\]
+	\[\ud u|_{\rm diabatic}=\iint \ud h(q,\,p,\,Q_\alpha)\rho (q,\,p,\,Q_\alpha,\,T)\ud p\ud q\]
+	\[\ud U|_{\rm diabatic}=\sum Y_\alpha \ud Q_\alpha\]
+
+	\item 热: 内能改变的其他部分:
+	\[\ud q=\ud u-\ud u|_{\ud Q=0}=\iint h(q,\,p,\,Q_\alpha)\ud \rho (q,\,p,\,Q_\alpha,\,T)\ud p\ud q\]
+
+	\item 熵: 容易证明, 如果定义:
+	\[s=\frac{u}{T}+k\ln \iint\ue^{-\frac{h(q,\,p,\,Q_\alpha)}{kT}}\ud p\ud q\]
+
+	则有:
+	\[\ud q=T\ud s\]
+\end{itemize}
+
+
+%\section{量子与相对论}
+
+%\begin{itemize}
+	%\item 
+
+	%\item 
+
+	%\item 
+%\end{itemize}
+

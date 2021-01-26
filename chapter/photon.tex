@@ -118,13 +118,13 @@
 然而出于各种原因,\,在经典电子论中的电子却又是一个陌生的概念.\,根据洛伦兹的经典电子论精神,\,重的原子实被认为静止,\,轻的束缚电子被认为在外场中可以运动,\,且主要受电场的影响\footnote{根据洛伦兹力公式$\bs{F}=q(\bs{E}+\bs{v}\times\bs{B})$,\,而电磁场中$E=cB$,\,故$v\ll c$时磁场力可以忽略.}.\,电子在外电场中相对原子实的位移造成了电偶极矩.\,出于好的近似,\,将电子视作被绑在连接中心的弹簧的另一端的质点.\,质量为$m$不再被认为与基本粒子的质量一致,\,事实上这个质量的本质实际上是虚无的,\,因为当考虑到原子与电磁场相互作用的严格理论时图像将完全是量子的而超出了此处可以讨论的范围,\,这样的一个为了解释现象去构造的模型就叫\emph{唯象模型}(phenomenological model).\,但是其电荷量还是$-e$,\,弹簧劲度系数为$k$.\,这样子我们就可以写出电子在外电场中的动力学方程:
 \[m\bs{\ddot{r}}+k\bs{r}=-e\bs{E}\]
 
-但是我们还忽略了一点,\,加速运动的电荷会产生辐射,\,也会因为辐射而带走能量和动量,\,这就被视作介质对电磁波吸收,\,散射的根本原因.\,也同样为了唯象地描述它,\,我们认为电子是受到了一个阻尼力$\bs{f}=-\gamma \bs{v}$.\,这样以上方程就被修改为:
+但是我们还忽略了一点,\,加速运动的电荷会产生辐射,\,也会因为辐射而带走能量和动量,\,这就被视作介质对电磁波吸收,\,散射的根本原因.\,也同样为了唯象地描述它,\,我们认为电子是受到了一个辐射阻尼力$\bs{f}=-\gamma \dot{\bs{r}}$.\,这样以上方程就被修改为:
 \[m\bs{\ddot{r}}+\gamma \bs{\dot{r}}+k\bs{r}=-e\bs{E}\]
 
 命$\omega_0=\sqrt{k/m}$代表\emph{共振频率}(resonance frequency)或待会就会说明的\emph{吸收频率}(absorption frequency).\,再命入射电磁波为频率$\omega$的光,\,按光学符号约定$\bs{E}=\bs{E}_0\ue^{-\ui\omega t}$,\,那么很容易解出受迫振动解$\bs{r}=\bs{r}_0\ue^{-\ui\omega t}$,\,振幅为:
 \[\bs{r}_0=\frac{-e\bs{E}_0/m}{\omega_0^2-\omega^2-\ui\gamma\omega/m}\]
 
-我们现在就能算出动态的分子极化率来,\,它被定义为分子中$Z$个价电子产生的偶极矩$\bs{p}=-Ze\bs{r}_0$与外电场$\bs{E}_0$的比值,\,可以发现它也是个复数,\,依赖于外光场的频率:
+我们现在就能算出动态的分子极化率来,\,它被定义为分子中$Z$个价电子产生的偶极矩$\bs{p}=-Ze\bs{r}$与外电场$\bs{E}$的比值,\,可以发现它也是个复数,\,依赖于外光场的频率:
 \[\alpha(\omega)=\frac{Ze^2/m}{\omega_0^2-\omega^2-\ui\gamma\omega/m}\]
 
 我们知道,\,对于具体介质的极化总是与各个单元的极化有关.\,我们在此讨论稀薄的无固有偶极矩的气体在外电磁波中的极化\footnote{如果是液体或固体,\,一方面由于不同的偶极子间的相互影响不可忽略导致公式需要修正,\,也因为极化方式还有取向极化等所以需要修正,\,但全都只影响定量结果,\,定性的图像仍然是适用的.},\,此时不难想到介质的介电常数应该直接依赖于分子极化率,\,事实上,\,极化强度为:
@@ -181,16 +181,168 @@
 其中$\omega_p$仍然统计各个吸收峰的总强度,\,而$c_i$系数的和必须为1则统计各个吸收峰的相对强度.\,我们最后计算远离吸收带处的折射率值.\,忽略各个$\Gamma_i$后得到:
 \[n^2=1+\omega_p^2\cdot\sum_i\frac{c_i}{\omega_i^2-\omega^2}\]
 
-于是便得到著名的色散关系:
-\[n^2=1+\sum_i a_i\cdot\frac{\lambda^2}{\lambda^2-\lambda_i^2}\quad,\quad a_i=\frac{c_i\omega_p^2\lambda_i^2}{4\pi^2}\]
+上式就是著名的\emph{塞尔迈耶尔方程}(Selmeyer'
+s equation),\,如果用波长表示则为:
+\[n^2=1+\sum_i a_i\cdot\frac{\lambda^2}{\lambda^2-\lambda_i^2}\quad,\quad a_i=\frac{c_i\omega_p^2\lambda_i^2}{4\pi^2c^2}\]
 
-上式依然可以做近似,\,把共振的各个波长$\lambda_i$从小到大按$i$来排列.\,不妨设$\lambda_i\ll\lambda_{i+1}$,\,而$\lambda$恰好夹在两者之间,\,那么:
-\[n^2=\]
+上式依然可以做近似,\,把共振的各个波长$\lambda_i$从小到大按$i$来排列.\,不妨设$\lambda_i\ll\lambda_{i+1}$,\,而$\lambda$恰好接近$\lambda_i$,\,那么忽略所有$\lambda_{i+1}$及之后对应的小量项并将$\lambda_{i-1}$及之前的项直接近似为$a_i$:
+\[n^2\approx 1+a_1+a_2+\cdots+a_{i-1}+\frac{a_i\lambda^2}{\lambda^2-\lambda_i^2}\]
+\[= 1+a_1+a_2+\cdots+a_{i-1}+a_i+\frac{a_i\lambda_i^2}{\lambda^2-\lambda_i^2}\]
+\[\approx 1+a_1+a_2+\cdots+a_{i-1}+a_i+\frac{a_i\lambda_i^2}{\lambda^2}\]
+\[=A_0+\frac{B_0}{\lambda^2}\]
+
+而进一步近似得到:
+\[\sqrt{A_0+\frac{B_0}{\lambda^2}}=\sqrt{A_0}\left(1+\frac{B_0}{A_0\lambda^2}\right)^{1/2}=\sqrt{A_0}\left(1+\frac{B_0}{2A_0\lambda^2}-\frac{B_0^2}{8A_0^2 \lambda^4}+\cdots\right)\]
+
+一般就总结为如下\emph{柯西色散公式}(Cauchy dispersion formula):
+\[n(\lambda)=A+\frac{B}{\lambda^2}\]
+
+有时为了精度原因再加上四阶项$+C/\lambda^4$.\,而从推导过程中我们发现系数之间的联系:
+\[A=\sqrt{1+\sum_1^i a_i}\quad ,\quad B=\frac{a_i\lambda_i^2}{2A}\]
+
+\subsection{*辐射阻尼与散射截面}
+
+我们此前得到了电荷做加速运动时需要满足的辐射能流和拉莫尔公式:
+\[S=\frac{q^2\ddot{\bs{r}}^2}{8\pi^2\varepsilon_0c^3 R^2}\sin^2\theta\quad ,\quad P=\frac{q^2\ddot{\bs{r}}^2}{6\pi\varepsilon_0c^3}\]
+
+从这个式子中可以看出,\,在有加速度$\ddot{\bs{r}}$的情况下,\,辐射场的动量分布是关于电荷中心对称的.\,故虽然会造成电荷的动能损失,\,但是似乎不造成电荷的动量改变.\,但是这一点其实不够准确.\,因为偶极辐射本身过程中就包含有取最低阶项的近似成分.\,本来可以精确计算的非零发射动量在这个过程中完全有可能被忽略.\,而洛伦兹和亚伯拉罕在1892年通过将点电荷模型扩大为一个半径很小的球体证明了球体自己产生的辐射场会给自己一个动量的改变.\,其中一部分解释为自带场产生的质量对应的跟随电荷运动的动量改变.\,另一部分则就对应一个\emph{辐射阻尼力}(radiation damping force),\,后人称之\emph{洛伦兹-亚伯拉罕力}(Lorentz Abraham force).\,后来量子电动力学进一步将其表达式精确化,\,它为:
+\[\bs{f}=+\frac{q^2}{6\pi\varepsilon_0c^3}\dddot{\bs{r}}\]
+
+这样一个力却不大可能代表电荷与场这样一个无限多自由度\footnote{每一点的场强全都是独立的变量.\,类似于一张连续的弹性膜,\,膜的位移就相当于场的激发.}系统的全部.\,注意到以下量具有时间量纲,\,我们可以把电荷受到一个外力$\bs{F}$并与辐射场相互作用下电荷符合的动力学方程在仅考虑辐射阻尼力的情况下简化为:
+\[\tau=\frac{q^2}{6\pi\varepsilon_0 mc^3}\]
+\[m\ddot{\bs{r}}=\bs{F}+m\tau \dddot{\bs{r}}\]
+
+这样一个简化就会招致祸端:\,若在一维情况下,\,将受力设置为以下\emph{元脉冲函数}(unit pulse function):
+\[F(t)=\begin{cases}
+0&(t<-0.5)\\
+1&(-0.5\leq t\leq 0.5)\\
+0&(t>0.5)
+\end{cases}\]
+
+通过解数值方程$\tau \dddot{x}-\ddot{x}=-F(t)/m$,\,把$a=\ddot{x}$视作待解函数,\,可得通解:
+\[a(t)=\begin{cases}
+A_1e^{t/\tau}&(t<-0.5)\\
+A_2e^{t/\tau}+\frac{1}{m}&(-0.5\leq t\leq 0.5)\\
+A_3e^{t/\tau}&(t>0.5)
+\end{cases}\]
+
+且三个系数满足使$a$为连续函数的条件:
+\[A_1-A_2=\frac{e^{0.5/\tau}}{m}\quad ,\quad A_3-A_2=\frac{e^{-0.5/\tau}}{m}\]
+
+从中可以看出$A_3\neq A_1$.\,这就导致了一个尴尬的结果:\,在$t<-0.5,\,t>0.5$两段过程中,\,至少有一段过程电荷做非匀速直线运动.\,通过因果律来分析,\,当力尚未作用在电荷上时,\,电荷自然没有道理产生加速度.\,故应取$A_1=0$.\,那么在这个外力作用于电荷一段时间后并撤销后,\,这个理论预言电荷已经被一个扰动后的电磁场挟持以致做以下运动:
+\[A_3=-\frac{e^{0.5/\tau}-e^{-0.5/\tau}}{m}\]
+\[a=-\frac{e^{0.5/\tau}-e^{-0.5/\tau}}{m}\cdot e^{t/\tau}\]
+
+无疑,\,这是荒诞的,\,加速度不仅不是零,\,甚至还随时间趋近于无穷大,\,这种病态的行为显然没有在实际观测中出现过.\,其实,\,根据这个辐射阻尼力的推导过程中忽略的高阶项需要足够小的要求来看,\,我们上面定义的$\tau$恰好界定了这个近似可以进行的条件,\,那便是我们关心的过程的$\dddot{\bs{r}}$变化的特征时间$T$需要不大于对电子以上定义的特征时间的量级:
+\[T\ll(\sim) \tau=\frac{q^2}{6\pi\varepsilon_0 mc^3}=6.27\times 10^{-24}{\rm s}\]
+
+在知道这个辐射阻尼力的做法的适用条件之后我们再来看一个常见的简单推导方法.\,我们注意到辐射阻尼公式与辐射功率拉莫尔公式系数的高度相似性.\,不难去思考两者的联系,\,实际上:
+
+\[\frac{q^2\ddot{\bs{r}}^2}{6\pi\varepsilon_0c^3}=\frac{\ud }{\ud t}\left(\frac{q^2\dot{\bs{r}}\cdot \ddot{\bs{r}}}{6\pi\varepsilon_0c^3}\right)-\frac{q^2\dddot{\bs{r}}}{6\pi\varepsilon_0c^3}\cdot \dot{\bs{r}}\]
+
+可见辐射阻尼力对粒子做负功的功率与拉莫尔辐射功率之间仅仅相差一项.\,我们指出在我们研究的电磁波照射到振子的经典色散模型中,\,电子做周期性运动,\,故这一项的周期积分为零:
+\[\int_0^T \frac{\ud }{\ud t}\left(\frac{q^2\dot{\bs{r}}\cdot \ddot{\bs{r}}}{6\pi\varepsilon_0c^3}\right)\ud t=\left.\frac{q^2\dot{\bs{r}}\cdot \ddot{\bs{r}}}{6\pi\varepsilon_0c^3}\right|_0^T=0\]
+
+故如果一个表达式能代表辐射阻尼,\,它必然具有上式具有的形式.\,而在$T\ll(\sim)\tau$时,\,正如我们之前介绍的那样,\,这个做法是合理的.
+
+利用特征时间$\tau$,\,在频率$\omega$的电磁波下的谐振子的动力学方程,\,考虑辐射阻尼时,\,就写作:
+\[m\bs{\ddot{r}}-m\tau \bs{\dddot{r}}+k\bs{r}=-e\bs{E}\]
+
+这看上去与之前我们给出的谐振子的形式存在出入.\,实际上,\,在简谐$\bs{E}=\bs{E}_0 e^{\ui \omega t}$的情况下,\,对时间导数相当于乘以$\ui\omega$.\,于是上式写为:
+\[m\bs{\ddot{r}}+m\omega^2\tau \bs{\dot{r}}+k\bs{r}=-e\bs{E}\]
+
+这就可以看出,\,实际上之前的经典色散理论不过是将$m\omega^2\tau$整体取做$\gamma $而已.\,引入辐射阻尼的现象之后我们就可以看出$\gamma$与角频率潜在的比例关系$\gamma \propto \omega^2$.
+
+在这个基础上我们解出单电子某维度上做振动的函数:
+\[x=Ae^{\ui \omega t}=-\frac{eE_x/m}{\omega_0^2-\omega^2+\ui \omega^3\tau}\]
+
+通过这个振幅我们除了推导色散,\,还可以得到两个十分有意义的结果:
+
+第一个结果是重新去计算电子辐射的功率,\,即把外电磁场能量单位时间散射的那部分能量.\,根据偶极振荡公式:
+\[\overline{P}=\frac{e^2\omega^4|x|^2}{12\pi\varepsilon_0c^3}\]
+
+而入射电磁波,\,如果就是沿$z$方向传播,\,沿$x$方向偏振的平面波,\,则具有平均能流:
+\[S=\frac{1}{\mu_0 c}\cdot\frac{|E_x|^2}{2}=\frac{\varepsilon_0c|E_x|^2}{2}\]
+
+用这个功率除以这个能流,\,我们得到一个面积量纲的物理量.\,实际上就是相当于电子吸收了这个面积里面的辐射并以散射的形式做了新的辐射发射.\,这个面积称作\emph{散射截面}(scattering cross section),\,计算可得:
+\[\sigma=\frac{\overline{P}}{S}=\frac{8}{3}\pi r_e^2 \cdot \frac{1}{\omega^2\tau^2 +(1-\omega_0^2/\omega^2)^2}\]
+
+而其中$r_e$就是我们之前提过的\emph{经典电子半径}(classical electron radius).\,它恰恰是在洛伦兹等人在研究辐射的问题时提出的.\,故也称\emph{洛伦兹半径}(Lorentz radius):
+\[r_e=\frac{e^2}{4\pi\varepsilon_0mc^2}\]
+
+我们首先注意一点:\,由于$\tau$是个很短的时间,\,故能够使得$\omega\tau \sim 1$的角频率对应的光波具有以下的量级:
+\[\omega\sim 10^{23}{\rm rad/s}\quad ,\quad \lambda\sim 12{\rm fm}\quad ,\quad E\sim 105{\rm MeV}\]
+
+这实际上是一个极高的频率了,\,到这个能标,\,光子对电子的影响已经完全不能忽略光子的量子性,\,当然也要考虑电子的波动性,\,康普顿散射和量子电动力学的理论时必要的.\,而物质形成的体系总是有$\omega_0\tau\ll 1$,\,故即使在$\omega\gg \omega_0$,\,一般也可以把$\omega\tau$视作小量.\,那么在这种场合下:
+\[\sigma \approx \frac{8}{3}\pi r_e^2\]
+
+这个截面称为\emph{汤姆孙截面}(Thomson cross section).\,反映了在高频电磁波作用下电子接近自由电子散射电磁波的行为.
+
+而在低频下$\omega\ll \omega_0$,\,可做近似:
+\[\sigma \approx \frac{8}{3}\pi r_e^2\cdot \frac{\omega^4}{\omega_0^4}\]
+
+这个式子后面会介绍,\,反映了了瑞利散射的基本原理.
+
+最后,\,在$\omega\approx \omega_0$时,\,截面表达式的分母很接近零.\,散射截面远大于汤姆孙截面,\,电子强烈吸收外电磁场能量,\,并造成大的散射.\,这称作\emph{共振散射}(resonance scattering).\,实验上实际上也观察到了这个现象.\,但是洛伦兹经典色散理论的弱点就在于它是个经典的理论,\,并不能很好地解释实验中得到的数据,\,因为它没有构建出理论模型中谐振子的量子本质.
+
+第二个结果,\,我们来考察一下这个振子在外界电磁场下产生的振动能量:
+\begin{align*}
+K 	&=\overline{\frac{1}{2}k \mathfrak{Re}(x)^2+\frac{1}{2}m \mathfrak{Re}(\dot{x})^2}\\
+	&=\frac{1}{4}m(\omega^2+\omega_0^2)|x|^2\\
+	&=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 |E_x|^2
+\end{align*}
+
+这样也许还不足以引起理论上的价值.\,但是如果设想一个复杂的电磁波场,\,它总可以分解为简单的平面波场(参考下一节介绍的傅里叶变换理论).\,那么该点的瞬时$x$方向电场就可以分解为:
+\[E_x(t)=\int_{0}^{\infty}[A(\omega)\cos{\omega t}+B(\omega)\sin{\omega t}]\ud \omega\]
+
+而对于波$A(\omega)\cos{\omega t}$和$B(\omega)\sin{\omega t}$,\,在谐振子上激发的能量是:
+\[K(\omega)=\frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
+
+作为原因,\,多个谐振电场的叠加产生的结果就是简单的振子的振动的简单叠加,\,这是因为谐振电场与振子的振动满足的微分方程是线性的.\,而按照简谐分解的一个数学结果就是,\,能量也可以直接叠加:
+\[\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}=\int_{0}^{\infty}\left[\frac{1}{2}\varepsilon_0 A(\omega)^2\overline{\cos^2\omega t}+ \frac{1}{2}\varepsilon_0B(\omega)^2\overline{\sin^2\omega t}\right]\ud\omega=\int_{0}^{\infty}\frac{1}{2}\frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\ud\omega\]
+
+从这个角度来看,\,振子就会因此具有$x$方向的平均能量:
+\begin{align*}
+K_x 	&=\int K(\omega) \ud \omega \\
+		&=\int \frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2 \ud \omega
+\end{align*}
+
+如果考虑一个热力学系统,\,辐射和谐振子达到了一个温度为$T$的热平衡.\,那么经典理论认为:\,每一个振子在一个方向上应当具有平均能量$kT$.\,这一点之后由普朗克发现是错误的.\,但是如果我们坚持这个做法,\,由于电磁辐射的内能密度亦可以根据频率展开:
+\begin{align*}
+u 	&=\overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}+\overline{\frac{1}{2}\varepsilon_0 E_y^2(t)}+\overline{\frac{1}{2\mu_0}\varepsilon_0 E_z^2(t)}+\overline{\frac{1}{2\mu_0} B_x^2(t)}+\overline{\frac{1}{2} B_y^2(t)}+\overline{\frac{1}{2\mu_0}B_z^2(t)}\\
+	&=6\cdot \overline{\frac{1}{2}\varepsilon_0 E_x^2(t)}\\
+	&=\int_0^\infty u(\omega \ud \omega)
+\end{align*}
+
+这就得到了:
+\[u(\omega)=3\cdot \frac{1}{2}\varepsilon_0 [A(\omega)^2+B(\omega)]^2\]
+
+从而之前的积分就可用$u(\omega)$表示.\,但是又由于$\tau$很小,\,故仅在$\omega\sim \omega_0$附近近似:
+\begin{align*}
+K_x 	&=\int \frac{e^2}{2\varepsilon_0 m\omega^2}\cdot \frac{\omega^2(\omega^2+\omega_0^2)}{(\omega^2-\omega_0^2)^2+\omega^6\tau^2}\cdot \frac{u(\omega)}{3} \ud \omega\\
+		&=\int \frac{e^2}{2\varepsilon_0 m\omega_0^2}\cdot \frac{2\omega_0^4}{4\omega_0^4(\omega-\omega_0)^2+\omega_0^6\tau^2}\cdot \frac{u(\omega_0)}{3} \ud \omega\\
+		&=\frac{e^2u(\omega_0)}{12\varepsilon_0 m\omega_0^2}\cdot\int \frac{\ud x}{x^2+\omega_0^2\tau^2/4}\\
+		&=\frac{e^2u(\omega_0)}{12\varepsilon_0 m\omega_0^2}\cdot\frac{2\pi}{\omega_0\tau}\\
+		&=kT
+\end{align*}
+
+代入$\tau$的表达式,\,这就得到了:
+\[u(\omega_0)=\frac{3kT\omega_0^3}{2\pi^2c^3}\]
+
+这就是辐射与振子热力学平衡的理论基础,\,从此建立的理论可以导出著名的瑞利-金斯公式,\,从而招致了著名的紫外灾难.\,普朗克提出了辐射的量子理论成功地解决了这个问题.\,参见下一章.
 
 
-\section{色散,\,散射与吸收}
 
-\section{群速与展宽}
 
-\section{光量子}
+
+
+
+
+
+
+%\section{色散,\,散射与吸收}
+
+%\section{群速与展宽}
+
+%\section{光量子}
 

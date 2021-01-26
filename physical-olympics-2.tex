@@ -26,12 +26,12 @@
 
 \usepackage{graphicx}
 \usepackage{verbatim}
+\usepackage{verse}
 \usepackage[colorlinks=true, linkcolor=blue]{hyperref}
 \usepackage[squaren]{SIunits}
 \usepackage{caption}
 \usepackage{CJKfntef}
 \usepackage{wrapfig}
-\usepackage{tagging}
 \usepackage{float}
 \usepackage{array}
 \usepackage{xcolor}
@@ -44,6 +44,10 @@
 \usepackage{enumerate}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{lgreek}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{multirow}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -52,30 +56,41 @@
 
 \renewcommand{\emph}[1]{{\color{red} #1}}
 \renewcommand{\arraystretch}{1.5}
+\renewcommand{\Omega}{\varOmega}
+\renewcommand{\tilde}{\widetilde}
 \newcommand{\hei}{\CJKfamily{hei}}
 \newcommand{\npg}[1]{\vspace{#1}\newpage}
 \newcommand{\bs}[1]{\boldsymbol{#1}}
 \newcommand{\sidenote}[1]{\marginpar{#1}}
 \newcommand{\pow}[1]{\times 10^{#1}}
+\newcommand{\abs}[1]{\left| #1 \right|}
 \newcommand{\dgr}{^\circ}
 \newcommand{\cdgr}{^\circ \mathrm{C}}
+\newcommand{\ap}{\textquotesingle}
 \newcommand{\si}[1]{\mathrm{#1}}
 \newcommand{\ud}{\textrm{d}}
+\newcommand{\uD}{\textrm{D}}
 \newcommand{\ue}{{\rm e}}
 \newcommand{\ui}{{\rm i}}
+\newcommand{\uj}{{\rm j}}
 \newcommand{\ke}{\frac{1}{4\pi\varepsilon_0}}
 \newcommand{\kb}{\frac{\mu_0}{4\pi}}
 \newcommand{\ca}{\raisebox{0.5mm}{------}\,}
 \newcommand{\dbar}{\textrm{\dj}}
+\newcommand{\permil}{\ensuremath{{\,}^\text{o}\mkern-5mu/\mkern-3mu_\text{oo}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%\includeonly{chapter/induction}
+%\includeonly{chapter/kinematics, chapter/dynamics, chapter/statics, chapter/harmonics, chapter/gravity, chapter/rigidbody, chapter/elasticity, chapter/fluid}
+%\includeonly{chapter/thermoI, chapter/thermoII, chapter/liquidsolid, chapter/phasechange, chapter/maxwell, chapter/goptics, chapter/opticals, chapter/opticalp}
+%\includeonly{chapter/electrostatics, chapter/conductordielectric, chapter/steadycurrent, chapter/magnetostatics, chapter/induction,  chapter/maxwelle, chapter/accurrent, chapter/relativity, chapter/interference, chapter/diffraction, chapter/photon, chapter/quantum, chapter/scale}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     正    文    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{\hei \Huge 高二物理竞赛}
-\author{陈博}
+\title{\hei \Huge 高二物理竞赛$\bullet$ 电磁学与近代物理}
+\author{学而思}
 \date{}
 
 
@@ -85,29 +100,29 @@
 
 \frontmatter
 \maketitle
-\usetag{teacher}
+
 
 \mainmatter
 \tableofcontents
 
-\include{chapter/preamble}
-\include{chapter/kinematics}
-\include{chapter/dynamics}
-\include{chapter/statics}
-\include{chapter/harmonics}
-\include{chapter/gravity}
-\include{chapter/rigidbody}
-\include{chapter/fluid}
-\include{chapter/elasticity}
-\include{chapter/relativity}
-\include{chapter/thermoI}
-\include{chapter/thermoII}
-\include{chapter/liquidsolid}
-\include{chapter/phasechange}
-\include{chapter/maxwell}
-\include{chapter/goptics}
-\include{chapter/opticals}
-\include{chapter/opticalp}
+%\include{chapter/preamble}
+%\include{chapter/kinematics}
+%\include{chapter/dynamics}
+%\include{chapter/statics}
+%\include{chapter/harmonics}
+%\include{chapter/gravity}
+%\include{chapter/rigidbody}
+%\include{chapter/elasticity}
+%\include{chapter/fluid}
+%\include{chapter/relativity}
+%\include{chapter/thermoI}
+%\include{chapter/thermoII}	
+%\include{chapter/liquidsolid}
+%\include{chapter/phasechange}
+%\include{chapter/maxwell}
+%\include{chapter/goptics}
+%\include{chapter/opticals}
+%\include{chapter/opticalp}
 \include{chapter/electrostatics}
 \include{chapter/conductordielectric}
 \include{chapter/steadycurrent}
@@ -115,11 +130,12 @@
 \include{chapter/induction}
 \include{chapter/maxwelle}
 \include{chapter/accurrent}
+\include{chapter/relativity}
 \include{chapter/interference}
 \include{chapter/diffraction}
 \include{chapter/photon}
 \include{chapter/quantum}
-\include{chapter/scale}
+%\include{chapter/scale}
 
 \end{document}
 
