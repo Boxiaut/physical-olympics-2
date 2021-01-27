@@ -617,7 +617,7 @@
      \interlinepenalty \@M
      \normalfont
      \ifnum \c@secnumdepth >-2\relax
-       \huge\bfseries \partname\nobreakspace\thepart
+       \huge\bfseries \lpartname\nobreakspace\thepart\nobreakspace\rpartname
        \par
        \vskip 20\p@
      \fi
@@ -1031,9 +1031,9 @@
 \newcounter{numauthors}
 \newif\if@break
 \newif\if@firstauthor
-\newcommand\tableofcontents{\cleardoublepage\markboth{Contents}{Contents}%
+\newcommand\tableofcontents{\cleardoublepage\markboth{目录}{目录}%
   \make@cornermarks
-    \gdef\chapterauthor{\@caplusone}%
+  \gdef\chapterauthor{\@caplusone}%
   \gdef\endchapterauthors{\end@casplusone}%
     \if@twocolumn
       \@restonecoltrue\onecolumn
@@ -1060,7 +1060,7 @@
     \toc@draw
     }
     \if@restonecol\twocolumn\fi
-    }
+}
 
 
 \def\draw@part#1#2{%
@@ -1290,7 +1290,7 @@
  \gdef\chapter@authorthree{}\gdef\chapter@affiliationthree{}%
  \gdef\chapter@authorfour{}\gdef\chapter@affiliationfour{}%
   \vskip 14.6\p@
-{\leftskip\secnumwidth\def\author##1##2{}\vskip14pt\hbox{\leftskip0pt\SubsectionHeadFont CONTENTS}\vskip6pt\par\@input{\thechapter.toc}\par}%
+{\leftskip\secnumwidth\def\author##1##2{}\vskip14pt\hbox{\leftskip0pt\SubsectionHeadFont 章节目录}\vskip6pt\par\@input{\thechapter.toc}\par}%
   }
 \reset@authors}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1517,16 +1517,17 @@
     \parindent 1em%
     \noindent
     \hb@xt@1.8em{\hss\@makefnmark}#1}
-\newcommand\contentsname{Contents}
-\newcommand\listfigurename{List of Figures}
-\newcommand\listtablename{List of Tables}
-\newcommand\bibname{Bibliography}
-\newcommand\indexname{Index}
-\newcommand\figurename{FIGURE}
-\newcommand\tablename{TABLE}
-\newcommand\partname{Part}
-\newcommand\chaptername{Chapter}
-\newcommand\appendixname{Appendix}
+\newcommand\contentsname{目 录}
+\newcommand\listfigurename{图 例}
+\newcommand\listtablename{表 例}
+\newcommand\bibname{参考文献}
+\newcommand\indexname{索 引}
+\newcommand\figurename{图}
+\newcommand\tablename{表}
+\newcommand\lpartname{第}
+\newcommand\rpartname{部分}
+\newcommand\chaptername{CHAPTER}
+\newcommand\appendixname{附录}
 \def\today{\ifcase\month\or
   January\or February\or March\or April\or May\or June\or
   July\or August\or September\or October\or November\or December\fi
