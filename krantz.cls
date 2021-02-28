@@ -112,7 +112,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\ExecuteOptions{letterpaper,10pt,twoside,onecolumn,final,openright}
+\ExecuteOptions{a4paper,10pt,twoside,onecolumn,final,openright}
 \ProcessOptions
 
 %%%%%%%%%%%%%%%%%%%
@@ -229,7 +229,7 @@
 \topmargin  12pt %0pt
 \headheight 12pt
 \headsep    12pt
-\footskip   2pc
+\footskip   1pc
 %
 % DIMENSION OF TEXT:
 \newdimen\trimheight
@@ -569,10 +569,10 @@
 \renewcommand \thepart {\@Roman\c@part}
 \renewcommand \thechapter {\@arabic\c@chapter}
 \renewcommand \thesection {\thechapter.\@arabic\c@section}
-\renewcommand\thesubsection   {\thesection.\@arabic\c@subsection}
-\renewcommand\thesubsubsection{\thesubsection .\@arabic\c@subsubsection}
-\renewcommand\theparagraph    {\thesubsubsection.\@arabic\c@paragraph}
-\renewcommand\thesubparagraph {\theparagraph.\@arabic\c@subparagraph}
+\renewcommand \thesubsection   {\thesection.\@arabic\c@subsection}
+\renewcommand \thesubsubsection{\thesubsection .\@arabic\c@subsubsection}
+\renewcommand \theparagraph    {\thesubsubsection.\@arabic\c@paragraph}
+\renewcommand \thesubparagraph {\theparagraph.\@arabic\c@subparagraph}
 \newcommand\@chapapp{\chaptername}
 \newcommand\frontmatter{%
     \cleardoublepage
