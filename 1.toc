@@ -1,12 +1,12 @@
 \chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.1}范畴与方法论}{1}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.2}编排与客制化}{2}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.3}预备知识}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.1}力学}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.2}电磁学}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.3}近代物理}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.4}热学}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.5}光学}{3}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.6}数学}{3}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{4}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{5}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{5}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.2}编排与客制化}{3}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {1.3}预备知识}{4}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.1}力学}{4}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.2}电磁学}{4}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.3}近代物理}{4}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.4}热学}{4}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.5}光学}{4}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {1.3.6}数学}{4}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{5}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{6}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{6}

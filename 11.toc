@@ -1,12 +1,34 @@
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.1}牛顿定律}{79}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.1}牛顿第一定律}{79}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.2}牛顿第二定律}{79}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.3}牛顿第三定律}{79}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.4}质点系}{80}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.5}非惯性系}{80}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.2}动量定律}{81}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.2.1}质点的动量}{81}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.2.2}质点系的动量}{81}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{82}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{83}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{83}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.1}循环过程}{82}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.1}热机与热泵}{82}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.1.2}热机循环}{82}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.1.2.1}勒鲁瓦循环}{82}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.1.2.2}奥托循环}{82}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.1.2.3}迪塞尔循环}{82}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.1.2.4}布莱顿循环}{82}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.1.2.5}卡诺循环}{82}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.2}理想气体的熵}{83}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.2.1}态函数熵}{83}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.2.2}初涉卡诺定理}{83}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.2.3}局限性}{83}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.3}热力学第二定律}{84}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.3.1}熵增原理}{84}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.3.2}两种等效表述}{84}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.3.3}再论卡诺定理}{84}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.3.4}克劳修斯不等式}{84}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.4}熵的计算}{85}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.4.1}宏观与微观}{85}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.4.2}理想气体的熵}{85}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.4.3}熵变与热容}{85}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.4.4}混合熵产生}{85}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.4.5}传热熵产生}{85}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {11.5}*热力学函数及其特性}{86}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.5.1}热力学函数}{86}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.5.2}麦克斯韦关系}{86}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.5.3}若干重要定理}{86}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.5.3.1}能态定理}{86}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {11.5.3.2}物性函数关系}{86}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.5.4}最小能原理}{86}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {11.5.5}化学势}{86}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{87}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{88}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{88}
