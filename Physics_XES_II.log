@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  10 MAR 2021 18:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  11 MAR 2021 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,7 +1167,8 @@ LaTeX Warning: Label `1-1' multiply defined.
 LaTeX Warning: Label `1-1' multiply defined.
 
 ) (./chapters/chapter24/sec1.aux) (./chapters/chapter24/sec2.aux)
-(./chapters/chapter24/sec3.aux) (./chapters/chapter24/summary.aux
+(./chapters/chapter24/sec3.aux) (./chapters/chapter24/sec4.aux)
+(./chapters/chapter24/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1178,17 +1179,9 @@ LaTeX Warning: Label `1-1' multiply defined.
 
 LaTeX Warning: Label `1-1' multiply defined.
 
-) (./chapters/chapter25/sec1.aux) (./chapters/chapter25/sec2.aux
-
-LaTeX Warning: Label `3-2' multiply defined.
-
-
-LaTeX Warning: Label `3-2-1' multiply defined.
-
-
-LaTeX Warning: Label `3-2-2' multiply defined.
-
-) (./chapters/chapter25/summary.aux
+) (./chapters/chapter25/sec1.aux) (./chapters/chapter25/sec2.aux)
+(./chapters/chapter25/sec3.aux) (./chapters/chapter25/sec4.aux)
+(./chapters/chapter25/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1199,39 +1192,8 @@ LaTeX Warning: Label `1-1' multiply defined.
 
 LaTeX Warning: Label `1-1' multiply defined.
 
-) (./chapters/chapter26/sec1.aux
-
-LaTeX Warning: Label `3' multiply defined.
-
-
-LaTeX Warning: Label `3-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-2' multiply defined.
-
-
-LaTeX Warning: Label `3-1-3' multiply defined.
-
-
-LaTeX Warning: Label `3-1-4' multiply defined.
-
-
-LaTeX Warning: Label `3-1-5' multiply defined.
-
-) (./chapters/chapter26/sec2.aux
-
-LaTeX Warning: Label `3-2' multiply defined.
-
-
-LaTeX Warning: Label `3-2-1' multiply defined.
-
-
-LaTeX Warning: Label `3-2-2' multiply defined.
-
-) (./chapters/chapter26/summary.aux
+) (./chapters/chapter26/sec1.aux) (./chapters/chapter26/sec2.aux)
+(./chapters/chapter26/sec3.aux) (./chapters/chapter26/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1242,17 +1204,9 @@ LaTeX Warning: Label `1-1' multiply defined.
 
 LaTeX Warning: Label `1-1' multiply defined.
 
-) (./chapters/chapter27/sec1.aux) (./chapters/chapter27/sec2.aux
-
-LaTeX Warning: Label `3-2' multiply defined.
-
-
-LaTeX Warning: Label `3-2-1' multiply defined.
-
-
-LaTeX Warning: Label `3-2-2' multiply defined.
-
-) (./chapters/chapter27/summary.aux
+) (./chapters/chapter27/sec1.aux) (./chapters/chapter27/sec2.aux)
+(./chapters/chapter27/sec3.aux) (./chapters/chapter27/sec4.aux)
+(./chapters/chapter27/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1263,36 +1217,9 @@ LaTeX Warning: Label `1-1' multiply defined.
 
 LaTeX Warning: Label `1-1' multiply defined.
 
-) (./chapters/chapter28/sec1.aux
-
-LaTeX Warning: Label `3-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-2' multiply defined.
-
-
-LaTeX Warning: Label `3-1-3' multiply defined.
-
-
-LaTeX Warning: Label `3-1-4' multiply defined.
-
-
-LaTeX Warning: Label `3-1-5' multiply defined.
-
-) (./chapters/chapter28/sec2.aux
-
-LaTeX Warning: Label `3-2' multiply defined.
-
-
-LaTeX Warning: Label `3-2-1' multiply defined.
-
-
-LaTeX Warning: Label `3-2-2' multiply defined.
-
-) (./chapters/chapter28/summary.aux
+) (./chapters/chapter28/sec1.aux) (./chapters/chapter28/sec2.aux)
+(./chapters/chapter28/sec3.aux) (./chapters/chapter28/sec4.aux)
+(./chapters/chapter28/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1303,36 +1230,8 @@ LaTeX Warning: Label `1-1' multiply defined.
 
 LaTeX Warning: Label `1-1' multiply defined.
 
-) (./chapters/chapter29/sec1.aux
-
-LaTeX Warning: Label `3-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-2' multiply defined.
-
-
-LaTeX Warning: Label `3-1-3' multiply defined.
-
-
-LaTeX Warning: Label `3-1-4' multiply defined.
-
-
-LaTeX Warning: Label `3-1-5' multiply defined.
-
-) (./chapters/chapter29/sec2.aux
-
-LaTeX Warning: Label `3-2' multiply defined.
-
-
-LaTeX Warning: Label `3-2-1' multiply defined.
-
-
-LaTeX Warning: Label `3-2-2' multiply defined.
-
-) (./chapters/chapter29/summary.aux
+) (./chapters/chapter29/sec1.aux) (./chapters/chapter29/sec2.aux)
+(./chapters/chapter29/sec3.aux) (./chapters/chapter29/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1343,36 +1242,9 @@ LaTeX Warning: Label `1-1' multiply defined.
 
 LaTeX Warning: Label `1-1' multiply defined.
 
-) (./chapters/chapter30/sec1.aux
-
-LaTeX Warning: Label `3-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-1' multiply defined.
-
-
-LaTeX Warning: Label `3-1-2' multiply defined.
-
-
-LaTeX Warning: Label `3-1-3' multiply defined.
-
-
-LaTeX Warning: Label `3-1-4' multiply defined.
-
-
-LaTeX Warning: Label `3-1-5' multiply defined.
-
-) (./chapters/chapter30/sec2.aux
-
-LaTeX Warning: Label `3-2' multiply defined.
-
-
-LaTeX Warning: Label `3-2-1' multiply defined.
-
-
-LaTeX Warning: Label `3-2-2' multiply defined.
-
-) (./chapters/chapter30/summary.aux
+) (./chapters/chapter30/sec1.aux) (./chapters/chapter30/sec2.aux)
+(./chapters/chapter30/sec3.aux) (./chapters/chapter30/sec4.aux)
+(./chapters/chapter30/sec5.aux) (./chapters/chapter30/summary.aux
 
 LaTeX Warning: Label `1-1' multiply defined.
 
@@ -1622,50 +1494,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[3] [4] [5] [6])
+[3] [4] [5] [6] [7])
 \tf@toc=\write5
 \openout5 = `Physics_XES_II.toc'.
 
- [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[8
-
-]
+ [8]
 Underfull \vbox (badness 10000) detected at line 59
  []
 
@@ -1716,6 +1549,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [9
+
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4893,22 +4727,70 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
+\openout2 = `chapters/chapter24/sec4.aux'.
+
+ (./chapters/chapter24/sec4.tex) [191
+
+
+]
 \openout2 = `chapters/chapter24/summary.aux'.
 
- (./chapters/chapter24/summary.tex)
-[191
+
+(./chapters/chapter24/summary.tex) [192
 
 
 ]
 \openout2 = `chapters/chapter24/prob.aux'.
 
- (./chapters/chapter24/prob.tex) [192
+ (./chapters/chapter24/prob.tex)
+[193
 
 
 ]
 \openout2 = `chapters/chapter25/sec1.aux'.
 
  (./chapters/chapter25/sec1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[194
+
+
+
+]
 Underfull \vbox (badness 10000) detected at line 4
  []
 
@@ -4948,112 +4830,50 @@ CHAPTER 25.
 (./25.toc)
 \openout3 = `25.toc'.
 
-)
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[193
+[195
 
+]) [196]
+\openout2 = `chapters/chapter25/sec2.aux'.
 
+ (./chapters/chapter25/sec2.tex) [197
 
 
 ]
-\openout2 = `chapters/chapter25/sec2.aux'.
+\openout2 = `chapters/chapter25/sec3.aux'.
 
- (./chapters/chapter25/sec2.tex) [194
+
+(./chapters/chapter25/sec3.tex) [198
+
+
+]
+\openout2 = `chapters/chapter25/sec4.aux'.
+
+ (./chapters/chapter25/sec4.tex) [199
 
 
 ]
 \openout2 = `chapters/chapter25/summary.aux'.
 
- (./chapters/chapter25/summary.tex)
-[195
+
+(./chapters/chapter25/summary.tex) [200
 
 
 ]
 \openout2 = `chapters/chapter25/prob.aux'.
 
- (./chapters/chapter25/prob.tex) [196
+ (./chapters/chapter25/prob.tex)
+[201
 
 
 ]
 \openout2 = `chapters/chapter26/sec1.aux'.
 
  (./chapters/chapter26/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 26.
-(./26.toc)
-\openout3 = `26.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[197
-
-
-
-
-]) [198]
-\openout2 = `chapters/chapter26/sec2.aux'.
-
- (./chapters/chapter26/sec2.tex) [199
-
-
-]
-\openout2 = `chapters/chapter26/summary.aux'.
-
-
-(./chapters/chapter26/summary.tex) [200
-
-
-]
-\openout2 = `chapters/chapter26/prob.aux'.
-
- (./chapters/chapter26/prob.tex)
-[201
-
-
-]
-\openout2 = `chapters/chapter27/sec1.aux'.
-
- (./chapters/chapter27/sec1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5130,9 +4950,9 @@ Overfull \hbox (336.25pt too wide) detected at line 4
 []
  []
 
-CHAPTER 27.
-(./27.toc)
-\openout3 = `27.toc'.
+CHAPTER 26.
+(./26.toc)
+\openout3 = `26.toc'.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -5142,58 +4962,150 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [203
 
 ]) [204]
+\openout2 = `chapters/chapter26/sec2.aux'.
+
+ (./chapters/chapter26/sec2.tex) [205
+
+
+]
+\openout2 = `chapters/chapter26/sec3.aux'.
+
+
+(./chapters/chapter26/sec3.tex) [206
+
+
+]
+\openout2 = `chapters/chapter26/summary.aux'.
+
+ (./chapters/chapter26/summary.tex)
+[207
+
+
+]
+\openout2 = `chapters/chapter26/prob.aux'.
+
+ (./chapters/chapter26/prob.tex) [208
+
+
+]
+\openout2 = `chapters/chapter27/sec1.aux'.
+
+ (./chapters/chapter27/sec1.tex
+Underfull \vbox (badness 10000) detected at line 4
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4
+[]
+ []
+
+CHAPTER 27.
+(./27.toc)
+\openout3 = `27.toc'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[209
+
+
+
+
+]) [210]
 \openout2 = `chapters/chapter27/sec2.aux'.
 
- (./chapters/chapter27/sec2.tex) [205
+ (./chapters/chapter27/sec2.tex) [211
+
+
+]
+\openout2 = `chapters/chapter27/sec3.aux'.
+
+
+(./chapters/chapter27/sec3.tex) [212
+
+
+]
+\openout2 = `chapters/chapter27/sec4.aux'.
+
+ (./chapters/chapter27/sec4.tex) [213
 
 
 ]
 \openout2 = `chapters/chapter27/summary.aux'.
 
 
-(./chapters/chapter27/summary.tex) [206
+(./chapters/chapter27/summary.tex) [214
 
 
 ]
 \openout2 = `chapters/chapter27/prob.aux'.
 
  (./chapters/chapter27/prob.tex)
-[207
+[215
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 266
+Underfull \vbox (badness 10000) detected at line 272
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 266
+Overfull \hbox (336.25pt too wide) detected at line 272
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 266
+Underfull \vbox (badness 10000) detected at line 272
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 266
+Overfull \hbox (336.25pt too wide) detected at line 272
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 266
+Underfull \vbox (badness 10000) detected at line 272
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 266
+Overfull \hbox (336.25pt too wide) detected at line 272
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 266
+Underfull \vbox (badness 10000) detected at line 272
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 266
+Overfull \hbox (336.25pt too wide) detected at line 272
 []
  []
 
@@ -5234,7 +5146,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[208
+[216
 
 
 ]
@@ -5274,7 +5186,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[209]
+[217]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5311,7 +5223,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[210]
+[218]
 \openout2 = `chapters/chapter28/sec1.aux'.
 
  (./chapters/chapter28/sec1.tex
@@ -5359,28 +5271,41 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[211
+[219
 
 
 
-]) [212]
+]) [220]
 \openout2 = `chapters/chapter28/sec2.aux'.
 
- (./chapters/chapter28/sec2.tex) [213
+ (./chapters/chapter28/sec2.tex) [221
+
+
+]
+\openout2 = `chapters/chapter28/sec3.aux'.
+
+
+(./chapters/chapter28/sec3.tex) [222
+
+
+]
+\openout2 = `chapters/chapter28/sec4.aux'.
+
+ (./chapters/chapter28/sec4.tex) [223
 
 
 ]
 \openout2 = `chapters/chapter28/summary.aux'.
 
 
-(./chapters/chapter28/summary.tex) [214
+(./chapters/chapter28/summary.tex) [224
 
 
 ]
 \openout2 = `chapters/chapter28/prob.aux'.
 
  (./chapters/chapter28/prob.tex)
-[215
+[225
 
 
 ]
@@ -5423,7 +5348,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[216
+[226
 
 
 
@@ -5472,73 +5397,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[217
+[227
 
-]) [218]
+]) [228]
 \openout2 = `chapters/chapter29/sec2.aux'.
 
- (./chapters/chapter29/sec2.tex) [219
+ (./chapters/chapter29/sec2.tex) [229
+
+
+]
+\openout2 = `chapters/chapter29/sec3.aux'.
+
+
+(./chapters/chapter29/sec3.tex) [230
 
 
 ]
 \openout2 = `chapters/chapter29/summary.aux'.
 
-
-(./chapters/chapter29/summary.tex) [220
+ (./chapters/chapter29/summary.tex)
+[231
 
 
 ]
 \openout2 = `chapters/chapter29/prob.aux'.
 
- (./chapters/chapter29/prob.tex)
-[221
+ (./chapters/chapter29/prob.tex) [232
 
 
 ]
 \openout2 = `chapters/chapter30/sec1.aux'.
 
  (./chapters/chapter30/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[222
-
-
-
-]
 Underfull \vbox (badness 10000) detected at line 4
  []
 
@@ -5583,26 +5473,48 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[223
+[233
 
-]) [224]
+
+
+
+]) [234]
 \openout2 = `chapters/chapter30/sec2.aux'.
 
- (./chapters/chapter30/sec2.tex) [225
+ (./chapters/chapter30/sec2.tex) [235
+
+
+]
+\openout2 = `chapters/chapter30/sec3.aux'.
+
+
+(./chapters/chapter30/sec3.tex) [236
+
+
+]
+\openout2 = `chapters/chapter30/sec4.aux'.
+
+ (./chapters/chapter30/sec4.tex) [237
+
+
+]
+\openout2 = `chapters/chapter30/sec5.aux'.
+
+
+(./chapters/chapter30/sec5.tex) [238
 
 
 ]
 \openout2 = `chapters/chapter30/summary.aux'.
 
-
-(./chapters/chapter30/summary.tex) [226
+ (./chapters/chapter30/summary.tex)
+[239
 
 
 ]
 \openout2 = `chapters/chapter30/prob.aux'.
 
- (./chapters/chapter30/prob.tex)
-[227
+ (./chapters/chapter30/prob.tex) [240
 
 
 ]
@@ -5682,18 +5594,24 @@ No file Physics_XES_II.ind.
 (./chapters/chapter23/sec2.aux) (./chapters/chapter23/summary.aux)
 (./chapters/chapter23/prob.aux) (./chapters/chapter24/sec1.aux)
 (./chapters/chapter24/sec2.aux) (./chapters/chapter24/sec3.aux)
-(./chapters/chapter24/summary.aux) (./chapters/chapter24/prob.aux)
-(./chapters/chapter25/sec1.aux) (./chapters/chapter25/sec2.aux)
-(./chapters/chapter25/summary.aux) (./chapters/chapter25/prob.aux)
-(./chapters/chapter26/sec1.aux) (./chapters/chapter26/sec2.aux)
+(./chapters/chapter24/sec4.aux) (./chapters/chapter24/summary.aux)
+(./chapters/chapter24/prob.aux) (./chapters/chapter25/sec1.aux)
+(./chapters/chapter25/sec2.aux) (./chapters/chapter25/sec3.aux)
+(./chapters/chapter25/sec4.aux) (./chapters/chapter25/summary.aux)
+(./chapters/chapter25/prob.aux) (./chapters/chapter26/sec1.aux)
+(./chapters/chapter26/sec2.aux) (./chapters/chapter26/sec3.aux)
 (./chapters/chapter26/summary.aux) (./chapters/chapter26/prob.aux)
 (./chapters/chapter27/sec1.aux) (./chapters/chapter27/sec2.aux)
+(./chapters/chapter27/sec3.aux) (./chapters/chapter27/sec4.aux)
 (./chapters/chapter27/summary.aux) (./chapters/chapter27/prob.aux)
 (./chapters/chapter28/sec1.aux) (./chapters/chapter28/sec2.aux)
+(./chapters/chapter28/sec3.aux) (./chapters/chapter28/sec4.aux)
 (./chapters/chapter28/summary.aux) (./chapters/chapter28/prob.aux)
 (./chapters/chapter29/sec1.aux) (./chapters/chapter29/sec2.aux)
-(./chapters/chapter29/summary.aux) (./chapters/chapter29/prob.aux)
-(./chapters/chapter30/sec1.aux) (./chapters/chapter30/sec2.aux)
+(./chapters/chapter29/sec3.aux) (./chapters/chapter29/summary.aux)
+(./chapters/chapter29/prob.aux) (./chapters/chapter30/sec1.aux)
+(./chapters/chapter30/sec2.aux) (./chapters/chapter30/sec3.aux)
+(./chapters/chapter30/sec4.aux) (./chapters/chapter30/sec5.aux)
 (./chapters/chapter30/summary.aux) (./chapters/chapter30/prob.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -5703,12 +5621,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15980 strings out of 479417
- 364278 string characters out of 5888071
- 724052 words of memory out of 5000000
- 32089 multiletter control sequences out of 15000+600000
+ 16200 strings out of 479417
+ 368298 string characters out of 5888071
+ 732220 words of memory out of 5000000
+ 32237 multiletter control sequences out of 15000+600000
  535872 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  44i,8n,60p,837b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Physics_XES_II.pdf (239 pages).
+Output written on Physics_XES_II.pdf (252 pages).
