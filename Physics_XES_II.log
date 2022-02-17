@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  11 MAR 2021 17:49
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  15 FEB 2022 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5517,10 +5517,60 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  (./chapters/chapter30/prob.tex) [240
 
 
-]
-No file Physics_XES_II.bbl.
-No file Physics_XES_II.ind.
-(./Physics_XES_II.aux (./chapters/chapter01/sec1.aux)
+] (./Physics_XES_II.bbl
+Underfull \vbox (badness 10000) detected at line 1
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1
+[]
+ []
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) (./Physics_XES_II.ind)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[241
+
+
+
+] (./Physics_XES_II.aux (./chapters/chapter01/sec1.aux)
 (./chapters/chapter01/sec2.aux) (./chapters/chapter01/sec3.aux)
 (./chapters/chapter01/summary.aux) (./chapters/chapter01/prob.aux)
 (./chapters/chapter02/sec1.aux) (./chapters/chapter02/sec2.aux)
@@ -5621,12 +5671,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16200 strings out of 479417
- 368298 string characters out of 5888071
+ 16204 strings out of 479417
+ 368374 string characters out of 5888071
  732220 words of memory out of 5000000
  32237 multiletter control sequences out of 15000+600000
  535872 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,8n,60p,837b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,60p,837b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Physics_XES_II.pdf (252 pages).
+Output written on Physics_XES_II.xdv (253 pages, 919836 bytes).
