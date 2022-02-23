@@ -1,29 +1,29 @@
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.1}电流与磁场}{140}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.1.1}磁现象}{140}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.1.2}毕奥-萨伐尔定律}{140}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.1.3}磁场}{140}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.2}两个定律与电势}{141}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.2.1}磁场环量定律}{141}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.2.2}矢势与磁场通量定律}{141}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.3}电流体系}{142}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.3.1}磁偶极子}{142}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.3.2}磁化强度}{142}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.3.3}若干对称电荷分布}{142}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.1}平面与厚层}{142}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.2}直线与圆柱}{142}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.3}螺线圈}{142}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.4}*载流圆环}{142}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.5}均匀磁化的球}{142}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.4}磁介质与磁能}{143}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.4.1}微观角度理解磁化}{143}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.1.1}顺磁性}{143}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.1.2}抗磁性}{143}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.1.3}铁磁性}{143}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.4.2}宏观角度理解磁化}{143}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.2.1}磁场强度}{143}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.2.2}磁路定律}{143}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.2.3}电感}{143}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.4.3}磁场能量}{143}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{144}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{145}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{145}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.1}电流与磁场}{142}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.1.1}磁现象}{142}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.1.2}毕奥-萨伐尔定律}{142}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.1.3}磁场}{142}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.2}两个定律与电势}{143}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.2.1}磁场环量定律}{143}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.2.2}矢势与磁场通量定律}{143}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.3}电流体系}{144}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.3.1}磁偶极子}{144}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.3.2}磁化强度}{144}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.3.3}若干对称电荷分布}{144}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.1}平面与厚层}{144}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.2}直线与圆柱}{144}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.3}螺线圈}{144}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.4}*载流圆环}{144}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.3.3.5}均匀磁化的球}{144}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {18.4}磁介质与磁能}{145}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.4.1}微观角度理解磁化}{145}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.1.1}顺磁性}{145}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.1.2}抗磁性}{145}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.1.3}铁磁性}{145}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.4.2}宏观角度理解磁化}{145}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.2.1}磁场强度}{145}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.2.2}磁路定律}{145}
+\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {18.4.2.3}电感}{145}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {18.4.3}磁场能量}{145}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{146}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{147}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{147}

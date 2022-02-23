@@ -1,16 +1,16 @@
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {8.1}弹性体的物理描述}{57}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.1.1}应变}{57}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.1.2}应力}{57}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {8.2}弹性模型}{59}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.1}弹性棒}{59}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.2}弹性绳}{59}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.3}弹性膜}{59}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.4}弹性体}{59}
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {8.3}弹性波}{60}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.1}分离变量法}{60}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.2}变量代换法}{60}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.3}弹性模型的解}{60}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.4}再论格波}{60}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{61}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{62}
-\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{62}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {8.1}弹性体的物理描述}{59}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.1.1}应变}{59}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.1.2}应力}{59}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {8.2}弹性模型}{61}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.1}弹性棒}{61}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.2}弹性绳}{61}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.3}弹性膜}{61}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.2.4}弹性体}{61}
+\chapcontentsline{chapsection}{\raggedright \ssubnumberline {8.3}弹性波}{62}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.1}分离变量法}{62}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.2}变量代换法}{62}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.3}弹性模型的解}{62}
+\chapcontentsline{chapsubsection}{\raggedright \subnumberline {8.3.4}再论格波}{62}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}总结}{63}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}习题}{64}
+\chapcontentsline{chapsection}{\raggedright \makebox[21pt][l]{}索引}{64}

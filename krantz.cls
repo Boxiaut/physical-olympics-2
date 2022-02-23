@@ -222,14 +222,14 @@
 %
 % SIDE MARGINS:
 %
-\oddsidemargin  6pc %5pc
-\evensidemargin 5.7pc %5pc
-\marginparwidth 4pc
-\marginparsep   1pc
-\topmargin  12pt %0pt
-\headheight 12pt
-\headsep    12pt
-\footskip   1pc
+\oddsidemargin  3pc %6pc
+\evensidemargin 3pc %5.7pc
+\marginparwidth 2pc %6pc
+\marginparsep   0.5pc %1pc
+\topmargin  12pt %12pt
+\headheight 12pt %12pt
+\headsep    24pt %12pt
+\footskip   6pt
 %
 % DIMENSION OF TEXT:
 \newdimen\trimheight
@@ -249,27 +249,27 @@
 %
 %
 \if@krantza
-\textheight = 45pc
+\textheight = 50pc
   %\advance\textheight by \topskip
 \addtolength\textheight{3pt}
-  \textwidth 28pc
+  \textwidth 33pc
 \addtolength\textwidth{.5pt}
-  \topmargin0in
-  \oddsidemargin1.1875in
-  \evensidemargin1.1875in
+  \topmargin 0in
+  \oddsidemargin 3pc
+  \evensidemargin 3pc
   \htrim.7365in
   \vtrimtop1.068in
   \vtrimbot1.068in
-  \hoffset-15pt
-  \voffset39pt
+  \hoffset-5pt
+  \voffset25pt
 \let\normaltextheight\textheight
 \else\if@krantzb
   \textheight = 51pc
 %  \advance\textheight by \topskip
   \textwidth 33pc
   \topmargin0in
-  \oddsidemargin.5in
-  \evensidemargin.5in
+  \oddsidemargin 3pc
+  \evensidemargin 3pc
   \htrim.75in
   \vtrimtop.8607in
   \vtrimbot1.027in
@@ -292,14 +292,14 @@
 %%%%%  \hoffset-5pt
 %%%%  \voffset45pt
 %%%%\let\normaltextheight\textheight
-\textheight = 45pc
+\textheight = 55pc
   %\advance\textheight by \topskip
 \addtolength\textheight{3pt}
   \textwidth 28pc
 \addtolength\textwidth{.5pt}
   \topmargin0in
-  \oddsidemargin1.1875in
-  \evensidemargin1.1875in
+  \oddsidemargin 6pc
+  \evensidemargin 6pc
   \htrim.7365in
   \vtrimtop1.068in
   \vtrimbot1.068in

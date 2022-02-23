@@ -3,16 +3,21 @@
 
 \documentclass[krantz1,ChapterTOCs]{krantz}
 \usepackage{xeCJK}
-\setCJKmainfont{方正书宋简体}%
-\setCJKsansfont{FZYouHeiS}%
-\setCJKmonofont{方正萤雪简体}%
-\setCJKfamilyfont{hei}{方正宋黑简体}%
+\setCJKmainfont{FandolSong}%
+\setCJKsansfont{FandolFang}%
+\setCJKmonofont{FandolHei}%
+\setCJKfamilyfont{hei}{FandolKai}%
 \newcommand{\hei}{\CJKfamily{hei}}
 \usepackage{fixltx2e,fix-cm}
+\usepackage{indentfirst}
+\usepackage{pifont}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{mathtools}
-\usepackage{pifont}
+\usepackage{upgreek}
+\usepackage{eucal}
+\usepackage{verbatim}
+\usepackage{verse}
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{xcolor}
@@ -26,8 +31,6 @@
 \usepackage{siunitx}
 \usepackage{array}
 \usepackage{mdframed}
-\usepackage{upgreek}
-\usepackage{eucal}
 \usepackage{enumerate}
 \usepackage{textcomp}
 
@@ -39,6 +42,9 @@
 \makeindex
 
 \include{frontmatter/preamble} %place custom commands and macros here
+
+
+\includeonly{chapters/chapter02/sec1}
 
 \begin{document}
 
@@ -295,6 +301,7 @@
 
 \bibliographystyle{plain}
 \bibliography{bibtex_example}
+
 
 \printindex
 

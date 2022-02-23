@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  15 FEB 2022 10:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  23 FEB 2022 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -219,28 +219,29 @@ Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 File: xeCJK.cfg 2020/02/18 v3.8.2 Configuration file for xeCJK package
 ))
 
-Package fontspec Info: Could not resolve font "方正书宋简体/BI" (it probably doesn't
-(fontspec)             exist).
+Package fontspec Warning: Font "FandolSong" does not contain requested Script
+(fontspec)                "CJK".
 
 
-Package fontspec Info: Could not resolve font "方正书宋简体/B" (it probably doesn't
-(fontspec)             exist).
+Package fontspec Info: Could not resolve font "FandolSong/I" (it probably
+(fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "方正书宋简体/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Font family '方正书宋简体(0)' created for font '方正书宋简体' with
-(fontspec)             options [Script={CJK}].
+Package fontspec Info: Font family 'FandolSong(0)' created for font
+(fontspec)             'FandolSong' with options [Script={CJK}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"方正书宋简体/OT:script=hani;language=dflt;"
+(fontspec)             <->"FandolSong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FandolSong/B/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FandolSong/BI/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 (c:/texlive/2020/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
@@ -258,6 +259,23 @@ Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 (c:/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(c:/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -368,20 +386,41 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \xmathstrut@box=\box74
 \xmathstrut@dim=\dimen263
 )
-(c:/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
-Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
-
-
-(c:/texlive/2020/texmf-dist/tex/latex/psnfss/upzd.fd
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
+(c:/texlive/2020/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
-LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
-
-
-(c:/texlive/2020/texmf-dist/tex/latex/psnfss/upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read2
+)
+(c:/texlive/2020/texmf-dist/tex/latex/verse/verse.sty
+Package: verse 2009/09/04 v2.4a verse typesetting
+\c@vslineno=\count286
+\c@poemline=\count287
+\c@fvsline=\count288
+\c@modulo@vs=\count289
+\c@verse@envctr=\count290
+\versewidth=\skip91
+\vgap=\skip92
+\vindent=\skip93
+\stanzaskip=\skip94
+\vleftskip=\skip95
+\vrightskip=\skip96
+\c@chrsinstr=\count291
+\beforepoemtitleskip=\skip97
+\afterpoemtitleskip=\skip98
+)
 (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -404,23 +443,23 @@ File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 )
 (c:/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip91
-\subfigcapskip=\skip92
+\subfigtopskip=\skip99
+\subfigcapskip=\skip100
 \subfigcaptopadj=\dimen266
-\subfigbottomskip=\skip93
+\subfigbottomskip=\skip101
 \subfigcapmargin=\dimen267
-\subfiglabelskip=\skip94
-\c@subfigure=\count286
-\c@lofdepth=\count287
-\c@subtable=\count288
-\c@lotdepth=\count289
+\subfiglabelskip=\skip102
+\c@subfigure=\count292
+\c@lofdepth=\count293
+\c@subtable=\count294
+\c@lotdepth=\count295
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (c:/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip95
-\subfig@bottom=\skip96
+\subfig@top=\skip103
+\subfig@bottom=\skip104
 )
 (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -443,20 +482,20 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 (c:/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count290
+\c@tracingmulticols=\count296
 \mult@box=\box75
 \multicol@leftmargin=\dimen268
-\c@unbalance=\count291
-\c@collectmore=\count292
-\doublecol@number=\count293
-\multicoltolerance=\count294
-\multicolpretolerance=\count295
+\c@unbalance=\count297
+\c@collectmore=\count298
+\doublecol@number=\count299
+\multicoltolerance=\count300
+\multicolpretolerance=\count301
 \full@width=\dimen269
 \page@free=\dimen270
 \premulticols=\dimen271
 \postmulticols=\dimen272
-\multicolsep=\skip97
-\multicolbaselineskip=\skip98
+\multicolsep=\skip105
+\multicolbaselineskip=\skip106
 \partial@page=\box76
 \last@line=\box77
 \maxbalancingoverflow=\dimen273
@@ -501,15 +540,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box116
 \@tempa=\box117
 \@tempa=\box118
-\c@minrows=\count296
-\c@columnbadness=\count297
-\c@finalcolumnbadness=\count298
+\c@minrows=\count302
+\c@columnbadness=\count303
+\c@finalcolumnbadness=\count304
 \last@try=\dimen274
 \multicolovershoot=\dimen275
 \multicolundershoot=\dimen276
 \mult@nat@firstbox=\box119
 \colbreak@box=\box120
-\mc@col@check@num=\count299
+\mc@col@check@num=\count305
 )
 (c:/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -523,35 +562,35 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen284
 \cmidrulekern=\dimen285
 \defaultaddspace=\dimen286
-\@cmidla=\count300
-\@cmidlb=\count301
+\@cmidla=\count306
+\@cmidlb=\count307
 \@aboverulesep=\dimen287
 \@belowrulesep=\dimen288
-\@thisruleclass=\count302
-\@lastruleclass=\count303
+\@thisruleclass=\count308
+\@lastruleclass=\count309
 \@thisrulewidth=\dimen289
 )
 (c:/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip99
-\multirow@cntb=\count304
-\multirow@dima=\skip100
+\multirow@colwidth=\skip107
+\multirow@cntb=\count310
+\multirow@dima=\skip108
 \bigstrutjot=\dimen290
 )
 (c:/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count305
-\float@exts=\toks22
+\c@float@type=\count311
+\float@exts=\toks24
 \float@box=\box121
-\@float@everytoks=\toks23
+\@float@everytoks=\toks25
 \@floatcapt=\box122
 )
 (c:/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen291
 \WF@size=\dimen292
-\c@WF@wrappedlines=\count306
+\c@WF@wrappedlines=\count312
 \WF@box=\box123
-\WF@everypar=\toks24
+\WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
@@ -579,8 +618,8 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count307
-\c@continuedfloat=\count308
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
 Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
@@ -592,36 +631,36 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen300
 \ar@mcellbox=\box124
 \extrarowheight=\dimen301
-\NC@list=\toks25
-\extratabsurround=\skip101
-\backup@length=\skip102
+\NC@list=\toks27
+\extratabsurround=\skip109
+\backup@length=\skip110
 \ar@cellbox=\box125
 )
 \l__siunitx_tmp_box=\box126
 \l__siunitx_tmp_dim=\dimen302
-\l__siunitx_tmp_int=\count309
-\l__siunitx_number_mantissa_length_int=\count310
-\l__siunitx_number_uncert_length_int=\count311
-\l__siunitx_round_int=\count312
-\l__siunitx_process_decimal_int=\count313
-\l__siunitx_process_uncertainty_int=\count314
-\l__siunitx_process_fixed_int=\count315
-\l__siunitx_process_integer_min_int=\count316
-\l__siunitx_process_precision_int=\count317
-\l__siunitx_group_min_int=\count318
+\l__siunitx_tmp_int=\count315
+\l__siunitx_number_mantissa_length_int=\count316
+\l__siunitx_number_uncert_length_int=\count317
+\l__siunitx_round_int=\count318
+\l__siunitx_process_decimal_int=\count319
+\l__siunitx_process_uncertainty_int=\count320
+\l__siunitx_process_fixed_int=\count321
+\l__siunitx_process_integer_min_int=\count322
+\l__siunitx_process_precision_int=\count323
+\l__siunitx_group_min_int=\count324
 \l__siunitx_angle_marker_box=\box127
 \l__siunitx_angle_unit_box=\box128
 \l__siunitx_angle_marker_dim=\dimen303
 \l__siunitx_angle_unit_dim=\dimen304
-\l__siunitx_unit_int=\count319
-\l__siunitx_unit_denominator_int=\count320
-\l__siunitx_unit_numerator_int=\count321
-\l__siunitx_unit_prefix_int=\count322
-\l__siunitx_unit_prefix_base_int=\count323
-\l__siunitx_unit_prefix_gram_int=\count324
-\l__siunitx_number_product_int=\count325
-\c__siunitx_one_fill_skip=\skip103
-\l__siunitx_table_unit_align_skip=\skip104
+\l__siunitx_unit_int=\count325
+\l__siunitx_unit_denominator_int=\count326
+\l__siunitx_unit_numerator_int=\count327
+\l__siunitx_unit_prefix_int=\count328
+\l__siunitx_unit_prefix_base_int=\count329
+\l__siunitx_unit_prefix_gram_int=\count330
+\l__siunitx_number_product_int=\count331
+\c__siunitx_one_fill_skip=\skip111
+\l__siunitx_table_unit_align_skip=\skip112
 \l__siunitx_table_exponent_dim=\dimen305
 \l__siunitx_table_integer_dim=\dimen306
 \l__siunitx_table_mantissa_dim=\dimen307
@@ -635,8 +674,8 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \l__siunitx_table_post_box=\box130
 \l__siunitx_table_mantissa_box=\box131
 \l__siunitx_table_result_box=\box132
-\l__siunitx_table_number_align_skip=\skip105
-\l__siunitx_table_text_align_skip=\skip106
+\l__siunitx_table_number_align_skip=\skip113
+\l__siunitx_table_text_align_skip=\skip114
 
 (c:/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
@@ -655,7 +694,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
+\etb@tempcnta=\count332
 )
 (c:/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2020-03-03 v2.29 Module abspage for zref (HO)
@@ -693,53 +732,53 @@ Package zref Info: New property: page on input line 765.
 (c:/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\c@abspage=\count327
+\c@abspage=\count333
 Package zref Info: New property: abspage on input line 66.
 )
 (c:/texlive/2020/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip107
-\c@mdf@globalstyle@cnt=\count328
-\mdf@skipabove@length=\skip108
-\mdf@skipbelow@length=\skip109
-\mdf@leftmargin@length=\skip110
-\mdf@rightmargin@length=\skip111
-\mdf@innerleftmargin@length=\skip112
-\mdf@innerrightmargin@length=\skip113
-\mdf@innertopmargin@length=\skip114
-\mdf@innerbottommargin@length=\skip115
-\mdf@splittopskip@length=\skip116
-\mdf@splitbottomskip@length=\skip117
-\mdf@outermargin@length=\skip118
-\mdf@innermargin@length=\skip119
-\mdf@linewidth@length=\skip120
-\mdf@innerlinewidth@length=\skip121
-\mdf@middlelinewidth@length=\skip122
-\mdf@outerlinewidth@length=\skip123
-\mdf@roundcorner@length=\skip124
-\mdf@footenotedistance@length=\skip125
-\mdf@userdefinedwidth@length=\skip126
-\mdf@needspace@length=\skip127
-\mdf@frametitleaboveskip@length=\skip128
-\mdf@frametitlebelowskip@length=\skip129
-\mdf@frametitlerulewidth@length=\skip130
-\mdf@frametitleleftmargin@length=\skip131
-\mdf@frametitlerightmargin@length=\skip132
-\mdf@shadowsize@length=\skip133
-\mdf@extratopheight@length=\skip134
-\mdf@subtitleabovelinewidth@length=\skip135
-\mdf@subtitlebelowlinewidth@length=\skip136
-\mdf@subtitleaboveskip@length=\skip137
-\mdf@subtitlebelowskip@length=\skip138
-\mdf@subtitleinneraboveskip@length=\skip139
-\mdf@subtitleinnerbelowskip@length=\skip140
-\mdf@subsubtitleabovelinewidth@length=\skip141
-\mdf@subsubtitlebelowlinewidth@length=\skip142
-\mdf@subsubtitleaboveskip@length=\skip143
-\mdf@subsubtitlebelowskip@length=\skip144
-\mdf@subsubtitleinneraboveskip@length=\skip145
-\mdf@subsubtitleinnerbelowskip@length=\skip146
+\mdf@templength=\skip115
+\c@mdf@globalstyle@cnt=\count334
+\mdf@skipabove@length=\skip116
+\mdf@skipbelow@length=\skip117
+\mdf@leftmargin@length=\skip118
+\mdf@rightmargin@length=\skip119
+\mdf@innerleftmargin@length=\skip120
+\mdf@innerrightmargin@length=\skip121
+\mdf@innertopmargin@length=\skip122
+\mdf@innerbottommargin@length=\skip123
+\mdf@splittopskip@length=\skip124
+\mdf@splitbottomskip@length=\skip125
+\mdf@outermargin@length=\skip126
+\mdf@innermargin@length=\skip127
+\mdf@linewidth@length=\skip128
+\mdf@innerlinewidth@length=\skip129
+\mdf@middlelinewidth@length=\skip130
+\mdf@outerlinewidth@length=\skip131
+\mdf@roundcorner@length=\skip132
+\mdf@footenotedistance@length=\skip133
+\mdf@userdefinedwidth@length=\skip134
+\mdf@needspace@length=\skip135
+\mdf@frametitleaboveskip@length=\skip136
+\mdf@frametitlebelowskip@length=\skip137
+\mdf@frametitlerulewidth@length=\skip138
+\mdf@frametitleleftmargin@length=\skip139
+\mdf@frametitlerightmargin@length=\skip140
+\mdf@shadowsize@length=\skip141
+\mdf@extratopheight@length=\skip142
+\mdf@subtitleabovelinewidth@length=\skip143
+\mdf@subtitlebelowlinewidth@length=\skip144
+\mdf@subtitleaboveskip@length=\skip145
+\mdf@subtitlebelowskip@length=\skip146
+\mdf@subtitleinneraboveskip@length=\skip147
+\mdf@subtitleinnerbelowskip@length=\skip148
+\mdf@subsubtitleabovelinewidth@length=\skip149
+\mdf@subsubtitlebelowlinewidth@length=\skip150
+\mdf@subsubtitleaboveskip@length=\skip151
+\mdf@subsubtitlebelowskip@length=\skip152
+\mdf@subsubtitleinneraboveskip@length=\skip153
+\mdf@subsubtitleinnerbelowskip@length=\skip154
 
 (c:/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
@@ -749,60 +788,48 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box135
 \mdf@splitbox@two=\box136
 \mdf@splitbox@save=\box137
-\mdfsplitboxwidth=\skip147
-\mdfsplitboxtotalwidth=\skip148
-\mdfsplitboxheight=\skip149
-\mdfsplitboxdepth=\skip150
-\mdfsplitboxtotalheight=\skip151
-\mdfframetitleboxwidth=\skip152
-\mdfframetitleboxtotalwidth=\skip153
-\mdfframetitleboxheight=\skip154
-\mdfframetitleboxdepth=\skip155
-\mdfframetitleboxtotalheight=\skip156
-\mdffootnoteboxwidth=\skip157
-\mdffootnoteboxtotalwidth=\skip158
-\mdffootnoteboxheight=\skip159
-\mdffootnoteboxdepth=\skip160
-\mdffootnoteboxtotalheight=\skip161
-\mdftotallinewidth=\skip162
-\mdfboundingboxwidth=\skip163
-\mdfboundingboxtotalwidth=\skip164
-\mdfboundingboxheight=\skip165
-\mdfboundingboxdepth=\skip166
-\mdfboundingboxtotalheight=\skip167
-\mdf@freevspace@length=\skip168
-\mdf@horizontalwidthofbox@length=\skip169
-\mdf@verticalmarginwhole@length=\skip170
-\mdf@horizontalspaceofbox=\skip171
-\mdfsubtitleheight=\skip172
-\mdfsubsubtitleheight=\skip173
-\c@mdfcountframes=\count329
+\mdfsplitboxwidth=\skip155
+\mdfsplitboxtotalwidth=\skip156
+\mdfsplitboxheight=\skip157
+\mdfsplitboxdepth=\skip158
+\mdfsplitboxtotalheight=\skip159
+\mdfframetitleboxwidth=\skip160
+\mdfframetitleboxtotalwidth=\skip161
+\mdfframetitleboxheight=\skip162
+\mdfframetitleboxdepth=\skip163
+\mdfframetitleboxtotalheight=\skip164
+\mdffootnoteboxwidth=\skip165
+\mdffootnoteboxtotalwidth=\skip166
+\mdffootnoteboxheight=\skip167
+\mdffootnoteboxdepth=\skip168
+\mdffootnoteboxtotalheight=\skip169
+\mdftotallinewidth=\skip170
+\mdfboundingboxwidth=\skip171
+\mdfboundingboxtotalwidth=\skip172
+\mdfboundingboxheight=\skip173
+\mdfboundingboxdepth=\skip174
+\mdfboundingboxtotalheight=\skip175
+\mdf@freevspace@length=\skip176
+\mdf@horizontalwidthofbox@length=\skip177
+\mdf@verticalmarginwhole@length=\skip178
+\mdf@horizontalspaceofbox=\skip179
+\mdfsubtitleheight=\skip180
+\mdfsubsubtitleheight=\skip181
+\c@mdfcountframes=\count335
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count330
-\c@mdf@env@i=\count331
-\c@mdf@env@ii=\count332
-\c@mdf@zref@counter=\count333
+\mdf@envdepth=\count336
+\c@mdf@env@i=\count337
+\c@mdf@env@ii=\count338
+\c@mdf@zref@counter=\count339
 Package zref Info: New property: mdf@pagevalue on input line 895.
-)
-(c:/texlive/2020/texmf-dist/tex/latex/was/upgreek.sty
-Package: upgreek 2003/02/12 v2.0 (WaS)
-Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
-\symugrf@m=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
-(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-)
-(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/eucal.sty
-Package: eucal 2009/06/22 v3.00 Euler Script fonts
-LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
-(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
 (c:/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks26
+\@enLab=\toks28
 )
 (c:/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -816,11 +843,11 @@ Writing index file Physics_XES_II.idx
 \openout2 = `frontmatter/preamble.aux'.
 
 (./frontmatter/preamble.tex
-\c@thm=\count334
-\c@exe=\count335
-\c@ex=\count336
-\c@dfn=\count337
-\c@prf=\count338
+\c@thm=\count340
+\c@exe=\count341
+\c@ex=\count342
+\c@dfn=\count343
+\c@prf=\count344
 ) (./Physics_XES_II.aux
 (./chapters/chapter01/sec1.aux) (./chapters/chapter01/sec2.aux)
 (./chapters/chapter01/sec3.aux) (./chapters/chapter01/summary.aux
@@ -1258,78 +1285,78 @@ LaTeX Warning: Label `1-1' multiply defined.
 ))
 \openout1 = `Physics_XES_II.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
-LaTeX Font Info:    Redeclaring math accent \check on input line 43.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 49.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 49.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 49.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 49.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 49.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 49.
+LaTeX Font Info:    Redeclaring math accent \check on input line 49.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 49.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 49.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 49.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 43.
+(Font)              `operators' in the math version `normal' on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 49.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 43.
+(Font)              `operators' in the math version `bold' on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 43.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 43.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 43.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 43.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 49.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1341,31 +1368,31 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \AtBeginShipoutBox=\box138
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Font Warning: Font shape `TU/方正书宋简体(0)/m/it' undefined
-(Font)              using `TU/方正书宋简体(0)/m/n' instead on input line 50.
+LaTeX Font Warning: Font shape `TU/FandolSong(0)/m/it' undefined
+(Font)              using `TU/FandolSong(0)/m/n' instead on input line 56.
 
-
-LaTeX Font Warning: Font shape `TU/方正书宋简体(0)/b/sl' undefined
-(Font)              using `TU/方正书宋简体(0)/m/n' instead on input line 50.
-
+LaTeX Font Info:    Font shape `TU/FandolSong(0)/b/sl' in size <24> not availab
+le
+(Font)              Font shape `TU/FandolSong(0)/b/it' tried instead on input l
+ine 56.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1373,7 +1400,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1381,7 +1408,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1389,7 +1416,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1408,7 +1435,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1416,7 +1443,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1424,7 +1451,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1432,7 +1459,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1444,98 +1471,164 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [2
 
 ]
-Underfull \vbox (badness 10000) detected at line 56
+Underfull \vbox (badness 10000) detected at line 62
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 56
+Overfull \hbox (396.25pt too wide) detected at line 62
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 56
+Underfull \vbox (badness 10000) detected at line 62
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 56
+Overfull \hbox (396.25pt too wide) detected at line 62
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 56
+Underfull \vbox (badness 10000) detected at line 62
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 56
+Overfull \hbox (396.25pt too wide) detected at line 62
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 56
+Underfull \vbox (badness 10000) detected at line 62
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 56
+Overfull \hbox (396.25pt too wide) detected at line 62
 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 56
+Underfull \hbox (badness 10000) detected at line 62
 []
  []
 
+LaTeX Font Info:    Font shape `TU/FandolSong(0)/b/sl' in size <18> not availab
+le
+(Font)              Font shape `TU/FandolSong(0)/b/it' tried instead on input l
+ine 62.
 (./Physics_XES_II.toc
 
-LaTeX Font Warning: Font shape `TU/方正书宋简体(0)/b/n' undefined
-(Font)              using `TU/方正书宋简体(0)/m/n' instead on input line 2.
+Package fontspec Warning: Font "FandolFang" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: Could not resolve font "FandolFang/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FandolFang/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FandolFang/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FandolFang(0)' created for font
+(fontspec)             'FandolFang' with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FandolFang/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[3] [4] [5] [6] [7])
+[3] [4] [5] [6])
 \tf@toc=\write5
 \openout5 = `Physics_XES_II.toc'.
 
- [8]
-Underfull \vbox (badness 10000) detected at line 59
- []
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 59
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 59
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 59
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 59
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 59
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 59
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 59
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[8
+
+]
+Underfull \vbox (badness 10000) detected at line 65
+ []
+
+
+Overfull \hbox (396.25pt too wide) detected at line 65
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 65
+ []
+
+
+Overfull \hbox (396.25pt too wide) detected at line 65
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 65
+ []
+
+
+Overfull \hbox (396.25pt too wide) detected at line 65
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 65
+ []
+
+
+Overfull \hbox (396.25pt too wide) detected at line 65
+[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 65
 []
  []
 
@@ -1550,12 +1643,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [9
 
-
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1563,7 +1655,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1571,7 +1663,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1579,7 +1671,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1591,43 +1683,43 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [10
 
 ]
-Underfull \vbox (badness 10000) detected at line 60
+Underfull \vbox (badness 10000) detected at line 66
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 60
+Overfull \hbox (396.25pt too wide) detected at line 66
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 60
+Underfull \vbox (badness 10000) detected at line 66
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 60
+Overfull \hbox (396.25pt too wide) detected at line 66
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 60
+Underfull \vbox (badness 10000) detected at line 66
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 60
+Overfull \hbox (396.25pt too wide) detected at line 66
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 60
+Underfull \vbox (badness 10000) detected at line 66
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 60
+Overfull \hbox (396.25pt too wide) detected at line 66
 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 60
+Underfull \hbox (badness 10000) detected at line 66
 []
  []
 
@@ -1646,7 +1738,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1654,7 +1746,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1662,7 +1754,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1670,7 +1762,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1682,120 +1774,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [12
 
 ]
-\openout2 = `chapters/chapter01/sec1.aux'.
-
- (./chapters/chapter01/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 79
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 79
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 79
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 79
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 79
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 79
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 79
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 1.
-
-LaTeX Font Warning: Font shape `TU/方正书宋简体(0)/m/sl' undefined
-(Font)              using `TU/方正书宋简体(0)/m/n' instead on input line 4.
-
-(./1.toc)
-\openout3 = `1.toc'.
-
-)
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[1
-
-
-
-]
-\openout2 = `chapters/chapter01/sec2.aux'.
-
- (./chapters/chapter01/sec2.tex) [2
-
-
-]
-\openout2 = `chapters/chapter01/sec3.aux'.
-
- (./chapters/chapter01/sec3.tex)
-[3
-
-
-]
-\openout2 = `chapters/chapter01/summary.aux'.
-
- (./chapters/chapter01/summary.tex) [4
-
-
-]
-\openout2 = `chapters/chapter01/prob.aux'.
-
- (./chapters/chapter01/prob.tex)
-[5
-
-
-]
-Underfull \vbox (badness 10000) detected at line 73
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 73
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 73
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 73
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 73
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 73
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 73
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 73
+Overfull \hbox (396.25pt too wide) detected at line 79
 []
  []
 
@@ -1803,7 +1813,7 @@ Overfull \hbox (336.25pt too wide) detected at line 73
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1811,7 +1821,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1819,7 +1829,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1827,7 +1837,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1839,11 +1849,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [6
 
 
+
+
+
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1851,7 +1865,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1859,7 +1873,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1867,7 +1881,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1880,7 +1894,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1888,7 +1902,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1896,7 +1910,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1904,7 +1918,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -1921,7 +1935,7 @@ Underfull \vbox (badness 10000) detected at line 4
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 4
 []
  []
 
@@ -1930,7 +1944,7 @@ Underfull \vbox (badness 10000) detected at line 4
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 4
 []
  []
 
@@ -1939,7 +1953,7 @@ Underfull \vbox (badness 10000) detected at line 4
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 4
 []
  []
 
@@ -1948,13 +1962,45 @@ Underfull \vbox (badness 10000) detected at line 4
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 4
 []
  []
 
 CHAPTER 2.
+
+LaTeX Font Warning: Font shape `TU/FandolSong(0)/m/sl' undefined
+(Font)              using `TU/FandolSong(0)/m/n' instead on input line 4.
+
 (./2.toc)
 \openout3 = `2.toc'.
+
+
+
+Package fontspec Warning: Font "FandolKai" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: Could not resolve font "FandolKai/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FandolKai/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FandolKai/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FandolKai(0)' created for font 'FandolKai'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FandolKai/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1965,54 +2011,48 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 
-]) [10]
-\openout2 = `chapters/chapter02/sec2.aux'.
-
- (./chapters/chapter02/sec2.tex) [11
-
-
 ]
-\openout2 = `chapters/chapter02/sec3.aux'.
+File: image/6-1-1.png Graphic file (type bmp)
+<image/6-1-1.png>
 
- (./chapters/chapter02/sec3.tex)
-[12
+Underfull \hbox (badness 1895) in paragraph at lines 41--42
+\TU/FandolKai(0)/m/n/10 对 称[]\TU/lmr/m/n/10 (spherical symmetric) \TU/FandolSon
+g(0)/m/n/10 仅 仅 代 表
+ []
 
-
-]
-\openout2 = `chapters/chapter02/sec4.aux'.
-
- (./chapters/chapter02/sec4.tex) [13
-
-
-]
-\openout2 = `chapters/chapter02/summary.aux'.
-
- (./chapters/chapter02/summary.tex)
-[14
+[10]) [11]
+Underfull \vbox (badness 10000) detected at line 142
+ []
 
 
-]
-\openout2 = `chapters/chapter02/prob.aux'.
-
- (./chapters/chapter02/prob.tex) [15
-
-
-]
-\openout2 = `chapters/chapter03/sec1.aux'.
-
- (./chapters/chapter03/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) detected at line 142
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 10000) detected at line 142
+ []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) detected at line 142
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 142
+ []
+
+
+Overfull \hbox (396.25pt too wide) detected at line 142
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 142
+ []
+
+
+Overfull \hbox (396.25pt too wide) detected at line 142
 []
  []
 
@@ -2020,7 +2060,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -2028,118 +2068,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[16
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 3.
-(./3.toc)
-\openout3 = `3.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[17
-
-]) [18]
-\openout2 = `chapters/chapter03/sec2.aux'.
-
- (./chapters/chapter03/sec2.tex) [19
-
-
-]
-\openout2 = `chapters/chapter03/sec3.aux'.
-
- (./chapters/chapter03/sec3.tex) [20
-
-
-]
-\openout2 = `chapters/chapter03/sec4.aux'.
-
- (./chapters/chapter03/sec4.tex) [21
-
-
-]
-\openout2 = `chapters/chapter03/sec5.aux'.
-
- (./chapters/chapter03/sec5.tex)
-[22
-
-
-]
-\openout2 = `chapters/chapter03/sec6.aux'.
-
- (./chapters/chapter03/sec6.tex) [23
-
-
-]
-\openout2 = `chapters/chapter03/summary.aux'.
-
- (./chapters/chapter03/summary.tex)
-[24
-
-
-]
-\openout2 = `chapters/chapter03/prob.aux'.
-
- (./chapters/chapter03/prob.tex) [25
-
-
-]
-\openout2 = `chapters/chapter04/sec1.aux'.
-
- (./chapters/chapter04/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -2147,7 +2076,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -2155,773 +2084,11 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[26
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 4.
-(./4.toc)
-\openout3 = `4.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[27
-
-]) [28]
-\openout2 = `chapters/chapter04/sec2.aux'.
-
- (./chapters/chapter04/sec2.tex) [29
-
-
-]
-\openout2 = `chapters/chapter04/sec3.aux'.
-
- (./chapters/chapter04/sec3.tex) [30
-
-
-]
-\openout2 = `chapters/chapter04/sec4.aux'.
-
- (./chapters/chapter04/sec4.tex) [31
-
-
-]
-\openout2 = `chapters/chapter04/sec5.aux'.
-
- (./chapters/chapter04/sec5.tex)
-[32
-
-
-]
-\openout2 = `chapters/chapter04/sec6.aux'.
-
- (./chapters/chapter04/sec6.tex) [33
-
-
-]
-\openout2 = `chapters/chapter04/summary.aux'.
-
- (./chapters/chapter04/summary.tex)
-[34
-
-
-]
-\openout2 = `chapters/chapter04/prob.aux'.
-
- (./chapters/chapter04/prob.tex) [35
-
-
-]
-\openout2 = `chapters/chapter05/sec1.aux'.
-
- (./chapters/chapter05/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[36
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 5.
-(./5.toc)
-\openout3 = `5.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[37
-
-]) [38]
-\openout2 = `chapters/chapter05/sec2.aux'.
-
- (./chapters/chapter05/sec2.tex) [39
-
-
-]
-\openout2 = `chapters/chapter05/sec3.aux'.
-
- (./chapters/chapter05/sec3.tex) [40
-
-
-]
-\openout2 = `chapters/chapter05/sec4.aux'.
-
- (./chapters/chapter05/sec4.tex) [41
-
-
-]
-\openout2 = `chapters/chapter05/sec5.aux'.
-
- (./chapters/chapter05/sec5.tex)
-[42
-
-
-]
-\openout2 = `chapters/chapter05/summary.aux'.
-
- (./chapters/chapter05/summary.tex) [43
-
-
-]
-\openout2 = `chapters/chapter05/prob.aux'.
-
- (./chapters/chapter05/prob.tex)
-[44
-
-
-]
-\openout2 = `chapters/chapter06/sec1.aux'.
-
- (./chapters/chapter06/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 6.
-(./6.toc)
-\openout3 = `6.toc'.
-
-)
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[45
-
-
-
-
-]
-\openout2 = `chapters/chapter06/sec2.aux'.
-
- (./chapters/chapter06/sec2.tex) [46
-
-
-]
-\openout2 = `chapters/chapter06/sec3.aux'.
-
- (./chapters/chapter06/sec3.tex)
-[47
-
-
-]
-\openout2 = `chapters/chapter06/sec4.aux'.
-
- (./chapters/chapter06/sec4.tex) [48
-
-
-]
-\openout2 = `chapters/chapter06/summary.aux'.
-
- (./chapters/chapter06/summary.tex)
-[49
-
-
-]
-\openout2 = `chapters/chapter06/prob.aux'.
-
- (./chapters/chapter06/prob.tex) [50
-
-
-]
-\openout2 = `chapters/chapter07/sec1.aux'.
-
- (./chapters/chapter07/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 7.
-(./7.toc)
-\openout3 = `7.toc'.
-
-)
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[51
-
-
-
-
-]
-\openout2 = `chapters/chapter07/sec2.aux'.
-
- (./chapters/chapter07/sec2.tex) [52
-
-
-]
-\openout2 = `chapters/chapter07/sec3.aux'.
-
- (./chapters/chapter07/sec3.tex)
-[53
-
-
-]
-\openout2 = `chapters/chapter07/summary.aux'.
-
- (./chapters/chapter07/summary.tex) [54
-
-
-]
-\openout2 = `chapters/chapter07/prob.aux'.
-
- (./chapters/chapter07/prob.tex)
-[55
-
-
-]
-\openout2 = `chapters/chapter08/sec1.aux'.
-
- (./chapters/chapter08/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[56
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 8.
-(./8.toc)
-\openout3 = `8.toc'.
-
-)
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[57
-
-] [58]
-\openout2 = `chapters/chapter08/sec2.aux'.
-
- (./chapters/chapter08/sec2.tex) [59
-
-
-]
-\openout2 = `chapters/chapter08/sec3.aux'.
-
- (./chapters/chapter08/sec3.tex)
-[60
-
-
-]
-\openout2 = `chapters/chapter08/summary.aux'.
-
- (./chapters/chapter08/summary.tex) [61
-
-
-]
-\openout2 = `chapters/chapter08/prob.aux'.
-
- (./chapters/chapter08/prob.tex)
-[62
-
-
-]
-\openout2 = `chapters/chapter09/sec1.aux'.
-
- (./chapters/chapter09/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 9.
-(./9.toc)
-\openout3 = `9.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[63
-
-
-
-
-]) [64]
-\openout2 = `chapters/chapter09/sec2.aux'.
-
- (./chapters/chapter09/sec2.tex) [65
-
-
-]
-\openout2 = `chapters/chapter09/sec3.aux'.
-
- (./chapters/chapter09/sec3.tex) [66
-
-
-]
-\openout2 = `chapters/chapter09/sec4.aux'.
-
- (./chapters/chapter09/sec4.tex) [67
-
-
-]
-\openout2 = `chapters/chapter09/sec5.aux'.
-
- (./chapters/chapter09/sec5.tex)
-[68
-
-
-]
-\openout2 = `chapters/chapter09/summary.aux'.
-
- (./chapters/chapter09/summary.tex) [69
-
-
-]
-\openout2 = `chapters/chapter09/prob.aux'.
-
- (./chapters/chapter09/prob.tex)
-[70
-
-
-]
-Underfull \vbox (badness 10000) detected at line 136
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 136
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 136
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 136
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 136
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 136
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 136
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 136
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[71
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[72]
-\openout2 = `chapters/chapter10/sec1.aux'.
-
- (./chapters/chapter10/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 10.
-(./10.toc
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
@@ -2930,48 +2097,61 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 
-])
-\openout3 = `10.toc'.
 
-) [74]
-\openout2 = `chapters/chapter10/sec2.aux'.
 
- (./chapters/chapter10/sec2.tex) [75
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ]
-\openout2 = `chapters/chapter10/sec3.aux'.
-
- (./chapters/chapter10/sec3.tex) [76
-
-
-]
-\openout2 = `chapters/chapter10/sec4.aux'.
-
- (./chapters/chapter10/sec4.tex) [77
-
-
-]
-\openout2 = `chapters/chapter10/summary.aux'.
-
- (./chapters/chapter10/summary.tex)
-[78
-
-
-]
-\openout2 = `chapters/chapter10/prob.aux'.
-
- (./chapters/chapter10/prob.tex) [79
-
-
-]
-\openout2 = `chapters/chapter11/sec1.aux'.
-
- (./chapters/chapter11/sec1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -2979,7 +2159,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -2987,7 +2167,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -2995,7 +2175,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3004,388 +2184,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[80
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
+[74]
+Underfull \vbox (badness 10000) detected at line 182
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 182
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 182
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 182
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 182
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 182
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 182
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 11.
-(./11.toc
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[81
-
-])
-\openout3 = `11.toc'.
-
-) [82]
-\openout2 = `chapters/chapter11/sec2.aux'.
-
- (./chapters/chapter11/sec2.tex) [83
-
-
-]
-\openout2 = `chapters/chapter11/sec3.aux'.
-
- (./chapters/chapter11/sec3.tex) [84
-
-
-]
-\openout2 = `chapters/chapter11/sec4.aux'.
-
- (./chapters/chapter11/sec4.tex) [85
-
-
-]
-\openout2 = `chapters/chapter11/sec5.aux'.
-
- (./chapters/chapter11/sec5.tex)
-[86
-
-
-]
-\openout2 = `chapters/chapter11/summary.aux'.
-
- (./chapters/chapter11/summary.tex) [87
-
-
-]
-\openout2 = `chapters/chapter11/prob.aux'.
-
- (./chapters/chapter11/prob.tex)
-[88
-
-
-]
-\openout2 = `chapters/chapter12/sec1.aux'.
-
- (./chapters/chapter12/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 12.
-(./12.toc)
-\openout3 = `12.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[89
-
-
-
-
-]) [90]
-\openout2 = `chapters/chapter12/sec2.aux'.
-
- (./chapters/chapter12/sec2.tex) [91
-
-
-]
-\openout2 = `chapters/chapter12/sec3.aux'.
-
- (./chapters/chapter12/sec3.tex) [92
-
-
-]
-\openout2 = `chapters/chapter12/sec4.aux'.
-
- (./chapters/chapter12/sec4.tex) [93
-
-
-]
-\openout2 = `chapters/chapter12/sec5.aux'.
-
- (./chapters/chapter12/sec5.tex)
-[94
-
-
-]
-\openout2 = `chapters/chapter12/summary.aux'.
-
- (./chapters/chapter12/summary.tex) [95
-
-
-]
-\openout2 = `chapters/chapter12/prob.aux'.
-
- (./chapters/chapter12/prob.tex)
-[96
-
-
-]
-\openout2 = `chapters/chapter13/sec1.aux'.
-
- (./chapters/chapter13/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 13.
-(./13.toc)
-\openout3 = `13.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[97
-
-
-
-
-]) [98]
-\openout2 = `chapters/chapter13/sec2.aux'.
-
- (./chapters/chapter13/sec2.tex) [99
-
-
-]
-\openout2 = `chapters/chapter13/sec3.aux'.
-
- (./chapters/chapter13/sec3.tex) [100
-
-
-]
-\openout2 = `chapters/chapter13/summary.aux'.
-
- (./chapters/chapter13/summary.tex) [101
-
-
-]
-\openout2 = `chapters/chapter13/prob.aux'.
-
- (./chapters/chapter13/prob.tex) [102
-
-
-]
-\openout2 = `chapters/chapter14/sec1.aux'.
-
- (./chapters/chapter14/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 14.
-(./14.toc)
-\openout3 = `14.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[103
-
-
-
-
-]) [104]
-\openout2 = `chapters/chapter14/sec2.aux'.
-
- (./chapters/chapter14/sec2.tex) [105
-
-
-]
-\openout2 = `chapters/chapter14/sec3.aux'.
-
-
-(./chapters/chapter14/sec3.tex) [106
-
-
-]
-\openout2 = `chapters/chapter14/sec4.aux'.
-
- (./chapters/chapter14/sec4.tex) [107
-
-
-]
-\openout2 = `chapters/chapter14/sec5.aux'.
-
-
-(./chapters/chapter14/sec5.tex) [108
-
-
-]
-\openout2 = `chapters/chapter14/summary.aux'.
-
- (./chapters/chapter14/summary.tex)
-[109
-
-
-]
-\openout2 = `chapters/chapter14/prob.aux'.
-
- (./chapters/chapter14/prob.tex) [110
-
-
-]
-Underfull \vbox (badness 10000) detected at line 176
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 176
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 176
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 176
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 176
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 176
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 176
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 176
+Overfull \hbox (396.25pt too wide) detected at line 182
 []
  []
 
@@ -3393,7 +2224,7 @@ Overfull \hbox (336.25pt too wide) detected at line 176
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3401,7 +2232,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3409,7 +2240,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3417,97 +2248,9 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[111
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[112]
-\openout2 = `chapters/chapter15/sec1.aux'.
-
- (./chapters/chapter15/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 15.
-(./15.toc)
-\openout3 = `15.toc'.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3518,47 +2261,41 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 
-]) [114]
-\openout2 = `chapters/chapter15/sec2.aux'.
-
- (./chapters/chapter15/sec2.tex) [115
 
 
-]
-\openout2 = `chapters/chapter15/sec3.aux'.
 
 
-(./chapters/chapter15/sec3.tex) [116
 
 
-]
-\openout2 = `chapters/chapter15/sec4.aux'.
-
- (./chapters/chapter15/sec4.tex) [117
 
 
-]
-\openout2 = `chapters/chapter15/summary.aux'.
 
 
-(./chapters/chapter15/summary.tex) [118
 
 
-]
-\openout2 = `chapters/chapter15/prob.aux'.
 
- (./chapters/chapter15/prob.tex)
-[119
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ]
-\openout2 = `chapters/chapter16/sec1.aux'.
-
- (./chapters/chapter16/sec1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3566,7 +2303,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3574,7 +2311,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3582,7 +2319,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3591,98 +2328,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[120
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
+[114]
+Underfull \vbox (badness 10000) detected at line 236
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 236
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 236
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 236
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 236
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 236
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 236
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 16.
-(./16.toc)
-\openout3 = `16.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[121
-
-]) [122]
-\openout2 = `chapters/chapter16/sec2.aux'.
-
- (./chapters/chapter16/sec2.tex) [123
-
-
-]
-\openout2 = `chapters/chapter16/sec3.aux'.
-
-
-(./chapters/chapter16/sec3.tex) [124
-
-
-]
-\openout2 = `chapters/chapter16/sec4.aux'.
-
- (./chapters/chapter16/sec4.tex) [125
-
-
-]
-\openout2 = `chapters/chapter16/summary.aux'.
-
-
-(./chapters/chapter16/summary.tex) [126
-
-
-]
-\openout2 = `chapters/chapter16/prob.aux'.
-
- (./chapters/chapter16/prob.tex)
-[127
-
-
-]
-\openout2 = `chapters/chapter17/sec1.aux'.
-
- (./chapters/chapter17/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) detected at line 236
 []
  []
 
@@ -3690,7 +2368,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3698,7 +2376,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3706,7 +2384,15 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3715,111 +2401,57 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[128
+[172
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 17.
-(./17.toc)
-\openout3 = `17.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[129
-
-]) [130]
-\openout2 = `chapters/chapter17/sec2.aux'.
-
- (./chapters/chapter17/sec2.tex) [131
-
-
-]
-\openout2 = `chapters/chapter17/sec3.aux'.
-
-
-(./chapters/chapter17/sec3.tex) [132
-
-
-]
-\openout2 = `chapters/chapter17/sec4.aux'.
-
- (./chapters/chapter17/sec4.tex) [133
-
-
-]
-\openout2 = `chapters/chapter17/sec5.aux'.
-
-
-(./chapters/chapter17/sec5.tex) [134
-
-
-]
-\openout2 = `chapters/chapter17/sec6.aux'.
-
- (./chapters/chapter17/sec6.tex) [135
-
-
-]
-\openout2 = `chapters/chapter17/summary.aux'.
-
-
-(./chapters/chapter17/summary.tex) [136
-
-
-]
-\openout2 = `chapters/chapter17/prob.aux'.
-
- (./chapters/chapter17/prob.tex)
-[137
-
-
-]
-\openout2 = `chapters/chapter18/sec1.aux'.
-
- (./chapters/chapter18/sec1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3827,7 +2459,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3835,7 +2467,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3843,7 +2475,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3852,98 +2484,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[138
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 18.
-(./18.toc)
-\openout3 = `18.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[139
-
-]) [140]
-\openout2 = `chapters/chapter18/sec2.aux'.
-
- (./chapters/chapter18/sec2.tex) [141
-
-
-]
-\openout2 = `chapters/chapter18/sec3.aux'.
-
-
-(./chapters/chapter18/sec3.tex) [142
-
-
-]
-\openout2 = `chapters/chapter18/sec4.aux'.
-
- (./chapters/chapter18/sec4.tex) [143
-
-
-]
-\openout2 = `chapters/chapter18/summary.aux'.
-
-
-(./chapters/chapter18/summary.tex) [144
-
-
-]
-\openout2 = `chapters/chapter18/prob.aux'.
-
- (./chapters/chapter18/prob.tex)
-[145
-
-
-]
-\openout2 = `chapters/chapter19/sec1.aux'.
-
- (./chapters/chapter19/sec1.tex
+[173]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3951,7 +2496,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3959,7 +2504,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3967,7 +2512,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -3976,98 +2521,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[146
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
+[174]
+Underfull \vbox (badness 10000) detected at line 278
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 278
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 278
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 278
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 278
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
+Overfull \hbox (396.25pt too wide) detected at line 278
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4
+Underfull \vbox (badness 10000) detected at line 278
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 19.
-(./19.toc)
-\openout3 = `19.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[147
-
-]) [148]
-\openout2 = `chapters/chapter19/sec2.aux'.
-
- (./chapters/chapter19/sec2.tex) [149
-
-
-]
-\openout2 = `chapters/chapter19/sec3.aux'.
-
-
-(./chapters/chapter19/sec3.tex) [150
-
-
-]
-\openout2 = `chapters/chapter19/sec4.aux'.
-
- (./chapters/chapter19/sec4.tex) [151
-
-
-]
-\openout2 = `chapters/chapter19/summary.aux'.
-
-
-(./chapters/chapter19/summary.tex) [152
-
-
-]
-\openout2 = `chapters/chapter19/prob.aux'.
-
- (./chapters/chapter19/prob.tex)
-[153
-
-
-]
-\openout2 = `chapters/chapter20/sec1.aux'.
-
- (./chapters/chapter20/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) detected at line 278
 []
  []
 
@@ -4075,7 +2561,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4083,7 +2569,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4091,7 +2577,15 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4100,98 +2594,47 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[154
+[218
 
 
 
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
 
 
-Underfull \vbox (badness 10000) detected at line 4
- []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
 
 
-Underfull \vbox (badness 10000) detected at line 4
- []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
 
 
-Underfull \vbox (badness 10000) detected at line 4
- []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 20.
-(./20.toc)
-\openout3 = `20.toc'.
 
 
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
 
-[155
 
-]) [156]
-\openout2 = `chapters/chapter20/sec2.aux'.
 
- (./chapters/chapter20/sec2.tex) [157
+
+
+
+
+
+
+
+
+
+
+
 
 
 ]
-\openout2 = `chapters/chapter20/sec3.aux'.
-
-
-(./chapters/chapter20/sec3.tex) [158
-
-
-]
-\openout2 = `chapters/chapter20/sec4.aux'.
-
- (./chapters/chapter20/sec4.tex) [159
-
-
-]
-\openout2 = `chapters/chapter20/summary.aux'.
-
-
-(./chapters/chapter20/summary.tex) [160
-
-
-]
-\openout2 = `chapters/chapter20/prob.aux'.
-
- (./chapters/chapter20/prob.tex)
-[161
-
-
-]
-\openout2 = `chapters/chapter21/sec1.aux'.
-
- (./chapters/chapter21/sec1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4199,7 +2642,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4207,7 +2650,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4215,7 +2658,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4224,123 +2667,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[162
+[219]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 21.
-(./21.toc)
-\openout3 = `21.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[163
-
-]) [164]
-\openout2 = `chapters/chapter21/sec2.aux'.
-
- (./chapters/chapter21/sec2.tex) [165
-
-
-]
-\openout2 = `chapters/chapter21/sec3.aux'.
-
-
-(./chapters/chapter21/sec3.tex) [166
-
-
-]
-\openout2 = `chapters/chapter21/sec4.aux'.
-
- (./chapters/chapter21/sec4.tex) [167
-
-
-]
-\openout2 = `chapters/chapter21/summary.aux'.
-
-
-(./chapters/chapter21/summary.tex) [168
-
-
-]
-\openout2 = `chapters/chapter21/prob.aux'.
-
- (./chapters/chapter21/prob.tex)
-[169
-
-
-]
-Underfull \vbox (badness 10000) detected at line 230
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 230
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 230
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 230
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 230
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 230
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 230
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 230
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4348,7 +2679,7 @@ Overfull \hbox (336.25pt too wide) detected at line 230
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4356,7 +2687,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4364,15 +2695,7 @@ Overfull \hbox (336.25pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (396.25pt too wide) has occurred while \output is active
 []
  []
 
@@ -4381,1148 +2704,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[170
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[171]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[172]
-\openout2 = `chapters/chapter22/sec1.aux'.
-
- (./chapters/chapter22/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 22.
-(./22.toc)
-\openout3 = `22.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[173
-
-
-
-]) [174]
-\openout2 = `chapters/chapter22/sec2.aux'.
-
- (./chapters/chapter22/sec2.tex) [175
-
-
-]
-\openout2 = `chapters/chapter22/sec3.aux'.
-
-
-(./chapters/chapter22/sec3.tex) [176
-
-
-]
-\openout2 = `chapters/chapter22/sec4.aux'.
-
- (./chapters/chapter22/sec4.tex) [177
-
-
-]
-\openout2 = `chapters/chapter22/summary.aux'.
-
-
-(./chapters/chapter22/summary.tex) [178
-
-
-]
-\openout2 = `chapters/chapter22/prob.aux'.
-
- (./chapters/chapter22/prob.tex)
-[179
-
-
-]
-\openout2 = `chapters/chapter23/sec1.aux'.
-
- (./chapters/chapter23/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[180
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 23.
-(./23.toc)
-\openout3 = `23.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[181
-
-]) [182]
-\openout2 = `chapters/chapter23/sec2.aux'.
-
- (./chapters/chapter23/sec2.tex) [183
-
-
-]
-\openout2 = `chapters/chapter23/sec2.aux'.
-
-
-(./chapters/chapter23/sec2.tex) [184
-
-
-]
-\openout2 = `chapters/chapter23/summary.aux'.
-
- (./chapters/chapter23/summary.tex)
-[185
-
-
-]
-\openout2 = `chapters/chapter23/prob.aux'.
-
- (./chapters/chapter23/prob.tex) [186
-
-
-]
-\openout2 = `chapters/chapter24/sec1.aux'.
-
- (./chapters/chapter24/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 24.
-(./24.toc)
-\openout3 = `24.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[187
-
-
-
-
-]) [188]
-\openout2 = `chapters/chapter24/sec2.aux'.
-
- (./chapters/chapter24/sec2.tex) [189
-
-
-]
-\openout2 = `chapters/chapter24/sec3.aux'.
-
-
-(./chapters/chapter24/sec3.tex) [190
-
-
-]
-\openout2 = `chapters/chapter24/sec4.aux'.
-
- (./chapters/chapter24/sec4.tex) [191
-
-
-]
-\openout2 = `chapters/chapter24/summary.aux'.
-
-
-(./chapters/chapter24/summary.tex) [192
-
-
-]
-\openout2 = `chapters/chapter24/prob.aux'.
-
- (./chapters/chapter24/prob.tex)
-[193
-
-
-]
-\openout2 = `chapters/chapter25/sec1.aux'.
-
- (./chapters/chapter25/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[194
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 25.
-(./25.toc)
-\openout3 = `25.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[195
-
-]) [196]
-\openout2 = `chapters/chapter25/sec2.aux'.
-
- (./chapters/chapter25/sec2.tex) [197
-
-
-]
-\openout2 = `chapters/chapter25/sec3.aux'.
-
-
-(./chapters/chapter25/sec3.tex) [198
-
-
-]
-\openout2 = `chapters/chapter25/sec4.aux'.
-
- (./chapters/chapter25/sec4.tex) [199
-
-
-]
-\openout2 = `chapters/chapter25/summary.aux'.
-
-
-(./chapters/chapter25/summary.tex) [200
-
-
-]
-\openout2 = `chapters/chapter25/prob.aux'.
-
- (./chapters/chapter25/prob.tex)
-[201
-
-
-]
-\openout2 = `chapters/chapter26/sec1.aux'.
-
- (./chapters/chapter26/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[202
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 26.
-(./26.toc)
-\openout3 = `26.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[203
-
-]) [204]
-\openout2 = `chapters/chapter26/sec2.aux'.
-
- (./chapters/chapter26/sec2.tex) [205
-
-
-]
-\openout2 = `chapters/chapter26/sec3.aux'.
-
-
-(./chapters/chapter26/sec3.tex) [206
-
-
-]
-\openout2 = `chapters/chapter26/summary.aux'.
-
- (./chapters/chapter26/summary.tex)
-[207
-
-
-]
-\openout2 = `chapters/chapter26/prob.aux'.
-
- (./chapters/chapter26/prob.tex) [208
-
-
-]
-\openout2 = `chapters/chapter27/sec1.aux'.
-
- (./chapters/chapter27/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 27.
-(./27.toc)
-\openout3 = `27.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[209
-
-
-
-
-]) [210]
-\openout2 = `chapters/chapter27/sec2.aux'.
-
- (./chapters/chapter27/sec2.tex) [211
-
-
-]
-\openout2 = `chapters/chapter27/sec3.aux'.
-
-
-(./chapters/chapter27/sec3.tex) [212
-
-
-]
-\openout2 = `chapters/chapter27/sec4.aux'.
-
- (./chapters/chapter27/sec4.tex) [213
-
-
-]
-\openout2 = `chapters/chapter27/summary.aux'.
-
-
-(./chapters/chapter27/summary.tex) [214
-
-
-]
-\openout2 = `chapters/chapter27/prob.aux'.
-
- (./chapters/chapter27/prob.tex)
-[215
-
-
-]
-Underfull \vbox (badness 10000) detected at line 272
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 272
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 272
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 272
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 272
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 272
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 272
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 272
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[216
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[217]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[218]
-\openout2 = `chapters/chapter28/sec1.aux'.
-
- (./chapters/chapter28/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 28.
-(./28.toc)
-\openout3 = `28.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[219
-
-
-
-]) [220]
-\openout2 = `chapters/chapter28/sec2.aux'.
-
- (./chapters/chapter28/sec2.tex) [221
-
-
-]
-\openout2 = `chapters/chapter28/sec3.aux'.
-
-
-(./chapters/chapter28/sec3.tex) [222
-
-
-]
-\openout2 = `chapters/chapter28/sec4.aux'.
-
- (./chapters/chapter28/sec4.tex) [223
-
-
-]
-\openout2 = `chapters/chapter28/summary.aux'.
-
-
-(./chapters/chapter28/summary.tex) [224
-
-
-]
-\openout2 = `chapters/chapter28/prob.aux'.
-
- (./chapters/chapter28/prob.tex)
-[225
-
-
-]
-\openout2 = `chapters/chapter29/sec1.aux'.
-
- (./chapters/chapter29/sec1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[226
-
-
-
-]
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 29.
-(./29.toc)
-\openout3 = `29.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[227
-
-]) [228]
-\openout2 = `chapters/chapter29/sec2.aux'.
-
- (./chapters/chapter29/sec2.tex) [229
-
-
-]
-\openout2 = `chapters/chapter29/sec3.aux'.
-
-
-(./chapters/chapter29/sec3.tex) [230
-
-
-]
-\openout2 = `chapters/chapter29/summary.aux'.
-
- (./chapters/chapter29/summary.tex)
-[231
-
-
-]
-\openout2 = `chapters/chapter29/prob.aux'.
-
- (./chapters/chapter29/prob.tex) [232
-
-
-]
-\openout2 = `chapters/chapter30/sec1.aux'.
-
- (./chapters/chapter30/sec1.tex
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 4
-[]
- []
-
-CHAPTER 30.
-(./30.toc)
-\openout3 = `30.toc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[233
-
-
-
-
-]) [234]
-\openout2 = `chapters/chapter30/sec2.aux'.
-
- (./chapters/chapter30/sec2.tex) [235
-
-
-]
-\openout2 = `chapters/chapter30/sec3.aux'.
-
-
-(./chapters/chapter30/sec3.tex) [236
-
-
-]
-\openout2 = `chapters/chapter30/sec4.aux'.
-
- (./chapters/chapter30/sec4.tex) [237
-
-
-]
-\openout2 = `chapters/chapter30/sec5.aux'.
-
-
-(./chapters/chapter30/sec5.tex) [238
-
-
-]
-\openout2 = `chapters/chapter30/summary.aux'.
-
- (./chapters/chapter30/summary.tex)
-[239
-
-
-]
-\openout2 = `chapters/chapter30/prob.aux'.
-
- (./chapters/chapter30/prob.tex) [240
-
-
-] (./Physics_XES_II.bbl
+[220] (./Physics_XES_II.bbl
 Underfull \vbox (badness 10000) detected at line 1
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 1
+Overfull \hbox (396.25pt too wide) detected at line 1
 []
  []
 
@@ -5531,7 +2718,7 @@ Underfull \vbox (badness 10000) detected at line 1
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 1
+Overfull \hbox (396.25pt too wide) detected at line 1
 []
  []
 
@@ -5540,7 +2727,7 @@ Underfull \vbox (badness 10000) detected at line 1
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 1
+Overfull \hbox (396.25pt too wide) detected at line 1
 []
  []
 
@@ -5549,7 +2736,7 @@ Underfull \vbox (badness 10000) detected at line 1
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 1
+Overfull \hbox (396.25pt too wide) detected at line 1
 []
  []
 
@@ -5566,7 +2753,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[241
+[243
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5671,12 +2875,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16204 strings out of 479417
- 368374 string characters out of 5888071
- 732220 words of memory out of 5000000
- 32237 multiletter control sequences out of 15000+600000
- 535872 words of font info for 74 fonts, out of 8000000 for 9000
+ 15775 strings out of 479417
+ 355947 string characters out of 5888071
+ 760123 words of memory out of 5000000
+ 32218 multiletter control sequences out of 15000+600000
+ 539674 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,8n,60p,837b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,8n,78p,839b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Physics_XES_II.xdv (253 pages, 919836 bytes).
+Output written on Physics_XES_II.xdv (29 pages, 240756 bytes).
