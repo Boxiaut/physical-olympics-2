@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  23 FEB 2022 17:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  24 FEB 2022 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2875,12 +2875,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15775 strings out of 479417
- 355947 string characters out of 5888071
+ 15796 strings out of 479417
+ 356357 string characters out of 5888071
  760123 words of memory out of 5000000
- 32218 multiletter control sequences out of 15000+600000
- 539674 words of font info for 105 fonts, out of 8000000 for 9000
+ 32230 multiletter control sequences out of 15000+600000
+ 541534 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,8n,78p,839b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,9n,78p,839b,668s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Physics_XES_II.xdv (29 pages, 240756 bytes).
+Output written on Physics_XES_II.xdv (29 pages, 241524 bytes).

@@ -581,6 +581,13 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT image/6-1-1.png
 INPUT Physics_XES_II.bbl
 INPUT Physics_XES_II.bbl
