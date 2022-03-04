@@ -1,6 +1,6 @@
 # Fdb version 3
-["bibtex Physics_XES_II"] 1645606853 "Physics_XES_II.aux" "Physics_XES_II.bbl" "Physics_XES_II" 1645692056
-  "Physics_XES_II.aux" 1645692052 7713 195ca06d0f63ab383c51fadcd9648311 "xelatex"
+["bibtex Physics_XES_II"] 1645606853 "Physics_XES_II.aux" "Physics_XES_II.bbl" "Physics_XES_II" 1646369011
+  "Physics_XES_II.aux" 1646369007 7713 195ca06d0f63ab383c51fadcd9648311 "xelatex"
   "bibtex_example.bib" 1645585015 26221 4afbbc719ac1c45886f7c58c7ef7daf4 ""
   "c:/texlive/2020/texmf-dist/bibtex/bst/base/plain.bst" 1586943492 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "chapters/chapter01/prob.aux" 1645603592 1205 e1e5511827dc974ff396aa75a3af7b27 ""
@@ -9,7 +9,7 @@
   "chapters/chapter01/sec3.aux" 1645603592 2053 02b2b72a99ed556188cca452ee1c1bf8 ""
   "chapters/chapter01/summary.aux" 1645603592 1181 f85e55d65e3b167f04bbd2af8e7d4fa7 ""
   "chapters/chapter02/prob.aux" 1645603592 1208 aa4afa18c6db789ddbe407c078a5a4e8 ""
-  "chapters/chapter02/sec1.aux" 1645692052 2060 c39a6b60bce4bded542bbd3ab14ed3ad "xelatex"
+  "chapters/chapter02/sec1.aux" 1646369007 2060 c39a6b60bce4bded542bbd3ab14ed3ad "xelatex"
   "chapters/chapter02/sec2.aux" 1645603592 1560 5a8210e6b33073a3091a25b79deb07d7 ""
   "chapters/chapter02/sec3.aux" 1645603592 1572 91dbe5fab89f443977e90f477644034b ""
   "chapters/chapter02/sec4.aux" 1645603592 1681 025a5dcbeae0b4c5589a3db90aa0d037 ""
@@ -190,24 +190,24 @@
   (generated)
   "Physics_XES_II.bbl"
   "Physics_XES_II.blg"
-["makeindex Physics_XES_II.idx"] 1644893684 "Physics_XES_II.idx" "Physics_XES_II.ind" "Physics_XES_II" 1645692056
-  "Physics_XES_II.idx" 1645692051 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+["makeindex Physics_XES_II.idx"] 1644893684 "Physics_XES_II.idx" "Physics_XES_II.ind" "Physics_XES_II" 1646369011
+  "Physics_XES_II.idx" 1646369007 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   (generated)
   "Physics_XES_II.ilg"
   "Physics_XES_II.ind"
-["xdvipdfmx"] 1645692054 "Physics_XES_II.xdv" "Physics_XES_II.pdf" "Physics_XES_II" 1645692056
-  "Physics_XES_II.xdv" 1645692052 241524 5a78d5632995ceede5f1ffd69d909998 "xelatex"
+["xdvipdfmx"] 1646369009 "Physics_XES_II.xdv" "Physics_XES_II.pdf" "Physics_XES_II" 1646369012
+  "Physics_XES_II.xdv" 1646369008 233720 73c22466afce492e5959f297d2320558 "xelatex"
   (generated)
   "Physics_XES_II.pdf"
-["xelatex"] 1645692050 "Physics_XES_II.tex" "Physics_XES_II.xdv" "Physics_XES_II" 1645692056
-  "2.toc" 1645692052 336 afae814f70e91ddd6660aff70b487f71 "xelatex"
-  "Physics_XES_II.aux" 1645692052 7713 195ca06d0f63ab383c51fadcd9648311 "xelatex"
+["xelatex"] 1646369005 "Physics_XES_II.tex" "Physics_XES_II.xdv" "Physics_XES_II" 1646369012
+  "2.toc" 1646369007 336 afae814f70e91ddd6660aff70b487f71 "xelatex"
+  "Physics_XES_II.aux" 1646369007 7713 195ca06d0f63ab383c51fadcd9648311 "xelatex"
   "Physics_XES_II.bbl" 1645606854 49 0eba253fc001332e731e8aba3f23127b "bibtex Physics_XES_II"
   "Physics_XES_II.ind" 1645585015 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Physics_XES_II.idx"
-  "Physics_XES_II.lof" 1645692052 682 ae58320cdfff5bcb3efc49f7c64e6d3a "xelatex"
-  "Physics_XES_II.lot" 1645692052 600 e246f9c5b3de5418aab13a82719a0d24 "xelatex"
-  "Physics_XES_II.tex" 1645604608 8453 bea1f5806bef3e3d27a1d0c6ec9048cb ""
-  "Physics_XES_II.toc" 1645692052 45755 a732a18b893034fe5ee5feac65c02b66 "xelatex"
+  "Physics_XES_II.lof" 1646369008 682 ae58320cdfff5bcb3efc49f7c64e6d3a "xelatex"
+  "Physics_XES_II.lot" 1646369008 600 e246f9c5b3de5418aab13a82719a0d24 "xelatex"
+  "Physics_XES_II.tex" 1646363354 9404 58bd7d18b069134c04a6305490e7a551 ""
+  "Physics_XES_II.toc" 1646369008 45755 a732a18b893034fe5ee5feac65c02b66 "xelatex"
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1586945095 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1586948442 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1586949370 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -317,9 +317,10 @@
   "chapters/chapter01/sec2.aux" 1645603592 1282 537cca89679575f57d2c3fb63ac2b194 ""
   "chapters/chapter01/sec3.aux" 1645603592 2053 02b2b72a99ed556188cca452ee1c1bf8 ""
   "chapters/chapter01/summary.aux" 1645603592 1181 f85e55d65e3b167f04bbd2af8e7d4fa7 ""
+  "chapters/chapter02/figures/2.1.png" 1645695063 95401 573e452a59b5c9d4ed61c51dbf87bf0b ""
   "chapters/chapter02/prob.aux" 1645603592 1208 aa4afa18c6db789ddbe407c078a5a4e8 ""
-  "chapters/chapter02/sec1.aux" 1645692052 2060 c39a6b60bce4bded542bbd3ab14ed3ad "xelatex"
-  "chapters/chapter02/sec1.tex" 1645692049 9249 4089f9e17f3bc46e61a96dcdba5242f6 ""
+  "chapters/chapter02/sec1.aux" 1646369007 2060 c39a6b60bce4bded542bbd3ab14ed3ad "xelatex"
+  "chapters/chapter02/sec1.tex" 1646369004 7827 5547103cfc6bb35dda787b195261328b ""
   "chapters/chapter02/sec2.aux" 1645603592 1560 5a8210e6b33073a3091a25b79deb07d7 ""
   "chapters/chapter02/sec3.aux" 1645603592 1572 91dbe5fab89f443977e90f477644034b ""
   "chapters/chapter02/sec4.aux" 1645603592 1681 025a5dcbeae0b4c5589a3db90aa0d037 ""
@@ -498,16 +499,15 @@
   "chapters/chapter30/sec5.aux" 1645603593 1724 ee31ba80c62b1d20c8dc8a22e8b41c50 ""
   "chapters/chapter30/summary.aux" 1645603593 1187 3296ce381db8f38449708ac4cd7b314c ""
   "frontmatter/preamble.tex" 1645585016 1557 4dcd149837a7e85669c4f45917e3d582 ""
-  "image/6-1-1.png" 1556176826 88366 fec5aba0cab42436eceb4ee3e4ed82bf ""
   "krantz.cls" 1645607087 64094 b2bbdcc059769abbd8396fb487be811b ""
   (generated)
-  "Physics_XES_II.xdv"
-  "Physics_XES_II.lof"
-  "2.toc"
-  "Physics_XES_II.idx"
   "Physics_XES_II.aux"
-  "Physics_XES_II.log"
+  "Physics_XES_II.idx"
+  "Physics_XES_II.lof"
   "frontmatter/preamble.aux"
+  "2.toc"
+  "Physics_XES_II.log"
   "Physics_XES_II.toc"
+  "Physics_XES_II.xdv"
   "Physics_XES_II.lot"
   "chapters/chapter02/sec1.aux"

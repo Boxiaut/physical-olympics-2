@@ -5,7 +5,7 @@
 
 \emph{插图}
 
- 
+
 
 \section{时空与物质}\label{2-1}
 
@@ -30,38 +30,40 @@ $\si{1m}$是光在$\si{\frac{1}{299792458}s}$内在真空中行进的距离.
 
 那么建立的坐标系就是一个\emph{笛卡尔坐标系}(Cartesian coordinate system), 即\emph{空间直角坐标系}(3D orthogonal coordinate system). 但是以空间直角坐标系为基础, 我们又经常建立\emph{球坐标}(spherical coordinate)和\emph{柱坐标}(cylindrical coordinate)系统. 通常取$x$轴为\emph{幅轴}(azimuth axis), 点在$x-y$平面上的投影与原点的连线相对$x$轴转过的角度为$\varphi$, 即\emph{幅角}(azimuth angle). 而$z$轴为\emph{极轴}(polar axis), 而点与原点连线与极轴的夹角$\theta$为\emph{极角}(polar angle). 天文观测用球坐标就很方便, 它是以描述的空间点到原点之间的距离$r$, 也称\emph{矢径}(radius), 和两个描述角位置的极角幅角来构成三个坐标$(r,\,\theta,\,\varphi)$的. 而理论物理里也常用到的柱坐标是以$(\rho,\,\varphi,\,z)$为描述空间点的坐标, $\rho$是空间点到$z$轴的距离.
 
-\begin{wrapfigure}[20]{o}[-10pt]{7cm}
+\begin{wrapfigure}[14]{o}[-10pt]{7cm}
 \vspace{-0.4cm}
 \centering
-\includegraphics[width=7cm]{image/6-1-1.png}
+\includegraphics[width=7cm]{2.1.png}
 \caption{三种坐标}
 \end{wrapfigure}
-需要注意, 我们对以上$\theta, \varphi$角度定义比较微妙, $\theta$一般限制其在$[0,\,\pi]$范围内, 在端点$\theta=0, \pi$处$\varphi$的不同取值代表同一个空间点. 但$\varphi$的取值我们不加以任何限制, 也就是原则上$\varphi\in\mathbb{R}$. 而任意$\varphi$相差$2n\pi$的坐标实际上代表同一个空间点. 这么做是因为我们最好不要用静态的几何观点去看待角度这一概念. 而是用运动, 变换的观点去看待角度. 作为连续的运动的点的幅角变化也应是连续的, 为了使点绕$z$轴一圈后幅角不至于突然改变, 就必须默认每一点的幅角可以有多种取值, 在具体的运动中应该灵活选择其具体取值大小.
+之后经常会说到各种对称性, 在本系列教材中我们采取如下说法: \emph{球对称}(spherical symmetric)仅仅代表某个函数$f(r,\theta,\varphi)$与$\varphi$无关. 而\emph{柱对称}(cylindrical symmetric)代表的是$f(\rho,\,\varphi,\,z)$与$z$无关. 与$\varphi$和$\theta$都无关的$f(r,\,\theta,\,\varphi)=f(r,\,\forall\theta,\,\forall\varphi)$被称为\emph{各向同性}(isotropic). 最后\emph{中心对称}(centrosymmetric)是一个很弱的对称性, 它仅仅代表函数在\emph{中心反演}(space inversion)下的对称性:
+\[f(x,\,y,\,z)=f(-x,\,-y,\,-z)\]
 
-之后经常会说到各种对称性, 在本系列教材中我们采取如下说法: \emph{球对称}(spherical symmetric)仅仅代表某个函数$f(r,\theta,\varphi)$与$\varphi$无关. 而\emph{柱对称}(cylindrical symmetric)代表的是$f(\rho,\varphi,z)$与$z$无关. 与$\varphi$和$\theta$都无关的$f(r,\theta,\varphi)=f(r,\forall\theta,\forall\varphi)$被称为\emph{各向同性}(isotropic). 最后\emph{中心对称}(centrosymmetric)是一个很弱的对称性, 它仅仅代表函数在\emph{中心反演}(space inversion)下的对称性:
-\[f(x,y,z)=f(-x,-y,-z)\]
-
-绝对时空观中的时间则是一种完全与空间独立的属性. 实际上, 每一个空间点处的人都能感受到时间的流逝. 十分抽象的把这些不同的时刻画在一根时间轴上, 便是一维的时间坐标:
-\[A(t)\in\mathbb{R} \quad;\quad t\in\mathbb{R}\]
-
-而时空又是两个独立的概念. 任意一个坐标点处都有时间轴, 而任意一个时刻都有一个三维空间切片. 事实上, 我们的时空是一个3+1维的结构, 合理地选取坐标后, 实际上可以把时空结构写成四维坐标:
+绝对时空观中的时间则是一种完全与空间独立的属性. 任意一个坐标点处都有时间轴, 而任意一个时刻都有一个三维空间切片. 事实上, 我们的时空是一个3+1维的结构, 合理地选取坐标后, 实际上可以把时空结构写成四维坐标:
 \[A(x,\,y,\,z,\,t)\in\mathbb{R}^4 \quad;\quad x,\,y,\,z,\,t\in\mathbb{R}\]
 
-而对于任意两个时空点, 存在绝对的时间, 也就是可以找到两个事件的绝对时间差:
-\[\tau=|t_2-t_1|\]
-
-但空间距离却具有相对性. 我们要求在同一时刻的同一空间切片上定义空间的度量:
-\[t_1=t_2:\quad l=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}\]
-
-不同时刻的空间, 被线性地组织在一起, 保证每一刻都平直的空间既不会随时间膨胀收缩, 也不会旋转加速. 这种时空结构被叫做\emph{牛顿-嘉当几何}(Newton-Cartan geometry)%\footnote{用更为严格的语言来说, 我们需要一个装备了一阶形式``钟''$c_\nu$和二阶逆变半正定对称张量类空间度规$s^{\mu\nu}$的四维微分流形$\mathscr{M}$:
-%\[\mathscr{M}:\quad s^{\mu\nu}c_{\nu}=0\]}.
-
 时间是一个新的量纲, 其国际单位制对$1{\rm s}$的定义为:
-\begin{verse}
-1s是铯-133原子基态的两个超精细能级之间跃迁所对应的辐射周期时长的9192631770倍.
+\begin{verse}\sf\large
+\si{1s}是$^{133}{\rm Cs}$原子基态的两个超精细能级之间跃迁所对应的辐射周期时长的$9192631770$倍.
 \end{verse}
 
-牛顿-嘉当几何的显著特点是物理量的定义没有所谓的\emph{协变性}(covariance). 固然, 在三维空间坐标框架的旋转下, 任何物理过程中的事件所发生的位置坐标发生旋转变换, 而几乎所有标量(比如质量, 能量)都不变, 几乎所有矢量(比如动量, 角动量)都按照类似坐标变换的法则发生变换. 但是, 对于更普遍的一列\emph{伽利略变换}(Galilean transformation), 也就是相对匀速运动的参考系之间的变换, 时空坐标的形式却不能简单地推广到能量动量角动量上.
+而对于任意两个时空点, 存在绝对的时间间隔, 也就是可以找到两个事件的绝对时间差:
+\[\tau=|t_2-t_1|\]
+
+但空间距离却具有相对性. 故我们要求在同一时刻的空间切片上定义空间的度量:
+\[t_1=t_2:\quad l=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}\]
+
+这种时空结构被叫做\emph{牛顿-嘉当几何}(Newton-Cartan geometry). 在牛顿-嘉当几何中书写的物理规律应当具有时空平移对称性, 空间旋转对称性和\emph{伽利略变换}(Galilean transformation)的对称性, 此后我们将进一步阐述. 时空平移是指将原来发生的物理过程随时空坐标进行如下改变:
+\[\begin{cases}t \quad &\longrightarrow \quad t+\Delta t\\x \quad &\longrightarrow \quad x+\Delta x\\y \quad &\longrightarrow \quad y+\Delta y\\z \quad &\longrightarrow \quad z+\Delta z \end{cases} \]
+
+空间旋转对称性的一种简单情况是绕$z$轴旋转$\theta$角:
+\[\begin{cases}t \quad &\longrightarrow \quad t\\x \quad &\longrightarrow \quad x\cos\theta-y\sin\theta\\y \quad &\longrightarrow \quad y\cos\theta+x\sin\theta\\z \quad &\longrightarrow \quad z\end{cases} \]
+
+伽利略变换是指不改变过程发生的时间, 但是对于不同时刻发生的事件的坐标进行重新标定, 从而使得两个坐标系之间恰好只差一个速度为$\bs{v}=(v_x,\,v_y,\,v_z)$的匀速直线运动:
+\[\begin{cases}t \quad &\longrightarrow \quad t\\x \quad &\longrightarrow \quad x-v_x t\\y \quad &\longrightarrow \quad y-v_y t\\z \quad &\longrightarrow \quad z-v_z t \end{cases} \]
+
+
+
 
 不同于绝对时空观中时间与空间成为相互独立的量纲的特点, 狭义相对论改变了对基本物理量的看法. 狭义相对论把时空看成为可以相互转化的不可分割的新的3+1维整体, 同时性已然破缺. 两个时空点之间无法定义绝对的时间间隔. 在\emph{相对论时空观}(relativistic spacetime picture)下, 时间和空间可以用同一把尺子去丈量: 这是由于光速的不变性:
 \[c=299792458{\rm m/s}\]
