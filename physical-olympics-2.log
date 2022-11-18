@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  17 NOV 2022 18:14
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.15)  18 NOV 2022 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1718,26 +1718,14 @@ Overfull \hbox (10.03304pt too wide) in paragraph at lines 227--228
 曼 系 综[]\T1/lmr/m/n/10.53937 (Boltzmann
  []
 
-
-Overfull \hbox (27.95692pt too wide) in paragraph at lines 231--232
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 玻 尔 兹 曼 对 系 统 的 研 究 给 出 了 著 名 的[]玻 尔 兹 曼 \T1/lmr
-/m/n/10.53937 H \TU/方正聚珍新仿简体(0)/m/n/10.53937 定 理[]\T1/lmr/m/n/10.53937 (Boltzma
-nn H the-o-rem):\TU/方正聚珍新仿简体(0)/m/n/10.53937 通 过[]分 子 混 沌 假 说[]\T1/lmr/m/n/10.5
-3937 (molecular
- []
-
-
-Overfull \hbox (4.80452pt too wide) in paragraph at lines 231--232
-\T1/lmr/m/n/10.53937 chaos hy-poth-e-sis),\TU/方正聚珍新仿简体(0)/m/n/10.53937 认 为 从 非 
-平 衡 态 分 子 通 过 碰 撞 向 平 衡 态 转 变 的 过 程 中\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/
-10.53937 每 一 时 刻 都 存 在 的 概 率 分 布\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53
-937 即\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 真
- []
-
-[55] [56] [57] [58] [59]) [60]
+[55] [56] [57] [58] [59] [60]) [61]
 \openout2 = `chapter/liquidsolid.aux'.
 
- (./chapter/liquidsolid.tex
+ (./chapter/liquidsolid.tex [62
+
+
+
+]
 第四章
 File: image/5-3-2.png Graphic file (type bmp)
 <image/5-3-2.png>
@@ -1748,14 +1736,10 @@ Underfull \hbox (badness 1715) in paragraph at lines 15--16
 .53937 如 图[][]\T1/lmr/m/n/10.53937 4.1[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 所
  []
 
-[61
-
-
-
-]
+[63]
 File: image/5-3-4.png Graphic file (type bmp)
 <image/5-3-4.png>
- [62]
+ [64]
 Overfull \hbox (8.28827pt too wide) in paragraph at lines 68--69
 []\T1/lmr/m/n/10.53937 4.\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后\T1/lmr/m/n/10.53937 ,
 \TU/方正聚珍新仿简体(0)/m/n/10.53937 晶 格 热 容 低 温 下 杜 隆\T1/lmr/m/n/10.53937 -\TU/方正聚珍新仿简
@@ -1766,7 +1750,7 @@ Overfull \hbox (8.28827pt too wide) in paragraph at lines 68--69
 
 File: image/5-3-5.png Graphic file (type bmp)
 <image/5-3-5.png>
-[63]
+[65]
 LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
 (Font)              scaled to size 7.22704pt on input line 122.
 LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
@@ -1775,17 +1759,17 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 (Font)              scaled to size 7.22704pt on input line 122.
 LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
 (Font)              scaled to size 7.22704pt on input line 122.
- [64]
+ [66]
 File: image/5-3-7.png Graphic file (type bmp)
 <image/5-3-7.png>
- [65] [66]
+ [67] [68]
 Overfull \hbox (8.40367pt too wide) in paragraph at lines 197--198
 \TU/方正聚珍新仿简体(0)/m/n/10.53937 作 用 而 采 取 平 均 场 论 的 思 想 得 到 的 结 果 一 致 的 结 果\T1/lmr
 /m/n/10.53937 , \TU/方正聚珍新仿简体(0)/m/n/10.53937 它 的 下 一 步 是 考 虑 能 量 尺 度 较 低 下 的[]元
  激 发[]\T1/lmr/m/n/10.53937 (elementary
  []
 
-[67] [68] [69]
+[69] [70] [71]
 File: image/5-3-1.png Graphic file (type bmp)
 <image/5-3-1.png>
 
@@ -1797,10 +1781,10 @@ TU/方正聚珍新仿简体(0)/m/n/10.53937 而 与 固 体 区 分 来 开\T1/l
 
 File: image/5-3-8.png Graphic file (type bmp)
 <image/5-3-8.png>
-[70] [71] [72]) [73]
+[72] [73] [74]) [75]
 \openout2 = `chapter/phasechange.aux'.
 
- (./chapter/phasechange.tex [74
+ (./chapter/phasechange.tex [76
 
 
 
@@ -1808,7 +1792,7 @@ File: image/5-3-8.png Graphic file (type bmp)
 第五章
 File: image/5-3-6.png Graphic file (type bmp)
 <image/5-3-6.png>
-[75]) [76]
+[77]) [78]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./physical-olympics-2.aux (./chapter/thermoI.aux)
@@ -1831,10 +1815,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
 Here is how much of TeX's memory you used:
  21931 strings out of 479417
  426622 string characters out of 5888071
- 736878 words of memory out of 5000000
+ 735878 words of memory out of 5000000
  38908 multiletter control sequences out of 15000+600000
  659425 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  56i,13n,96p,978b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physical-olympics-2.xdv (78 pages, 1097108 bytes).
+Output written on physical-olympics-2.xdv (80 pages, 1116748 bytes).

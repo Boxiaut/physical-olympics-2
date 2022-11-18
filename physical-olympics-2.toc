@@ -73,17 +73,17 @@
 \contentsline {section}{\numberline {3.3}吉布斯系综}{57}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}再论统计假设}{58}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}功, 热, 熵}{60}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}液体与固体的性质}{61}{chapter.4}%
-\contentsline {section}{\numberline {4.1}固体晶格论}{61}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}经典晶格论}{61}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}量子晶格论*}{64}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}固体电子论*}{69}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}德鲁特模型}{69}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}液体的彻体性质}{70}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}液体性质综述与其微观成因}{70}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}热容与黏度}{72}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}液体的表面性质}{72}{section.4.4}%
-\contentsline {section}{\numberline {4.5}极端条件下的其他物态}{72}{section.4.5}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}相与相变摘要}{75}{chapter.5}%
-\contentsline {section}{\numberline {5.1}相平衡}{75}{section.5.1}%
-\contentsline {section}{\numberline {5.2}气液相变}{75}{section.5.2}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}液体与固体的性质}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}固体晶格论}{63}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}经典晶格论}{63}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}量子晶格论*}{66}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}固体电子论*}{71}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}德鲁特模型}{71}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}液体的彻体性质}{72}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}液体性质综述与其微观成因}{72}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}热容与黏度}{74}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}液体的表面性质}{74}{section.4.4}%
+\contentsline {section}{\numberline {4.5}极端条件下的其他物态}{74}{section.4.5}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}相与相变摘要}{77}{chapter.5}%
+\contentsline {section}{\numberline {5.1}相平衡}{77}{section.5.1}%
+\contentsline {section}{\numberline {5.2}气液相变}{77}{section.5.2}%

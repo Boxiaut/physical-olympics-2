@@ -318,16 +318,16 @@ S_X+S_Y-S &=\sum_{ij}-P(x_i,y_j)\ln P(x_i)+\sum_{ij}-P(x_i,y_j)\ln P(y_j)-\sum_{
 其中$\varepsilon_0$或$\varepsilon_1$称作基态能量. 还需要注意, 能级与状态并不是一一对应. 我们将$\varepsilon_l$对应的状态数称作\emph{简并度}(degeneracy)$g_l$. 例如, 我们熟悉的三维氢原子模型\footnote{有心的同学可能会发现, 氢原子体系的热平衡按本节提供的热学方法计算会得到荒谬的发散结果. 这是因为$l$很大的情况下会由于电子波函数的非定域性不再可以忽略原子数密度带来的限制, 从而$l$可视作存在截断上限.}符合:
 \[\varepsilon_l=-\frac{13.6{\rm eV}}{l^2} \quad,\quad g_l=2l^2\]
 
-我们另外举三个例子, 它们的证明需要依赖量子力学计算. 一是一维限制于长度为$L$的容器中的质量为$m$的单原子分子, 其平动能级\footnote{请注意, $l=0$的状态量子力学不允许存在, 但是如果是一维圆环上的原子则允许存在.}:
+我们另外举三个例子, 它们的证明需要依赖量子力学计算. 一是一维限制于长度为$L$的容器中的质量为$m$的分子, 其平动能级\footnote{请注意, $l=0$的状态量子力学不允许存在, 但是如果是一维圆环上的原子则允许存在.}:
 \[l\geq 1 \quad:\quad \varepsilon_l=l^2\frac{\pi^2\hbar^2}{2mL^2} \quad,\quad g_l=2\]
 
-二是双原子分子的转动, 折合质量$\mu$, 分子间距$R$时. 若定义转动惯量为$I=\mu R^2$, 则转动能级:
+二是双原子分子的转动, 折合质量$\mu$, 原子间距$R$时. 若定义转动惯量为$I=\mu R^2$, 则转动能级:
 \[l\geq 1 \quad:\quad \varepsilon_l=l(l+1)\frac{\hbar^2}{2I} \quad,\quad g_l=2l+1\]
 
 三是双原子分子的振动, 惯性系数为$M$, 角频率为$\omega$. 其振动能级:
 \[l\geq 0 \quad:\quad \varepsilon_l=\left(l+\frac{1}{2}\right)\hbar \omega \quad,\quad g_l=1\]
 
-从而无论任何情况下, 我们都可以如此理解粒子的熵: 首先是考虑每一个粒子在体积$V$内的均匀分布, 要注意这些分布的确是独立的(而不像能量那样总量固定!), 再考虑粒子的全同性, 根据上一节, 这一步带来熵:
+从而无论任何情况下, 我们都可以如此理解粒子的熵: 首先是考虑每一个粒子在体积$V$内的均匀分布, 要注意这些分布的确是独立的(而不像能量那样总量固定!), 再考虑粒子的全同性, 根据上一节, 这一步带来体积广延熵:
 \[S_V=Nk\ln V-k\ln N!=Nk\ln\frac{V}{N}+Nk\]
 
 接下来只需要考虑确定了每一个粒子的位置以后, 按位置编号$1,\,2,\,3\cdot N$号粒子各处于什么状态, 这种情况称作\emph{定域子系}(localized subsystem). 我们称为每一个粒子指定一个能级$\varepsilon_l$中的$g_l$个状态中的一种为一个\emph{微观态}(microstate). 很明显, 微观态的总的个数为:
@@ -355,9 +355,9 @@ S_X+S_Y-S &=\sum_{ij}-P(x_i,y_j)\ln P(x_i)+\sum_{ij}-P(x_i,y_j)\ln P(y_j)-\sum_{
 求$W$的最大值, 实际上也就是求$S_P$的最大值. 本节的吉布斯系综最可几分布方法就与上一节的玻尔兹曼系综方法统一了.
 
 将配分的微观态数代入配分熵, 并利用斯特令公式做近似化简得到:
-\[S_P=-k\sum_l N_l\ln\frac{N_l}{Ng_l}\]
+\[S_P=-k\sum_l N_l\ln\frac{N_l}{Ng_l}+k\left(N-\sum_l N_l\right)\]
 
-同样用拉格朗日乘子法求$S_P$极值. 得到:
+注意到后一项当然为零, 但这个条件实际上应当作为约束(会改变$S$对$N_l$的偏导数). 用拉格朗日乘子法求$S_P$极值. 得到:
 \[N_l=g_l\ue^{-\alpha-\beta \varepsilon_l}\]
 
 这实际上就是玻尔兹曼分布. 对于麦克斯韦分布可以发现:
@@ -370,29 +370,81 @@ S_X+S_Y-S &=\sum_{ij}-P(x_i,y_j)\ln P(x_i)+\sum_{ij}-P(x_i,y_j)\ln P(y_j)-\sum_{
 \[\ue^{-\alpha}=\frac{N}{Z} \quad,\quad \alpha=-\ln\frac{N}{Z}\]
 
 从而温度为$T$, 广义坐标为$x$时平衡态下的配分为:
-\[N_l=N\frac{\ue^{-\beta \varepsilon_l}}{Z(\beta,\,x)}\]
+\[N_l=N\frac{g_l\ue^{-\beta \varepsilon_l}}{Z(\beta,\,x)}\]
 
 
 
 \subsection{功, 热, 熵}
 
-\begin{itemize}
-	\item 通过以上近独立子系的分析可以发现, 体系的内能为温度和哈密顿量中参数(比如系统的体积等整体广义坐标)的函数:
-	\[U=Nu=U(T,\,Q_\alpha)\]
-	\[u=\iint h(q,\,p,\,Q_\alpha)\rho (q,\,p,\,Q_\alpha,\,T)\ud p\ud q\]
-	\[\rho (q,\,p,\,Q_\alpha,\,T)=\left.\ue^{-\frac{h(q,\,p,\,Q_\alpha)}{kT}}\middle/\iint \ue^{-\frac{h(q,\,p,\,Q_\alpha)}{kT}}\ud p\ud q\right.\]
-	\item 绝热功: 在一个过程中, 哈密顿量中参数改变, 温度改变, 导致分布不变:
-	\[\ud\left(\frac{h(q,\,p,\,Q_\alpha)}{kT}\right)=0\quad \Rightarrow \quad\ud \rho (q,\,p,\,Q_\alpha,\,T)=0\]
-	\[\ud u|_{\rm diabatic}=\iint \ud h(q,\,p,\,Q_\alpha)\rho (q,\,p,\,Q_\alpha,\,T)\ud p\ud q\]
-	\[\ud U|_{\rm diabatic}=\sum Y_\alpha \ud Q_\alpha\]
+利用我们上一节找到的最可几情况的配分$N_l$可以计算一个系统内能与温度之间的关系:
+\[U=\sum_l N_l\varepsilon_l=N\frac{\displaystyle\sum_lg_l\varepsilon_l \ue^{-\beta \varepsilon_l}}{Z(\beta,\,x)}\]
 
-	\item 热: 内能改变的其他部分:
-	\[\ud q=\ud u-\ud u|_{\ud Q=0}=\iint h(q,\,p,\,Q_\alpha)\ud \rho (q,\,p,\,Q_\alpha,\,T)\ud p\ud q\]
+事实上分子正是配分函数$Z(\beta,\,x)$对$\beta$的负偏导数. 也就是说我们可以完全通过配分函数封装子系能级分布与简并度的复杂结构, 任何系统的内能公式为:
+\[U=-N\frac{\partial}{\partial \beta}\ln Z(\beta,\,x)\]
 
-	\item 熵: 容易证明, 如果定义:
-	\[s=\frac{u}{T}+k\ln \iint\ue^{-\frac{h(q,\,p,\,Q_\alpha)}{kT}}\ud p\ud q\]
+热力学第一定律的统计对应是什么? 事实上, 量子力学中也定义了``绝热过程''. 它是指某一个能量$\varepsilon_l$能态中广义坐标$x$发生改变, 那么外界广义力$y_l$做功对应这个能量升高:
+\[\ud w_l=y_l\ud x=\ud\varepsilon_l\]
 
-	则有:
-	\[\ud q=T\ud s\]
-\end{itemize}
+从而当配分不改变时, 内能的改变就对应广义力的总和$Y$的做功:
+\[\ud U=\sum_lN_l\ud \varepsilon_l=\sum_lN_ly_l\ud x=Y\ud x=\ud W\]
 
+由于配分$N_l$并不改变, 从而根据配分熵的计算公式, 绝热过程实际上也是等熵过程. 而绝热过程方程由配分不变的条件给出:
+\[\beta \varepsilon_l(x)=C \quad\text{或}\quad Z(\beta,\,x)=C\]
+
+那么当配分也可能发生改变时, 根据热力学第一定律:
+\[\ud U=\sum_lN_l\ud \varepsilon_l+\sum_l\varepsilon_l\ud N_l=\ud W+\ud Q\]
+
+吸热就与配分的改变相对应:
+\[\ud Q=\sum_l\varepsilon_l\ud N_l\]
+
+我们计算配分熵的变化量:
+\[\ud S_P=-k\sum_l \left(\ln\frac{N_l}{Ng_l}\right)\ud N_l\]
+
+系数代入平衡时的配分$N_l=Ng_l\ue^{-\beta \varepsilon_l}/Z$:
+\[\ud S_P=k\beta\sum_l \varepsilon_l \ud N_l+k\ln Z\sum_l \ud N_l\]
+
+由于粒子数总和是不变的, 后一项实际上为零. 对比吸热公式, 我们就发现了:
+\[\ud Q=\frac{\ud S_P}{k\beta}=T\ud S_P\]
+
+这就是吸热与熵之间的关系. 接下来我们来计算配分熵与配分函数之间的直接联系. 同样是把平衡时的配分代入配分熵公式:
+\[S_P=k\beta\sum_l N_l\varepsilon_l  +k\ln Z\sum_l N_l=k\beta U+Nk\ln Z\]
+
+或者也可以完整地用配分函数表示:
+\[S_P=Nk\ln Z(\beta,\,x)-Nk\beta\frac{\partial}{\partial \beta}\ln Z(\beta,\,x)\]
+
+最后, 我们还需要指明各自由度配分函数之间的关系. 以双原子分子的运动为例. 如果考虑分子的转动配分函数$Z_R$与振动配分函数$Z_O$, 直接可以将配分函数相乘得到总配分函数. 这是因为按照子系的能级与简并度计算方式为:
+\[Z_{RO}=\sum_l g_l\ue^{-\beta \varepsilon_l}=\sum_i\sum_j g_{Ri}g_{Oj}\ue^{-\beta\left(\varepsilon_{Ri}+\varepsilon_{Oj}\right)}=\left(\sum_ig_{Ri}\ue^{-\beta\varepsilon_{Ri}}\right)\left(\sum_jg_{Oj}\ue^{-\beta\varepsilon_{Oj}}\right)=Z_RZ_O\]
+\[S_{RO}=Nk\ln Z_{RO}-Nk\beta\frac{\partial}{\partial \beta}\ln Z_{RO}=S_R+S_O\]
+
+但是在平动的情况下则问题比较复杂. 在考虑转动, 振动前我们已经将粒子的位置确定下来了. 但是计算粒子的一个方向的平动配分函数$Z_T$和平动熵$S_T$时需要考虑粒子在整个容器中的位置分布. 它的功能实际上相当于已经与此前给出的体积熵重合:
+\[S_V=Nk\ln V-k\ln N!\]
+
+但$S_T$自身又没有考虑粒子的全同性. 从而也需要仿照上式减去$k\ln N!$, 或者更直接地, 近似为减去$Nk\ln N$. 将此定义为体系的总熵. 最终, 我们得到双原子分子气体的相应配分函数和熵公式:
+\[Z=Z_T^3Z_RZ_O\]
+\[S=Nk\ln Z-Nk\beta\frac{\partial}{\partial \beta}\ln Z-Nk\ln N=3S_T+S_R+S_O-Nk\ln N\]
+
+让我们来完成对双原子分子气体的计算. 对于平动自由度, 配分函数为:
+\[Z_T=\sum_l 2\ue^{-\beta l^2\frac{\pi^2\hbar^2}{2mL^2}}\]
+
+对于较高的温度与较小的$\beta$, 认为平均能量处$l$很大. 那么可以将以上求和用积分近似代替:
+\[Z_T=2\int_0^\infty \ue^{-\frac{\beta\pi^2\hbar^2}{2mL^2}x^2}\ud x=\sqrt{\frac{2mL^2}{\beta\pi\hbar^2}} \]
+
+从而:
+\[Z_T^3=\left(\frac{2m}{\beta\pi\hbar^2}\right)^{\frac{3}{2}}V\]
+
+同理对于转动$l(l+1)\approx l^2$, $2l+1\approx 2l$, 求和近似为积分:
+\[Z_R=2\int_0^\infty \ue^{-\frac{\beta\hbar^2}{2I}x^2}x\ud x=\frac{2I}{\beta \hbar^2}\]
+
+而振动的配分函数是可以直接计算无需积分近似的:
+\[Z_O=\sum_{l=0}^\infty \ue^{-\beta \hbar \omega \left(l+\frac{1}{2}\right)}=\frac{1}{2{\rm sh}\frac{\beta\hbar\omega}{2}}\]
+
+通常在室温下$\beta \hbar \omega\gg 1$, 故$Z_O$很小, 意味着振动自由度不被激发. 此时:
+\[Z=Z_T^3Z_R=C\cdot \frac{V}{\beta^\frac{5}{2}}\]
+
+从而得到内能公式和熵公式:
+\[U=\frac{5}{2}NkT\]
+\[S=Nk\ln\frac{V}{N}+\frac{5}{2}Nk\ln T+S_0\]
+
+而温度较高时, 需要考虑振动自由度的激发. 考虑进来得到:
+\[U=\frac{5}{2}NkT+NkT\frac{\hbar\omega}{2kT}{\rm cth}\frac{\hbar\omega}{2kT}\]
+\[S=Nk\ln\frac{V}{N}+\frac{5}{2}Nk\ln T+Nk \left(\frac{\hbar\omega}{2kT}{\rm cth}\frac{\hbar\omega}{2kT}-\ln{\rm sh}\frac{\hbar\omega}{2kT}\right) +S_0\]
