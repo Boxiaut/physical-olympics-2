@@ -1,102 +1,77 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.10.3)  15 JUL 2023 22:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.28)  23 NOV 2023 18:38
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**physical-olympics-2.tex
-(./physical-olympics-2.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-09-24>
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/ctexbook.cls
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
-File: ctexbackend.cfg 2020/08/23 v2.5.4 Backend configuration file (CTEX)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-09-24 L3 programming layer (loader) 
-
-(d:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
-\g__graphics_track_int=\count164
-\l__pdf_internal_box=\box45
-\g__pdf_backend_object_int=\count165
-\g__pdf_backend_annotation_int=\count166
+**c:/Users/box19/Documents/GitHub/physical-olympics-2/physical-olympics-2
+(c:/Users/box19/Documents/GitHub/physical-olympics-2/physical-olympics-2.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-23>
+(c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexbook.cls (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-10-23 L3 programming layer (loader) 
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-10-23 L3 backend support: XeTeX
+\g__graphics_track_int=\count182
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count183
+\g__pdf_backend_annotation_int=\count184
+\g__pdf_backend_link_int=\count185
 ))
-Document Class: ctexbook 2020/08/23 v2.5.4 Chinese adapter for class book (CTEX
-)
-(d:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2020-05-15 L3 Experimental document command parser
-
-(d:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count167
-\g__xparse_grabber_int=\count168
-\l__xparse_m_args_int=\count169
-\l__xparse_v_nesting_int=\count170
-))
-(d:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
-)
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/ctexhook.sty
-Package: ctexhook 2020/08/23 v2.5.4 Document and package hooks (CTEX)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/ctexpatch.sty
-Package: ctexpatch 2020/08/23 v2.5.4 Patching commands (CTEX)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-
-(d:/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
+Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTEX)
+(c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-(d:/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+\l__ctex_tmp_int=\count186
+\l__ctex_tmp_box=\box52
+\l__ctex_tmp_dim=\dimen140
+\g__ctex_section_depth_int=\count187
+\g__ctex_font_size_int=\count188
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\l__ctex_tmp_int=\count171
-\l__ctex_tmp_box=\box46
-\l__ctex_tmp_dim=\dimen134
-\g__ctex_section_depth_int=\count172
-\g__ctex_font_size_int=\count173
-
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
-File: ctexopts.cfg 2020/08/23 v2.5.4 Option configuration file (CTEX)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(d:/texlive/2020/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-)
-\c@part=\count174
-\c@chapter=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen135
-)
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
-File: ctex-engine-xetex.def 2020/08/23 v2.5.4 XeLaTeX adapter (CTEX)
-
-(d:/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2020/08/23 v3.8.5 Typesetting CJK scripts with XeLaTeX
-
-(d:/texlive/2020/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen136
-\l__xtemplate_tmp_int=\count183
+\c@part=\count189
+\c@chapter=\count190
+\c@section=\count191
+\c@subsection=\count192
+\c@subsubsection=\count193
+\c@paragraph=\count194
+\c@subparagraph=\count195
+\c@figure=\count196
+\c@table=\count197
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
+ (c:/texlive/2023/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen142
+\l__xtemplate_tmp_int=\count198
 \l__xtemplate_tmp_muskip=\muskip16
-\l__xtemplate_tmp_skip=\skip49
+\l__xtemplate_tmp_skip=\skip50
 )
-\l__xeCJK_tmp_int=\count184
-\l__xeCJK_tmp_box=\box47
-\l__xeCJK_tmp_dim=\dimen137
-\l__xeCJK_tmp_skip=\skip50
-\g__xeCJK_space_factor_int=\count185
-\l__xeCJK_begin_int=\count186
-\l__xeCJK_end_int=\count187
+\l__xeCJK_tmp_int=\count199
+\l__xeCJK_tmp_box=\box53
+\l__xeCJK_tmp_dim=\dimen143
+\l__xeCJK_tmp_skip=\skip51
+\g__xeCJK_space_factor_int=\count266
+\l__xeCJK_begin_int=\count267
+\l__xeCJK_end_int=\count268
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -105,105 +80,96 @@ Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
 \c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
-\l__xeCJK_last_skip=\skip51
-\g__xeCJK_node_int=\count188
-\c__xeCJK_CJK_node_dim=\dimen138
-\c__xeCJK_CJK-space_node_dim=\dimen139
-\c__xeCJK_default_node_dim=\dimen140
-\c__xeCJK_default-space_node_dim=\dimen141
-\c__xeCJK_CJK-widow_node_dim=\dimen142
-\c__xeCJK_normalspace_node_dim=\dimen143
-\l__xeCJK_ccglue_skip=\skip52
-\l__xeCJK_ecglue_skip=\skip53
-\l__xeCJK_punct_kern_skip=\skip54
-\l__xeCJK_last_penalty_int=\count189
-\l__xeCJK_last_bound_dim=\dimen144
-\l__xeCJK_last_kern_dim=\dimen145
-\l__xeCJK_widow_penalty_int=\count190
+\l__xeCJK_last_skip=\skip52
+\c__xeCJK_none_node=\count269
+\g__xeCJK_node_int=\count270
+\c__xeCJK_CJK_node_dim=\dimen144
+\c__xeCJK_CJK-space_node_dim=\dimen145
+\c__xeCJK_default_node_dim=\dimen146
+\c__xeCJK_CJK-widow_node_dim=\dimen147
+\c__xeCJK_normalspace_node_dim=\dimen148
+\c__xeCJK_default-space_node_skip=\skip53
+\l__xeCJK_ccglue_skip=\skip54
+\l__xeCJK_ecglue_skip=\skip55
+\l__xeCJK_punct_kern_skip=\skip56
+\l__xeCJK_indent_box=\box54
+\l__xeCJK_last_penalty_int=\count271
+\l__xeCJK_last_bound_dim=\dimen149
+\l__xeCJK_last_kern_dim=\dimen150
+\l__xeCJK_widow_penalty_int=\count272
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2335.
+(xtemplate)             argument(s) on line 2396.
 
-\l__xeCJK_fixed_punct_width_dim=\dimen146
-\l__xeCJK_mixed_punct_width_dim=\dimen147
-\l__xeCJK_middle_punct_width_dim=\dimen148
-\l__xeCJK_fixed_margin_width_dim=\dimen149
-\l__xeCJK_mixed_margin_width_dim=\dimen150
-\l__xeCJK_middle_margin_width_dim=\dimen151
-\l__xeCJK_bound_punct_width_dim=\dimen152
-\l__xeCJK_bound_margin_width_dim=\dimen153
-\l__xeCJK_margin_minimum_dim=\dimen154
-\l__xeCJK_kerning_total_width_dim=\dimen155
-\l__xeCJK_same_align_margin_dim=\dimen156
-\l__xeCJK_different_align_margin_dim=\dimen157
-\l__xeCJK_kerning_margin_width_dim=\dimen158
-\l__xeCJK_kerning_margin_minimum_dim=\dimen159
-\l__xeCJK_bound_dim=\dimen160
-\l__xeCJK_reverse_bound_dim=\dimen161
-\l__xeCJK_margin_dim=\dimen162
-\l__xeCJK_minimum_bound_dim=\dimen163
-\l__xeCJK_kerning_margin_dim=\dimen164
-\g__xeCJK_family_int=\count191
-\l__xeCJK_fam_int=\count192
-\g__xeCJK_fam_allocation_int=\count193
-\l__xeCJK_verb_case_int=\count194
-\l__xeCJK_verb_exspace_skip=\skip55
-
-(d:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-
-(d:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count195
-\l__fontspec_language_int=\count196
-\l__fontspec_strnum_int=\count197
-\l__fontspec_tmp_int=\count198
-\l__fontspec_tmpa_int=\count199
-\l__fontspec_tmpb_int=\count266
-\l__fontspec_tmpc_int=\count267
-\l__fontspec_em_int=\count268
-\l__fontspec_emdef_int=\count269
-\l__fontspec_strong_int=\count270
-\l__fontspec_strongdef_int=\count271
-\l__fontspec_tmpa_dim=\dimen165
-\l__fontspec_tmpb_dim=\dimen166
-\l__fontspec_tmpc_dim=\dimen167
-
-(d:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+\l__xeCJK_fixed_punct_width_dim=\dimen151
+\l__xeCJK_mixed_punct_width_dim=\dimen152
+\l__xeCJK_middle_punct_width_dim=\dimen153
+\l__xeCJK_fixed_margin_width_dim=\dimen154
+\l__xeCJK_mixed_margin_width_dim=\dimen155
+\l__xeCJK_middle_margin_width_dim=\dimen156
+\l__xeCJK_bound_punct_width_dim=\dimen157
+\l__xeCJK_bound_margin_width_dim=\dimen158
+\l__xeCJK_margin_minimum_dim=\dimen159
+\l__xeCJK_kerning_total_width_dim=\dimen160
+\l__xeCJK_same_align_margin_dim=\dimen161
+\l__xeCJK_different_align_margin_dim=\dimen162
+\l__xeCJK_kerning_margin_width_dim=\dimen163
+\l__xeCJK_kerning_margin_minimum_dim=\dimen164
+\l__xeCJK_bound_dim=\dimen165
+\l__xeCJK_reverse_bound_dim=\dimen166
+\l__xeCJK_margin_dim=\dimen167
+\l__xeCJK_minimum_bound_dim=\dimen168
+\l__xeCJK_kerning_margin_dim=\dimen169
+\g__xeCJK_family_int=\count273
+\l__xeCJK_fam_int=\count274
+\g__xeCJK_fam_allocation_int=\count275
+\l__xeCJK_verb_case_int=\count276
+\l__xeCJK_verb_exspace_skip=\skip57
+ (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
 )
-(d:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(d:/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2020/08/23 v3.8.5 Configuration file for xeCJK package
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count277
+\l__fontspec_language_int=\count278
+\l__fontspec_strnum_int=\count279
+\l__fontspec_tmp_int=\count280
+\l__fontspec_tmpa_int=\count281
+\l__fontspec_tmpb_int=\count282
+\l__fontspec_tmpc_int=\count283
+\l__fontspec_em_int=\count284
+\l__fontspec_emdef_int=\count285
+\l__fontspec_strong_int=\count286
+\l__fontspec_strongdef_int=\count287
+\l__fontspec_tmpa_dim=\dimen170
+\l__fontspec_tmpb_dim=\dimen171
+\l__fontspec_tmpc_dim=\dimen172
+ (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2023/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
-\ccwd=\dimen168
-\l__ctex_ccglue_skip=\skip56
+\ccwd=\dimen173
+\l__ctex_ccglue_skip=\skip58
 )
-\l__ctex_ziju_dim=\dimen169
-
-(d:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber.sty
-Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count272
-
-(d:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
-File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+\l__ctex_ziju_dim=\dimen174
+ (c:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count288
+\l__zhnum_tmp_int=\count289
+ (c:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
-\l__ctex_heading_skip=\skip57
-
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
-File: ctex-scheme-chinese-book.def 2020/08/23 v2.5.4 Chinese scheme for book (C
-TEX)
-
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
-File: ctex-name-utf8.cfg 2020/08/23 v2.5.4 Caption with encoding UTF-8 (CTEX)
-))
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
-File: ctex-c5size.clo 2020/08/23 v2.5.4 c5size option (CTEX)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2020/08/23 v2.5.4 Windows fonts definition (CTEX
-)
+\l__ctex_heading_skip=\skip59
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
+File: ctex-scheme-chinese-book.def 2022/07/14 v2.5.10 Chinese scheme for book (CTEX)
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+)) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2022/07/14 v2.5.10 c5size option (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
 
 Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
 (fontspec)             exist).
@@ -234,112 +200,103 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-))
-(d:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
-File: ctex.cfg 2020/08/23 v2.5.4 Configuration file (CTEX)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mathdesign.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mathdesign.sty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
-
-(d:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-(d:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg)
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.sty
-Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
-n Project)
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdfont.def
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg) (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.sty
+Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Design Project)
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdfont.def
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdsffont.def
+) (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 53.
+LaTeX Info: Font shape OT1/phv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 53.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 56.
+LaTeX Info: Font shape OT1/phv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 56.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 59.
+LaTeX Info: Font shape OT1/phv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 59.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 79.
+LaTeX Info: Font shape OT1/phv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 79.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 102.
+LaTeX Info: Font shape T1/phv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 102.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 105.
+LaTeX Info: Font shape T1/phv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 105.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 108.
+LaTeX Info: Font shape T1/phv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 108.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 128.
+LaTeX Info: Font shape T1/phv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 128.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 259.
+LaTeX Info: Font shape OT1/uhv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 259.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 262.
+LaTeX Info: Font shape OT1/uhv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 262.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 265.
+LaTeX Info: Font shape OT1/uhv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 265.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 268.
+LaTeX Info: Font shape OT1/uhv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 268.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 313.
+LaTeX Info: Font shape T1/uhv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 313.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 316.
+LaTeX Info: Font shape T1/uhv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 316.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 319.
+LaTeX Info: Font shape T1/uhv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 319.
 
 
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 322.
+LaTeX Info: Font shape T1/uhv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 322.
 
-) (d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdttfont.def
+) (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdttfont.def
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup4
@@ -392,20 +349,16 @@ LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
 LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
-
-(d:/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(d:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(d:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
+ (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count273
+\XKV@depth=\count290
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-LaTeX Font Info:    Trying to load font information for TU+mdbch on input line 
-186.
+LaTeX Font Info:    Trying to load font information for TU+mdbch on input line 186.
 LaTeX Font Info:    No file TUmdbch.fd. on input line 186.
 
 
@@ -420,16 +373,14 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignA' in version `bold'
 \symmathdesignB=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 (Font)                  MDB/mdbch/m/n --> MDB/mdbch/b/n on input line 498.
-\@emptytoks=\toks18
+\@emptytoks=\toks20
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip58
-) (d:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 
-112.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
+\rulethickness=\skip60
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 112.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -459,408 +410,382 @@ Package fontspec Info: Font family '方正聚珍新仿简体(0)' created for fon
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"方正聚珍新仿简体/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
+(fontspec)             -  (m/fscn) with NFSS spec.: 
 
-(d:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(d:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(d:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count274
-\Gm@cntv=\count275
-\c@Gm@tempcnt=\count276
-\Gm@bindingoffset=\dimen170
-\Gm@wd@mp=\dimen171
-\Gm@odd@mp=\dimen172
-\Gm@even@mp=\dimen173
-\Gm@layoutwidth=\dimen174
-\Gm@layoutheight=\dimen175
-\Gm@layouthoffset=\dimen176
-\Gm@layoutvoffset=\dimen177
-\Gm@dimlist=\toks19
-)
-(d:/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip59
-\f@nch@O@elh=\skip60
-\f@nch@O@erh=\skip61
-\f@nch@O@olh=\skip62
-\f@nch@O@orh=\skip63
-\f@nch@O@elf=\skip64
-\f@nch@O@erf=\skip65
-\f@nch@O@olf=\skip66
-\f@nch@O@orf=\skip67
-)
-(d:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(d:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-(d:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen175
+\Gm@wd@mp=\dimen176
+\Gm@odd@mp=\dimen177
+\Gm@even@mp=\dimen178
+\Gm@layoutwidth=\dimen179
+\Gm@layoutheight=\dimen180
+\Gm@layouthoffset=\dimen181
+\Gm@layoutvoffset=\dimen182
+\Gm@dimlist=\toks21
+) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip61
+\f@nch@O@elh=\skip62
+\f@nch@O@erh=\skip63
+\f@nch@O@olh=\skip64
+\f@nch@O@orh=\skip65
+\f@nch@O@elf=\skip66
+\f@nch@O@erf=\skip67
+\f@nch@O@olf=\skip68
+\f@nch@O@orf=\skip69
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
-
-(d:/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen178
-\Gin@req@width=\dimen179
-)
-(d:/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks20
-\verbatim@line=\toks21
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
 \verbatim@in@stream=\read2
-)
-(d:/texlive/2020/texmf-dist/tex/latex/verse/verse.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/verse/verse.sty
 Package: verse 2009/09/04 v2.4a verse typesetting
-\c@vslineno=\count277
-\c@poemline=\count278
-\c@fvsline=\count279
-\c@modulo@vs=\count280
-\c@verse@envctr=\count281
-\versewidth=\skip68
-\vgap=\skip69
-\vindent=\skip70
-\stanzaskip=\skip71
-\vleftskip=\skip72
-\vrightskip=\skip73
-\c@chrsinstr=\count282
-\beforepoemtitleskip=\skip74
-\afterpoemtitleskip=\skip75
-)
-(d:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-
-(d:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+\c@vslineno=\count294
+\c@poemline=\count295
+\c@fvsline=\count296
+\c@modulo@vs=\count297
+\c@verse@envctr=\count298
+\versewidth=\skip70
+\vgap=\skip71
+\vindent=\skip72
+\stanzaskip=\skip73
+\vleftskip=\skip74
+\vrightskip=\skip75
+\c@chrsinstr=\count299
+\beforepoemtitleskip=\skip76
+\afterpoemtitleskip=\skip77
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-10-21 v7.01c Hypertext links for LaTeX
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(d:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)
-(d:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-10-05 v2.54 Cross-referencing by name of section
+ (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count300
+) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
 )
-(d:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-)
-\@linkdim=\dimen180
-\Hy@linkcounter=\count283
-\Hy@pagecounter=\count284
-
-(d:/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+\@linkdim=\dimen185
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-10-21 v7.01c Hyperref: PDFDocEncoding definition (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(d:/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+\Hy@SavedSpaceFactor=\count304
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-10-21 v7.01c Hyperref: PDF Unicode definition (HO)
 )
-\Hy@SavedSpaceFactor=\count285
-Package hyperref Info: Option `unicode' set `true' on input line 4338.
-
-(d:/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `unicode' set `true' on input line 4051.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4051.
+Package hyperref Info: Hyper figures OFF on input line 4168.
+Package hyperref Info: Link nesting OFF on input line 4173.
+Package hyperref Info: Hyper index ON on input line 4176.
+Package hyperref Info: Plain pages OFF on input line 4183.
+Package hyperref Info: Backreferencing OFF on input line 4188.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count286
-
-(d:/texlive/2020/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4435.
+\c@Hy@tempcnt=\count305
+ (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen181
-
-(d:/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+LaTeX Info: Redefining \url on input line 4773.
+\XeTeXLinkMargin=\dimen186
+ (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(d:/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count287
-\Field@Width=\dimen182
-\Fld@charsize=\dimen183
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring ON on input line 6365.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
-
-(d:/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+\Fld@menulength=\count306
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
+Package hyperref Info: Hyper figures OFF on input line 6052.
+Package hyperref Info: Link nesting OFF on input line 6057.
+Package hyperref Info: Hyper index ON on input line 6060.
+Package hyperref Info: backreferencing OFF on input line 6067.
+Package hyperref Info: Link coloring ON on input line 6070.
+Package hyperref Info: Link coloring with OCG OFF on input line 6077.
+Package hyperref Info: PDF/A mode OFF on input line 6082.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count288
-\c@Item=\count289
-\c@Hfootnote=\count290
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-
-(d:/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
-
-(d:/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2023-10-21 v7.01c Hyperref driver for XeTeX
+ (c:/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-)
-\pdfm@box=\box48
-\c@Hy@AnnotLevel=\count291
-\HyField@AnnotCount=\count292
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
-
-(d:/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(d:/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-)
-(d:/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count310
+\HyField@AnnotCount=\count311
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
+ (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip76
-)
-(d:/texlive/2020/texmf-dist/tex/latex/SIunits/SIunits.sty
-Package: SIunits 2007/12/02 v1.36 Support for the International System of units
- (MH)
+\Hy@SectionHShift=\skip78
+) (c:/texlive/2023/texmf-dist/tex/latex/siunits/SIunits.sty
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units (MH)
 
 
-\@qskwidth=\skip77
+\@qskwidth=\skip79
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 46.
 \symgreek=\mathgroup9
-(d:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(d:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen184
-))
-(d:/texlive/2020/texmf-dist/tex/latex/SIunits/SIunits.cfg)
+\@emptytoks=\toks24
+\ex@=\dimen189
+)) (c:/texlive/2023/texmf-dist/tex/latex/siunits/SIunits.cfg)
 Option `squaren' provided!
-) (d:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/09/12 v3.5b Customizing captions (AR)
-
-(d:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
-\captionmargin=\dimen185
-\captionmargin@=\dimen186
-\captionwidth=\dimen187
-\caption@tempdima=\dimen188
-\caption@indent=\dimen189
-\caption@parindent=\dimen190
-\caption@hangindent=\dimen191
+) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen190
+\captionmargin=\dimen191
+\caption@leftmargin=\dimen192
+\caption@rightmargin=\dimen193
+\caption@width=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count295
-\c@continuedfloat=\count296
+\c@caption@flags=\count314
+\c@continuedfloat=\count315
 Package caption Info: hyperref package is loaded.
+) (c:/texlive/2023/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+Package: xeCJKfntef 2022/08/05 v3.9.1 xeCJK font effect
+ (c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box56
+\UL@hyphenbox=\box57
+\UL@skip=\skip80
+\UL@hook=\toks25
+\UL@height=\dimen198
+\UL@pe=\count316
+\UL@pixel=\dimen199
+\ULC@box=\box58
+Package: ulem 2019/11/18
+\ULdepth=\dimen256
 )
-(d:/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen192
-\WF@size=\dimen193
-\c@WF@wrappedlines=\count297
-\WF@box=\box49
-\WF@everypar=\toks23
+\l__xeCJK_space_skip=\skip81
+\c__xeCJK_ulem-begin_node_dim=\dimen257
+\l__xeCJK_hidden_box=\box59
+\l__xeCJK_fntef_box=\box60
+\l__xeCJK_under_symbol_box=\box61
+\c__xeCJK_filll_skip=\skip82
+) (c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen258
+\WF@size=\dimen259
+\c@WF@wrappedlines=\count317
+\WF@box=\box62
+\WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
-)
-(d:/texlive/2020/texmf-dist/tex/latex/float/float.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count298
-\float@exts=\toks24
-\float@box=\box50
-\@float@everytoks=\toks25
-\@floatcapt=\box51
-)
-(d:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen194
-\ar@mcellbox=\box52
-\extrarowheight=\dimen195
-\NC@list=\toks26
-\extratabsurround=\skip78
-\backup@length=\skip79
-\ar@cellbox=\box53
-)
-(d:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(d:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+\c@float@type=\count318
+\float@exts=\toks27
+\float@box=\box63
+\@float@everytoks=\toks28
+\@floatcapt=\box64
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen260
+\ar@mcellbox=\box65
+\extrarowheight=\dimen261
+\NC@list=\toks29
+\extratabsurround=\skip83
+\backup@length=\skip84
+\ar@cellbox=\box66
+) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package xcolor Info: Driver file: xetex.def on input line 227.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (c:/texlive/2023/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
-
-(d:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
+ (c:/texlive/2023/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-(d:/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.sty
-Package: zref-abspage 2020-05-28 v2.31 Module abspage for zref (HO)
-
-(d:/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2020-05-28 v2.31 Module base for zref (HO)
-Package zref Info: New property list: main on input line 763.
-Package zref Info: New property: default on input line 764.
-Package zref Info: New property: page on input line 765.
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count300
-Package zref Info: New property: abspage on input line 66.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/needspace/needspace.sty
+\c@abspage=\count319
+Package zref Info: New property: abspage on input line 67.
+) (c:/texlive/2023/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip80
-\c@mdf@globalstyle@cnt=\count301
-\mdf@skipabove@length=\skip81
-\mdf@skipbelow@length=\skip82
-\mdf@leftmargin@length=\skip83
-\mdf@rightmargin@length=\skip84
-\mdf@innerleftmargin@length=\skip85
-\mdf@innerrightmargin@length=\skip86
-\mdf@innertopmargin@length=\skip87
-\mdf@innerbottommargin@length=\skip88
-\mdf@splittopskip@length=\skip89
-\mdf@splitbottomskip@length=\skip90
-\mdf@outermargin@length=\skip91
-\mdf@innermargin@length=\skip92
-\mdf@linewidth@length=\skip93
-\mdf@innerlinewidth@length=\skip94
-\mdf@middlelinewidth@length=\skip95
-\mdf@outerlinewidth@length=\skip96
-\mdf@roundcorner@length=\skip97
-\mdf@footenotedistance@length=\skip98
-\mdf@userdefinedwidth@length=\skip99
-\mdf@needspace@length=\skip100
-\mdf@frametitleaboveskip@length=\skip101
-\mdf@frametitlebelowskip@length=\skip102
-\mdf@frametitlerulewidth@length=\skip103
-\mdf@frametitleleftmargin@length=\skip104
-\mdf@frametitlerightmargin@length=\skip105
-\mdf@shadowsize@length=\skip106
-\mdf@extratopheight@length=\skip107
-\mdf@subtitleabovelinewidth@length=\skip108
-\mdf@subtitlebelowlinewidth@length=\skip109
-\mdf@subtitleaboveskip@length=\skip110
-\mdf@subtitlebelowskip@length=\skip111
-\mdf@subtitleinneraboveskip@length=\skip112
-\mdf@subtitleinnerbelowskip@length=\skip113
-\mdf@subsubtitleabovelinewidth@length=\skip114
-\mdf@subsubtitlebelowlinewidth@length=\skip115
-\mdf@subsubtitleaboveskip@length=\skip116
-\mdf@subsubtitlebelowskip@length=\skip117
-\mdf@subsubtitleinneraboveskip@length=\skip118
-\mdf@subsubtitleinnerbelowskip@length=\skip119
-
-(d:/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+\mdf@templength=\skip85
+\c@mdf@globalstyle@cnt=\count320
+\mdf@skipabove@length=\skip86
+\mdf@skipbelow@length=\skip87
+\mdf@leftmargin@length=\skip88
+\mdf@rightmargin@length=\skip89
+\mdf@innerleftmargin@length=\skip90
+\mdf@innerrightmargin@length=\skip91
+\mdf@innertopmargin@length=\skip92
+\mdf@innerbottommargin@length=\skip93
+\mdf@splittopskip@length=\skip94
+\mdf@splitbottomskip@length=\skip95
+\mdf@outermargin@length=\skip96
+\mdf@innermargin@length=\skip97
+\mdf@linewidth@length=\skip98
+\mdf@innerlinewidth@length=\skip99
+\mdf@middlelinewidth@length=\skip100
+\mdf@outerlinewidth@length=\skip101
+\mdf@roundcorner@length=\skip102
+\mdf@footenotedistance@length=\skip103
+\mdf@userdefinedwidth@length=\skip104
+\mdf@needspace@length=\skip105
+\mdf@frametitleaboveskip@length=\skip106
+\mdf@frametitlebelowskip@length=\skip107
+\mdf@frametitlerulewidth@length=\skip108
+\mdf@frametitleleftmargin@length=\skip109
+\mdf@frametitlerightmargin@length=\skip110
+\mdf@shadowsize@length=\skip111
+\mdf@extratopheight@length=\skip112
+\mdf@subtitleabovelinewidth@length=\skip113
+\mdf@subtitlebelowlinewidth@length=\skip114
+\mdf@subtitleaboveskip@length=\skip115
+\mdf@subtitlebelowskip@length=\skip116
+\mdf@subtitleinneraboveskip@length=\skip117
+\mdf@subtitleinnerbelowskip@length=\skip118
+\mdf@subsubtitleabovelinewidth@length=\skip119
+\mdf@subsubtitlebelowlinewidth@length=\skip120
+\mdf@subsubtitleaboveskip@length=\skip121
+\mdf@subsubtitlebelowskip@length=\skip122
+\mdf@subsubtitleinneraboveskip@length=\skip123
+\mdf@subsubtitleinnerbelowskip@length=\skip124
+ (c:/texlive/2023/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box54
-\mdf@footnotebox=\box55
-\mdf@splitbox@one=\box56
-\mdf@splitbox@two=\box57
-\mdf@splitbox@save=\box58
-\mdfsplitboxwidth=\skip120
-\mdfsplitboxtotalwidth=\skip121
-\mdfsplitboxheight=\skip122
-\mdfsplitboxdepth=\skip123
-\mdfsplitboxtotalheight=\skip124
-\mdfframetitleboxwidth=\skip125
-\mdfframetitleboxtotalwidth=\skip126
-\mdfframetitleboxheight=\skip127
-\mdfframetitleboxdepth=\skip128
-\mdfframetitleboxtotalheight=\skip129
-\mdffootnoteboxwidth=\skip130
-\mdffootnoteboxtotalwidth=\skip131
-\mdffootnoteboxheight=\skip132
-\mdffootnoteboxdepth=\skip133
-\mdffootnoteboxtotalheight=\skip134
-\mdftotallinewidth=\skip135
-\mdfboundingboxwidth=\skip136
-\mdfboundingboxtotalwidth=\skip137
-\mdfboundingboxheight=\skip138
-\mdfboundingboxdepth=\skip139
-\mdfboundingboxtotalheight=\skip140
-\mdf@freevspace@length=\skip141
-\mdf@horizontalwidthofbox@length=\skip142
-\mdf@verticalmarginwhole@length=\skip143
-\mdf@horizontalspaceofbox=\skip144
-\mdfsubtitleheight=\skip145
-\mdfsubsubtitleheight=\skip146
-\c@mdfcountframes=\count302
+\mdf@frametitlebox=\box67
+\mdf@footnotebox=\box68
+\mdf@splitbox@one=\box69
+\mdf@splitbox@two=\box70
+\mdf@splitbox@save=\box71
+\mdfsplitboxwidth=\skip125
+\mdfsplitboxtotalwidth=\skip126
+\mdfsplitboxheight=\skip127
+\mdfsplitboxdepth=\skip128
+\mdfsplitboxtotalheight=\skip129
+\mdfframetitleboxwidth=\skip130
+\mdfframetitleboxtotalwidth=\skip131
+\mdfframetitleboxheight=\skip132
+\mdfframetitleboxdepth=\skip133
+\mdfframetitleboxtotalheight=\skip134
+\mdffootnoteboxwidth=\skip135
+\mdffootnoteboxtotalwidth=\skip136
+\mdffootnoteboxheight=\skip137
+\mdffootnoteboxdepth=\skip138
+\mdffootnoteboxtotalheight=\skip139
+\mdftotallinewidth=\skip140
+\mdfboundingboxwidth=\skip141
+\mdfboundingboxtotalwidth=\skip142
+\mdfboundingboxheight=\skip143
+\mdfboundingboxdepth=\skip144
+\mdfboundingboxtotalheight=\skip145
+\mdf@freevspace@length=\skip146
+\mdf@horizontalwidthofbox@length=\skip147
+\mdf@verticalmarginwhole@length=\skip148
+\mdf@horizontalspaceofbox=\skip149
+\mdfsubtitleheight=\skip150
+\mdfsubsubtitleheight=\skip151
+\c@mdfcountframes=\count321
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count303
-\c@mdf@env@i=\count304
-\c@mdf@env@ii=\count305
-\c@mdf@zref@counter=\count306
+\mdf@envdepth=\count322
+\c@mdf@env@i=\count323
+\c@mdf@env@ii=\count324
+\c@mdf@zref@counter=\count325
 Package zref Info: New property: mdf@pagevalue on input line 895.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+) (c:/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/mdbch/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -893,139 +818,122 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/mdbch/b/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/lmtt/b/n --> OT1/lmtt/m/n on input line 38.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/was/upgreek.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 LaTeX Font Info:    Redeclaring math symbol \upmu on input line 51.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen196
-)
-(d:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip147
+\pmbraise@=\dimen262
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip152
 
 For additional information on amsmath, use the `?' option.
-(d:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count307
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count308
-\leftroot@=\count309
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count310
-\DOTSCASE@=\count311
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box59
-\strutbox@=\box60
-\big@size=\dimen197
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count312
-\c@MaxMatrixCols=\count313
+\inf@bad=\count326
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count327
+\leftroot@=\count328
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count329
+\DOTSCASE@=\count330
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box72
+\strutbox@=\box73
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen263
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count331
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count332
 \dotsspace@=\muskip18
-\c@parentequation=\count314
-\dspbrk@lvl=\count315
-\tag@help=\toks27
-\row@=\count316
-\column@=\count317
-\maxfields@=\count318
-\andhelp@=\toks28
-\eqnshift@=\dimen198
-\alignsep@=\dimen199
-\tagshift@=\dimen256
-\tagwidth@=\dimen257
-\totwidth@=\dimen258
-\lineht@=\dimen259
-\@envbody=\toks29
-\multlinegap=\skip148
-\multlinetaggap=\skip149
-\mathdisplay@stack=\toks30
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/amsfonts/eucal.sty
+\c@parentequation=\count333
+\dspbrk@lvl=\count334
+\tag@help=\toks30
+\row@=\count335
+\column@=\count336
+\maxfields@=\count337
+\andhelp@=\toks31
+\eqnshift@=\dimen264
+\alignsep@=\dimen265
+\tagshift@=\dimen266
+\tagwidth@=\dimen267
+\totwidth@=\dimen268
+\lineht@=\dimen269
+\@envbody=\toks32
+\multlinegap=\skip153
+\multlinetaggap=\skip154
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/eucal.sty
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
-)
-(d:/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks31
-)
-(d:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(d:/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-(d:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks32
-\inpenc@posthook=\toks33
+\@enLab=\toks34
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (d:/texlive/2020/texmf-dist/tex/latex/lgreek/lgreek.sty
-\vwl=\count319
-\acct=\count320
-)
-(d:/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/lgreek/lgreek.sty
+\vwl=\count338
+\acct=\count339
+) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(d:/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen260
-\lightrulewidth=\dimen261
-\cmidrulewidth=\dimen262
-\belowrulesep=\dimen263
-\belowbottomsep=\dimen264
-\aboverulesep=\dimen265
-\abovetopsep=\dimen266
-\cmidrulesep=\dimen267
-\cmidrulekern=\dimen268
-\defaultaddspace=\dimen269
-\@cmidla=\count321
-\@cmidlb=\count322
-\@aboverulesep=\dimen270
-\@belowrulesep=\dimen271
-\@thisruleclass=\count323
-\@lastruleclass=\count324
-\@thisrulewidth=\dimen272
-)
-(d:/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip150
-\multirow@cntb=\count325
-\multirow@dima=\skip151
-\bigstrutjot=\dimen273
-)
-(./physical-olympics-2.aux (./chapter/preamble.aux) (./chapter/kinematics.aux)
-(./chapter/dynamics.aux) (./chapter/statics.aux) (./chapter/harmonics.aux)
-(./chapter/gravity.aux) (./chapter/rigidbody.aux) (./chapter/elasticity.aux
-
-LaTeX Warning: Label `6-7-4' multiply defined.
-
-) (./chapter/fluid.aux) (./chapter/relativity.aux) (./chapter/thermoI.aux)
-(./chapter/thermoII.aux) (./chapter/maxwell.aux) (./chapter/liquidsolid.aux)
-(./chapter/phasechange.aux) (./chapter/electrostatics.aux)
-(./chapter/conductordielectric.aux) (./chapter/steadycurrent.aux)
-(./chapter/magnetostatics.aux) (./chapter/induction.aux)
-(./chapter/maxwelle.aux) (./chapter/accurrent.aux) (./chapter/goptics.aux)
-(./chapter/opticals.aux) (./chapter/opticalp.aux) (./chapter/interference.aux)
-(./chapter/diffraction.aux) (./chapter/relativity.aux) (./chapter/photon.aux)
-(./chapter/quantum.aux) (./chapter/scale.aux))
+\heavyrulewidth=\dimen270
+\lightrulewidth=\dimen271
+\cmidrulewidth=\dimen272
+\belowrulesep=\dimen273
+\belowbottomsep=\dimen274
+\aboverulesep=\dimen275
+\abovetopsep=\dimen276
+\cmidrulesep=\dimen277
+\cmidrulekern=\dimen278
+\defaultaddspace=\dimen279
+\@cmidla=\count340
+\@cmidlb=\count341
+\@aboverulesep=\dimen280
+\@belowrulesep=\dimen281
+\@thisruleclass=\count342
+\@lastruleclass=\count343
+\@thisrulewidth=\dimen282
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip155
+\multirow@cntb=\count344
+\multirow@dima=\skip156
+\bigstrutjot=\dimen283
+) (./physical-olympics-2.aux (./chapter/thermoI.aux) (./chapter/thermoII.aux) (./chapter/maxwell.aux) (./chapter/liquidsolid.aux) (./chapter/phasechange.aux) (./chapter/goptics.aux) (./chapter/opticals.aux) (./chapter/opticalp.aux))
 \openout1 = `physical-olympics-2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
@@ -1045,18 +953,14 @@ LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 97.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 9
-7.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdacmr.fd
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 97.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 97.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 9
-7.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 97.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 97.
@@ -1065,16 +969,11 @@ LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for LG/cmr/m/n on input line 97.
-LaTeX Font Info:    Trying to load font information for LG+cmr on input line 97
-.
-
-(d:/texlive/2020/texmf-dist/tex/latex/lgreek/LGcmr.fd
+LaTeX Font Info:    Trying to load font information for LG+cmr on input line 97.
+ (c:/texlive/2023/texmf-dist/tex/latex/lgreek/LGcmr.fd
 File: LGcmr.fd 1995/04/22 v2.3f Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 97.
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1110,23 +1009,7 @@ LaTeX Info: Redefining \selectfont on input line 97.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring ON on input line 97.
-(d:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-(d:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(d:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count326
-)
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
-LaTeX Info: Redefining \nameref on input line 97.
-
 (./physical-olympics-2.out) (./physical-olympics-2.out)
 \@outlinefile=\write3
 \openout3 = `physical-olympics-2.out'.
@@ -1152,36 +1035,29 @@ Package fontspec Info: Font family 'FZYouHeiS(0)' created for font 'FZYouHeiS'
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"FZYouHeiS/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
+(fontspec)             -  (m/fscn) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"FZYouHeiS/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/fsc) with NFSS spec.: 
+(fontspec)             -  (b/fscn) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"FZYouHeiS/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/fsc) with NFSS spec.: 
+(fontspec)             - 'bold italic small caps'  (b/fscit) with NFSS spec.: 
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-03.
-(d:/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 103.
+(c:/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-03.
-
-(d:/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-103.
-
-(d:/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-103.
-
-(d:/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <26.09749> on input line 103.
@@ -1189,10 +1065,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <22.08249> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <16.06> on input line 103.
-LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 103.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
+LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -1201,10 +1075,8 @@ LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 21.19933pt on input line 103.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 15.4177pt on input line 103.
-LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 103.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
+LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
@@ -1213,10 +1085,8 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 21.19933pt on input line 103.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 15.4177pt on input line 103.
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 103.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
@@ -1225,10 +1095,8 @@ LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 21.19933pt on input line 103.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 15.4177pt on input line 103.
-LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 103.
-
-(d:/texlive/2020/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
+LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 103.
+ (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
@@ -1286,10 +1154,11 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 
 ]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 12.64723pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [2
 
@@ -1339,21 +1208,43 @@ LaTeX Font Warning: Font shape `OML/eur/m/n' in size <10.53937> not available
 ]
 
 LaTeX Font Warning: Font shape `TU/方正聚珍新仿简体(0)/m/sl' undefined
-(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 84.
+(Font)              using `TU/方正聚珍新仿简体(0)/m/n' instead on input line 106.
 
-[2] [3] [4] [5] [6] [7] [8])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
+
+[2])
 \tf@toc=\write4
 \openout4 = `physical-olympics-2.toc'.
 
- [9]
-\openout2 = `chapter/kinematics.aux'.
 
- (./chapter/kinematics.tex [12
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
+
+[3]
+\openout2 = `chapter/thermoI.aux'.
+
+ (./chapter/thermoI.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
+
+[4
 
 
 ]
-第二章
+第一章
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.52812> on input line 6.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -1369,577 +1260,23 @@ LaTeX Font Warning: Font shape `OML/eur/m/n' in size <7.52812> not available
 (Font)              size <8> substituted on input line 6.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 8.
-
-File: image/6-1-1.png Graphic file (type bmp)
-<image/6-1-1.png>
-[13] [14]
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 69.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 69.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 69.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 69.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 69.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 69.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 69.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 69.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 69.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.11786pt on input line 69.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 69.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 69.
-
-Overfull \hbox (6.4133pt too wide) in paragraph at lines 77--78
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 条[]世 界 线[]\T1/lmr/m/n/10.53937 (world line).\TU/方正
-聚珍新仿简体(0)/m/n/10.53937 每 一 个 时 间 仅 仅 有 可 能 只 有 一 个 事 件 发 生\T1/lmr/m/n/10.53937 
-.\TU/方正聚珍新仿简体(0)/m/n/10.53937 实 际 上 质 点 的 运 动 用[]运 动 学 方 程[]\T1/lmr/m/n/10.5393
-7 (kinematic
- []
-
-[15]
-File: image/6-1-2.png Graphic file (type bmp)
-<image/6-1-2.png>
- [16]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 123.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.75693pt
-(hyperref)                removed on input line 123.
-
-[17]
-File: image/6-1-15.png Graphic file (type bmp)
-<image/6-1-15.png>
-File: image/6-1-3.png Graphic file (type bmp)
-<image/6-1-3.png>
-
-
-Package caption Warning: \label without proper reference on input line 174.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `6-1-3' on page 18 undefined on input line 185.
-
-[18]
-File: image/6-1-4.png Graphic file (type bmp)
-<image/6-1-4.png>
- [19] [20]
-File: image/6-1-5.png Graphic file (type bmp)
-<image/6-1-5.png>
-File: image/6-1-6.png Graphic file (type bmp)
-<image/6-1-6.png>
- [21] [22]
-File: image/6-1-7.png Graphic file (type bmp)
-<image/6-1-7.png>
- [23] [24]
-File: image/6-1-8.png Graphic file (type bmp)
-<image/6-1-8.png>
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 448.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 448.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 448.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 7.22704pt on input line 448.
- [25] [26]
-File: image/6-1-10.png Graphic file (type bmp)
-<image/6-1-10.png>
- [27]
-Overfull \hbox (3.45781pt too wide) in paragraph at lines 533--534
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 很 容 易 证 明\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
-/m/n/10.53937 对 一 个 矢 量 求 导 数\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937
- 一 看 分 量 变 不 变\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 看 基 矢 量 本 身 
-有 没 有 旋 转\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 就 会 产 生 两 项\T1/
-lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 实
+Underfull \hbox (badness 1194) in paragraph at lines 6--6
+[][][]\TU/方正聚珍新仿简体(0)/m/n/7.52812 注 意\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52812 一 是 从 微 观 上 看\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52812 组 成 系 统 的 微 观 粒 子 仍 然 处 于 无 休 无 止 的 运 动 中\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52812 其 微 观 坐 标 与 速 度 在 发 生 几 急 剧 的 变 化\T1/lmr/m/n/7.52812 ,\TU/方正聚珍新仿简体(0)/m/n/7.52812 但 平 衡 态 只 对 宏 观 性 质 定
  []
 
 
-Overfull \hbox (13.02522pt too wide) in paragraph at lines 556--557
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 柯 氏 即 柯 里 奥 利\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(
-0)/m/n/10.53937 相 对 速 度 与 相 对 加 速 度 就 是 $[][]\OML/lmm/m/it/10.53937 ;  [][]$\T1
-/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 言 下 之 意 就 是 我 们 定 义 了 所 谓 的[]牵 
-连 速 度[]\T1/lmr/m/n/10.53937 (convected
+Overfull \hbox (0.64665pt too wide) in paragraph at lines 28--29
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 一 是 热 力 学 第 零 定 律 定 义 了 温 度\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 但 它 没 有 量 化 一 个[]温 标[]\T1/lmr/m/n/10.53937 (temperature scale).\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 何 量 化 一 个 温 标 呢\T1/lmr/m/n/10.53937 ?\TU/方正聚珍新仿简体(0)/m/n/10.53937 从
  []
 
-[28]
-Overfull \hbox (2.15442pt too wide) in paragraph at lines 568--569
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后 值 得 注 意\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
-/m/n/10.53937 如 果 $[]$ 和 $[]$ 恒 为 零\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10
-.53937 这 也 并 不 少 见\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 这 样 的 
-动 系 就 是[]平 动 系[]\T1/lmr/m/n/10.53937 (translational frame).\TU/方正聚珍新仿简体(0)/m/n/
-10.53937 此
- []
-
-File: image/6-1-11.png Graphic file (type bmp)
-<image/6-1-11.png>
-[29] [30]) [31]
-\openout2 = `chapter/dynamics.aux'.
-
- (./chapter/dynamics.tex [32
-
-
-
-]
-第三章
-[33] [34] [35]
-Overfull \hbox (2.57611pt too wide) in paragraph at lines 79--80
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 也 正 是 牛 顿 第 三 定 律 暗 示 了 牛 顿 经 典 力 学 体 系 的 缺 点\T1
-/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 因 为 我 们 无 法 解 释 牛 顿 第 三 定 律 的 \
-T1/lmr/m/n/10.53937 ``\TU/方正聚珍新仿简体(0)/m/n/10.53937 自 然 性\T1/lmr/m/n/10.53937 ''
-,\TU/方正聚珍新仿简体(0)/m/n/10.53937 取
- []
-
-[36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
-Overfull \hbox (20.02747pt too wide) in paragraph at lines 438--439
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 理[]\T1/lmr/m/n/10.53937 (work-energy prin-ci-ple).
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 它 仅 仅 是 换 着 法 子 写 了 动 能 定 律 而 已\T1/lmr/m/n/10.5393
-7 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 但 是 这 种 写 法 是 为 了 用[]能 量 守 恒[]\T1/lmr/m/n/10.53
-937 (conservation
- []
-
-[46] [47] [48]
-File: image/6-1-12.png Graphic file (type bmp)
-<image/6-1-12.png>
- [49]
-File: image/6-1-13.png Graphic file (type bmp)
-<image/6-1-13.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--588
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 粗 糙 的 刚 体\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n
-/10.53937 那 么 还 可 以 有 沿 切 线 方 向 的 分 量\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/
-10.53937 不 管 何 种 情 况 我 们 来 证 明 两 个 恒 成 立 的 结 论\T1/lmr/m/n/10.53937 :
- []
-
-[50]
-File: image/6-1-14.jpg Graphic file (type bmp)
-<image/6-1-14.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51])
-[52]
-\openout2 = `chapter/statics.aux'.
-
- (./chapter/statics.tex
-第四章
-File: image/6-2-1.png Graphic file (type bmp)
-<image/6-2-1.png>
-
-Underfull \vbox (badness 1924) has occurred while \output is active []
-
- [53
-
-
-
-]
-Overfull \hbox (3.89781pt too wide) in paragraph at lines 50--51
-[]\T1/lmr/m/n/10.53937 A.\TU/方正聚珍新仿简体(0)/m/n/10.53937 一 个 圆 盘 状 的 冰 球 本 来 由 盘 心
- 的 $\OT1/lmr/m/n/10.53937 (\OML/lmm/m/it/10.53937 x;  y;  z\OT1/lmr/m/n/10.5393
-7 )$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 和 盘 面 方 向\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0
-)/m/n/10.53937 即 垂 直 盘 面 的 单 位 法 向 量 $\OT1/lmr/m/n/10.53937 ([] \OML/lmm/m/it/1
-0.53937 ^^K;  [] ^^L;  [] ^^M\OT1/lmr/m/n/10.53937 )$
- []
-
-[54]
-File: image/6-2-6.jpg Graphic file (type bmp)
-<image/6-2-6.jpg>
- [55]
-LaTeX Font Info:    Trying to load font information for LG+lmr on input line 97
-.
-LaTeX Font Info:    No file LGlmr.fd. on input line 97.
-
-
-LaTeX Font Warning: Font shape `LG/lmr/m/n' undefined
-(Font)              using `LG/cmr/m/n' instead on input line 97.
-
-
-LaTeX Font Warning: Font shape `LG/cmr/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 97.
-
-
-LaTeX Font Warning: Font shape `LG/lmr/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 97.
-
-File: image/6-2-2.png Graphic file (type bmp)
-<image/6-2-2.png>
-[56]
-File: image/6-2-3.png Graphic file (type bmp)
-<image/6-2-3.png>
-
-Overfull \hbox (21.35533pt too wide) in paragraph at lines 150--151
-[]\T1/lmr/m/n/10.53937 Case4.\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 果 绳 子 还 绕 过 了 滑 轮\T
-1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 么 原 则 上 每 一 段 绳 带 来 一 个 约 束 
-减 少 一 个 自 由 度\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 例 如 坐 标 为 $\OT1
-/lmr/m/n/10.53937 (\OML/lmm/m/it/10.53937 x[];  y[];  z[]\OT1/lmr/m/n/10.53937 
-)$
- []
-
-[57] [58]
-File: image/6-2-4.png Graphic file (type bmp)
-<image/6-2-4.png>
-
-Overfull \hbox (0.69016pt too wide) in paragraph at lines 209--210
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 还 有 一 个 重 要 概 念 需 要 先 一 步 加 以 介 绍\T1/lmr/m/n/10.
-53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 如 果 我 们 考 虑 任 何 一 个 作 用 在 实 际 体 系 的 某 质 点 上
- 的 力 $[]$\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 该
- []
-
-File: image/6-2-5.png Graphic file (type bmp)
-<image/6-2-5.png>
-[59]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-240.
-
-File: image/6-2-7.png Graphic file (type bmp)
-<image/6-2-7.png>
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24
-5.
-
-[60]
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 10.19151pt on input line 283.
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 6.76897pt on input line 283.
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 4.83498pt on input line 283.
-File: image/6-2-8.png Graphic file (type bmp)
-<image/6-2-8.png>
- [61] [62]
-Overfull \hbox (3.77924pt too wide) in paragraph at lines 346--347
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 个 问 题 的 答 案 其 实 简 单\T1/lmr/m/n/10.53937 :\TU/方
-正聚珍新仿简体(0)/m/n/10.53937 那 便 是 找 到 最 基 础 的 平 衡 力 系\T1/lmr/m/n/10.53937 ,\TU/方正聚珍
-新仿简体(0)/m/n/10.53937 它 是 平 衡 核 的[]生 成 元[]\T1/lmr/m/n/10.53937 (generating el-e-
-ment).\TU/方正聚珍新仿简体(0)/m/n/10.53937 这
- []
-
-File: image/6-2-9.png Graphic file (type bmp)
-<image/6-2-9.png>
-
-Underfull \hbox (badness 1005) in paragraph at lines 358--359
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 统 时\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53
-937 它 们 不 仅 受 到 外 力\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 还 要 受 约 束
- 力 \T1/lmr/m/n/10.53937 (\TU/方正聚珍新仿简体(0)/m/n/10.53937 作 为 内
- []
-
-[63]
-File: image/6-2-10.png Graphic file (type bmp)
-<image/6-2-10.png>
-File: image/6-2-11.png Graphic file (type bmp)
-<image/6-2-11.png>
-File: image/6-2-12.png Graphic file (type bmp)
-<image/6-2-12.png>
-File: image/6-2-13.png Graphic file (type bmp)
-<image/6-2-13.png>
- [64]
-File: image/6-2-14.png Graphic file (type bmp)
-<image/6-2-14.png>
-File: image/6-2-15.png Graphic file (type bmp)
-<image/6-2-15.png>
- [65] [66] [67]
-LaTeX Font Info:    Font shape `U/xmdeuf/m/n' will be
-(Font)              scaled to size 7.27965pt on input line 547.
- [68] [69] [70] [71]
-File: image/6-2-16.png Graphic file (type bmp)
-<image/6-2-16.png>
-
-Overfull \hbox (3.45781pt too wide) in paragraph at lines 669--670
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 想 的 却 不 稳 定 的 约 束 情 形 中\T1/lmr/m/n/10.53937 ,\TU/方
-正聚珍新仿简体(0)/m/n/10.53937 约 束 力 是 可 以 做 实 功 的\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0
-)/m/n/10.53937 从 而 体 系 能 量 一 般 都 不 会 守 恒\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m
-/n/10.53937 总 之\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 所 谓 理 想 约 束\T
-1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 依
- []
-
-[72] [73]
-Overfull \hbox (0.95279pt too wide) in paragraph at lines 739--740
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 故 现 在\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/1
-0.53937 我 们 直 接 总 结\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 保 守 体 系 的
- 主 动 力 部 分\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 由 势 能 函 数 $\OML/lm
-m/m/it/10.53937 V\OT1/lmr/m/n/10.53937 (\OML/lmm/m/it/10.53937 q[];  t\OT1/lmr/
-m/n/10.53937 )$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 来 描 述\T1/lmr/m/n/10.53937 .\TU/方正聚
-珍新仿简体(0)/m/n/10.53937 十 分 容 易 验 证 的 一 点 是\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/
-m/n/10.53937 此
- []
-
-[74] [75] [76]) [77] [78]
-\openout2 = `chapter/harmonics.aux'.
-
- (./chapter/harmonics.tex
-第五章
-[79
-
-
-
-] [80] [81]
-File: image/6-3-1.png Graphic file (type bmp)
-<image/6-3-1.png>
- [82]
-File: image/6-3-2.png Graphic file (type bmp)
-<image/6-3-2.png>
- [83]
-File: image/6-3-3.png Graphic file (type bmp)
-<image/6-3-3.png>
- [84]
-File: image/6-3-4.png Graphic file (type bmp)
-<image/6-3-4.png>
- [85]
-Overfull \hbox (11.36145pt too wide) in paragraph at lines 310--311
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 第 二 个 值 得 关 注 的 共 振 参 数\T1/lmr/m/n/10.53937 ,\TU
-/方正聚珍新仿简体(0)/m/n/10.53937 是 共 振 的 峰 的 宽 度\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/
-m/n/10.53937 谐 振 子 模 型 给 出 的 幅 频 曲 线\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/1
-0.53937 与 著 名 的[]柯 西 分 布[]\T1/lmr/m/n/10.53937 (Cauchy
- []
-
-File: image/6-3-5.png Graphic file (type bmp)
-<image/6-3-5.png>
-[86]
-Missing character: There is no 也 in font ec-lmr10!
- [87]
-File: image/6-3-7.png Graphic file (type bmp)
-<image/6-3-7.png>
-File: image/6-3-6.png Graphic file (type bmp)
-<image/6-3-6.png>
- [88] [89] [90] [91]
-Overfull \hbox (26.17023pt too wide) in paragraph at lines 495--496
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后 还 需 证 明 一 点\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简
-体(0)/m/n/10.53937 就 是 这 $\OML/lmm/m/it/10.53937 k \OT1/lmr/m/n/10.53937 = 1\OML
-/lmm/m/it/10.53937 ;  \OT1/lmr/m/n/10.53937 2 [] \OML/lmm/m/it/10.53937 n$ \TU/
-方正聚珍新仿简体(0)/m/n/10.53937 个 本 征 值 对 应 的 本 征 向 量 不 仅 是 独 立 的\T1/lmr/m/n/10.53937 
-,\TU/方正聚珍新仿简体(0)/m/n/10.53937 而 且 还 是[]正 交[]\T1/lmr/m/n/10.53937 (orthogonal)
- []
-
-[92] [93] [94]
-File: image/6-3-10.png Graphic file (type bmp)
-<image/6-3-10.png>
-File: image/6-3-8.png Graphic file (type bmp)
-<image/6-3-8.png>
-File: image/6-3-11.png Graphic file (type bmp)
-<image/6-3-11.png>
- [95] [96]
-Overfull \hbox (0.5884pt too wide) in paragraph at lines 660--661
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 接 下 来 我 们 可 以 先 分 析[]单 态[]\T1/lmr/m/n/10.53937 (
-singlet).\TU/方正聚珍新仿简体(0)/m/n/10.53937 假 设 某 一 个 角 频 率 下 仅 仅 只 有 一 重 简 并\T1/lmr/
-m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 即 只 有 一 个 本 征 模 式\T1/lmr/m/n/10.5393
-7 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 那
- []
-
-[97]
-File: image/6-3-12.png Graphic file (type bmp)
-<image/6-3-12.png>
- [98]
-File: image/6-3-9.png Graphic file (type bmp)
-<image/6-3-9.png>
- [99]
-File: image/6-3-13.png Graphic file (type bmp)
-<image/6-3-13.png>
- [100]
-File: image/6-3-14.png Graphic file (type bmp)
-<image/6-3-14.png>
-
-Underfull \hbox (badness 3138) in paragraph at lines 780--781
-[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 上 面 这 个 $\OML/lmm/m/it/10.53937 K$ \TU/方正聚珍新仿简
-体(0)/m/n/10.53937 应 当 处 于 的 空 间 称 作[]布 里 渊 区[]\T1/lmr/m/n/10.53937 (Brillouin
- []
-
-File: image/6-3-15.png Graphic file (type bmp)
-<image/6-3-15.png>
-[101]
-File: image/6-3-16.png Graphic file (type bmp)
-<image/6-3-16.png>
- [102]
-Overfull \hbox (0.26599pt too wide) in paragraph at lines 852--853
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 最 后 我 们 指 出\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)
-/m/n/10.53937 简 单 的 计 算 产 生 的 结 果 中 还 蕴 含 着 意 义 非 凡 的 一 个 物 理 图 像\T1/lmr/m/n/10
-.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 那 就 是[]能 带[]\T1/lmr/m/n/10.53937 (energy b
-and)
- []
-
-[103]) [104]
-\openout2 = `chapter/gravity.aux'.
-
- (./chapter/gravity.tex
-第六章
-[105
-
-
-
-]
-File: image/6-5-1.png Graphic file (type bmp)
-<image/6-5-1.png>
-
-Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimHei/B" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
-(fontspec)             options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
-
- [106]
-File: image/6-5-2.png Graphic file (type bmp)
-<image/6-5-2.png>
- [107] [108] [109]) [110]
-\openout2 = `chapter/rigidbody.aux'.
-
- (./chapter/rigidbody.tex
-第七章
-File: image/6-6-1.png Graphic file (type bmp)
-<image/6-6-1.png>
-[111
-
-
-
-]
-File: image/6-6-2.png Graphic file (type bmp)
-<image/6-6-2.png>
- [112] [113] [114] [115]) [116]
-\openout2 = `chapter/elasticity.aux'.
-
- (./chapter/elasticity.tex
-第八章
-[117
-
-
-
-]
-File: image/6-7-1.png Graphic file (type bmp)
-<image/6-7-1.png>
-File: image/6-7-2.png Graphic file (type bmp)
-<image/6-7-2.png>
- [118] [119]
-File: image/6-7-3.png Graphic file (type bmp)
-<image/6-7-3.png>
- [120]
-File: image/6-7-4.png Graphic file (type bmp)
-<image/6-7-4.png>
- [121]
-File: image/6-7-5.png Graphic file (type bmp)
-<image/6-7-5.png>
- [122]
-File: image/6-7-6.png Graphic file (type bmp)
-<image/6-7-6.png>
- [123] [124]
-Overfull \hbox (6.88208pt too wide) in paragraph at lines 267--268
-[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 波 动 方 程 的 求 解 问 题 其 实 是 非 常 简 单 的\T1/lmr/m/n/10.
-53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 它 其 实 是 普 遍 的[]偏 微 分 方 程[]\T1/lmr/m/n/10.53
-937 (partial dif-fer-en-tial equa-tion,PDE)
- []
-
-[125] [126] [127]) [128]
-\openout2 = `chapter/fluid.aux'.
-
- (./chapter/fluid.tex
-第九章
-File: image/6-8-1.png Graphic file (type bmp)
-<image/6-8-1.png>
-
-Underfull \hbox (badness 5847) in paragraph at lines 24--25
-[][]\TU/方正聚珍新仿简体(0)/m/n/10.53937 用 流 速 场 $[]\OT1/lmr/m/n/10.53937 ([]\OML/lmm/m
-/it/10.53937 ;  t\OT1/lmr/m/n/10.53937 )$ \TU/方正聚珍新仿简体(0)/m/n/10.53937 来 描 述 流 
-体 的 方 法 称 作[]欧 拉
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 24--25
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 法[]\T1/lmr/m/n/10.53937 (Euler's method).\TU/方正聚珍新
-仿简体(0)/m/n/10.53937 而 欧 拉 法 的 抽 象 函 数 也 可 以 可 视
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 27--28
-\TU/方正聚珍新仿简体(0)/m/n/10.53937 成[]流 管[]\T1/lmr/m/n/10.53937 (streamtube) \TU/方正聚珍
-新仿简体(0)/m/n/10.53937 的 概 念\T1/lmr/m/n/10.53937 .\TU/方正聚珍新仿简体(0)/m/n/10.53937 流 
-线 与 迹 线 显 然 不 一 定 重
- []
-
-[129
-
-
-
-] [130] [131]
-File: image/6-8-2.png Graphic file (type bmp)
-<image/6-8-2.png>
- [132]
-File: image/6-8-3.png Graphic file (type bmp)
-<image/6-8-3.png>
- [133]) [134]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
- (./physical-olympics-2.aux
-(./chapter/preamble.aux) (./chapter/kinematics.aux) (./chapter/dynamics.aux)
-(./chapter/statics.aux) (./chapter/harmonics.aux) (./chapter/gravity.aux)
-(./chapter/rigidbody.aux) (./chapter/elasticity.aux) (./chapter/fluid.aux)
-(./chapter/relativity.aux) (./chapter/thermoI.aux) (./chapter/thermoII.aux)
-(./chapter/maxwell.aux) (./chapter/liquidsolid.aux) (./chapter/phasechange.aux)
-(./chapter/electrostatics.aux) (./chapter/conductordielectric.aux)
-(./chapter/steadycurrent.aux) (./chapter/magnetostatics.aux)
-(./chapter/induction.aux) (./chapter/maxwelle.aux) (./chapter/accurrent.aux)
-(./chapter/goptics.aux) (./chapter/opticals.aux) (./chapter/opticalp.aux)
-(./chapter/interference.aux) (./chapter/diffraction.aux)
-(./chapter/relativity.aux) (./chapter/photon.aux) (./chapter/quantum.aux)
-(./chapter/scale.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-Package rerunfilecheck Info: File `physical-olympics-2.out' has not changed.
-(rerunfilecheck)             Checksum: 7BD48D6CAE6422E75498BB812D3CFA71;11047.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.34248pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
- ) 
-Here is how much of TeX's memory you used:
- 22230 strings out of 479681
- 431904 string characters out of 5891991
- 763756 words of memory out of 5000000
- 38799 multiletter control sequences out of 15000+600000
- 659840 words of font info for 209 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 55i,15n,97p,978b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on physical-olympics-2.xdv (134 pages, 2070396 bytes).
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
+
+[6]
+Overfull \hbox (3.77332pt too wide) in paragraph at lines 74--75
+[]\TU/方正聚珍新仿简体(0)/m/n/10.53937 这 里 指 以 上 运 动 的 动 能\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 势 能 全 部 去 除 后\T1/lmr/m/n/10.53937 ,\TU/方正聚珍新仿简体(0)/m/n/10.53937 由 于 更 加 深 层 �
