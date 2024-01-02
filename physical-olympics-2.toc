@@ -1,0 +1,76 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}稳恒电流}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}稳恒电流描述与形成}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}德鲁特模型}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}费米气观点*}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}能带论*}{8}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}惯性,\,阻尼与回复力}{10}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}稳恒电流与形成条件}{11}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}电路与电路方程}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.3}电路分析基础}{16}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}电路的整体结构与拓扑学结论}{16}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}电路问题的求解套路}{19}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}电路分析方法}{21}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}二端电路等效}{21}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}三端电路等效}{22}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}二端口电路}{22}{subsection.1.4.3}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}静磁学}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}电流与磁场}{23}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}磁场地位与电流分布}{23}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}毕奥-萨伐尔定律}{25}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}两个定律与矢势}{27}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}磁场的环路定律}{27}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}矢势与磁场的高斯定律}{29}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}电流体系}{31}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}磁偶极子}{32}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}磁化强度}{35}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}若干对称体系的磁场}{35}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}磁介质与磁能}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}微观角度理解磁化}{36}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}宏观角度理解磁化}{37}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}磁场能量}{38}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}磁生电}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}电磁感应}{39}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}动生电动势}{40}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}感生电动势}{41}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}自感与互感}{44}{section.3.2}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}麦克斯韦方程组}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}麦克斯韦方程组}{45}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}电生磁}{45}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}麦克斯韦方程组}{47}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}电荷在电磁场中的运动}{51}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}平面电磁波}{52}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}真空中的电磁波}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}介质中电磁波的传播}{53}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}电磁场能量与动量}{55}{section.4.3}%
+\contentsline {section}{\numberline {4.4}电磁波辐射}{55}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}电磁辐射概论}{55}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}偶极辐射}{56}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}交流电路}{59}{chapter.5}%
+\contentsline {section}{\numberline {5.1}相量表示}{59}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}拟稳条件与交流元件}{59}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}电阻, 电容, 电感特性}{59}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}常见电路}{61}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}谐振电路}{61}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}光的干涉}{63}{chapter.6}%
+\contentsline {section}{\numberline {6.1}标量波理论}{63}{section.6.1}%
+\contentsline {section}{\numberline {6.2}分波面干涉}{67}{section.6.2}%
+\contentsline {section}{\numberline {6.3}分振幅干涉}{68}{section.6.3}%
+\contentsline {section}{\numberline {6.4}偏振干涉}{69}{section.6.4}%
+\contentsline {section}{\numberline {6.5}相干性}{71}{section.6.5}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}光的衍射}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}光栅与波带片}{73}{section.7.1}%
+\contentsline {section}{\numberline {7.2}衍射积分公式}{74}{section.7.2}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}相对论力学}{75}{chapter.8}%
+\contentsline {section}{\numberline {8.1}相对论运动学}{75}{section.8.1}%
+\contentsline {section}{\numberline {8.2}相对论动力学}{76}{section.8.2}%
+\contentsline {section}{\numberline {8.3}相对论连续物质}{78}{section.8.3}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}物理光学}{81}{chapter.9}%
+\contentsline {section}{\numberline {9.1}经典色散理论}{81}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}复波矢与复折射率}{81}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}经典电子论的解释}{84}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}*辐射阻尼与散射截面}{87}{subsection.9.1.3}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子论}{91}{chapter.10}%
+\contentsline {section}{\numberline {10.1}黑体辐射}{91}{section.10.1}%
+\contentsline {section}{\numberline {10.2}光粒子性}{91}{section.10.2}%
+\contentsline {section}{\numberline {10.3}玻尔原子}{91}{section.10.3}%
+\contentsline {section}{\numberline {10.4}物质波与波函数}{92}{section.10.4}%
