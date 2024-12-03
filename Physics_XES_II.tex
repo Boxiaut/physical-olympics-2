@@ -1,16 +1,28 @@
-%This file is just a wrapper. Please, edit the files for your chapter in chapters/chapter1/.
-%Don't worry, we will put your chapter in the correct place when assemble the book.
-
-\documentclass[krantz1,ChapterTOCs]{krantz}
-\usepackage{xeCJK}
-\setCJKmainfont{FandolSong}%
-\setCJKsansfont{FandolFang}%
-\setCJKmonofont{FandolHei}%
-\setCJKfamilyfont{hei}{FandolKai}%
-\newcommand{\hei}{\CJKfamily{hei}}
-\usepackage{fixltx2e,fix-cm}
-\usepackage{indentfirst}
-\usepackage{pifont}
+\documentclass[ams,openany,10pt,presentation,utf8]{mathbook}
+\usepackage{kpfonts}
+\usepackage{listings}
+\usepackage{mathrsfs}
+\definecolor{bleu}{cmyk}{0.59,0.11,0,0.59}
+\definecolor{vert}{cmyk}{0.78,0,0.74,0.45}
+\lstset{
+	numbers=left, 
+	numberstyle=\tiny, 
+	stepnumber=1, 
+	numbersep=3pt, 
+	language=[LaTeX]TeX, 
+	backgroundcolor=\color{bleu!20},
+	frame=shadowbox,
+	rulesepcolor=\color{bleu},
+	rulecolor=\color{bleu},
+	framexleftmargin=10pt,
+	keywordstyle=\color{vert}\bfseries,
+	basicstyle=\ttfamily,
+    columns=flexible,
+    keepspaces=true,
+    upquote=true,
+    commentstyle=\color{gray},
+    morekeywords={redefineColor,dfrac,setlength,cellspacetoplimit, cellspacebottomlimit,firstline,text,intro,introauthor,chapter, itemclass,exostart,corrstart,AfficheCorriges,columnbreak,titlepic, nbcolindex,indexname,printindex,makeindex,activites, DefineNewBoxLikeRem,BreakCorr}
+}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -68,13 +80,9 @@
 {chapters/chapter30/figures/}
 }
 
-
-\frenchspacing
-\tolerance=5000
-
 \makeindex
 
-\include{frontmatter/preamble} %place custom commands and macros here
+%\include{frontmatter/preamble} %place custom commands and macros here
 
 
 \includeonly{chapters/chapter02/sec1}
@@ -88,17 +96,13 @@
 
 \maketitle
 
-%\include{frontmatter/dedication}
-%\cleardoublepage
-%\setcounter{page}{7} %previous pages will be reserved for frontmatter to be added in later.
-\setcounter{tocdepth}{1}
+{
+\makeatletter
+\sectiontitle@font
 \tableofcontents
-%\include{frontmatter/foreword}
-%\include{frontmatter/preface}
-\listoffigures
-\listoftables
-%\include{frontmatter/contributor}
-%\include{frontmatter/symbollist}
+\makeatother
+}
+
 
 \mainmatter
 
