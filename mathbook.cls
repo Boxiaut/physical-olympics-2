@@ -69,8 +69,8 @@
 %%% Packages  %%%
 %%%%%%%%%%%%%%%%%
 %
-\RequirePackage[\inputoption]{inputenc}
-\RequirePackage[T1]{fontenc}
+%\RequirePackage[\inputoption]{inputenc}
+%\RequirePackage[T1]{fontenc}
 \RequirePackage{xeCJK}
 \setCJKmainfont{FandolSong}
 \setCJKsansfont{FandolFang}
@@ -100,8 +100,8 @@
 \if@ams
 	\RequirePackage{amsmath,amsfonts,amssymb}
 \fi
-\RequirePackage[frenchb]{babel}
-\frenchbsetup{StandardLists=true}
+%\RequirePackage[frenchb]{babel}
+%\frenchbsetup{StandardLists=true}
 \RequirePackage[autolanguage]{numprint} 
 %
 \input{lengths}
@@ -109,4 +109,5 @@
 \input{pagestyles}
 \input{sectionstyles}
 \input{commandes}
+\input{boxcmds}
 \endinput

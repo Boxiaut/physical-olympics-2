@@ -1,5 +1,0 @@
-\chapcontentsline{chapsection}{\raggedright \ssubnumberline {2.1}时空与物质}{9}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {2.1.1}时空观}{9}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {2.1.2}物质观}{11}
-\chapcontentsline{chapsubsubsection}{\raggedright \subsubnumberline {2.1.2.1}质点模型}{12}
-\chapcontentsline{chapsubsection}{\raggedright \subnumberline {2.1.3}世界观}{13}
