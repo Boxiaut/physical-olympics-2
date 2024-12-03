@@ -170,16 +170,16 @@
 %%%%%%%%%%%%% Environnement "remarque"
 
 \newsavebox{\rem@box}
-\newenvironment{remarque}[1][]
+\newenvironment{remark}[1][]
 {%
 \setcounter{break@box}{0}
 \setcounter{type@box}{0}
 \typebox{rem}
-\def\titletext{Remarque}
+\def\titletext{\hei 点评}
 \ifx#1\@empty\xdef\pluriel@rem{}\else\xdef\pluriel@rem{#1}\fi
 \itemclass{remtitle@bg@color}{\remtitle@font}
 \begin{lrbox}{\rem@box}
-\begin{minipage}{\linewidth}
+\begin{minipage}{\linewidth}\hei
 }
 {%
 \end{minipage}
@@ -198,16 +198,16 @@
 %%%%%%%%%%%%% Environnement "methode"
 
 \newsavebox{\meth@box}
-\newenvironment{methode}[1][]
+\newenvironment{method}[1][]
 {%
 \setcounter{break@box}{0}
 \setcounter{type@box}{0}
 \typebox{meth}
-\def\titletext{M\'ethode}
+\def\titletext{\hei 启示}
 \ifx#1\@empty\xdef\pluriel@meth{}\else\xdef\pluriel@meth{#1}\fi
 \itemclass{methtitle@bg@color}{\methtitle@font}
 \begin{lrbox}{\meth@box}
-\begin{minipage}{\linewidth}
+\begin{minipage}{\linewidth}\hei
 }
 {%
 \end{minipage}
@@ -231,7 +231,7 @@
 	\setcounter{break@box}{0}
 	\setcounter{type@box}{1}
 	\typebox{def}
-	\def\titletext{D\'efinition}
+	\def\titletext{\Huge \kai 定义}
 	\ifx#1\@empty\xdef\pluriel@def{}\else\xdef\pluriel@def{#1}\fi
 	\itemclass{deftitle@bg@color}{\deftitle@font}
 	\begin{lrbox}{\def@box}
@@ -250,12 +250,12 @@
 %%%%%%%%%%% Environnement "propriete"
 
 \newsavebox{\prop@box}
-\newenvironment{propriete}[1][]
+\newenvironment{property}[1][]
 {%
 	\setcounter{break@box}{0}
 	\setcounter{type@box}{1}
 	\typebox{prop}
-	\def\titletext{Propri\'et\'e}
+	\def\titletext{\Huge \kai 性质}
 	\ifx#1\@empty\xdef\pluriel@prop{}\else\xdef\pluriel@prop{#1}\fi
 	\itemclass{proptitle@bg@color}{\proptitle@font}
 	\begin{lrbox}{\prop@box}
@@ -274,12 +274,12 @@
 %%%%%%%%%%% Environnement "theoreme"
 
 \newsavebox{\thm@box}
-\newenvironment{theoreme}[1][]
+\newenvironment{theorem}[1][]
 {%
 	\setcounter{break@box}{0}
 	\setcounter{type@box}{1}
 	\typebox{thm}
-	\def\titletext{Th\'eor\`eme}
+	\def\titletext{\Huge \kai 定理}
 	\ifx#1\@empty\xdef\pluriel@thm{}\else\xdef\pluriel@thm{#1}\fi
 	\itemclass{thmtitle@bg@color}{\thmtitle@font}
 	\begin{lrbox}{\thm@box}
@@ -298,12 +298,12 @@
 %%%%%%%%%%% Environnement "exemple"
 
 \newsavebox{\ex@box}
-\newenvironment{exemple}[1][]
+\newenvironment{example}[1][]
 {%
 	\setcounter{break@box}{0}
 	\setcounter{type@box}{1}
 	\typebox{ex}
-	\def\titletext{Exemple}
+	\def\titletext{\Huge \kai 例子}
 	\ifx#1\@empty\xdef\pluriel@ex{}\else\xdef\pluriel@ex{#1}\fi
 	\itemclass{extitle@bg@color}{\extitle@font}
 	\begin{lrbox}{\ex@box}
@@ -322,17 +322,17 @@
 %%%%%%%%%%% Environnement "demonstration"
 
 \newsavebox{\dem@box}
-\newenvironment{demonstration}[1][1]
+\newenvironment{proof}[1][1]
 {%
 	\setcounter{break@box}{0}
 	\setcounter{type@box}{2}
 	\typebox{dem}
-	\def\titletext{D\'emonstration}
+	\def\titletext{\Huge \kai 证明:}
 	\ifx#1\@empty\xdef\indic{0}\else\xdef\indic{#1}\fi
 	\xdef\indic{#1}
 	\begin{lrbox}{\dem@box}
 	\begin{minipage}{\dimexpr\linewidth-0.5\marginleft}
-	{\demtitle@font \titletext}\par\medskip%
+	{\demtitle@font \titletext}\par\medskip\kai%
 }
 {%
 	\vskip-1em\hfill$\blacksquare$
@@ -369,7 +369,7 @@
 
 \newcounter{activity}[chapter]
 
-\newcommand{\activite}[1]
+\newcommand{\retro}[1]
 {%
 	\refstepcounter{activity}
 	\vspace*{\spacebeforeact}
@@ -377,7 +377,7 @@
 	\fill[shadow@color] (0.1,-.15) circle[x radius=1.5em,y radius=0.66em,rotate=10];
 	\fill[activitytitle@color,rotate=30] (0,0) circle[x radius=1.5em,y radius=1em];
 	\node[text=activitynum@color] at (0,0) {\activity@font\theactivity};
-	\node[right,text=activitytitle@color] at (0.75,0) {\activity@font#1};
+	\node[right,text=activitytitle@color] at (0.75,0) {\hei #1};
 	\end{tikzpicture}
 	\itemclass{activitytitle@color}{\activity@font}
 }
@@ -403,16 +403,16 @@
 % Déclaration de la 1ère page d'exercices
 
 \newcounter{indicCorr}
-\newcommand{\exostart}[1][0]
+\newcommand{\exercises}[1][0]
 {%
 	\newpage
 	\pagecolor{exercices@bg@color}
 	\begin{flushright}
 	\begin{tikzpicture}
-	\node[inner sep=1em] (titre) {\exercicetitle@font Exercices};
+	\node[inner sep=1em] (titre) {\exercicetitle@font 习题};
 	\fill[rounded corners=2pt,fill=shadow@color] ($(titre.north west)+(2pt,-2pt)$) -- ($(titre.north east)+(1mm,0mm)+(2pt,-2pt)$) -- ($(titre.south east)+(2pt,-2pt)$) -- ($(titre.south west)+(-1mm,0)+(2pt,-2pt)$) -- cycle;
 	\fill[rounded corners=2pt,fill=exercicetitle@bg@color] (titre.north west) -- ($(titre.north east)+(1mm,0mm)$) -- (titre.south east) -- ($(titre.south west)+(-1mm,0)$) -- cycle;
-	\node[inner sep=1em,text=exercicetitle@color] at (titre) {\exercicetitle@font Exercices};
+	\node[inner sep=1em,text=exercicetitle@color] at (titre) {\exercicetitle@font 习题};
 	\end{tikzpicture}
 	\end{flushright}
 	\ifnum#1=1
@@ -476,16 +476,16 @@
 %%%%%%%%%%%%%%% Corrigés
 % Déclaration de la 1ère page de corrections
 
-\newcommand{\corrstart}
+\newcommand{\answers}
 {%
 	\newpage
 	\pagecolor{corriges@bg@color}
 	\begin{flushright}
 	\begin{tikzpicture}
-	\node[inner sep=1em] (titre) {\corrigetitle@font Corrig\'es des exercices};
+	\node[inner sep=1em] (titre) {\corrigetitle@font 答案};
 	\fill[rounded corners=2pt,fill=shadow@color] ($(titre.north west)+(2pt,-2pt)$) -- ($(titre.north east)+(1mm,0mm)+(2pt,-2pt)$) -- ($(titre.south east)+(2pt,-2pt)$) -- ($(titre.south west)+(-1mm,0)+(2pt,-2pt)$) -- cycle;
 	\fill[rounded corners=2pt,fill=corrigetitle@bg@color] (titre.north west) -- ($(titre.north east)+(1mm,0mm)$) -- (titre.south east) -- ($(titre.south west)+(-1mm,0)$) -- cycle;
-	\node[inner sep=1em,text=corrigetitle@color] at (titre) {\corrigetitle@font Corrig\'es des exercices};
+	\node[inner sep=1em,text=corrigetitle@color] at (titre) {\corrigetitle@font 答案};
 	\end{tikzpicture}
 	\end{flushright}
 }
@@ -541,7 +541,7 @@
   \def\ArreterExportFlux{\@esphack\egroup}
 \fi
 
-\newenvironment{correction}
+\newenvironment{ans}
 {
 	\OuvrirFlux{corriges/\thechapter-\theexercice.tex}%
 	\EcritureFlux{\begin{corrige}[\thechapter]{\i}}%
@@ -619,7 +619,7 @@
 
 %%%%%%%%%%%%% TOC
 
-\renewcommand{\contentsname}{Sommaires}
+\renewcommand{\contentsname}{Physics is fun!}
 \renewcommand\tableofcontents
 {%
 	\thispagestyle{toc}

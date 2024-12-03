@@ -52,7 +52,10 @@
 %%%%%%%%%%%% Page de présentation
 
 %%%%%%%%%%%% Première page de chaque chapitre
-
+\renewcommand \thepart {第\zhnum{part} 部分}
+\renewcommand \thechapter {第\zhnum{chapter}章}
+\renewcommand{\partname}{}
+\renewcommand{\chaptername}{}
 \titleformat{\chapter}
 {%
 	\thispagestyle{chapterstart}
