@@ -402,7 +402,6 @@
 
 % Déclaration de la 1ère page d'exercices
 
-\newcounter{indicCorr}
 \newcommand{\exercises}[1][0]
 {%
 	\newpage
@@ -415,11 +414,6 @@
 	\node[inner sep=1em,text=exercicetitle@color] at (titre) {\exercicetitle@font 习题};
 	\end{tikzpicture}
 	\end{flushright}
-	\ifnum#1=1
-		\setcounter{indicCorr}{1}
-	\else
-		\setcounter{indicCorr}{0}
-	\fi
 }
 
 % Environnement "exercice"
@@ -446,13 +440,11 @@
 	\begin{minipage}{\dimexpr\linewidth-3em-10pt}
 }
 {%
-	\ifnum\theindicCorr=1
-	\begin{flushright}
-	\hypersetup{hypertexnames=false}
-	\textcolor{corref@color}{\corref@font Correction \hyperlink{corrige-\thechapter-\theexercice}{ici}.}
-	\hypersetup{hypertexnames=true}
-	\end{flushright}	
-	\fi
+	% \begin{flushright}
+	% \hypersetup{hypertexnames=false}
+	% \textcolor{corref@color}{\corref@font \hyperlink{\thechapter-\theexercice}{答案}}
+	% \hypersetup{hypertexnames=true}
+	% \end{flushright}	
 	\end{minipage}
 	\end{lrbox}
 	\ifnum\theexercice>1
@@ -476,6 +468,7 @@
 %%%%%%%%%%%%%%% Corrigés
 % Déclaration de la 1ère page de corrections
 
+
 \newcommand{\answers}
 {%
 	\newpage
@@ -490,97 +483,44 @@
 	\end{flushright}
 }
 
-% BreakCorr
+\newcounter{answer}[chapter]
 
-\newcommand{\BreakCorr}[1][\newpage]
+\newenvironment{ans}[1][0]
 {%
-\end{corrige}
-#1
-\begin{corrige}[\thechapter]{\i}
-\bgroup\exercicenum@font\textbf{(suite)}\egroup~
-}
-
-\newcommand{\AfficheCorriges}[1][]
-	{%
-		\multido{\i=1+1}{\theexercice}{%
-			\foreach\x/\macr in {#1}%
-			{%
-				\ifnum\x=\i\macr\fi%
-			}%
-			\input{corriges/\thechapter-\i}%
-		}
-	}
-
-%% Portion de code pour écrire dans un fichier %% Merci pg ...
-
-\newwrite{\output@stream@corrige}
-
-\newcommand{\OuvrirFlux}[1]
-{% ouvre le flux de fichier
-  \immediate\openout\output@stream@corrige #1%
-}
-\newcommand{\FermerFlux}
-{% ferme le flux de fichier
-  \immediate\closeout\output@stream@corrige%
-}
-\newcommand{\EcritureFlux}[1]
-{% écrit un court texte dans le fichier
-  \immediate\write\output@stream@corrige{\unexpanded{#1}}%
-}
-\newcommand{\CommencerExportFlux}
-{% commence l'écriture prolongée
-   \bgroup\@bsphack
-   \let\do\@makeother\dospecials
-   \catcode`\^^M\active
-   \def\verbatim@processline{%
-     \immediate\write\output@stream@corrige{\the\verbatim@line}}%
-   \verbatim@start}
-\ifdefined\ArreterExportFlux % arrête l'écriture prolongée
-  \newcommand{\ArreterExportFlux}{\@esphack\egroup}
-\else
-  \def\ArreterExportFlux{\@esphack\egroup}
-\fi
-
-\newenvironment{ans}
-{
-	\OuvrirFlux{corriges/\thechapter-\theexercice.tex}%
-	\EcritureFlux{\begin{corrige}[\thechapter]{\i}}%
-	\CommencerExportFlux
-}
-{
-	\ArreterExportFlux%
-	\EcritureFlux{\end{corrige}\par\vspace*{\spacebeforeexo}}%
-	\FermerFlux
-}
-
-\newsavebox{\corr@box}
-\newenvironment{corrige}[2][]
-{%
-	\ifnum#2<10%
-		\def\num@exo{0#2}%
-	\else%
-		\def\num@exo{#2}%
-	\fi%
-	\itemclass{corrigenum@bg@color}{\exercicenum@font}%
-	\begin{lrbox}{\corr@box}
+	\ifnum#1=0
+		\refstepcounter{answer}
+		\expandafter\xdef\csname nbexos\thechapter\endcsname{\theanswer}
+		\ifnum\theanswer<10
+			\def\num@exo{0\theanswer}
+		\else
+			\def\num@exo{\theanswer}
+		\fi
+	\else
+		\xdef\num@exo{}
+	\fi
+	\itemclass{corrigenum@bg@color}{\exercicenum@font}
+	\begin{lrbox}{\exo@box}
 	\begin{minipage}{\dimexpr\linewidth-3em-10pt}
-	\phantomsection
-	\hypertarget{corrige-#1-#2}{}
-	\label{corrige-#1-#2}%
 }
-{%
+{%	
 	\end{minipage}
 	\end{lrbox}
+	\ifnum\theanswer>1
+		\ifx\num@exo\@empty
+		\else
+			\par\vspace*{\spacebeforeexo}
+		\fi
+	\fi
 	\begin{tikzpicture}
-	\node (texte) {\usebox{\corr@box}};
+	\node (texte) {\usebox{\exo@box}};
 	\ifx\num@exo\@empty
 		\node[below left,minimum width=2em] at ($(texte.north west)+(-0.5em,0)$) {\phantom{\exercicenum@font\num@exo}};
 	\else
 		\node[below left,minimum width=2em] (num) at ($(texte.north west)+(-0.5em,0)$) {\exercicenum@font\num@exo};
 		\fill[rounded corners=2pt,fill=corrigenum@bg@color] (num.north west) -- ($(num.north east)+(1mm,0mm)$) -- (num.south east) -- ($(num.south west)+(-1mm,0)$) -- cycle;
-		\node[text=corrigenum@color] at (num) {\exercicenum@font\num@exo};
+		\node[text=exercicenum@color] at (num) {\exercicenum@font\num@exo};
 	\fi
-	\end{tikzpicture}
+	\end{tikzpicture}	
 }
 
 %%%%%%%%%%%%%%% INDEX

@@ -63,7 +63,7 @@
 	\fi
 \fi
 
-\LoadClass[\optionsbook]{book}
+\LoadClass[\optionsbook]{ctexbook}
 %
 %%%%%%%%%%%%%%%%%
 %%% Packages  %%%

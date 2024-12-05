@@ -82,10 +82,10 @@
 	    % Citation éventuelle
 	    \ifx\chapterintro\@empty
 	    \else
-	    	  \node[below left,text=chapterintro@color] (citation) at (21,-0.5) {\og \emph{\chapterintro} \fg{}};
+	    	  \node[below left,text=chapterintro@color] (citation) at (21,-0.5) { “\chapterintro”{}};
 	    	  \ifx\chapterintroauthor\@empty
 	    	  \else
-	    	     \node[below left,text=chapterintro@color] at (citation.south east) {(\chapterintroauthor)};
+	    	     \node[below left,text=chapterintro@color] at (citation.south east) {---\chapterintroauthor};
 	    	  \fi
 	    \fi
 	    % cercle vide en bas à gauche
@@ -231,7 +231,7 @@
 
 \renewcommand{\maketitle}
 {%
-	\newgeometry{margin=0pt}
+	\newgeometry{margin=-\parindent}
 	\begin{tikzpicture}
 	\clip (current page.south west) rectangle (current page.north east);
 	% Fond en dégradé
